@@ -13,7 +13,25 @@ rD <- RSelenium::rsDriver(
 
 client <- rD[["client"]]
 
-#
+client$navigate("https://www.bhdleon.com.do/wps/portal/BHD/Inicio/")
+client$maxWindowSize()
 
-client$navigate('https://www.banreservas.com/')
 
+tasas_banner <- client$findElement(
+  using = "css selector", 
+  "#footer > section > div > ul > li:nth-child(5)"
+)
+
+tasas_banner$clickElement()
+
+tasa_compra <- client$findElement(
+  using = "css selector",
+  "#TasasDeCambio > table > tbody > tr:nth-child(2) > td:nth-child(2)"
+)
+tasa_venta <- client$findElement(
+  using = "css selector",
+  "#TasasDeCambio > table > tbody > tr:nth-child(2) > td:nth-child(3)"
+)
+
+tasa_compra$getElementText()
+tasa_venta$getElementText()
