@@ -8,7 +8,16 @@ rD <- RSelenium::rsDriver(
 
 client <- rD[["client"]]
 
+client$maxWindowSize()
+# client$setWindowSize(
+#   width = 1600, height = 800
+# )
+
 functions$tasa_dolar_scotiabank()
 functions$tasa_dolar_banreservas(client)
 functions$tasa_dolar_popular(client)
 functions$tasa_dolar_bhd(client)
+functions$tasa_dolar_santa_cruz(client)
+functions$tasa_dolar_caribe(client)
+functions$tasa_dolar_bdi()
+functions$tasa_dolar_vimenca(client)
