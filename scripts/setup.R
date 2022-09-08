@@ -14,22 +14,21 @@ rD <- RSelenium::rsDriver(
 client <- rD[["client"]]
 client$maxWindowSize()
 
-client$navigate("https://www.bancovimenca.com/")
+client$navigate("https://bancoademi.com.do/")
 
 tasas_banner <- client$findElement(
   using = "xpath",
-  "/html/body/header/div[1]/div/div[1]/div/div[1]/div[4]/a"
+  "/html/body/section[1]/div/div/a[5]"
 )
-
 tasas_banner$clickElement()
 
 tasa_compra <- client$findElement(
-  using = "css selector",
-  "#exangeRates > li:nth-child(1) > div > div > div:nth-child(2) > article"
+  using = "xpath",
+  "/html/body/div[1]/div/div/div[2]/fieldset/div[1]/div[4]/div/input"
 )
 tasa_venta <- client$findElement(
-  using = "css selector",
-  "#exangeRates > li:nth-child(1) > div > div > div:nth-child(3) > article"
+  using = "xpath",
+  "/html/body/div[1]/div/div/div[2]/fieldset/div[2]/div[4]/div/input"
 )
 
 readr::parse_number(unlist(tasa_compra$getElementText()))

@@ -1,10 +1,11 @@
 # Dependecies -------------------------------------------------------------
 box::use(
   rvest[read_html, html_text, html_element, html_table],
-  stringr[str_extract, str_remove],
+  stringr[str_extract, str_remove, str_extract_all, str_match_all],
   readr[parse_number],
   dplyr[...],
-  stats[setNames]
+  stats[setNames],
+  base[unlist, as.numeric]
 )
 
 #' Descarga la tasa de cambio de Banreservas
@@ -244,3 +245,146 @@ tasa_dolar_vimenca <- function(selenium_client) {
   )
 }
 
+#' Descarga la tasa de cambio de Banco López de Haro
+#' @export
+tasa_dolar_blh <- function() {
+  
+  page <- read_html("https://www.blh.com.do/")
+  
+  tasas <- page |>
+    rvest::html_element(xpath = "/html/body/div[4]/div[1]/div/div/div[4]/div[2]/div[1]/div/div/div/div[2]/p") |>
+    rvest::html_text() |>
+    stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") |>
+    unlist() |>
+    as.numeric()
+  
+  compra <- tasas[1]
+  venta <- tasas[2]
+  
+  data.frame(
+    date = Sys.Date(),
+    bank = "BLH",
+    buy = compra,
+    sell = venta
+  )
+}
+
+#' Descarga la tasa de cambio de Promerica
+#' @export
+tasa_dolar_promerica <- function(selenium_client) {
+  
+  selenium_client$navigate("https://www.promerica.com.do/")
+  Sys.sleep(1)
+  
+  tasas <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/div/div[1]/section[1]/div[2]/p"
+  )
+  
+  tasas <- tasas$getElementText() |>
+    unlist() |>
+    str_match_all("[0-9]{2}\\.[0-9]{2}") |>
+    unlist() |>
+    as.numeric()
+  
+  compra <- tasas[1]
+  venta <- tasas[2]
+  
+  data.frame(
+    date = Sys.Date(),
+    bank = "Promerica",
+    buy = compra,
+    sell = venta
+  )
+}
+
+#' Descarga la tasa de cambio de Banesco
+#' @export
+tasa_dolar_banesco <- function(selenium_client) {
+  
+  selenium_client$navigate("https://www.banesco.com.do/")
+  Sys.sleep(1)
+  
+  tasas <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/div[1]/div[3]/div/div/div/div/p[2]"
+  )
+  
+  tasas <- tasas$getElementText() |>
+    unlist() |>
+    str_match_all("[0-9]{2}\\.[0-9]{2}") |>
+    unlist() |>
+    as.numeric()
+  
+  compra <- tasas[1]
+  venta <- tasas[2]
+  
+  data.frame(
+    date = Sys.Date(),
+    bank = "Banesco",
+    buy = compra,
+    sell = venta
+  )
+}
+
+#' Descarga la tasa de cambio de lafise
+#' @export
+tasa_dolar_lafise <- function(selenium_client) {
+  
+  selenium_client$navigate("https://www.lafise.com/blrd")
+  Sys.sleep(1)
+  
+  tasa_compra <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/form/section[4]/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div[1]/div/div[4]"
+  )
+  tasa_venta <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/form/section[4]/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div[1]/div/div[5]"
+  )
+  
+  compra <- parse_number(unlist(tasa_compra$getElementText()))
+  venta <- parse_number(unlist(tasa_venta$getElementText()))
+  
+  data.frame(
+    date = Sys.Date(),
+    bank = "Lafise",
+    buy = compra,
+    sell = venta
+  )
+}
+
+#' Descarga la tasa de cambio de lafise
+#' @export
+tasa_dolar_ademi <- function(selenium_client) {
+
+  selenium_client$navigate("https://bancoademi.com.do/")
+
+  tasas_banner <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/section[1]/div/div/a[5]"
+  )
+  tasas_banner$clickElement()
+  Sys.sleep(2)
+  
+  tasa_compra <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/div[1]/div/div/div[2]/fieldset/div[1]/div[4]/div/input"
+  )
+  tasa_venta <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/div[1]/div/div/div[2]/fieldset/div[2]/div[4]/div/input"
+  )
+  
+  tasa_venta$getElementText()
+  
+  compra <- parse_number(unlist(tasa_compra$getElementAttribute("placeholder")))
+  venta <- parse_number(unlist(tasa_venta$getElementAttribute("placeholder")))
+  
+  data.frame(
+    date = Sys.Date(),
+    bank = "Ademi",
+    buy = compra,
+    sell = venta
+  )
+}
