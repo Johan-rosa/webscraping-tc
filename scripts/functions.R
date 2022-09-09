@@ -132,7 +132,7 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
     "/html/body/div[3]/div/header/div[2]/div[1]/div/nav/div[2]/ul/li[4]/a"
   )
   tasas_banner$clickElement()
-  Sys.sleep(3)
+  Sys.sleep(10)
   
   tasa_compra <- selenium_client$findElement(
     using = "xpath",
@@ -142,8 +142,6 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
     using = "xpath",
     "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[2]/li[1]/div/div[2]/div/div[2]/div/h2"
   )
-  
-  tasa_venta$getElementText()
   
   compra <- parse_number(unlist(tasa_compra$getElementText()))
   venta <- parse_number(unlist(tasa_venta$getElementText()))
