@@ -3,8 +3,8 @@ box::use(
 )
 
 rD <- RSelenium::rsDriver(
-  browser = "chrome",
-  chromever = "105.0.5195.52"
+  #browser = "chrome",
+  #chromever = "105.0.5195.52"
   )
 
 client <- rD[["client"]]
