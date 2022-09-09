@@ -1,3 +1,10 @@
+on:
+  schedule:
+    - cron:  "0 20 * * *"
+  workflow_dispatch:
+
+name: webscraping-tc
+
 jobs:
   run-r-script:
     runs-on: ubuntu-latest
