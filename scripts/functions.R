@@ -34,10 +34,9 @@ tasa_dolar_banreservas <- function(selenium_client) {
 #' @export
 tasa_dolar_scotiabank <- function() {
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
-  
   rvest::read_html(url) %>%
     rvest::html_table(header = TRUE) %>%
-    `[[`(., 1) %>% 
+    `[[`(., 2) %>%
     setNames(c("pais", "tipo", "compra", "venta")) %>%
     dplyr::filter(pais == "Estados Unidos") %>%
     dplyr::mutate(tipo = str_remove(tipo, "Dólar (USD) ")) %>%
