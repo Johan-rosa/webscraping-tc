@@ -36,7 +36,7 @@ tasa_dolar_scotiabank <- function() {
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
   rvest::read_html(url) %>%
     rvest::html_table(header = TRUE) %>%
-    `[[`(., 2) %>%
+    `[[`(., 1) %>%
     setNames(c("pais", "tipo", "compra", "venta")) %>%
     dplyr::filter(pais == "Estados Unidos") %>%
     dplyr::mutate(tipo = str_remove(tipo, "Dólar (USD) ")) %>%
@@ -240,7 +240,7 @@ tasa_dolar_blh <- function() {
   page <- rvest::read_html("https://www.blh.com.do/")
   
   tasas <- page %>%
-    rvest::html_element(xpath = "/html/body/div[4]/div[1]/div/div/div[4]/div[2]/div[1]/div/div/div/div[2]/p") %>%
+    rvest::html_element(xpath = '//*[@id="fws_63a31957bd105"]/div[2]/div[1]/div/div/div/div[2]/p') %>%
     rvest::html_text() %>%
     stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") %>%
     unlist() %>%
