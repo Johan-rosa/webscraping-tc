@@ -12,4 +12,4 @@ Este repositorio contiene una serie de herramientas y procedimientos para consul
 
 1. Instalar dependencias ubicadas en el script `./dependencies.R`
 2. Detectar la versión de chrome a utilizar siguiendo los pasos del archivo `./script/setup.R`
-3. Correr srcipt `./scripts/run_webscraping.R`
+3. Correr script `./scripts/run_webscraping.R`
