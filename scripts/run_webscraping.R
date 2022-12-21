@@ -5,8 +5,9 @@ library(rvest)
 library(RSelenium)
 library(readr)
 
-source("scripts/functions.R")
+source("scripts/functions.R", echo = FALSE, verbose = FALSE)
 
+# Initializing server
 rD <- RSelenium::rsDriver(
   browser = "chrome",
   chromever = "108.0.5359.22"
