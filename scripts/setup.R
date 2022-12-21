@@ -10,5 +10,5 @@ binman::list_versions(appname = "chromedriver")
 # Set the correct chrome version based on previous result
 rD <- RSelenium::rsDriver(
   browser = "chrome",
-  chromever = "105.0.5195.52"
+  chromever = "108.0.5359.22"
 )

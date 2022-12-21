@@ -9,7 +9,7 @@ source("scripts/functions.R")
 
 rD <- RSelenium::rsDriver(
   browser = "chrome",
-  chromever = "105.0.5195.52"
+  chromever = "108.0.5359.22"
   )
 
 client <- rD[["client"]]
