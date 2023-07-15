@@ -79,7 +79,7 @@ tasa_dolar_popular <- function(selenium_client) {
 #' @export
 tasa_dolar_bhd <- function(selenium_client) {
   
-  selenium_client$navigate("https://www.bhdleon.com.do/wps/portal/BHD/Inicio/")
+  selenium_client$navigate("https://bhd.com.do/?v=1")
   
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
@@ -116,13 +116,28 @@ tasa_dolar_bhd <- function(selenium_client) {
 tasa_dolar_santa_cruz <- function(selenium_client) {
   
   selenium_client$navigate("https://bsc.com.do/home")
-  
+  Sys.sleep(3)
   tasas_banner <- selenium_client$findElement(
     using = "xpath",
     "/html/body/div[3]/div/header/div[2]/div[1]/div/nav/div[2]/ul/li[4]/a"
   )
   tasas_banner$clickElement()
-  Sys.sleep(10)
+  
+  Sys.sleep(2)
+  
+  tasas_euro <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[2]"
+  )
+  tasas_euro$clickElement()
+  
+  tasas_dolar <- selenium_client$findElement(
+    using = "xpath",
+    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[1]"
+  )
+  tasas_dolar$clickElement()
+  
+  Sys.sleep(1)
   
   tasa_compra <- selenium_client$findElement(
     using = "xpath",
@@ -238,9 +253,9 @@ tasa_dolar_vimenca <- function(selenium_client) {
 tasa_dolar_blh <- function() {
   
   page <- rvest::read_html("https://www.blh.com.do/")
-  
+
   tasas <- page %>%
-    rvest::html_element(xpath = '//*[@id="fws_63a31957bd105"]/div[2]/div[1]/div/div/div/div[2]/p') %>%
+    rvest::html_element(xpath = '//*[@id="fws_64b15de87d4bb"]/div[2]/div[1]/div/div/div/div[2]/p') %>%
     rvest::html_text() %>%
     stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") %>%
     unlist() %>%
