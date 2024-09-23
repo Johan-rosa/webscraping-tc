@@ -8,11 +8,12 @@ install.packages(
 
 library(RSelenium)
 library(logger)
+library(glue)
 
 log_info("Init driver")
 
 rD <- RSelenium::rsDriver(
-  browser = "chrome",
+  browser = "firefox",
   port = 4444L
 )
 
@@ -25,4 +26,4 @@ client$navigate(page)
 log_info("Get element")
 title <- client$findElement(using = "css selector", ".mw-page-title-main")
 
-log_success(title$getElementText())
+log_success(title$getElementText() |> unlist())
