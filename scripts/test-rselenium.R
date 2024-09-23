@@ -40,3 +40,6 @@ page <- "https://en.wikipedia.org/wiki/Hadley_Wickham"
 on.exit(remDr$close())
 
 remDr$navigate(page)
+title <- remDr$findElement("css", ".mw-page-title-main")
+
+print(title$getElementText())
