@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        browser: [chrome]
+        browser: [firefox]
         version: [latest]
 
     env:
