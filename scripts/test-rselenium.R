@@ -36,10 +36,12 @@ init <- initFun()
 remDr <- init$remDr
 rdBrowser <- init$rdBrowser
 
-page <- "https://en.wikipedia.org/wiki/Hadley_Wickham"
 on.exit(remDr$close())
 
+page <- "https://en.wikipedia.org/wiki/Hadley_Wickham"
+
 remDr$navigate(page)
-title <- remDr$findElement("css", ".mw-page-title-main")
+
+title <- remDr$findElement("css selector", ".mw-page-title-main")
 
 print(title$getElementText())
