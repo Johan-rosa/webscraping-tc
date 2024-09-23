@@ -1,3 +1,15 @@
+install.packages(
+  c(
+    "dplyr",
+    "stringr",
+    "purrr",
+    "rvest",
+    "RSelenium",
+    "box",
+    "readr"
+  )
+)
+
 library(RSelenium)
 
 initFun <- function(silent = TRUE, ...) {
