@@ -5,7 +5,7 @@ on:
     - cron:  "0 9 * * *"
   workflow_dispatch:
   push:
-    branches: [main, master, gh-workflow]
+    branches: [main, gh-workflow]
 
 name: webscraping-bancos-rd
 
@@ -18,13 +18,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        browser: [firefox]
+        browser: [chrome]
         version: [latest]
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_KEEP_PKG_SOURCE: yes
-
+      
     services:
       selenium:
         image: selenium/standalone-${{ matrix.browser }}:${{ matrix.version }}
@@ -44,7 +44,8 @@ jobs:
           
       - name: Execute Script
         run: |
-          Rscript "action.R"
+          Rscript "test-rselenium.R"
+
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
