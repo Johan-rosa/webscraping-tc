@@ -14,7 +14,7 @@ log_info("Init driver")
 
 rD <- RSelenium::rsDriver(
   browser = "firefox",
-  port = 4444L
+  port = 4444L 
 )
 
 client <- rD[["client"]]

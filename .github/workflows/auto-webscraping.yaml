@@ -44,6 +44,9 @@ jobs:
           use-public-rspm: true
           
       - name: Execute Script
+        env:
+          SELENIUM_BROWSER: ${{ matrix.browser }}
+          TEST_SERVER: http://test-server:8080
         run: |
           Rscript "scripts/test-rselenium.R"
 
