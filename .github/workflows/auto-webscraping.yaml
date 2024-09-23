@@ -44,7 +44,7 @@ jobs:
           
       - name: Execute Script
         run: |
-          Rscript "test-rselenium.R"
+          Rscript "scripts/test-rselenium.R"
 
       - name: Commit results
         run: |
