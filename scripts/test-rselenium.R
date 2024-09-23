@@ -23,6 +23,6 @@ page <- "https://en.wikipedia.org/wiki/Hadley_Wickham"
 client$navigate(page)
 
 log_info("Get element")
-title <- remDr$findElement("css selector", ".mw-page-title-main")
+title <- client$findElement("css selector", ".mw-page-title-main")
 
 log_success(title$getElementText())
