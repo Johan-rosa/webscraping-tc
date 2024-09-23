@@ -1,16 +1,12 @@
 install.packages(
   c(
-    "dplyr",
-    "stringr",
-    "purrr",
-    "rvest",
     "RSelenium",
-    "box",
-    "readr"
+    "logger"
   )
 )
 
 library(RSelenium)
+library(logger)
 
 initFun <- function(silent = TRUE, ...) {
   browserName <- Sys.getenv("SELENIUM_BROWSER", "chrome")
@@ -32,6 +28,8 @@ initFun <- function(silent = TRUE, ...) {
   list(remDr = remDr, rdBrowser = rdBrowser, loadPage = loadPage)
 }
 
+log_info("Init driver")
+
 init <- initFun()
 remDr <- init$remDr
 rdBrowser <- init$rdBrowser
@@ -40,8 +38,10 @@ on.exit(remDr$close())
 
 page <- "https://en.wikipedia.org/wiki/Hadley_Wickham"
 
+log_info("Navigate")
 remDr$navigate(page)
 
+log_info("Get element")
 title <- remDr$findElement("css selector", ".mw-page-title-main")
 
-print(title$getElementText())
+log_success(title$getElementText())
