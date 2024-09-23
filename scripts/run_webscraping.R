@@ -9,7 +9,9 @@ source("scripts/functions.R", echo = FALSE, verbose = FALSE)
 
 # Initializing server
 rD <- RSelenium::rsDriver(
-  browser = "firefox")
+  browser = "firefox",
+  port = 4444L 
+)
 
 client <- rD[["client"]]
 

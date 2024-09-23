@@ -1,0 +1,2 @@
+SELENIUM_BROWSER="firefox"
+TEST_SERVER="http://test-server:8080"

@@ -10,4 +10,4 @@ install.packages(
     )
 )
 
-source("scripts/test.R")
+source("./scripts/run_webscraping.R")
