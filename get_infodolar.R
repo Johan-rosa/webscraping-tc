@@ -26,7 +26,7 @@ csv_file <- glue::glue("data/infodolar/{Sys.Date()}.csv")
 rds_file <- glue::glue("data/infodolar/rds/{Sys.Date()}.rds")
 
 log_info("Save file of the day")
-readr::write_csv(infodolar, file, na = "")
+readr::write_csv(infodolar, csv_file, na = "")
 saveRDS(infodolar, rds_file)
 
 log_info("Prepare all data")

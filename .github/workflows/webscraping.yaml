@@ -51,9 +51,9 @@ jobs:
           options(renv.config.cache.symlinks = FALSE)
           renv::restore(clean = TRUE)
 
-      # - name: Webscrap data
-      #   run: |
-      #     Rscript "get_infodolar.R"
+      - name: Webscrap data
+        run: |
+          Rscript "get_infodolar.R"
 
       - name: Commit results
         run: |
