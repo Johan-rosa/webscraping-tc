@@ -37,4 +37,3 @@ all <- list.files("data/infodolar/rds", full.names = TRUE, pattern = "\\d{4}") |
 log_info("Save all data")
 readr::write_csv(all, "data/infodolar/_historico_infodolar.csv", na = "")
 saveRDS(all, "data/infodolar/rds/_historico_infodolar.rds")
-
