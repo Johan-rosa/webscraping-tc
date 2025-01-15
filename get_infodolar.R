@@ -30,7 +30,7 @@ readr::write_csv(infodolar, csv_file, na = "")
 saveRDS(infodolar, rds_file)
 
 log_info("Prepare all data")
-all <- list.files("data/infodolar/rds", full.names = TRUE) |>
+all <- list.files("data/infodolar/rds", full.names = TRUE, pattern = "\\d{4}") |>
   purrr::map(readRDS) |>
   purrr::list_rbind()
 
