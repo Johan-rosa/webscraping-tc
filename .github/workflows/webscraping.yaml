@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 name: Run Webscraping
@@ -53,7 +53,7 @@ jobs:
 
       - name: Webscrap data
         run: |
-          Rscript "scripts/get_data.R"
+          Rscript "scripts/get_infodolar.R"
 
       - name: Commit results
         run: |
@@ -62,3 +62,5 @@ jobs:
           git add .
           git commit -m "Automatic update with GitHub actions" || echo "No changes to commit"
           git push origin || echo "No changes to commit"
+
+          
