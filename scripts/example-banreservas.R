@@ -2,11 +2,15 @@
 
 # Load required packages
 library(RSelenium)
+library(dplyr)
+library(readr)
+
 
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
   selenium_client$navigate('https://www.banreservas.com/')
+  Sys.sleep(2)
   
   tasa_compra <- selenium_client$findElement(
     using = "css selector", 
