@@ -51,7 +51,7 @@ jobs:
         Rscript scripts/example-banreservas.R
         
     - name: Upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: exchange-rates
         path: banreservas_rates_*.csv
