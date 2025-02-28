@@ -18,12 +18,12 @@ tasa_dolar_banreservas <- function(selenium_client) {
     "#site-nav-panel > ul:nth-child(1) > li:nth-child(3) > span"
   )
   
-  compra <- tasa_compra$getElementText() %>%
-    unlist() %>%
+  compra <- tasa_compra$getElementText() |>
+    unlist() |>
     readr::parse_number()
   
-  venta <- tasa_venta$getElementText() %>%
-    unlist() %>% 
+  venta <- tasa_venta$getElementText() |>
+    unlist() |> 
     readr::parse_number()
   
   data.frame(
