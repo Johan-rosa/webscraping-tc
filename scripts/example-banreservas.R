@@ -2,7 +2,6 @@
 
 # Load required packages
 library(RSelenium)
-library(tidyverse)
 
 #' Descarga la tasa de cambio de Banreservas
 #' @export
