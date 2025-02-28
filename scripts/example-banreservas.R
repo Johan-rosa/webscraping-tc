@@ -60,6 +60,9 @@ main <- function() {
   
   # Get the client object
   client <- driver$client
+  client$setWindowSize(
+    width = 1600, height = 800
+  )
   
   tryCatch({
     cat("Fetching exchange rates from Banreservas...\n")
