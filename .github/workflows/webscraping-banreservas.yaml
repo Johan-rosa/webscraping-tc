@@ -26,9 +26,25 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
 
-    - name: Install R packages
+    - name: Install required R packages individually with error checking
       run: |
-        Rscript -e 'install.packages(c("RSelenium", "pagedown", "rvest", "tidyverse", "wdman"), repos = "https://cloud.r-project.org")'
+        # Function to install a package with verification
+        install_package() {
+          Rscript -e "if(!requireNamespace('$1', quietly = TRUE)) { install.packages('$1', repos = 'https://cloud.r-project.org', dependencies = TRUE) }"
+          Rscript -e "if(!requireNamespace('$1', quietly = TRUE)) { stop('Failed to install package: $1') } else { cat('$1 successfully installed\n') }"
+        }
+        
+        # Install packages one by one
+        install_package "readr"
+        install_package "dplyr"
+        install_package "tidyr"
+        install_package "purrr"
+        install_package "rvest"
+        install_package "RSelenium"
+        install_package "wdman"
+        
+        # Extra verification for tidyverse (install components instead of full package)
+        Rscript -e "cat('Installed packages:', paste(installed.packages()[,1], collapse=', '), '\n')"
         
     - name: Setup Chrome and ChromeDriver
       run: |
