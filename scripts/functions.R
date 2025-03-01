@@ -180,8 +180,10 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
 #' Descarga la tasa de cambio de Banco Caribe
 #' @export
 tasa_dolar_caribe <- function(selenium_client) {
+  logger::log_info("Download tasas Banco Caribe -------------")
 
   selenium_client$navigate("https://www.bancocaribe.com.do/")
+  Sys.sleep(5)
 
   tasas_banner <- selenium_client$findElement(
     using = "css selector",
