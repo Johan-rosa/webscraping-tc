@@ -51,8 +51,6 @@ tasa_dolar_banreservas <- function(selenium_client) {
 tasa_dolar_scotiabank <- function() {
   logger::log_info("Downloading Tasas Scotiabank -------------")
   
-  
-
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
   tasas <- rvest::read_html(url) %>%
     rvest::html_table(header = TRUE) %>%
@@ -317,7 +315,6 @@ tasa_dolar_blh <- function() {
   URL <- "https://www.blh.com.do/"
   BANCO <- "BLH"
   
-  
   logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
   
   logger::log_info("Reading static html content")
@@ -349,6 +346,8 @@ tasa_dolar_blh <- function() {
 tasa_dolar_promerica <- function() {
   BANCO <- "Promerica"
   URL <- "https://www.promerica.com.do/"
+  
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
   
   logger::log_info("Reading live html content")
   html <- rvest::read_html_live(URL)
@@ -382,6 +381,9 @@ tasa_dolar_banesco <- function() {
   BANCO <- "Banesco"
   URL <- "https://www.banesco.com.do/"
   
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
+  
+  logger::log_info("Reading live html")
   html <- rvest::read_html_live(URL)
   Sys.sleep(3)
   
@@ -406,29 +408,30 @@ tasa_dolar_banesco <- function() {
 
 #' Descarga la tasa de cambio de lafise
 #' @export
-tasa_dolar_lafise <- function(selenium_client) {
+tasa_dolar_lafise <- function() {
+  BANCO <- "Lafise"
+  URL <- "https://www.lafise.com/blrd"
   
-  selenium_client$navigate("https://www.lafise.com/blrd")
-  Sys.sleep(1)
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
   
-  tasa_compra <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/form/section[4]/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div[1]/div/div[4]"
-  )
-  tasa_venta <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/form/section[4]/div/div/div[2]/div/div/div[2]/div/div/div/div/div/div[1]/div/div[5]"
-  )
+  logger::log_info("Reading live html")
+  html <- rvest::read_html_live(URL)
+  Sys.sleep(3)
   
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
+  logger::log_info("Getting tasas")
+  tasas_table <- rvest::html_element(html, "._tasas_container_n15br_17") |>
+    rvest::html_table() |>
+    janitor::clean_names() |>
+    slice(1) |>
+    mutate(
+      date = Sys.Date(),
+      bank = BANCO
+    ) |> 
+    select(date, bank,  buy = compra, sell = venta)
   
-  data.frame(
-    date = Sys.Date(),
-    bank = "Lafise",
-    buy = compra,
-    sell = venta
-  )
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {tasas_table$sell}, compra: {tasas_table$buy}"))
+  
+  tasas_table
 }
 
 #' Descarga la tasa de cambio de lafise
