@@ -1,0 +1,68 @@
+name: Get Banreservas Exchange Rates
+
+on:
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  run-rscript:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+      with:
+        r-version: '4.4.2'
+    
+    - name: Install required system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+    - name: Install required R packages individually with error checking
+      run: |
+        # Function to install a package with verification
+        install_package() {
+          Rscript -e "if(!requireNamespace('$1', quietly = TRUE)) { install.packages('$1', repos = 'https://cloud.r-project.org', dependencies = TRUE) }"
+          Rscript -e "if(!requireNamespace('$1', quietly = TRUE)) { stop('Failed to install package: $1') } else { cat('$1 successfully installed\n') }"
+        }
+        
+        # Install packages one by one
+        install_package "readr"
+        install_package "dplyr"
+        install_package "tidyr"
+        install_package "purrr"
+        install_package "rvest"
+        install_package "RSelenium"
+        install_package "wdman"
+        
+        # Extra verification for tidyverse (install components instead of full package)
+        Rscript -e "cat('Installed packages:', paste(installed.packages()[,1], collapse=', '), '\n')"
+        
+    - name: Setup Chrome and ChromeDriver
+      run: |
+        # Update the apt key handling (newer approach)
+        sudo apt-get update
+        sudo apt-get install -y wget
+        
+        # Install Chrome using a more reliable method
+        wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
+        
+        # Verify Chrome installation
+        google-chrome --version
+        
+        # Install ChromeDriver using webdriver package in R
+        Rscript -e 'wdman::chrome()'
+    
+    - name: Run exchange rates script
+      run: |
+        Rscript scripts/run_webscraping.R
+        
+    - name: Upload results
+      uses: actions/upload-artifact@v4
+      with:
+        name: exchange-rates
+        path: banreservas_rates_*.csv
+        retention-days: 90

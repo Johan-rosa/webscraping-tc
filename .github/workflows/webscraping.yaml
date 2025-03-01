@@ -1,7 +1,11 @@
 on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   schedule:
-    - cron: "0 13 * * *"
-  workflow_dispatch:
+    - cron: '0 12 * * *'  # Run daily at 12:00 UTC
+  workflow_dispatch:  # Allows manual triggering
 
 name: Run Webscraping
 
@@ -50,10 +54,30 @@ jobs:
         run: |
           options(renv.config.cache.symlinks = FALSE)
           renv::restore(clean = TRUE)
+          
+      - name: Setup Chrome and ChromeDriver
+        run: |
+          # Update the apt key handling (newer approach)
+          sudo apt-get update
+          sudo apt-get install -y wget
+          
+          # Install Chrome using a more reliable method
+          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
+          
+          # Verify Chrome installation
+          google-chrome --version
+          
+          # Install ChromeDriver using webdriver package in R
+          Rscript -e 'wdman::chrome()'
+
+      - name: Webscrap infodolar
+        run: |
+          Rscript "get_infodolar.R"
 
       - name: Webscrap data
         run: |
-          Rscript "get_infodolar.R"
+          Rscript scripts/run_webscraping.R
 
       - name: Commit results
         run: |

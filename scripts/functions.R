@@ -2,18 +2,24 @@
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
+  logger::log_info("Downloading Tasas Banreservas -------------")
+
+  logger::log_info("Navigate to site")
   selenium_client$navigate('https://www.banreservas.com/')
   
+  logger::log_info("Target tasa compra")
   tasa_compra <- selenium_client$findElement(
     using = "css selector", 
     "#site-nav-panel > ul:nth-child(1) > li:nth-child(2) > span"
   )
   
+  logger::log_info("Target tasa venta")
   tasa_venta <- selenium_client$findElement(
     using = "css selector", 
     "#site-nav-panel > ul:nth-child(1) > li:nth-child(3) > span"
   )
   
+  logger::log_info("Parse to numbers")
   compra <- tasa_compra$getElementText() %>%
     unlist() %>%
     readr::parse_number()
@@ -22,19 +28,25 @@ tasa_dolar_banreservas <- function(selenium_client) {
     unlist() %>% 
     readr::parse_number()
   
-  data.frame(
+  logger::log_info(glue::glue("Tasa venta: {venta}; Tasa compra: {compra}"))
+  data <- data.frame(
     date = Sys.Date(),
     bank = "Banreservas",
     buy = compra,
     sell = venta
   )
+  
+  logger::log_success("Tasa banreservas")
+  data
 }
 
 #' Descarga la tasa de cambio de Scotiabank
 #' @export
 tasa_dolar_scotiabank <- function() {
+  logger::log_info("Downloading Tasas Scotiabank -------------")
+
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
-  rvest::read_html(url) %>%
+  tasas <- rvest::read_html(url) %>%
     rvest::html_table(header = TRUE) %>%
     `[[`(., 1) %>%
     setNames(c("pais", "tipo", "compra", "venta")) %>%
@@ -42,14 +54,20 @@ tasa_dolar_scotiabank <- function() {
     dplyr::mutate(tipo = str_remove(tipo, "Dólar (USD) ")) %>%
     dplyr::mutate(bank = "Scotiabank", date = Sys.Date()) %>%
     dplyr::select(date, bank, tipo, buy = compra, sell = venta)
+  
+  logger::log_success("Tasas scotia - venta: {tasas$venta[1]}, compra: {tasas$compra[1]}")
+  tasas
 }
 
 #' Descarga la tasa de cambio de Banco Popular
 #' @export
 tasa_dolar_popular <- function(selenium_client) {
+  logger::log_info("Downloading tasas Popular -------------")
   
+  logger::log_info("Naverga a la página")
   selenium_client$navigate("https://www.popularenlinea.com/personas/Paginas/Home.aspx")
   
+  logger::log_info("Click al banner de la página web")
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
     "#s4-bodyContainer > section.footer_est_bpd.footer_est_personas > nav > ul > li:nth-child(3)"
@@ -57,6 +75,7 @@ tasa_dolar_popular <- function(selenium_client) {
   tasas_banner$clickElement()
   Sys.sleep(1)
   
+  logger::log_info("Copiando las tasas")
   tasa_compra <- selenium_client$findElement(
     using = "css selector",
     "#compra_peso_dolar_desktop")
@@ -67,6 +86,8 @@ tasa_dolar_popular <- function(selenium_client) {
   compra <- as.numeric(tasa_compra$getElementAttribute("value"))
   venta <- as.numeric(tasa_venta$getElementAttribute("value"))
   
+  logger::log_success(glue::glue("Tasas popular - venta: {venta}, compra: {compra}"))
+
   data.frame(
     date = Sys.Date(),
     bank = "Banco Popular",
@@ -80,21 +101,23 @@ tasa_dolar_popular <- function(selenium_client) {
 tasa_dolar_bhd <- function(selenium_client) {
   
   selenium_client$navigate("https://bhd.com.do/?v=1")
-  
+  Sys.sleep(2)
+
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
-    "#footer > section > div > ul > li:nth-child(5)"
+    "div.links > ul:nth-child(1) > li:nth-child(6) > div > button"
   )
   tasas_banner$clickElement()
   Sys.sleep(1)
   
   tasa_compra <- selenium_client$findElement(
     using = "css selector",
-    "#TasasDeCambio > table > tbody > tr:nth-child(2) > td:nth-child(2)"
+    ".rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(2)"
   )
+
   tasa_venta <- selenium_client$findElement(
     using = "css selector",
-    "#TasasDeCambio > table > tbody > tr:nth-child(2) > td:nth-child(3)"
+    ".rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(3)"
   )
   
   
@@ -114,43 +137,38 @@ tasa_dolar_bhd <- function(selenium_client) {
 #' Descarga la tasa de cambio de Santa Cruz
 #' @export
 tasa_dolar_santa_cruz <- function(selenium_client) {
+  logger::log_info("Downloading tasas Santa Cruz ---------")
   
+  logger::log_info("Visit site")
   selenium_client$navigate("https://bsc.com.do/home")
   Sys.sleep(3)
+  
+  logger::log_info("Click the banner")
   tasas_banner <- selenium_client$findElement(
     using = "xpath",
-    "/html/body/div[3]/div/header/div[2]/div[1]/div/nav/div[2]/ul/li[4]/a"
+    '//*[@id="__nuxt"]/div/div/div/main/div[1]/header[1]/div/button[2]'
   )
   tasas_banner$clickElement()
   
   Sys.sleep(2)
   
-  tasas_euro <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[2]"
-  )
-  tasas_euro$clickElement()
-  
-  tasas_dolar <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[1]"
-  )
-  tasas_dolar$clickElement()
-  
-  Sys.sleep(1)
-  
+  logger::log_info("Getting tasas")
+
   tasa_compra <- selenium_client$findElement(
     using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[2]/li[1]/div/div[2]/div/div[1]/div/h2"
+    '//*[@id="__nuxt"]/div/div/nav[1]/div/div[2]/div[1]/div[2]/v-tabs-items/v-tab-item[1]/div/div/div/div/div[2]/div[2]/div/strong'
   )
+
   tasa_venta <- selenium_client$findElement(
     using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[2]/li[1]/div/div[2]/div/div[2]/div/h2"
+    '//*[@id="__nuxt"]/div/div/nav[1]/div/div[2]/div[1]/div[2]/v-tabs-items/v-tab-item[1]/div/div/div/div/div[2]/div[3]/div/strong'
   )
   
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
+  logger::log_info("Parsing numbers")
+  compra <- readr::parse_number(unlist(tasa_compra$getElementText()) |> stringr::str_extract("RD.+$"))
+  venta <- readr::parse_number(unlist(tasa_venta$getElementText()) |> stringr::str_extract("RD.+$"))
   
+  logger::log_success("Tasas Santa Cruz - venta: {venta}, compra: {compra}")
   data.frame(
     date = Sys.Date(),
     bank = "Santa Cruz",
@@ -162,9 +180,12 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
 #' Descarga la tasa de cambio de Banco Caribe
 #' @export
 tasa_dolar_caribe <- function(selenium_client) {
+  logger::log_info("Download tasas Banco Caribe -------------")
 
   selenium_client$navigate("https://www.bancocaribe.com.do/")
-
+  Sys.sleep(5)
+  
+  logger::log_info("Click rates button in the banner")
   tasas_banner <- selenium_client$findElement(
     using = "css selector",
     "#exchange-rates-button"
@@ -173,6 +194,7 @@ tasa_dolar_caribe <- function(selenium_client) {
   
   Sys.sleep(1)
 
+  logger::log_info("Targetting tasas")
   tasa_compra <- selenium_client$findElement(
     using = "css selector",
     "#us_buy_res"
