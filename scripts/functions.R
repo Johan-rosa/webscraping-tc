@@ -214,7 +214,7 @@ tasa_dolar_caribe <- function() {
   "
   )
   
-  compra <- venta_raw$result$value |> readr::parse_number()
+  compra <- compra_raw$result$value |> readr::parse_number()
   venta <- venta_raw$result$value |> readr::parse_number()
   
   logger::log_success(glue::glue("Tasas Banco Caribe - compra: {compra}, venta: {venta}"))
