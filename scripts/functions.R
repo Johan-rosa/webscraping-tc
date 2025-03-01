@@ -83,7 +83,7 @@ tasa_dolar_bhd <- function(selenium_client) {
   
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
-    "#footer > section > div > ul > li:nth-child(5)"
+    "body > app-root > app-footer > footer > div > div > div.links > ul:nth-child(1) > li:nth-child(6) > div > button"
   )
   tasas_banner$clickElement()
   Sys.sleep(1)

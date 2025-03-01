@@ -64,7 +64,7 @@ jobs:
     
     - name: Run exchange rates script
       run: |
-        Rscript scripts/example-banreservas.R
+        Rscript scripts/run_webscraping.R
         
     - name: Upload results
       uses: actions/upload-artifact@v4
