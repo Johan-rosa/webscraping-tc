@@ -90,11 +90,12 @@ tasa_dolar_bhd <- function(selenium_client) {
   
   tasa_compra <- selenium_client$findElement(
     using = "css selector",
-    "#TasasDeCambio > table > tbody > tr:nth-child(2) > td:nth-child(2)"
+    ".rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(2)"
   )
+
   tasa_venta <- selenium_client$findElement(
     using = "css selector",
-    "#TasasDeCambio > table > tbody > tr:nth-child(2) > td:nth-child(3)"
+    ".rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(3)"
   )
   
   
