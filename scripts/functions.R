@@ -2,18 +2,23 @@
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
+  logger::log_info("Tasas Banreservas")
+  logger::log_info("Navigate to site")
   selenium_client$navigate('https://www.banreservas.com/')
   
+  logger::log_info("Target tasa compra")
   tasa_compra <- selenium_client$findElement(
     using = "css selector", 
     "#site-nav-panel > ul:nth-child(1) > li:nth-child(2) > span"
   )
   
+  logger::log_info("Target tasa venta")
   tasa_venta <- selenium_client$findElement(
     using = "css selector", 
     "#site-nav-panel > ul:nth-child(1) > li:nth-child(3) > span"
   )
   
+  logger::log_info("Parse to numbers")
   compra <- tasa_compra$getElementText() %>%
     unlist() %>%
     readr::parse_number()
@@ -22,12 +27,16 @@ tasa_dolar_banreservas <- function(selenium_client) {
     unlist() %>% 
     readr::parse_number()
   
-  data.frame(
+  logger::log_info(glue::glue("Tasa venta: {venta}; Tasa compra: {compra}"))
+  data <- data.frame(
     date = Sys.Date(),
     bank = "Banreservas",
     buy = compra,
     sell = venta
   )
+  
+  logger::log_success("Tasa banreservas")
+  data
 }
 
 #' Descarga la tasa de cambio de Scotiabank
