@@ -146,39 +146,27 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
   logger::log_info("Click the banner")
   tasas_banner <- selenium_client$findElement(
     using = "xpath",
-    "/html/body/div[3]/div/header/div[2]/div[1]/div/nav/div[2]/ul/li[4]/a"
+    '//*[@id="__nuxt"]/div/div/div/main/div[1]/header[1]/div/button[2]'
   )
   tasas_banner$clickElement()
   
   Sys.sleep(2)
   
   logger::log_info("Getting tasas")
-  tasas_euro <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[2]"
-  )
-  tasas_euro$clickElement()
-  
-  tasas_dolar <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[1]"
-  )
-  tasas_dolar$clickElement()
-  
-  Sys.sleep(1)
-  
+
   tasa_compra <- selenium_client$findElement(
     using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[2]/li[1]/div/div[2]/div/div[1]/div/h2"
+    '//*[@id="__nuxt"]/div/div/nav[1]/div/div[2]/div[1]/div[2]/v-tabs-items/v-tab-item[1]/div/div/div/div/div[2]/div[2]/div/strong'
   )
+
   tasa_venta <- selenium_client$findElement(
     using = "xpath",
-    "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[2]/li[1]/div/div[2]/div/div[2]/div/h2"
+    '//*[@id="__nuxt"]/div/div/nav[1]/div/div[2]/div[1]/div[2]/v-tabs-items/v-tab-item[1]/div/div/div/div/div[2]/div[3]/div/strong'
   )
   
   logger::log_info("Parsing numbers")
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
+  compra <- readr::parse_number(unlist(tasa_compra$getElementText()) |> stringr::str_extract("RD.+$"))
+  venta <- readr::parse_number(unlist(tasa_venta$getElementText()) |> stringr::str_extract("RD.+$"))
   
   logger::log_success("Tasas Santa Cruz - venta: {venta}, compra: {compra}")
   data.frame(
