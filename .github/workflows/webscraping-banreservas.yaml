@@ -1,12 +1,6 @@
 name: Get Banreservas Exchange Rates
 
 on:
-  push:
-    branches: [ main, wb-br ]
-  pull_request:
-    branches: [ main, wb-br ]
-  schedule:
-    - cron: '0 12 * * *'  # Run daily at 12:00 UTC
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
