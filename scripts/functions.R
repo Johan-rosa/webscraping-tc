@@ -50,6 +50,8 @@ tasa_dolar_banreservas <- function(selenium_client) {
 #' @export
 tasa_dolar_scotiabank <- function() {
   logger::log_info("Downloading Tasas Scotiabank -------------")
+  
+  
 
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
   tasas <- rvest::read_html(url) %>%
@@ -61,7 +63,7 @@ tasa_dolar_scotiabank <- function() {
     dplyr::mutate(bank = "Scotiabank", date = Sys.Date()) %>%
     dplyr::select(date, bank, tipo, buy = compra, sell = venta)
   
-  logger::log_success("Tasas scotia - venta: {tasas$venta[1]}, compra: {tasas$compra[1]}")
+  logger::log_success("Tasas scotia - venta: {tasas$sell[2]}, compra: {tasas$buy[2]}")
   tasas
 }
 
