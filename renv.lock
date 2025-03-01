@@ -170,6 +170,25 @@
         "rlang"
       ]
     },
+    "chromote": {
+      "Package": "chromote",
+      "Version": "0.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1327bc3ec8e3052b09889fc87de93470",
+      "Requirements": [
+        "R6",
+        "curl",
+        "fastmap",
+        "jsonlite",
+        "later",
+        "magrittr",
+        "processx",
+        "promises",
+        "rlang",
+        "websocket"
+      ]
+    },
     "cli": {
       "Package": "cli",
       "Version": "3.6.4",

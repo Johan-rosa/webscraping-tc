@@ -179,35 +179,48 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
 
 #' Descarga la tasa de cambio de Banco Caribe
 #' @export
-tasa_dolar_caribe <- function(selenium_client) {
+tasa_dolar_caribe <- function() {
   logger::log_info("Download tasas Banco Caribe -------------")
-
-  selenium_client$navigate("https://www.bancocaribe.com.do/")
-  Sys.sleep(5)
+  logger::log_info("Open cromote session with user agent")
+  browser <- chromote::ChromoteSession$new()
+  browser$Network$setUserAgentOverride(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
   
-  logger::log_info("Click rates button in the banner")
-  tasas_banner <- selenium_client$findElement(
-    using = "css selector",
-    "#exchange-rates-button"
-  )
-  tasas_banner$clickElement()
   
-  Sys.sleep(1)
-
-  logger::log_info("Targetting tasas")
-  tasa_compra <- selenium_client$findElement(
-    using = "css selector",
-    "#us_buy_res"
+  logger::log_info("Navigate to website")
+  browser$Page$navigate("https://www.bancocaribe.com.do/")
+  browser$Page$loadEventFired()
+  
+  
+  logger::log_info("Click exchange rates button")
+  browser$Runtime$evaluate(
+    expression = "
+    document.getElementById('exchange-rates-button').click()
+  "
   )
-  tasa_venta <- selenium_client$findElement(
-    using = "css selector",
-    "#us_sell_res"
+  
+  logger::log_info("Getting tasa compra")
+  compra_raw <- browser$Runtime$evaluate(
+    expression = "
+    const compra = document.getElementById('us_buy_res')
+    compra.innerText
+  "
   )
-
-  tasa_venta$getElementText()
-
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
+  
+  logger::log_info("Getting tasa venta")
+  venta_raw <- browser$Runtime$evaluate(
+    expression = "
+    const venta = document.getElementById('us_sell_res')
+    venta.innerText
+  "
+  )
+  
+  compra <- venta_raw$result$value |> readr::parse_number()
+  venta <- venta_raw$result$value |> readr::parse_number()
+  
+  logger::log_success(glue::glue("Tasas Banco Caribe - compra: {compra}, venta: {venta}"))
+  
+  browser$close()
 
   data.frame(
     date = Sys.Date(),
