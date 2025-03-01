@@ -436,35 +436,30 @@ tasa_dolar_lafise <- function() {
 
 #' Descarga la tasa de cambio de lafise
 #' @export
-tasa_dolar_ademi <- function(selenium_client) {
+tasa_dolar_ademi <- function() {
+  BANCO <- "Ademi"
+  URL <- "https://bancoademi.com.do/"
 
-  selenium_client$navigate("https://bancoademi.com.do/")
-
-  tasas_banner <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/section[1]/div/div/a[5]"
-  )
-  tasas_banner$clickElement()
-  Sys.sleep(2)
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
   
-  tasa_compra <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[1]/div/div/div[2]/fieldset/div[1]/div[4]/div/input"
-  )
-  tasa_venta <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[1]/div/div/div[2]/fieldset/div[2]/div[4]/div/input"
-  )
+  logger::log_info("Reading html")
+  html <- rvest::read_html(URL)
   
-  tasa_venta$getElementText()
+  logger::log_info("Getting tasas")
+  tasas_table <- html |>
+    rvest::html_element("#popmake-6122") |>
+    rvest::html_table() |>
+    janitor::clean_names() |>
+    dplyr::slice(1) |> 
+    dplyr::mutate(
+      date = Sys.Date(), 
+      bank = BANCO,
+      buy = readr::parse_number(compra),
+      sell = readr::parse_number(venta)
+    ) |> 
+    dplyr::select(date, bank, buy, sell)
   
-  compra <- readr::parse_number(unlist(tasa_compra$getElementAttribute("placeholder")))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementAttribute("placeholder")))
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {tasas_table$sell}, compra: {tasas_table$buy}"))
   
-  data.frame(
-    date = Sys.Date(),
-    bank = "Ademi",
-    buy = compra,
-    sell = venta
-  )
+  tasas_table
 }
