@@ -312,19 +312,28 @@ tasa_dolar_vimenca <- function(selenium_client) {
 #' Descarga la tasa de cambio de Banco López de Haro
 #' @export
 tasa_dolar_blh <- function() {
+  URL <- "https://www.blh.com.do/"
+  BANCO <- "BLH"
   
-  page <- rvest::read_html("https://www.blh.com.do/")
-
-  tasas <- page %>%
-    rvest::html_element(xpath = '//*[@id="fws_64b15de87d4bb"]/div[2]/div[1]/div/div/div/div[2]/p') %>%
-    rvest::html_text() %>%
-    stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") %>%
-    unlist() %>%
+  
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
+  
+  logger::log_info("Reading static html content")
+  page <- rvest::read_html(URL)
+  
+  logger::log_info("Getting tasas")
+  tasas <- page |>
+    rvest::html_element(xpath = '//*[@id="fws_67c22cf55fcac"]/div[2]/div[1]/div/div/div/div[2]/p') |>
+    rvest::html_text() |>
+    stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") |>
+    unlist() |>
     as.numeric()
   
+  logger::log_info("Parsing results")
   compra <- tasas[1]
   venta <- tasas[2]
   
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   data.frame(
     date = Sys.Date(),
     bank = "BLH",
