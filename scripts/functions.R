@@ -376,28 +376,27 @@ tasa_dolar_promerica <- function() {
 
 #' Descarga la tasa de cambio de Banesco
 #' @export
-tasa_dolar_banesco <- function(selenium_client) {
+tasa_dolar_banesco <- function() {
+  BANCO <- "Banesco"
+  URL <- "https://www.banesco.com.do/"
   
-  selenium_client$navigate("https://www.banesco.com.do/")
-  Sys.sleep(1)
+  html <- rvest::read_html_live(URL)
+  Sys.sleep(3)
   
-  tasas <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div[1]/div[3]/div/div/div/div/p[2]"
-  )
+  logger::log_info("Getting tasas")
+  venta_node <- html$session$Runtime$evaluate("document.querySelectorAll('.calculator__sell-input input')[1].value")
+  compra_node <- html$session$Runtime$evaluate("document.querySelectorAll('.calculator__buy-input input')[1].value")
   
-  tasas <- tasas$getElementText() %>%
-    unlist() %>%
-    stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") %>%
-    unlist() %>%
-    as.numeric()
+  logger::log_info("Parsing results")
+  compra <- readr::parse_number(compra_node$result$value)
+  venta <- readr::parse_number(venta_node$result$value)
   
-  compra <- tasas[1]
-  venta <- tasas[2]
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
+  html$session$close()
   
   data.frame(
     date = Sys.Date(),
-    bank = "Banesco",
+    bank = BANCO,
     buy = compra,
     sell = venta
   )

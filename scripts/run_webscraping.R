@@ -40,9 +40,9 @@ tasas <- list(
   caribe = tasa_dolar_caribe(),
   bdi = tasa_dolar_bdi(),
   vimenca = tasa_dolar_vimenca(),
-  blh = tasa_dolar_blh()
-  #promerica = tasa_dolar_promerica(client),
-  #banesco = tasa_dolar_banesco(client),
+  blh = tasa_dolar_blh(),
+  promerica = tasa_dolar_promerica(),
+  banesco = tasa_dolar_banesco(client)
   #lafise = tasa_dolar_lafise(client),
   #ademi = tasa_dolar_ademi(client)
 )
