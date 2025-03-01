@@ -38,8 +38,8 @@ tasas <- list(
   bhd = tasa_dolar_bhd(),
   santa_cruz = tasa_dolar_santa_cruz(),
   caribe = tasa_dolar_caribe(),
-  bdi = tasa_dolar_bdi()
-  #vimenca = tasa_dolar_vimenca(client),
+  bdi = tasa_dolar_bdi(),
+  vimenca = tasa_dolar_vimenca()
   #blh = tasa_dolar_blh(),
   #promerica = tasa_dolar_promerica(client),
   #banesco = tasa_dolar_banesco(client),

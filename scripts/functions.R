@@ -275,22 +275,31 @@ tasa_dolar_bdi <- function() {
 #' Descarga la tasa de cambio de Vimenca
 #' @export
 tasa_dolar_vimenca <- function(selenium_client) {
-
-  selenium_client$navigate("https://www.bancovimenca.com/")
+  URL <- "https://www.bancovimenca.com/"
+  BANCO <- "Vimenca"
   
-  Sys.sleep(1)
   
-  tasa_compra <- selenium_client$findElement(
-    using = "css selector",
-    "#exangeRates > li:nth-child(1) > div > div > div:nth-child(2) > article"
-  )
-  tasa_venta <- selenium_client$findElement(
-    using = "css selector",
-    "#exangeRates > li:nth-child(1) > div > div > div:nth-child(3) > article"
-  )
-
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
+  logger::log_info("Open cromote session with user agent")
+  
+  html <- rvest::read_html_live("https://www.bancovimenca.com/") 
+  Sys.sleep(3)
+  
+  logger::log_info("Getting tasas")
+  venta_node <- html |>
+    rvest::html_element(".item.saleValue") |>
+    rvest::html_text() 
+  
+  compra_node <- html |>
+    rvest::html_element(".item.purchaseValue") |>
+    rvest::html_text()
+  
+  logger::log_info("Parsing results")
+  compra <- readr::parse_number(compra_node)
+  venta <- readr::parse_number(venta_node)
+  
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
+  html$session$close()
   
   data.frame(
     date = Sys.Date(),
