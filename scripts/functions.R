@@ -274,7 +274,7 @@ tasa_dolar_bdi <- function() {
 
 #' Descarga la tasa de cambio de Vimenca
 #' @export
-tasa_dolar_vimenca <- function(selenium_client) {
+tasa_dolar_vimenca <- function() {
   URL <- "https://www.bancovimenca.com/"
   BANCO <- "Vimenca"
   
@@ -344,28 +344,31 @@ tasa_dolar_blh <- function() {
 
 #' Descarga la tasa de cambio de Promerica
 #' @export
-tasa_dolar_promerica <- function(selenium_client) {
+tasa_dolar_promerica <- function() {
+  BANCO <- "Promerica"
+  URL <- "https://www.promerica.com.do/"
   
-  selenium_client$navigate("https://www.promerica.com.do/")
-  Sys.sleep(1)
+  logger::log_info("Reading live html content")
+  html <- rvest::read_html_live(URL)
+  Sys.sleep(3)
   
-  tasas <- selenium_client$findElement(
-    using = "xpath",
-    "/html/body/div/div[1]/section[1]/div[2]/p"
-  )
-  
-  tasas <- tasas$getElementText() %>%
-    unlist() %>%
-    stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") %>%
-    unlist() %>%
-    as.numeric()
-  
+  logger::log_info("Getting tasas")
+  tasas <- rvest::html_element(html, "#tipoCambioHome div .cambio") |>
+    rvest::html_text() |>
+    stringr::str_split("\\|") |>
+    unlist() |>
+    readr::parse_number()
+
+  logger::log_info("Parsing results")
   compra <- tasas[1]
   venta <- tasas[2]
   
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
+  html$session$close()
+  
   data.frame(
     date = Sys.Date(),
-    bank = "Promerica",
+    bank = BANCO,
     buy = compra,
     sell = venta
   )
