@@ -8,42 +8,39 @@ chromote_driver <- function() {
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
-  logger::log_info("Downloading Tasas Banreservas -------------")
+  BANCO <- "Banreservas"
+  URL <- "https://www.banreservas.com/"
 
-  logger::log_info("Navigate to site")
-  selenium_client$navigate('https://www.banreservas.com/')
+  logger::log_info(glue::glue("Downloading Tasas {BANCO} -------------"))
+
+  logger::log_info("Reading live HTML")
   
-  logger::log_info("Target tasa compra")
-  tasa_compra <- selenium_client$findElement(
-    using = "css selector", 
-    "#site-nav-panel > ul:nth-child(1) > li:nth-child(2) > span"
-  )
+  html <- rvest::read_html_live(URL)
+  Sys.sleep(3)
   
-  logger::log_info("Target tasa venta")
-  tasa_venta <- selenium_client$findElement(
-    using = "css selector", 
-    "#site-nav-panel > ul:nth-child(1) > li:nth-child(3) > span"
-  )
+  logger::log_info("Getting tasas")
+  node_compra <- html |>
+    rvest::html_element("#site-nav-panel > ul:nth-child(1) > li:nth-child(2) > span") |>
+    rvest::html_text()
+  
+  node_venta <-  html |>
+    rvest::html_element("#site-nav-panel > ul:nth-child(1) > li:nth-child(3) > span") |>
+    rvest::html_text()
+
   
   logger::log_info("Parse to numbers")
-  compra <- tasa_compra$getElementText() %>%
-    unlist() %>%
-    readr::parse_number()
-  
-  venta <- tasa_venta$getElementText() %>%
-    unlist() %>% 
-    readr::parse_number()
+  compra <- readr::parse_number(node_compra)
+  venta <- readr::parse_number(node_venta)
   
   logger::log_info(glue::glue("Tasa venta: {venta}; Tasa compra: {compra}"))
-  data <- data.frame(
+  html$session$close()
+
+  data.frame(
     date = Sys.Date(),
-    bank = "Banreservas",
+    bank = BANCO,
     buy = compra,
     sell = venta
   )
-  
-  logger::log_success("Tasa banreservas")
-  data
 }
 
 #' Descarga la tasa de cambio de Scotiabank

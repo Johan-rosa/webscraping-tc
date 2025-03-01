@@ -44,7 +44,7 @@ tasas <- list(
   promerica = tasa_dolar_promerica(),
   banesco = tasa_dolar_banesco(),
   lafise = tasa_dolar_lafise(),
-  ademi = tasa_dolar_ademi(client)
+  ademi = tasa_dolar_ademi()
 )
 
 data <- dplyr::bind_rows(tasas)
