@@ -34,7 +34,7 @@ client$setWindowSize(
 tasas <- list(
   scotia = tasa_dolar_scotiabank(),
   reservas = tasa_dolar_banreservas(client),
-  popular = tasa_dolar_popular(client),
+  popular = tasa_dolar_popular(client)
   #bhd = tasa_dolar_bhd(client)
   #santa_cruz = tasa_dolar_santa_cruz(client),
   #caribe = tasa_dolar_caribe(client),
