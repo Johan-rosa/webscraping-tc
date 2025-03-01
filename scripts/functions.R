@@ -184,7 +184,8 @@ tasa_dolar_caribe <- function(selenium_client) {
 
   selenium_client$navigate("https://www.bancocaribe.com.do/")
   Sys.sleep(5)
-
+  
+  logger::log_info("Click rates button in the banner")
   tasas_banner <- selenium_client$findElement(
     using = "css selector",
     "#exchange-rates-button"
@@ -193,6 +194,7 @@ tasa_dolar_caribe <- function(selenium_client) {
   
   Sys.sleep(1)
 
+  logger::log_info("Targetting tasas")
   tasa_compra <- selenium_client$findElement(
     using = "css selector",
     "#us_buy_res"
