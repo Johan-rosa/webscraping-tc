@@ -35,7 +35,7 @@ tasas <- list(
   scotia = tasa_dolar_scotiabank(),
   reservas = tasa_dolar_banreservas(client),
   popular = tasa_dolar_popular(client),
-  #bhd = tasa_dolar_bhd(client)
+  bhd = tasa_dolar_bhd(),
   santa_cruz = tasa_dolar_santa_cruz(),
   caribe = tasa_dolar_caribe()
   #bdi = tasa_dolar_bdi(),

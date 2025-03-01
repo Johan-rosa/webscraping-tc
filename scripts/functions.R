@@ -105,32 +105,33 @@ tasa_dolar_popular <- function(selenium_client) {
 #' Descarga la tasa de cambio de Banco BHD
 #' @export
 tasa_dolar_bhd <- function(selenium_client) {
+  logger::log_info("Download tasas Banco BHD -------------")
+  logger::log_info("Open cromote session with user agent")
   
-  selenium_client$navigate("https://bhd.com.do/?v=1")
+  browser <- chromote_driver()
+  logger::log_info("Navigate to site")
+  browser$Page$navigate("https://bhd.com.do/")
+  Sys.sleep(3)
+  
+  logger::log_info("Defining JS steps")
+  click_tasas_btn <- 'document.querySelector("app-footer > footer > div > div > div.links > ul:nth-child(1) > li:nth-child(6) > div > button").click()'
+  get_tasa_compra <- "document.querySelector('app-cambio_rate_popup > div > div > div.rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(2)').innerText"
+  get_tasa_venta <- "document.querySelector('app-cambio_rate_popup > div > div > div.rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(3)').innerText"
+  
+  logger::log_info("Click tasas button")
+  browser$Runtime$evaluate(click_tasas_btn)
   Sys.sleep(2)
-
-  tasas_banner <- selenium_client$findElement(
-    using = "css selector", 
-    "div.links > ul:nth-child(1) > li:nth-child(6) > div > button"
-  )
-  tasas_banner$clickElement()
-  Sys.sleep(1)
   
-  tasa_compra <- selenium_client$findElement(
-    using = "css selector",
-    ".rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(2)"
-  )
-
-  tasa_venta <- selenium_client$findElement(
-    using = "css selector",
-    ".rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(3)"
-  )
+  logger::log_info("Getting tasas")
+  compra_node <- browser$Runtime$evaluate(get_tasa_compra)
+  venta_node <- browser$Runtime$evaluate(get_tasa_venta)
   
+  logger::log_info("Parsing results")
+  compra <- readr::parse_number(compra_node$result$value)
+  venta <- readr::parse_number(venta_node$result$value)
   
-  tasa_venta$getElementText()
-  
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
+  logger::log_success(glue::glue("Tasas BHD - venta: {venta}, compra: {compra}"))
+  browser$close()
   
   data.frame(
     date = Sys.Date(),
