@@ -36,8 +36,8 @@ tasas <- list(
   reservas = tasa_dolar_banreservas(client),
   popular = tasa_dolar_popular(client),
   #bhd = tasa_dolar_bhd(client)
-  #santa_cruz = tasa_dolar_santa_cruz(client),
-  aribe = tasa_dolar_caribe()
+  santa_cruz = tasa_dolar_santa_cruz(),
+  caribe = tasa_dolar_caribe()
   #bdi = tasa_dolar_bdi(),
   #vimenca = tasa_dolar_vimenca(client),
   #blh = tasa_dolar_blh(),

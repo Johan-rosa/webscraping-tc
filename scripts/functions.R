@@ -1,3 +1,9 @@
+chromote_driver <- function() {
+  browser <- chromote::ChromoteSession$new()
+  browser$Network$setUserAgentOverride(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
+  browser
+}
 
 #' Descarga la tasa de cambio de Banreservas
 #' @export
@@ -137,38 +143,34 @@ tasa_dolar_bhd <- function(selenium_client) {
 #' Descarga la tasa de cambio de Santa Cruz
 #' @export
 tasa_dolar_santa_cruz <- function(selenium_client) {
-  logger::log_info("Downloading tasas Santa Cruz ---------")
+  logger::log_info("Download tasas Banco Santa Cruz -------------")
+  logger::log_info("Open cromote session with user agent")
   
-  logger::log_info("Visit site")
-  selenium_client$navigate("https://bsc.com.do/home")
+  browser <- chromote_driver()
+
+  logger::log_info("Navigate to website")
+  browser$Page$navigate("https://bsc.com.do/")
   Sys.sleep(3)
   
-  logger::log_info("Click the banner")
-  tasas_banner <- selenium_client$findElement(
-    using = "xpath",
-    '//*[@id="__nuxt"]/div/div/div/main/div[1]/header[1]/div/button[2]'
-  )
-  tasas_banner$clickElement()
+  logger::log_info("Defining JS steps")
+  click_tasas_btn <- 'document.querySelectorAll(".v-toolbar__content > button")[1].click();'
+  get_tasa_compra <- 'document.querySelectorAll("strong[data-v-0c31f9a7]")[0].innerHTML'
+  get_tasa_venta <- 'document.querySelectorAll("strong[data-v-0c31f9a7]")[1].innerHTML'
   
-  Sys.sleep(2)
+  logger::log_info("Click tasas button")
+  browser$Runtime$evaluate(click_tasas_btn)
+  Sys.sleep(3)
   
   logger::log_info("Getting tasas")
-
-  tasa_compra <- selenium_client$findElement(
-    using = "xpath",
-    '//*[@id="__nuxt"]/div/div/nav[1]/div/div[2]/div[1]/div[2]/v-tabs-items/v-tab-item[1]/div/div/div/div/div[2]/div[2]/div/strong'
-  )
-
-  tasa_venta <- selenium_client$findElement(
-    using = "xpath",
-    '//*[@id="__nuxt"]/div/div/nav[1]/div/div[2]/div[1]/div[2]/v-tabs-items/v-tab-item[1]/div/div/div/div/div[2]/div[3]/div/strong'
-  )
+  compra_node <- browser$Runtime$evaluate(get_tasa_compra)
+  venta_node <- browser$Runtime$evaluate(get_tasa_venta)
   
-  logger::log_info("Parsing numbers")
-  compra <- readr::parse_number(unlist(tasa_compra$getElementText()) |> stringr::str_extract("RD.+$"))
-  venta <- readr::parse_number(unlist(tasa_venta$getElementText()) |> stringr::str_extract("RD.+$"))
+  logger::log_info("Parsing results")
+  compra <- readr::parse_number(stringr::str_extract(compra_node$result$value, "RD.+$"))
+  venta <- readr::parse_number(stringr::str_extract(venta_node$result$value, "RD.+$"))
   
-  logger::log_success("Tasas Santa Cruz - venta: {venta}, compra: {compra}")
+  logger::log_success(glue::glue("Tasas Santa Cruz - venta: {venta}, compra: {compra}"))
+  browser$close()
   data.frame(
     date = Sys.Date(),
     bank = "Santa Cruz",
@@ -181,12 +183,8 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
 #' @export
 tasa_dolar_caribe <- function() {
   logger::log_info("Download tasas Banco Caribe -------------")
-  logger::log_info("Open cromote session with user agent")
-  browser <- chromote::ChromoteSession$new()
-  browser$Network$setUserAgentOverride(
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
-  
-  
+  browser <- chromote_driver()
+
   logger::log_info("Navigate to website")
   browser$Page$navigate("https://www.bancocaribe.com.do/")
   browser$Page$loadEventFired()
