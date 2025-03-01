@@ -80,7 +80,8 @@ tasa_dolar_popular <- function(selenium_client) {
 tasa_dolar_bhd <- function(selenium_client) {
   
   selenium_client$navigate("https://bhd.com.do/?v=1")
-  
+  Sys.sleep(2)
+
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
     "body > app-root > app-footer > footer > div > div > div.links > ul:nth-child(1) > li:nth-child(6) > div > button"
