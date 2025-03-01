@@ -232,19 +232,37 @@ tasa_dolar_caribe <- function() {
 #' Descarga la tasa de cambio de Banco BDI
 #' @export
 tasa_dolar_bdi <- function() {
+  BANCO <- "BDI"
+  URL <- "https://www.bdi.com.do/"
 
-  page <- rvest::read_html("https://www.bdi.com.do/")
 
-  tasa_compra <- page %>%
-    rvest::html_element("#dnn_ctr421_ModuleContent > div > div > div > div:nth-child(2) > div:nth-child(1) > ul > li:nth-child(4)") %>%
-    rvest::html_text()
+  logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
+  logger::log_info("Open cromote session with user agent")
   
-  tasa_venta <- page %>%
-    rvest::html_element("#dnn_ctr421_ModuleContent > div > div > div > div:nth-child(2) > div:nth-child(1) > ul > li.mc_xs_item") %>%
-    rvest::html_text()
-
-  compra <- readr::parse_number(tasa_compra)
-  venta <- readr::parse_number(tasa_venta)
+  browser <- chromote_driver()
+  logger::log_info("Navigate to site")
+  browser$Page$navigate(URL)
+  Sys.sleep(3)
+  
+  logger::log_info("Defining JS steps")
+  click_tasas_btn <- "document.getElementById('abrir_tasa').click()"
+  get_tasa_compra <- "document.getElementById('rd-compra').value"
+  get_tasa_venta <- "document.getElementById('rd-venta').value"
+  
+  logger::log_info("Click tasas button")
+  browser$Runtime$evaluate(click_tasas_btn)
+  Sys.sleep(2)
+  
+  logger::log_info("Getting tasas")
+  compra_node <- browser$Runtime$evaluate(get_tasa_compra)
+  venta_node <- browser$Runtime$evaluate(get_tasa_venta)
+  
+  logger::log_info("Parsing results")
+  compra <- readr::parse_number(compra_node$result$value)
+  venta <- readr::parse_number(venta_node$result$value)
+  
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
+  browser$close()
 
   data.frame(
     date = Sys.Date(),
