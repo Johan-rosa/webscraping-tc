@@ -2,7 +2,7 @@
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
-  logger::log_info("Downloading Tasas Banreservas")
+  logger::log_info("Downloading Tasas Banreservas -------------")
 
   logger::log_info("Navigate to site")
   selenium_client$navigate('https://www.banreservas.com/')
@@ -43,7 +43,7 @@ tasa_dolar_banreservas <- function(selenium_client) {
 #' Descarga la tasa de cambio de Scotiabank
 #' @export
 tasa_dolar_scotiabank <- function() {
-  logger::log_info("Downloading Tasas Scotiabank")
+  logger::log_info("Downloading Tasas Scotiabank -------------")
 
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
   tasas <- rvest::read_html(url) %>%
@@ -62,7 +62,7 @@ tasa_dolar_scotiabank <- function() {
 #' Descarga la tasa de cambio de Banco Popular
 #' @export
 tasa_dolar_popular <- function(selenium_client) {
-  logger::log_info("Getting tasas Popular")
+  logger::log_info("Downloading tasas Popular -------------")
   
   logger::log_info("Naverga a la página")
   selenium_client$navigate("https://www.popularenlinea.com/personas/Paginas/Home.aspx")
@@ -137,9 +137,13 @@ tasa_dolar_bhd <- function(selenium_client) {
 #' Descarga la tasa de cambio de Santa Cruz
 #' @export
 tasa_dolar_santa_cruz <- function(selenium_client) {
+  logger::log_info("Downloading tasas Santa Cruz ---------")
   
+  logger::log_info("Visit site")
   selenium_client$navigate("https://bsc.com.do/home")
   Sys.sleep(3)
+  
+  logger::log_info("Click the banner")
   tasas_banner <- selenium_client$findElement(
     using = "xpath",
     "/html/body/div[3]/div/header/div[2]/div[1]/div/nav/div[2]/ul/li[4]/a"
@@ -148,6 +152,7 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
   
   Sys.sleep(2)
   
+  logger::log_info("Getting tasas")
   tasas_euro <- selenium_client$findElement(
     using = "xpath",
     "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[1]/li[2]"
@@ -171,9 +176,11 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
     "/html/body/div[3]/div/div[2]/div/div/div[2]/div/ul[2]/li[1]/div/div[2]/div/div[2]/div/h2"
   )
   
+  logger::log_info("Parsing numbers")
   compra <- readr::parse_number(unlist(tasa_compra$getElementText()))
   venta <- readr::parse_number(unlist(tasa_venta$getElementText()))
   
+  logger::log_success("Tasas Santa Cruz - venta: {venta}, compra: {compra}")
   data.frame(
     date = Sys.Date(),
     bank = "Santa Cruz",
