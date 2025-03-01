@@ -71,7 +71,7 @@ jobs:
           # Install ChromeDriver using webdriver package in R
           Rscript -e 'wdman::chrome()'
 
-      - name: Webscrap data
+      - name: Webscrap infodolar
         run: |
           Rscript "get_infodolar.R"
 

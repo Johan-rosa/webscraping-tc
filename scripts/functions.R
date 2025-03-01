@@ -2,7 +2,8 @@
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
-  logger::log_info("Tasas Banreservas")
+  logger::log_info("Downloading Tasas Banreservas")
+
   logger::log_info("Navigate to site")
   selenium_client$navigate('https://www.banreservas.com/')
   
@@ -42,8 +43,10 @@ tasa_dolar_banreservas <- function(selenium_client) {
 #' Descarga la tasa de cambio de Scotiabank
 #' @export
 tasa_dolar_scotiabank <- function() {
+  logger::log_info("Downloading Tasas Scotiabank")
+
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
-  rvest::read_html(url) %>%
+  tasas <- rvest::read_html(url) %>%
     rvest::html_table(header = TRUE) %>%
     `[[`(., 1) %>%
     setNames(c("pais", "tipo", "compra", "venta")) %>%
@@ -51,14 +54,20 @@ tasa_dolar_scotiabank <- function() {
     dplyr::mutate(tipo = str_remove(tipo, "Dólar (USD) ")) %>%
     dplyr::mutate(bank = "Scotiabank", date = Sys.Date()) %>%
     dplyr::select(date, bank, tipo, buy = compra, sell = venta)
+  
+  logger::log_success("Tasas scotia - venta: {tasas$venta[1]}, compra: {tasas$compra[1]}")
+  tasas
 }
 
 #' Descarga la tasa de cambio de Banco Popular
 #' @export
 tasa_dolar_popular <- function(selenium_client) {
+  logger::log_info("Getting tasas Popular")
   
+  logger::log_info("Naverga a la página")
   selenium_client$navigate("https://www.popularenlinea.com/personas/Paginas/Home.aspx")
   
+  logger::log_info("Click al banner de la página web")
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
     "#s4-bodyContainer > section.footer_est_bpd.footer_est_personas > nav > ul > li:nth-child(3)"
@@ -66,6 +75,7 @@ tasa_dolar_popular <- function(selenium_client) {
   tasas_banner$clickElement()
   Sys.sleep(1)
   
+  logger::log_info("Copiando las tasas")
   tasa_compra <- selenium_client$findElement(
     using = "css selector",
     "#compra_peso_dolar_desktop")
@@ -76,6 +86,8 @@ tasa_dolar_popular <- function(selenium_client) {
   compra <- as.numeric(tasa_compra$getElementAttribute("value"))
   venta <- as.numeric(tasa_venta$getElementAttribute("value"))
   
+  logger::log_success(glue::glue("Tasas popular - venta: {venta}, compra: {compra}"))
+
   data.frame(
     date = Sys.Date(),
     bank = "Banco Popular",
@@ -93,7 +105,7 @@ tasa_dolar_bhd <- function(selenium_client) {
 
   tasas_banner <- selenium_client$findElement(
     using = "css selector", 
-    "body > app-root > app-footer > footer > div > div > div.links > ul:nth-child(1) > li:nth-child(6) > div > button"
+    "div.links > ul:nth-child(1) > li:nth-child(6) > div > button"
   )
   tasas_banner$clickElement()
   Sys.sleep(1)
