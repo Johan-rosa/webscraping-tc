@@ -8,7 +8,19 @@ Este repositorio contiene una serie de herramientas y procedimientos para consul
 - Rselenium: como automatizador de navegadores
 - Rvest: para leer el contenido de páginas estáticas
 
-# Cómo utilizar
+## Estructura del Proyecto
+
+- `scripts/`: Contiene los scripts principales para la configuración y ejecución del web scraping.
+  - `setup.R`: Configura la versión de Chrome y RSelenium.
+  - `run_webscraping.R`: Ejecuta el proceso de web scraping.
+  - `get_infodolar.R`: Obtiene la tabla de tasas de cambio desde infodolar.com.do.
+- `data/`: Almacena los datos obtenidos en formato CSV y RDS.
+  - `from_banks/`: Datos obtenidos de los bancos.
+  - `infodolar/`: Datos obtenidos de infodolar.com.do.
+- `renv/`: Configuración del entorno de R.
+- `dependencies.R`: Script la lista de dependencias necesarias, util para `revn`
+
+## Cómo utilizar
 
 1. Instalar dependencias ubicadas en el script `./dependencies.R`
 2. En Windows, detectar la versión de chrome a utilizar siguiendo los pasos del archivo `./script/setup.R`
