@@ -7,6 +7,8 @@ library(readr)
 library(glue)
 library(logger)
 
+log_info("Starting data from banks extraction...")
+
 source("scripts/functions.R", echo = FALSE, verbose = FALSE)
 
 log_info("Starting Selenium server...\n")
@@ -56,14 +58,37 @@ errores <- keep(tasas_raw, \(raw_result) !is.null(raw_result$error))
 
 if (length(errores) > 0) {
   fail_banks <- names(errores) |> paste(collapse = ", ")
-  log_error("The fetch for {length(errores)} banks failed: {fail_banks}")
+  log_error("⚠️️ {length(errores)} banks failed. Successful: {nrow(tasas)} rows.")
 
   iwalk(errores, \(results, bank) log_error("{bank}: {results$error}"))
+} else {
+    log_success("✅ All banks fetched successfully.")
 }
 
 log_success("{nrow(tasas)} rows succeeded")
 print(tasas)
 
-out_file <- paste0("data/daily/", Sys.Date(), ".rds")
-log_info("Saving today's data into: {out_file}")
-saveRDS(tasas, paste0("data/daily/", Sys.Date(), ".rds"))
+# Writing files -----------------------------------------------------------
+
+rds_file <- paste0("data/from_banks/rds/", Sys.Date(), ".rds")
+csv_file <- paste0("data/from_banks/csv/", Sys.Date(), ".csv")
+
+log_info("Saving today's data: {rds_file}")
+saveRDS(tasas, rds_file)
+log_success("Successfully saved RDS file.")
+
+log_info("Saving today's data: {csv_file}")
+write_csv(tasas, csv_file, na = "")
+log_success("Successfully saved CSV file.")
+
+log_info("🔄 Loading historical data from banks...")
+historico_from_banks <- list.files("data/from_banks/rds/", full.names = TRUE) |>
+  map(read_rds) |>
+  list_rbind()
+
+log_success("✅ Historical data loaded. Writing files...")
+saveRDS(historico_from_banks, "data/from_banks/_historico_from_banks.rds")
+write_csv(historico_from_banks, "data/from_banks/_historico_from_banks.csv", na = "")
+log_success("📁 Historical data successfully updated.")
+
+log_info("Data extraction script completed successfully.")

@@ -73,7 +73,7 @@ jobs:
 
       - name: Webscrap infodolar
         run: |
-          Rscript "get_infodolar.R"
+          Rscript "scripts/get_infodolar.R"
 
       - name: Webscrap data
         run: |

@@ -5,6 +5,7 @@ library(stringr)
 library(janitor)
 library(glue)
 library(logger)
+library(readr)
 
 log_info("Get Table")
 table <- read_html("https://www.infodolar.com.do/") |>
@@ -22,18 +23,18 @@ infodolar <- table[[1]] |>
     venta = str_extract(venta, "\\$\\d+(\\.\\d+)?") |> readr::parse_number(),
   )
 
-csv_file <- glue::glue("data/infodolar/{Sys.Date()}.csv")
-rds_file <- glue::glue("data/infodolar/rds/{Sys.Date()}.rds")
+csv_file <- glue("data/infodolar/csv/{Sys.Date()}.csv")
+rds_file <- glue("data/infodolar/rds/{Sys.Date()}.rds")
 
-log_info("Save file of the day")
-readr::write_csv(infodolar, csv_file, na = "")
+log_info("Save files of the day: {csv_file} and {rds_file}")
+write_csv(infodolar, csv_file, na = "")
 saveRDS(infodolar, rds_file)
 
 log_info("Prepare all data")
 all <- list.files("data/infodolar/rds", full.names = TRUE, pattern = "\\d{4}") |>
-  purrr::map(readRDS) |>
-  purrr::list_rbind()
+  map(readRDS) |>
+  list_rbind()
 
 log_info("Save all data")
-readr::write_csv(all, "data/infodolar/_historico_infodolar.csv", na = "")
-saveRDS(all, "data/infodolar/rds/_historico_infodolar.rds")
+write_csv(all, "data/infodolar/_historico_infodolar.csv", na = "")
+saveRDS(all, "data/infodolar/_historico_infodolar.rds")
