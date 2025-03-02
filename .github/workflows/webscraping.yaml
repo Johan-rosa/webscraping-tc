@@ -4,8 +4,8 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 12 * * *'  # Run daily at 12:00 UTC
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 name: Run Webscraping
 

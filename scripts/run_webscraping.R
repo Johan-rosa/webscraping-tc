@@ -6,6 +6,7 @@ library(RSelenium)
 library(readr)
 library(glue)
 library(logger)
+library(lubridate)
 
 log_info("Starting data from banks extraction...")
 
@@ -69,9 +70,13 @@ log_success("{nrow(tasas)} rows succeeded")
 print(tasas)
 
 # Writing files -----------------------------------------------------------
+today <- Sys.time() |>
+  with_tz(tzone = "America/Santo_Domingo") |>
+  floor_date("day") |>
+  as.Date()
 
-rds_file <- paste0("data/from_banks/rds/", Sys.Date(), ".rds")
-csv_file <- paste0("data/from_banks/csv/", Sys.Date(), ".csv")
+rds_file <- paste0("data/from_banks/rds/", today, ".rds")
+csv_file <- paste0("data/from_banks/csv/", today, ".csv")
 
 log_info("Saving today's data: {rds_file}")
 saveRDS(tasas, rds_file)
