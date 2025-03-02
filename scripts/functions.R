@@ -5,6 +5,13 @@ chromote_driver <- function() {
   browser
 }
 
+today_in_dr <- function() {
+  Sys.time() |>
+    lubridate::with_tz(tzone = "America/Santo_Domingo") |>
+    lubridate::floor_date("day") |>
+    as.Date()
+}
+
 #' Descarga la tasa de cambio de Banreservas
 #' @export
 tasa_dolar_banreservas <- function(selenium_client) {
@@ -36,7 +43,7 @@ tasa_dolar_banreservas <- function(selenium_client) {
   html$session$close()
 
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = BANCO,
     buy = compra,
     sell = venta
@@ -55,7 +62,7 @@ tasa_dolar_scotiabank <- function() {
     setNames(c("pais", "tipo", "compra", "venta")) %>%
     dplyr::filter(pais == "Estados Unidos") %>%
     dplyr::mutate(tipo = str_remove(tipo, "Dólar (USD) ")) %>%
-    dplyr::mutate(bank = "Scotiabank", date = Sys.Date()) %>%
+    dplyr::mutate(bank = "Scotiabank", date = today_in_dr()) %>%
     dplyr::select(date, bank, tipo, buy = compra, sell = venta)
   
   logger::log_success("Tasas scotia - venta: {tasas$sell[2]}, compra: {tasas$buy[2]}")
@@ -92,7 +99,7 @@ tasa_dolar_popular <- function(selenium_client) {
   logger::log_success(glue::glue("Tasas popular - venta: {venta}, compra: {compra}"))
 
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "Banco Popular",
     buy = compra,
     sell = venta
@@ -131,7 +138,7 @@ tasa_dolar_bhd <- function(selenium_client) {
   browser$close()
   
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "BHD",
     buy = compra,
     sell = venta
@@ -170,7 +177,7 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
   logger::log_success(glue::glue("Tasas Santa Cruz - venta: {venta}, compra: {compra}"))
   browser$close()
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "Santa Cruz",
     buy = compra,
     sell = venta
@@ -219,7 +226,7 @@ tasa_dolar_caribe <- function() {
   browser$close()
 
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "Banco Caribe",
     buy = compra,
     sell = venta
@@ -262,7 +269,7 @@ tasa_dolar_bdi <- function() {
   browser$close()
 
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "BDI",
     buy = compra,
     sell = venta
@@ -299,7 +306,7 @@ tasa_dolar_vimenca <- function() {
   html$session$close()
   
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "Vimenca",
     buy = compra,
     sell = venta
@@ -331,7 +338,7 @@ tasa_dolar_blh <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = "BLH",
     buy = compra,
     sell = venta
@@ -365,7 +372,7 @@ tasa_dolar_promerica <- function() {
   html$session$close()
   
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = BANCO,
     buy = compra,
     sell = venta
@@ -396,7 +403,7 @@ tasa_dolar_banesco <- function() {
   html$session$close()
   
   data.frame(
-    date = Sys.Date(),
+    date = today_in_dr(),
     bank = BANCO,
     buy = compra,
     sell = venta
@@ -421,7 +428,7 @@ tasa_dolar_lafise <- function() {
     janitor::clean_names() |>
     slice(1) |>
     mutate(
-      date = Sys.Date(),
+      date = today_in_dr(),
       bank = BANCO
     ) |> 
     select(date, bank,  buy = compra, sell = venta)
@@ -449,7 +456,7 @@ tasa_dolar_ademi <- function() {
     janitor::clean_names() |>
     dplyr::slice(1) |> 
     dplyr::mutate(
-      date = Sys.Date(), 
+      date = today_in_dr(), 
       bank = BANCO,
       buy = readr::parse_number(compra),
       sell = readr::parse_number(venta)
