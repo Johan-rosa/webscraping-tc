@@ -325,9 +325,12 @@ tasa_dolar_blh <- function() {
   page <- rvest::read_html(URL)
   
   logger::log_info("Getting tasas")
-  tasas <- page |>
-    rvest::html_element(xpath = '//*[@id="fws_67c22cf55fcac"]/div[2]/div[1]/div/div/div/div[2]/p') |>
-    rvest::html_text() |>
+  
+  tasas <- page |> 
+    rvest::html_elements("p > span") |> 
+    purrr::keep(~ rvest::html_text(.) |>  trimws() == "————-") |> 
+    rvest::html_element(xpath = "./parent::p") |>
+    rvest::html_text() |> 
     stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") |>
     unlist() |>
     as.numeric()
@@ -339,7 +342,7 @@ tasa_dolar_blh <- function() {
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   data.frame(
     date = today_in_dr(),
-    bank = "BLH",
+    bank = BANCO,
     buy = compra,
     sell = venta
   )
