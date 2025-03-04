@@ -2,7 +2,7 @@
 format: 
   html:
     css: style.css
-    embed-resources: true
+    embed-resources: false
     anchor-sections: false
 ---
 
@@ -23,6 +23,7 @@ library(dplyr)
 library(htmltools)
 library(reactable)
 library(sparkline)
+library(glue)
 ```
 
 
@@ -101,7 +102,7 @@ Comparación respecto al 02 de marzo de 2025
 </div>
 </div>
 
-```{r echo=FALSE}
+```{r stats_cards, echo=FALSE}
  tags$dl(
   class = "stats-container",
   
@@ -156,18 +157,62 @@ Comparación respecto al 02 de marzo de 2025
 )
 ```
 
-```{r, echo=FALSE}
+
+
+```{r trend_indicator_definition, echo=FALSE}
+# Icon to indicate trend: unchanged, up, down, or new
+trend_indicator <- function(variation) {
+  value <- dplyr::case_when(
+    variation == 0 ~ "unchanged",
+    variation  > 0 ~ "up",
+    variation   < 0 ~ "down"
+  )
+  
+  label <- switch(
+    value,
+    unchanged = "Unchanged",
+    up = "Trending up",
+    down = "Trending down", 
+    new = "New"
+  )
+  
+  # Add img role and tooltip/label for accessibility
+  args <- list(role = "img", title = label)
+  
+  if (value == "unchanged") {
+    args <- c(args, list("–", style = "color: #6B7280; font-weight: 700"))
+  } else if (value == "up") {
+    args <- c(args, list(shiny::icon("caret-up"), style = "color: #22C55E"))
+  } else if (value == "down") {
+    args <- c(args, list(shiny::icon("caret-down"), style = "color: #EF4444"))
+  } else {
+    args <- c(args, list(shiny::icon("circle"), style = "color: #2e77d0; font-size: 0.6rem"))
+  }
+  do.call(htmltools::tags$span, args)
+}
+```
+
+
+```{r tasas_table, echo=FALSE}
 tasas_raw <- readr::read_rds(here::here("data/from_banks/rds/2025-03-03.rds")) |>
   summarise(
     across(c(buy, sell), \(x) mean(x, na.rm = TRUE)),
     .by = bank
   )
 
-tasas_raw |>
+set.seed(123)
+
+tasas_to_table <- tasas_raw |>
   mutate(gap = sell - buy) |>
   arrange(desc(buy)) |>
   select(Entidad = bank, Venta = sell, Compra = buy, Brecha = gap) |>
-  mutate(evolucion = Venta) |> 
+  mutate(
+    evolucion = Venta,
+    d_compra = sample(seq(-0.3, 0.3, by = 0.01), size = n()),
+    d_venta = sample(seq(-0.3, 0.3, by = 0.01), size = n())
+  ) 
+
+tasas_to_table |> 
   reactable(
     compact = TRUE,
     pagination = FALSE,
@@ -179,7 +224,37 @@ tasas_raw |>
     ),
     class = "tasas-table",
     theme = reactableTheme(cellPadding = "8px 12px"),
+    highlight = TRUE, 
+    striped = TRUE,
     columns = list(
+      d_compra = colDef(show = FALSE),
+      d_venta = colDef(show = FALSE),
+      Compra = colDef(
+        align = "right",
+        cell = \(compra, index) {
+          d_compra <- tasas_to_table$d_compra[index] 
+          trend_icon <-  trend_indicator(d_compra)
+          d_compra <- scales::comma(d_compra, 0.01, prefix = ifelse(d_compra > 0, "+", ""))
+          compra <- scales::comma(compra, 0.01)
+          span(
+            span(span(style="margin-right: 3px; display: inline-block;", trend_icon), compra),
+            span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_compra})"))
+          )
+        }
+      ),
+      Venta = colDef(
+        align = "right",
+        cell = \(venta, index) {
+          d_venta <- tasas_to_table$d_venta[index] 
+          trend_icon <-  trend_indicator(d_venta)
+          d_venta <- scales::comma(d_venta, 0.01, prefix = ifelse(d_venta > 0, "+", ""))
+          venta <- scales::comma(venta, 0.01)
+          span(
+            span(span(style="margin-right: 3px; display: inline-block;", trend_icon), venta), 
+            span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_venta})"))
+          )
+        }
+      ),
       evolucion = colDef(
         name = "",
         cell = function(end_value, index) {

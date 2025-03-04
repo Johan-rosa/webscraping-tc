@@ -320,6 +320,7 @@ hr {
 
 /* Table */
 .tasas-table {
+  font-variant-numeric: tabular-nums;
   margin-top: 1rem;
   font-size: 0.8rem;
   border: 1px solid hsl(213, 33%, 93%);
