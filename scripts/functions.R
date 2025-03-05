@@ -433,9 +433,10 @@ tasa_dolar_lafise <- function() {
       bank = BANCO
     ) |> 
     select(date, bank,  buy = compra, sell = venta)
-  
+
+  html$session$close()
+
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {tasas_table$sell}, compra: {tasas_table$buy}"))
-  
   tasas_table
 }
 
