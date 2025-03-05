@@ -1,0 +1,262 @@
+---
+title: "Reporte tipo de cambio"
+execute:
+  echo: false    
+  warning: false 
+  message: false 
+  error: false   
+format: 
+  html:
+    css: style.css
+    embed-resources: false
+    anchor-sections: false
+---
+
+```{r setup}
+options(box.path = here::here())
+
+library(glue)
+library(dplyr)
+library(stringr)
+library(htmltools)
+library(reactable)
+library(sparkline)
+library(lubridate)
+library(jsonlite)
+
+box::use(
+  scripts/utils[crear_mes],
+  docs/logic/ui[summary_cards, trend_indicator],
+  scripts/anthropic[
+    create_anthropic_body, 
+    send_anthropic_request,
+  ]
+)
+
+```
+
+```{r import_data, echo=FALSE}
+historico_bank <- readRDS(here::here("data/from_banks/_historico_from_banks.rds")) |> 
+  filter(
+    # Remover una de las tasas de scotia
+    is.na(tipo) |
+    str_detect(tipo, "Digitales")
+  ) |>
+  select(-tipo) |>
+  arrange(date) |>
+  group_by(bank) |>
+  mutate(
+    gap = sell - buy,
+    lag_date = lag(date),
+    lag_buy = lag(buy),
+    lag_sell = lag(sell),
+    lag_gap = lag(gap),
+    d_sell = sell - lag_sell,
+    d_buy = buy - lag_buy,
+  ) |>
+  ungroup()
+
+current_data <- historico_bank |>
+  filter(date == max(date))
+
+current_summary <- current_data |>
+  summarise(
+    across(-c(bank, date, lag_date), \(x) mean(x, na.rm = TRUE)),
+    n_banks = n()
+  )
+```
+
+```{r report params}
+current_date <- tibble::lst(
+  date = max(historico_bank$date),
+  year = year(date),
+  mes  = month(date),
+  label_mes = crear_mes(mes, "number_to_text") |> tolower(),
+  day  = day(date) |> str_pad(2, "left", "0"),
+  label = glue("{day} de {label_mes} de {year}")
+)
+
+previous_date <- tibble::lst(
+  date = max(historico_bank$lag_date, na.rm = TRUE),
+  year = year(date),
+  mes  = month(date),
+  label_mes = crear_mes(mes, "number_to_text") |> tolower(),
+  day  = day(date) |> str_pad(2, "left", "0"),
+  label = glue("{day} de {label_mes} de {year}")
+)
+```
+
+
+::: {.grid  .document-header}
+::: {.g-col-12 .g-col-md-2}
+<img class="logo" src="assets/logo-dorado.png">
+:::
+::: {.g-col-12 .g-col-md-10 .text-center .header-text}
+<h1>Reporte diario del mercado cambiario</h1>
+Subdirección de Asuntos cambiarios <br> `r current_date$label`
+:::
+:::
+
+----
+
+```{r info_header, echo=FALSE}
+div(
+  class = "info-header",
+  div(
+    class = "info-container",
+    shiny::icon("chart-simple", class = "icon"),
+    "Promedio del día"
+  ),
+  div(
+    class = "info-container",
+    shiny::icon("calendar-days", class = "icon"),
+    glue("Compración respecto al {previous_date$label}")
+  ),
+)
+```
+
+```{r stats_cards, echo=FALSE}
+summary_cards(current_summary)
+```
+
+```{r tasas_table, echo=FALSE}
+tasas_to_table <- historico_bank |>
+  filter(date == max(date))
+
+tasas_to_table |>
+  relocate(sell, .before = buy) |> 
+  reactable(
+    compact = TRUE,
+    pagination = FALSE,
+    defaultColDef = colDef(
+      headerClass = "table-header",
+      format = colFormat(separators = TRUE, digits = 2),
+      minWidth = 50,
+      footerStyle = list(fontWeight = "bold")
+    ),
+    class = "tasas-table",
+    theme = reactableTheme(cellPadding = "8px 12px"),
+    highlight = TRUE, 
+    striped = TRUE,
+    columns = list(
+      d_buy = colDef(show = FALSE),
+      d_sell = colDef(show = FALSE),
+      lag_buy = colDef(show = FALSE),
+      lag_sell = colDef(show = FALSE),
+      lag_gap = colDef(show = FALSE),
+      lag_date = colDef(show = FALSE),
+      bank = colDef(name = "Entidad"),
+      date = colDef(show = FALSE),
+      sell = colDef(
+        name = "Venta",
+        align = "right",
+        cell = \(sell, index) {
+          d_sell <- tasas_to_table$d_sell[index] 
+          trend_icon <-  trend_indicator(d_sell)
+          sign <- case_when(
+            d_sell == 0 ~ "=",
+            d_sell  > 0 ~ "+",
+            d_sell  < 0 ~ "",
+          )
+          d_sell <- scales::comma(d_sell, 0.01, prefix = sign)
+          sell <- scales::comma(sell, 0.01)
+          span(
+            span(span(style="margin-right: 3px; display: inline-block;", trend_icon), sell), 
+            span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_sell})"))
+          )
+        }
+      ),
+      buy = colDef(
+        name = "Compra",
+        align = "right",
+        cell = \(buy, index) {
+          d_buy <- tasas_to_table$d_buy[index] 
+          trend_icon <-  trend_indicator(d_buy)
+          sign <- case_when(
+            d_buy == 0 ~ "=",
+            d_buy  > 0 ~ "+",
+            d_buy  < 0 ~ "",
+          )
+          
+          d_buy <- scales::comma(d_buy, 0.01, prefix = sign)
+          buy <- scales::comma(buy, 0.01)
+          span(
+            span(span(style="margin-right: 3px; display: inline-block;", trend_icon), buy),
+            span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_buy})"))
+          )
+        }
+      ),
+      gap = colDef(name = "Brecha")
+    )
+  )
+```
+
+
+```{r get_ai_analysis, eval=FALSE}
+#| output: asis
+
+message <- glue(
+  "
+  I need a short summary in spanish about the recent changes in the exchange rates of the Banks in the Dominican Republic,
+  Here is the data by banks and a summary of the average results.
+  
+  data by banks: {toJSON(current_data)}
+  
+  data summary: {toJSON(current_summary)}
+  
+  context: the data is from {current_date$date} and lag_* values are from {previous_date$date}
+  
+  Instructions for the output:
+    1- MD formatted
+    2- Structure: 
+      a- ## Análisis: a general overview about the change in the rates and the gap
+      b- ## Movimientos destacados: three bullets with comments about specific changes in banks data
+      c- a closing paragrhap
+      d- skip heading 1, not needed
+    3- keep it descriptive, avoid judments
+  "
+)
+
+body <- create_anthropic_body(message = message)
+content <- send_anthropic_request(body)
+
+# saveRDS(content, here::here("docs/mocked_api_result2.rds"))
+
+```
+
+<button id="reveal-btn" class="btn btn-primary mt-3" style="font-size: 0.9rem">
+  <i class="bi bi-magic"></i>
+  Análizar con AI
+</button>
+
+<div id="loading-spinner" class="spinner-border text-primary mt-3" role="status" style="display: none;">
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+<div id="output-container" class="mt-3" style="display: none;">
+
+```{r mocked_api_result}
+#| output: asis
+
+content <- readRDS(here::here("docs/mocked_api_result2.rds"))
+cat(content$content[[1]]$text)
+
+```
+
+</div> 
+
+<script> 
+  document.getElementById("reveal-btn").addEventListener("click", function() { 
+    var button = this; 
+    var spinner = document.getElementById("loading-spinner"); 
+    var output = document.getElementById("output-container"); 
+    
+    button.style.display = "none"; // Hide button
+    spinner.style.display = "inline-block"; // Show spinner 
+    
+    setTimeout(function() {
+      spinner.style.display = "none"; // Hide spinner 
+      output.style.display = "block"; // Show output
+    }, 2000); 
+  }); 
+</script>
