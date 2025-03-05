@@ -76,6 +76,7 @@ tasa_dolar_popular <- function(selenium_client) {
   
   logger::log_info("Naverga a la página")
   selenium_client$navigate("https://www.popularenlinea.com/personas/Paginas/Home.aspx")
+  Sys.sleep(5)
   
   logger::log_info("Click al banner de la página web")
   tasas_banner <- selenium_client$findElement(
@@ -192,6 +193,7 @@ tasa_dolar_caribe <- function() {
 
   logger::log_info("Navigate to website")
   browser$Page$navigate("https://www.bancocaribe.com.do/")
+  Sys.sleep(5)
   
   logger::log_info("Click exchange rates button")
   browser$Runtime$evaluate(
