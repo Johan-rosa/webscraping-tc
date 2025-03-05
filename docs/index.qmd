@@ -1,4 +1,5 @@
 ---
+title: "Reporte tipo de cambio"
 execute:
   echo: false    
   warning: false 
@@ -25,7 +26,7 @@ library(jsonlite)
 
 box::use(
   scripts/utils[crear_mes],
-  reports/logic/ui[summary_cards, trend_indicator],
+  docs/logic/ui[summary_cards, trend_indicator],
   scripts/anthropic[
     create_anthropic_body, 
     send_anthropic_request,
@@ -219,7 +220,7 @@ message <- glue(
 body <- create_anthropic_body(message = message)
 content <- send_anthropic_request(body)
 
-# saveRDS(content, here::here("reports/mocked_api_result2.rds"))
+# saveRDS(content, here::here("docs/mocked_api_result2.rds"))
 
 ```
 
@@ -237,7 +238,7 @@ content <- send_anthropic_request(body)
 ```{r mocked_api_result}
 #| output: asis
 
-content <- readRDS(here::here("reports/mocked_api_result2.rds"))
+content <- readRDS(here::here("docs/mocked_api_result2.rds"))
 cat(content$content[[1]]$text)
 
 ```
