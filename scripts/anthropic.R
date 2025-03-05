@@ -40,10 +40,8 @@ create_anthropic_body <- function(
 #' send_anthropic_request(body)
 #' }
 
-send_anthropic_request <- function(body, api_key = NULL) {
-  
+send_anthropic_request <- function(body, api_key = Sys.getenv("ANTHROPIC_API_KEY")) {
   url <- "https://api.anthropic.com/v1/messages"
-  api_key <- api_key %||% Sys.getenv("ANTHROPIC_API_KEY")
   
   if (api_key == "") {
     stop("API key is missing. Set it in the function argument or as an environment variable.")
