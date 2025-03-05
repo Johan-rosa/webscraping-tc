@@ -75,6 +75,12 @@ jobs:
         run: |
           Rscript scripts/run_webscraping.R
 
+    - name: Render report
+      env:
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      run: |
+        Rscript scripts/render_report.R
+
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"

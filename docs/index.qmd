@@ -192,8 +192,7 @@ tasas_to_table |>
 ```
 
 
-```{r get_ai_analysis, eval=FALSE}
-#| output: asis
+```{r get_ai_analysis}
 
 message <- glue(
   "
@@ -220,8 +219,7 @@ message <- glue(
 body <- create_anthropic_body(message = message)
 content <- send_anthropic_request(body)
 
-# saveRDS(content, here::here("docs/mocked_api_result2.rds"))
-
+# content <- readRDS(here::here("docs/mocked_api_result2.rds"))
 ```
 
 <button id="reveal-btn" class="btn btn-primary mt-3" style="font-size: 0.9rem">
@@ -238,9 +236,7 @@ content <- send_anthropic_request(body)
 ```{r mocked_api_result}
 #| output: asis
 
-content <- readRDS(here::here("docs/mocked_api_result2.rds"))
 cat(content$content[[1]]$text)
-
 ```
 
 </div> 
