@@ -23,7 +23,7 @@ tasa_dolar_banreservas <- function(selenium_client) {
   logger::log_info("Reading live HTML")
   
   html <- rvest::read_html_live(URL)
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Getting tasas")
   node_compra <- html |>
@@ -41,6 +41,7 @@ tasa_dolar_banreservas <- function(selenium_client) {
   
   logger::log_info(glue::glue("Tasa venta: {venta}; Tasa compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
 
   data.frame(
     date = today_in_dr(),
@@ -76,6 +77,7 @@ tasa_dolar_popular <- function(selenium_client) {
   
   logger::log_info("Naverga a la página")
   selenium_client$navigate("https://www.popularenlinea.com/personas/Paginas/Home.aspx")
+  Sys.sleep(5)
   
   logger::log_info("Click al banner de la página web")
   tasas_banner <- selenium_client$findElement(
@@ -115,7 +117,7 @@ tasa_dolar_bhd <- function(selenium_client) {
   browser <- chromote_driver()
   logger::log_info("Navigate to site")
   browser$Page$navigate("https://bhd.com.do/")
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Defining JS steps")
   click_tasas_btn <- 'document.querySelector("app-footer > footer > div > div > div.links > ul:nth-child(1) > li:nth-child(6) > div > button").click()'
@@ -136,6 +138,7 @@ tasa_dolar_bhd <- function(selenium_client) {
   
   logger::log_success(glue::glue("Tasas BHD - venta: {venta}, compra: {compra}"))
   browser$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -155,7 +158,7 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
 
   logger::log_info("Navigate to website")
   browser$Page$navigate("https://bsc.com.do/")
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Defining JS steps")
   click_tasas_btn <- 'document.querySelectorAll(".v-toolbar__content > button")[1].click();'
@@ -176,6 +179,8 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
   
   logger::log_success(glue::glue("Tasas Santa Cruz - venta: {venta}, compra: {compra}"))
   browser$close()
+  Sys.sleep(2)
+
   data.frame(
     date = today_in_dr(),
     bank = "Santa Cruz",
@@ -192,8 +197,7 @@ tasa_dolar_caribe <- function() {
 
   logger::log_info("Navigate to website")
   browser$Page$navigate("https://www.bancocaribe.com.do/")
-  browser$Page$loadEventFired()
-  
+  Sys.sleep(5)
   
   logger::log_info("Click exchange rates button")
   browser$Runtime$evaluate(
@@ -224,6 +228,7 @@ tasa_dolar_caribe <- function() {
   logger::log_success(glue::glue("Tasas Banco Caribe - compra: {compra}, venta: {venta}"))
   
   browser$close()
+  Sys.sleep(2)
 
   data.frame(
     date = today_in_dr(),
@@ -246,7 +251,7 @@ tasa_dolar_bdi <- function() {
   browser <- chromote_driver()
   logger::log_info("Navigate to site")
   browser$Page$navigate(URL)
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Defining JS steps")
   click_tasas_btn <- "document.getElementById('abrir_tasa').click()"
@@ -267,6 +272,7 @@ tasa_dolar_bdi <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   browser$close()
+  Sys.sleep(2)
 
   data.frame(
     date = today_in_dr(),
@@ -287,7 +293,7 @@ tasa_dolar_vimenca <- function() {
   logger::log_info("Open cromote session with user agent")
   
   html <- rvest::read_html_live("https://www.bancovimenca.com/") 
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Getting tasas")
   venta_node <- html |>
@@ -304,6 +310,7 @@ tasa_dolar_vimenca <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -358,7 +365,7 @@ tasa_dolar_promerica <- function() {
   
   logger::log_info("Reading live html content")
   html <- rvest::read_html_live(URL)
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Getting tasas")
   tasas <- rvest::html_element(html, "#tipoCambioHome div .cambio") |>
@@ -373,6 +380,7 @@ tasa_dolar_promerica <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -392,7 +400,7 @@ tasa_dolar_banesco <- function() {
   
   logger::log_info("Reading live html")
   html <- rvest::read_html_live(URL)
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Getting tasas")
   venta_node <- html$session$Runtime$evaluate("document.querySelectorAll('.calculator__sell-input input')[1].value")
@@ -404,6 +412,7 @@ tasa_dolar_banesco <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -423,7 +432,7 @@ tasa_dolar_lafise <- function() {
   
   logger::log_info("Reading live html")
   html <- rvest::read_html_live(URL)
-  Sys.sleep(3)
+  Sys.sleep(5)
   
   logger::log_info("Getting tasas")
   tasas_table <- rvest::html_element(html, "._tasas_container_n15br_17") |>
@@ -435,9 +444,11 @@ tasa_dolar_lafise <- function() {
       bank = BANCO
     ) |> 
     select(date, bank,  buy = compra, sell = venta)
-  
+
+  html$session$close()
+  Sys.sleep(2)
+
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {tasas_table$sell}, compra: {tasas_table$buy}"))
-  
   tasas_table
 }
 
