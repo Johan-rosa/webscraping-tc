@@ -41,6 +41,7 @@ tasa_dolar_banreservas <- function(selenium_client) {
   
   logger::log_info(glue::glue("Tasa venta: {venta}; Tasa compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
 
   data.frame(
     date = today_in_dr(),
@@ -137,6 +138,7 @@ tasa_dolar_bhd <- function(selenium_client) {
   
   logger::log_success(glue::glue("Tasas BHD - venta: {venta}, compra: {compra}"))
   browser$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -177,6 +179,8 @@ tasa_dolar_santa_cruz <- function(selenium_client) {
   
   logger::log_success(glue::glue("Tasas Santa Cruz - venta: {venta}, compra: {compra}"))
   browser$close()
+  Sys.sleep(2)
+
   data.frame(
     date = today_in_dr(),
     bank = "Santa Cruz",
@@ -224,6 +228,7 @@ tasa_dolar_caribe <- function() {
   logger::log_success(glue::glue("Tasas Banco Caribe - compra: {compra}, venta: {venta}"))
   
   browser$close()
+  Sys.sleep(2)
 
   data.frame(
     date = today_in_dr(),
@@ -267,6 +272,7 @@ tasa_dolar_bdi <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   browser$close()
+  Sys.sleep(2)
 
   data.frame(
     date = today_in_dr(),
@@ -304,6 +310,7 @@ tasa_dolar_vimenca <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -373,6 +380,7 @@ tasa_dolar_promerica <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -404,6 +412,7 @@ tasa_dolar_banesco <- function() {
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   html$session$close()
+  Sys.sleep(2)
   
   data.frame(
     date = today_in_dr(),
@@ -437,6 +446,7 @@ tasa_dolar_lafise <- function() {
     select(date, bank,  buy = compra, sell = venta)
 
   html$session$close()
+  Sys.sleep(2)
 
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {tasas_table$sell}, compra: {tasas_table$buy}"))
   tasas_table
