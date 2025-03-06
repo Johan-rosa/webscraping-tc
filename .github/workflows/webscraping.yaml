@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 9,12,18 * * *'
   workflow_dispatch:
 
 name: Run Webscraping
