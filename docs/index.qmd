@@ -16,6 +16,7 @@ format:
 options(box.path = here::here())
 
 library(glue)
+library(here)
 library(dplyr)
 library(stringr)
 library(htmltools)
@@ -37,7 +38,7 @@ box::use(
 ```
 
 ```{r import_data, echo=FALSE}
-historico_bank <- readRDS(here::here("data/from_banks/_historico_from_banks.rds")) |> 
+historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
   filter(
     # Remover una de las tasas de scotia
     is.na(tipo) |
@@ -193,7 +194,18 @@ tasas_to_table |>
 ```
 
 
+```{r}
+cache <- readRDS(here("docs/cache/last_update_data.rds"))
+run_ai <- !identical(cache, current_data)
+
+if (!run_ai) {
+  ai_analysis <- readRDS(here("docs/cache/last_update_ai_analysis.rds"))
+}
+
+```
+
 ```{r get_ai_analysis}
+#| eval: !expr run_ai
 
 message <- glue(
   "
@@ -219,9 +231,11 @@ message <- glue(
 body <- create_anthropic_body(message = message)
 content <- send_anthropic_request(body)
 
+ai_analysis <- content$content[[1]]$text
+
 writeLines(
   content$content[[1]]$text,
-  here::here(glue("data/from_banks/ai_analysis/{today_in_dr()}-ai.txt"))
+  here(glue("data/from_banks/ai_analysis/{today_in_dr()}-ai.txt"))
 )
 ```
 
@@ -239,7 +253,12 @@ writeLines(
 ```{r mocked_api_result}
 #| output: asis
 
-cat(content$content[[1]]$text)
+cat(ai_analysis)
+```
+
+```{r cache_last_run_data}
+saveRDS(current_data, here("docs/cache/last_update_data.rds"))
+saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
 ```
 
 </div> 
