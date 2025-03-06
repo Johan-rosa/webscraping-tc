@@ -209,22 +209,26 @@ if (!run_ai) {
 
 message <- glue(
   "
-  I need a short summary in spanish about the recent changes in the exchange rates of the Banks in the Dominican Republic,
+  I need a short summary in Spanish about the recent changes in the exchange rates of the Banks 
+  in the Dominican Republic.
+
   Here is the data by banks and a summary of the average results.
-  
+
   data by banks: {toJSON(current_data)}
-  
+
   data summary: {toJSON(current_summary)}
   
   context: the data is from {current_date$date} and lag_* values are from {previous_date$date}
   
   Instructions for the output:
-    1- MD formatted
-    2- Structure: 
-      a- ## Análisis: a general overview about the change in the rates and the gap
-      b- ### Movimientos destacados: three bullets with comments about specific changes in banks data
-      c- a closing paragrhap
-      d- skip heading 1, not needed
+  1- MD formatted
+  2- Structure:
+    a- ## Análisis: a general overview about the change in the rates and the gap
+    b- ### Movimientos destacados: three bullets with comments about specific changes in banks data
+    c- a closing paragraph
+    d- skip heading 1, not needed
+  3- round numbers to 2 decimal places
+  4- no need to explain (gap)
   "
 )
 
