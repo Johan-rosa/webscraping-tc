@@ -14,7 +14,7 @@ today_in_dr <- function() {
 
 #' Descarga la tasa de cambio de Banreservas
 #' @export
-tasa_dolar_banreservas <- function(selenium_client) {
+tasa_dolar_banreservas <- function() {
   BANCO <- "Banreservas"
   URL <- "https://www.banreservas.com/"
 
@@ -72,37 +72,31 @@ tasa_dolar_scotiabank <- function() {
 
 #' Descarga la tasa de cambio de Banco Popular
 #' @export
-tasa_dolar_popular <- function(selenium_client) {
-  logger::log_info("Downloading tasas Popular -------------")
+tasa_dolar_popular <- function() {
+  BANCO <- "Banco Popular"
+  URL <- "https://popularenlinea.com/personas/Paginas/Home.aspx"
+  logger::log_info("Downloading tasas { BANCO } -------------")
   
   logger::log_info("Naverga a la página")
-  selenium_client$navigate("https://www.popularenlinea.com/personas/Paginas/Home.aspx")
+  html <- rvest::read_html_live(URL)
   Sys.sleep(5)
+
+  logger::log_info("Extrayendo las tasas")
+  tasa_compra <- html$session$Runtime$evaluate("document.getElementById('compra_peso_dolar_desktop').value")
+  tasa_venta <- html$session$Runtime$evaluate("document.getElementById('venta_peso_dolar_desktop').value")
   
-  logger::log_info("Click al banner de la página web")
-  tasas_banner <- selenium_client$findElement(
-    using = "css selector", 
-    "#s4-bodyContainer > section.footer_est_bpd.footer_est_personas > nav > ul > li:nth-child(3)"
-  )
-  tasas_banner$clickElement()
-  Sys.sleep(1)
+  logger::log_info("Parsing results")
+  compra <- as.numeric(tasa_compra$result$value)
+  venta <- as.numeric(tasa_venta$result$value)
+
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   
-  logger::log_info("Copiando las tasas")
-  tasa_compra <- selenium_client$findElement(
-    using = "css selector",
-    "#compra_peso_dolar_desktop")
-  tasa_venta <- selenium_client$findElement(
-    using = "css selector",
-    "#venta_peso_dolar_desktop")
-  
-  compra <- as.numeric(tasa_compra$getElementAttribute("value"))
-  venta <- as.numeric(tasa_venta$getElementAttribute("value"))
-  
-  logger::log_success(glue::glue("Tasas popular - venta: {venta}, compra: {compra}"))
+  html$session$close()
+  Sys.sleep(3)
 
   data.frame(
     date = today_in_dr(),
-    bank = "Banco Popular",
+    bank = BANCO,
     buy = compra,
     sell = venta
   )
@@ -110,7 +104,7 @@ tasa_dolar_popular <- function(selenium_client) {
 
 #' Descarga la tasa de cambio de Banco BHD
 #' @export
-tasa_dolar_bhd <- function(selenium_client) {
+tasa_dolar_bhd <- function() {
   logger::log_info("Download tasas Banco BHD -------------")
   logger::log_info("Open cromote session with user agent")
   
@@ -150,7 +144,7 @@ tasa_dolar_bhd <- function(selenium_client) {
 
 #' Descarga la tasa de cambio de Santa Cruz
 #' @export
-tasa_dolar_santa_cruz <- function(selenium_client) {
+tasa_dolar_santa_cruz <- function() {
   logger::log_info("Download tasas Banco Santa Cruz -------------")
   logger::log_info("Open cromote session with user agent")
   

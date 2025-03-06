@@ -2,7 +2,6 @@ library(dplyr)
 library(stringr)
 library(purrr)
 library(rvest)
-library(RSelenium)
 library(readr)
 library(glue)
 library(logger)
@@ -12,31 +11,10 @@ log_info("Starting data from banks extraction...")
 
 source("scripts/functions.R", echo = FALSE, verbose = FALSE)
 
-log_info("Starting Selenium server...\n")
-
-# In GitHub Actions, we need to run Chrome in headless mode
-chrome_options <- list(
-  chromeOptions = list(
-    args = c('--headless', '--no-sandbox', '--disable-dev-shm-usage')
-  )
-)
-
-driver <- rsDriver(
-  browser = "chrome",
-  port = 4444L,
-  chromever = NULL,
-  extraCapabilities = chrome_options
-)
-
-client <- driver$client
-client$setWindowSize(
-  width = 1600, height = 800
-)
-
 functions_tasas <- list(
   scotia = tasa_dolar_scotiabank,
   reservas = tasa_dolar_banreservas,
-  popular = \() tasa_dolar_popular(client),
+  popular = tasa_dolar_popular,
   bhd = tasa_dolar_bhd,
   santa_cruz = tasa_dolar_santa_cruz,
   caribe = tasa_dolar_caribe,
@@ -66,7 +44,7 @@ if (length(errores) > 0) {
     log_success("✅ All banks fetched successfully.")
 }
 
-log_success("{nrow(tasas)} rows succeeded")
+log_success("{nrow(distinct(tasas, bank))} rows succeeded")
 print(tasas)
 
 # Writing files -----------------------------------------------------------
