@@ -125,7 +125,7 @@ summary_cards(current_summary)
 tasas_to_table <- current_data
 
 tasas_to_table |>
-  relocate(sell, .before = buy) |> 
+  relocate(buy, .before = sell) |> 
   reactable(
     compact = TRUE,
     pagination = FALSE,
@@ -139,7 +139,7 @@ tasas_to_table |>
     theme = reactableTheme(cellPadding = "8px 12px"),
     highlight = TRUE, 
     striped = TRUE,
-    defaultSorted = list(d_sell = "desc"),
+    defaultSorted = list(buy = "desc"),
     columns = list(
       d_buy = colDef(show = FALSE),
       d_sell = colDef(show = FALSE),
@@ -228,7 +228,6 @@ message <- glue(
     c- a closing paragraph
     d- skip heading 1, not needed
   3- round numbers to 2 decimal places
-  4- no need to explain (gap)
   "
 )
 
