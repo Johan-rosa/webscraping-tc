@@ -5,6 +5,7 @@ chromote_driver <- function() {
   browser
 }
 
+#' @export
 today_in_dr <- function() {
   Sys.time() |>
     lubridate::with_tz(tzone = "America/Santo_Domingo") |>

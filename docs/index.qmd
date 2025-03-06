@@ -27,6 +27,7 @@ library(jsonlite)
 box::use(
   scripts/utils[crear_mes],
   docs/logic/ui[summary_cards, trend_indicator],
+  scripts/functions[today_in_dr],
   scripts/anthropic[
     create_anthropic_body, 
     send_anthropic_request,
@@ -57,7 +58,7 @@ historico_bank <- readRDS(here::here("data/from_banks/_historico_from_banks.rds"
   ungroup()
 
 current_data <- historico_bank |>
-  filter(date == max(date))
+  filter(date == max(date), buy > 1)
 
 current_summary <- current_data |>
   summarise(
@@ -120,8 +121,7 @@ summary_cards(current_summary)
 ```
 
 ```{r tasas_table, echo=FALSE}
-tasas_to_table <- historico_bank |>
-  filter(date == max(date))
+tasas_to_table <- current_data
 
 tasas_to_table |>
   relocate(sell, .before = buy) |> 
@@ -138,6 +138,7 @@ tasas_to_table |>
     theme = reactableTheme(cellPadding = "8px 12px"),
     highlight = TRUE, 
     striped = TRUE,
+    defaultSorted = list(d_sell = "desc"),
     columns = list(
       d_buy = colDef(show = FALSE),
       d_sell = colDef(show = FALSE),
@@ -218,7 +219,10 @@ message <- glue(
 body <- create_anthropic_body(message = message)
 content <- send_anthropic_request(body)
 
-# content <- readRDS(here::here("docs/mocked_api_result2.rds"))
+writeLines(
+  content$content[[1]]$text,
+  here::here(glue("data/from_banks/ai_analysis/{today_in_dr()}-ai.txt"))
+)
 ```
 
 <button id="reveal-btn" class="btn btn-primary mt-3" style="font-size: 0.9rem">
