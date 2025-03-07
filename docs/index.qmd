@@ -130,8 +130,8 @@ previous_date <- tibble::lst(
 <img class="logo" src="assets/logo-dorado.png">
 :::
 ::: {.g-col-12 .g-col-md-10 .text-center .header-text}
-<h1>Reporte diario del mercado cambiario</h1>
-Subdirección de Asuntos cambiarios <br> `r current_date$label`
+<h1>Sondeo diario del Mercado Cambiario</h1>
+Subdirección de Asuntos Cambiarios<br> `r current_date$label`
 :::
 :::
 
@@ -157,7 +157,7 @@ div(
 summary_cards(current_summary)
 ```
 
-### Entidades de intermeiación financiera
+### Entidades de intermediación financiera
 
 ```{r table_eif, echo=FALSE}
 eif_tasas_to_table <- current_data |>

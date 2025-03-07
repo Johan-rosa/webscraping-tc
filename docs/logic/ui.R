@@ -50,25 +50,6 @@ summary_cards <- function(values) {
     tags$div(
       tags$div(
         class = "stat-header",
-        tags$dt(class = "stat-name", "Tasa de venta"),
-        tags$div(
-          class = glue("stat-change {change_class(values$d_sell)}"),
-          glue("{sign(values$d_sell)}{values$d_sell}")
-        )
-      ),
-      tags$dd(
-        class = "stat-details",
-        tags$div(
-          class = "stat-value",
-          glue("DOP {values$sell}"),
-          tags$span(class = "stat-previous", glue("ayer: DOP {values$lag_sell}"))
-        )
-      )
-    ),
-    
-    tags$div(
-      tags$div(
-        class = "stat-header",
         tags$dt(class = "stat-name", "Tasa de compra"),
         tags$div(
           class = glue("stat-change {change_class(values$d_buy)}"),
@@ -81,6 +62,25 @@ summary_cards <- function(values) {
           class = "stat-value",
           glue("DOP {values$buy}"),
           tags$span(class = "stat-previous", glue("ayer: DOP {values$lag_buy}"))
+        )
+      )
+    ),
+    
+    tags$div(
+      tags$div(
+        class = "stat-header",
+        tags$dt(class = "stat-name", "Tasa de venta"),
+        tags$div(
+          class = glue("stat-change {change_class(values$d_sell)}"),
+          glue("{sign(values$d_sell)}{values$d_sell}")
+        )
+      ),
+      tags$dd(
+        class = "stat-details",
+        tags$div(
+          class = "stat-value",
+          glue("DOP {values$sell}"),
+          tags$span(class = "stat-previous", glue("ayer: DOP {values$lag_sell}"))
         )
       )
     ),
@@ -180,7 +180,7 @@ report_table <- function(tasas_to_table) {
           }
         ),
         gap = colDef(
-          name = "Brecha",
+          name = "Margen",
           footer = \(values) {
             round(mean(values, na.rm = TRUE), 2)
         })
