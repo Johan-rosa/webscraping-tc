@@ -1,21 +1,17 @@
-## Análisis: Estabilidad en las Tasas de Cambio
+## Análisis: Cambios Recientes en Tasas de Cambio de Bancos en República Dominicana
 
-Las tasas de cambio en la República Dominicana se mantuvieron relativamente estables entre el 6 y 7 de marzo de 2025. El promedio de compra pasó de RD$61.72 a RD$61.73, representando un aumento mínimo de RD$0.01. Por su parte, la tasa de venta promedio aumentó de RD$62.79 a RD$62.81, con un incremento de RD$0.02. El diferencial (gap) entre compra y venta se mantuvo prácticamente sin cambios en RD$1.11, lo que indica una semana de estabilidad cambiaria.
+El 7 de marzo de 2025, las tasas de cambio del dólar en la República Dominicana mostraron ligeros incrementos. El promedio de compra aumentó de RD$61.72 a RD$61.74 (+0.02 pesos), mientras que la tasa de venta subió de RD$62.79 a RD$62.82 (+0.03 pesos). La brecha entre compra y venta se incrementó ligeramente de 1.10 a 1.11 pesos, indicando un pequeño aumento en el margen para las entidades financieras.
 
 ### Entidades de Intermediación Financiera
 
-* **Asociación Peravia** mostró la variación más significativa con un aumento de RD$0.45 en su tasa de compra (de RD$61.20 a RD$61.65) y RD$0.55 en su tasa de venta (de RD$62.25 a RD$62.80), ampliando su diferencial en 0.10 puntos.
-
-* **Banco Lafise** presentó un ligero incremento de RD$0.10 en su tasa de venta (de RD$62.70 a RD$62.80), mientras mantuvo estable su tasa de compra en RD$61.30, aumentando así su diferencial de 1.40 a 1.50.
-
-* El resto de las EIF, incluyendo los principales bancos como **Banreservas**, **Banco Popular** y **Scotiabank**, mantuvieron sus tasas sin cambios durante este período, reflejando estabilidad en el sector financiero formal.
+* **Asociación Peravia** mostró el cambio más significativo con un aumento de RD$0.45 en su tasa de compra (de RD$61.20 a RD$61.65) y RD$0.55 en su tasa de venta (de RD$62.25 a RD$62.80).
+* **Banco Lafise** incrementó su tasa de venta en RD$0.10, pasando de RD$62.70 a RD$62.80, manteniendo sin cambios su tasa de compra en RD$61.30.
+* **Alaver** presentó un aumento modesto de RD$0.05 tanto en su tasa de compra como de venta, alcanzando RD$61.85 y RD$62.85 respectivamente.
 
 ### Agentes de Cambio
 
-* Los agentes de cambio en general mostraron mayor estabilidad que las EIF, manteniendo sus tasas sin variaciones significativas durante el período analizado.
+* Los agentes de cambio mantuvieron en general sus tasas sin variaciones durante este período, mostrando mayor estabilidad que las entidades de intermediación financiera.
+* **Capla** y **RM** continúan ofreciendo las tasas de compra más competitivas entre los agentes de cambio, con RD$62.30 y RD$62.40 respectivamente.
+* **Panora Exchange** mantiene la tasa de venta más alta del mercado con RD$63.00, sin cambios respecto al día anterior.
 
-* **Taveras** y **RM** continúan ofreciendo el diferencial más bajo entre todos los agentes de cambio, con apenas RD$0.40 entre sus tasas de compra y venta.
-
-* **Panora Exchange** mantiene la tasa de venta más alta del mercado en RD$63.00, sin cambios respecto al día anterior, mientras que **RM** ofrece la tasa de compra más favorable a RD$62.40.
-
-La estabilidad observada en el mercado cambiario dominicano refleja condiciones económicas equilibradas y ausencia de presiones significativas sobre el peso dominicano. Los pequeños ajustes realizados por algunas entidades no representan una tendencia de volatilidad, sino más bien ajustes operativos puntuales. Se espera que esta estabilidad se mantenga en las próximas semanas, proporcionando un entorno predecible para transacciones comerciales y financieras.
+El mercado cambiario dominicano muestra estabilidad general con ajustes menores en este período. La mayoría de las instituciones mantuvieron sus tasas sin cambios significativos, con excepción de Asociación Peravia que realizó ajustes más notables. Esto sugiere un entorno cambiario controlado donde los movimientos tienden a ser graduales y predecibles a corto plazo.
