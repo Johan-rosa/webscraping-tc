@@ -64,14 +64,16 @@ current_data_banks <- historico_bank |>
   filter(date == max(date), buy > 1) |>
   left_join(entidades_banks, by = "entidad") |>
   select(-entidad) |>
-  relocate(entidad = name, .after = date)
-
+  relocate(entidad = name, .after = date) |> 
+  filter(lag_date == max(date) -1)
 ```
 
 
 ```{r import_data_infodolar}
 historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) |>
   select(date, entidad, buy = compra, sell = venta) |>
+  arrange(date) |>
+  group_by(entidad) |> 
   mutate(
     gap = sell - buy,
     lag_date = lag(date),
@@ -80,14 +82,16 @@ historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) 
     lag_gap = lag(gap),
     d_sell = sell - lag_sell,
     d_buy = buy - lag_buy,
-  )
+  ) |> 
+  ungroup()
 
 current_data_infodolar <- historico_infodolar |>
   filter(date == max(date), buy > 1) |>
   left_join(entidades_infodolar) |>
   select(-entidad) |>
   relocate(entidad = name, .after = date) |>
-  filter(!entidad %in% unique(current_data_banks$entidad))
+  filter(!entidad %in% unique(current_data_banks$entidad)) |>
+  filter(lag_date == max(date) -1)
 
 current_data <- current_data_banks |>
   bind_rows(current_data_infodolar)
@@ -207,8 +211,8 @@ message <- glue(
   1- MD formatted
   2- Structure:
     a- ## Análisis: a general overview about the change in the rates and the gap
-    b- ### Entidades de intermediación finciera: three bullets with comments about specific changes in tipo_entidad EIF
-    c- ### Agentes de cambio: three bullets with coments about specific changes in tipo_entidad AC 
+    b- ### Entidades de intermediación finciera: three bullets with comments about notable changes in tipo_entidad EIF
+    c- ### Agentes de cambio: three bullets with coments about notable changes in tipo_entidad AC 
     c- a closing paragraph
   3- skip heading 1, not needed
   4- round numbers to 2 decimal places

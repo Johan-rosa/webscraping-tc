@@ -157,49 +157,75 @@ report_table <- function(tasas_to_table) {
         lag_sell = colDef(show = FALSE),
         lag_gap = colDef(show = FALSE),
         lag_date = colDef(show = FALSE),
-        entidad = colDef(name = "Entidad"),
         date = colDef(show = FALSE),
+        entidad = colDef(name = "Entidad", footer = "Promedio"),
         sell = colDef(
           name = "Venta",
           align = "right",
-          cell = \(sell, index) {
-            if (is.na(sell)) return("")
-            d_sell <- tasas_to_table$d_sell[index] 
-            trend_icon <-  trend_indicator(d_sell)
-            sign <- case_when(
-              d_sell == 0 ~ "=",
-              d_sell  > 0 ~ "+",
-              d_sell  < 0 ~ "",
-            )
-            d_sell <- scales::comma(d_sell, 0.01, prefix = sign)
-            sell <- scales::comma(sell, 0.01)
-            span(
-              span(span(style="margin-right: 3px; display: inline-block;", trend_icon), sell), 
-              span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_sell})"))
-            )
+          cell = \(sell, index, col_name) {
+            value_change_span(tasas_to_table, sell, col_name, index)
+          },
+          footer = \(values, name) {
+            average_change_span(tasas_to_table, name)
           }
         ),
         buy = colDef(
           name = "Compra",
           align = "right",
-          cell = \(buy, index) {
-            d_buy <- tasas_to_table$d_buy[index] 
-            trend_icon <-  trend_indicator(d_buy)
-            sign <- case_when(
-              d_buy == 0 ~ "=",
-              d_buy  > 0 ~ "+",
-              d_buy  < 0 ~ "",
-            )
-            
-            d_buy <- scales::comma(d_buy, 0.01, prefix = sign)
-            buy <- scales::comma(buy, 0.01)
-            span(
-              span(span(style="margin-right: 3px; display: inline-block;", trend_icon), buy),
-              span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_buy})"))
-            )
+          cell = \(buy, index, col_name) {
+            value_change_span(tasas_to_table, buy, col_name, index)
+          },
+          footer = \(values, name) {
+            average_change_span(tasas_to_table, name)
           }
         ),
-        gap = colDef(name = "Brecha")
+        gap = colDef(
+          name = "Brecha",
+          footer = \(values) round(mean(values, na.rm = TRUE)), 2)
       )
     )
 }
+
+value_change_span <- function(data, value, column, index) {
+  if (is.na(value)) return("")
+
+  lag_column <- data[[glue("lag_{column}")]][index] 
+  d_column <- data[[glue("d_{column}")]][index] 
+  trend_icon <-  trend_indicator(d_column)
+
+  sign <- case_when(
+    d_column == 0 ~ "=",
+    d_column  > 0 ~ "+",
+    d_column  < 0 ~ "",
+  )
+  
+  d_column <- scales::comma(d_column, 0.01, prefix = sign)
+  value <- scales::comma(value, 0.01)
+
+  span(
+    span(span(style="margin-right: 3px; display: inline-block;", trend_icon), value),
+    span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_column})"))
+  )
+}
+
+average_change_span <- function(data, column) {
+  value <- data[[column]] |> mean(na.rm = TRUE)
+  d_value <- data[[glue("d_{column}")]] |>  mean(na.rm = TRUE)
+  trend_icon <-  trend_indicator(d_value)
+  
+  sign <- case_when(
+    d_value == 0 ~ "=",
+    d_value  > 0 ~ "+",
+    d_value  < 0 ~ "",
+  )
+  
+  d_column <- scales::comma(d_value, 0.01, prefix = sign)
+  value <- scales::comma(value, 0.01)
+  
+  span(
+    span(span(style="margin-right: 3px; display: inline-block;", trend_icon), value),
+    span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_column})"))
+  )
+  
+}
+
