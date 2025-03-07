@@ -1,13 +1,21 @@
-## Análisis: Cambios en las Tasas de Cambio Bancarias
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
 
-En el mercado cambiario de la República Dominicana, se observa un incremento uniforme en las tasas de cambio del 6 de marzo de 2025. El promedio de compra aumentó de RD$61.3667 a RD$61.4667 (+RD$0.10), mientras que la tasa de venta subió de RD$62.70 a RD$62.80 (+RD$0.10). El diferencial (gap) entre compra y venta se mantiene estable en RD$1.3333, indicando que los bancos conservan sus márgenes de beneficio sin cambios significativos.
+El 6 de marzo de 2025, las tasas de cambio en República Dominicana experimentaron un incremento generalizado. La tasa promedio de compra aumentó en 0.15 pesos, pasando de 61.57 a 61.72 pesos por dólar. La tasa de venta también subió ligeramente en 0.07 pesos, alcanzando 62.79 pesos por dólar. Notablemente, el diferencial (gap) entre compra y venta se redujo de 1.22 a 1.10 pesos, indicando una mayor eficiencia en el mercado cambiario.
 
-### Movimientos destacados:
+### Entidades de Intermediación Financiera (EIF)
 
-* **BDI** presenta el mayor incremento en su tasa de compra con un aumento de RD$0.20 (de RD$61.80 a RD$62.00), siendo el único banco que superó el promedio general de aumento de RD$0.10.
+* **Banreservas**, el banco estatal, registró un aumento de 0.10 pesos tanto en su tasa de compra (61.25) como de venta (62.75), manteniendo un diferencial estable de 1.50 pesos, uno de los más altos entre las EIF.
+  
+* **BDI** mostró el mayor incremento en su tasa de compra entre las EIF, con un aumento de 0.20 pesos, alcanzando 62.00 pesos por dólar, mientras reduce su diferencial de 0.90 a 0.80 pesos.
+  
+* **Banco Lafise** presentó un incremento significativo en su tasa de venta de 0.45 pesos, el mayor entre las EIF, llegando a 62.70 pesos por dólar.
 
-* **Banesco** mantiene el diferencial más amplio del mercado con RD$2.10 entre su tasa de compra (RD$60.70) y venta (RD$62.80), lo que representa un ligero aumento respecto al día anterior (RD$2.05).
+### Agentes de Cambio (AC)
 
-* **Banreservas**, el banco estatal, ofrece una tasa de compra de RD$61.25 y una tasa de venta de RD$62.75, manteniendo un diferencial competitivo de RD$1.50, por debajo del promedio del mercado.
+* **Taveras** mostró el cambio más dramático con un aumento de 1.00 peso en su tasa de compra, pasando de 61.30 a 62.30 pesos por dólar, y reduciendo significativamente su diferencial de 1.40 a solo 0.40 pesos.
+  
+* **SCT** aumentó su tasa de compra en 1.30 pesos, alcanzando 62.20 pesos por dólar, posicionándose entre los agentes de cambio con tasas más competitivas.
+  
+* **Cambio Extranjero** fue uno de los pocos que redujo su tasa de compra, con una disminución de 0.30 pesos, mientras aumentaba ligeramente su tasa de venta en 0.05 pesos.
 
-Este movimiento generalizado al alza en las tasas de cambio podría indicar presiones inflacionarias leves o ajustes estacionales en el mercado cambiario dominicano. Los agentes económicos deben considerar que la uniformidad del incremento sugiere un comportamiento coordinado entre las entidades bancarias, con muy poca dispersión en los valores ofrecidos para la tasa de venta, que es uniforme en casi todas las instituciones (RD$62.80).
+La tendencia alcista en las tasas de cambio refleja un ajuste generalizado en el mercado cambiario dominicano. Los agentes de cambio continúan ofreciendo tasas de compra más atractivas (promedio de 62.20) que las entidades bancarias (promedio de 61.45), aunque las diferencias en las tasas de venta son mínimas. Esta dinámica sugiere una presión moderada sobre el peso dominicano frente al dólar estadounidense, posiblemente influenciada por factores estacionales y condiciones macroeconómicas regionales.

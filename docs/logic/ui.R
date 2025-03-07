@@ -1,10 +1,11 @@
 box::use(
-  htmltools[tags],
+  htmltools[tags, span],
   glue[glue],
   dplyr[
     mutate,
     across,
     everything,
+    case_when
   ],
   scales[comma],
 )
@@ -100,6 +101,7 @@ summary_cards <- function(values) {
 #' Icon to indicate trend: unchanged, up, down, or new
 #' @export
 trend_indicator <- function(variation) {
+  if (is.na(variation)) return()
   value <- dplyr::case_when(
     variation == 0 ~ "unchanged",
     variation  > 0 ~ "up",
@@ -127,4 +129,77 @@ trend_indicator <- function(variation) {
     args <- c(args, list(shiny::icon("circle"), style = "color: #2e77d0; font-size: 0.6rem"))
   }
   do.call(htmltools::tags$span, args)
+}
+
+#' @export
+report_table <- function(tasas_to_table) {
+  box::use(reactable[reactable, reactableTheme, colFormat, colDef])
+  
+  tasas_to_table |> 
+    reactable(
+      compact = TRUE,
+      pagination = FALSE,
+      defaultColDef = colDef(
+        headerClass = "table-header",
+        format = colFormat(separators = TRUE, digits = 2),
+        minWidth = 50,
+        footerStyle = list(fontWeight = "bold")
+      ),
+      class = "tasas-table",
+      theme = reactableTheme(cellPadding = "8px 12px"),
+      highlight = TRUE, 
+      striped = TRUE,
+      defaultSorted = list(buy = "desc"),
+      columns = list(
+        d_buy = colDef(show = FALSE),
+        d_sell = colDef(show = FALSE),
+        lag_buy = colDef(show = FALSE),
+        lag_sell = colDef(show = FALSE),
+        lag_gap = colDef(show = FALSE),
+        lag_date = colDef(show = FALSE),
+        entidad = colDef(name = "Entidad"),
+        date = colDef(show = FALSE),
+        sell = colDef(
+          name = "Venta",
+          align = "right",
+          cell = \(sell, index) {
+            if (is.na(sell)) return("")
+            d_sell <- tasas_to_table$d_sell[index] 
+            trend_icon <-  trend_indicator(d_sell)
+            sign <- case_when(
+              d_sell == 0 ~ "=",
+              d_sell  > 0 ~ "+",
+              d_sell  < 0 ~ "",
+            )
+            d_sell <- scales::comma(d_sell, 0.01, prefix = sign)
+            sell <- scales::comma(sell, 0.01)
+            span(
+              span(span(style="margin-right: 3px; display: inline-block;", trend_icon), sell), 
+              span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_sell})"))
+            )
+          }
+        ),
+        buy = colDef(
+          name = "Compra",
+          align = "right",
+          cell = \(buy, index) {
+            d_buy <- tasas_to_table$d_buy[index] 
+            trend_icon <-  trend_indicator(d_buy)
+            sign <- case_when(
+              d_buy == 0 ~ "=",
+              d_buy  > 0 ~ "+",
+              d_buy  < 0 ~ "",
+            )
+            
+            d_buy <- scales::comma(d_buy, 0.01, prefix = sign)
+            buy <- scales::comma(buy, 0.01)
+            span(
+              span(span(style="margin-right: 3px; display: inline-block;", trend_icon), buy),
+              span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_buy})"))
+            )
+          }
+        ),
+        gap = colDef(name = "Brecha")
+      )
+    )
 }
