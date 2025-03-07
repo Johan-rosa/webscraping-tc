@@ -1,17 +1,21 @@
-## Análisis: Estabilidad en las Tasas de Cambio del Peso Dominicano
+## Análisis: Estabilidad en las Tasas de Cambio
 
-La tasa de cambio promedio en la República Dominicana del 7 de marzo de 2025 muestra una ligera variación con respecto al día anterior. La tasa de compra promedio aumentó a RD$61.73 (un incremento de RD$0.01), mientras que la tasa de venta subió a RD$62.81 (un aumento de RD$0.02). El diferencial (gap) entre compra y venta se incrementó ligeramente a RD$1.11, reflejando una estabilidad general en el mercado cambiario dominicano.
+Las tasas de cambio en la República Dominicana se mantuvieron relativamente estables entre el 6 y 7 de marzo de 2025. El promedio de compra pasó de RD$61.72 a RD$61.73, representando un aumento mínimo de RD$0.01. Por su parte, la tasa de venta promedio aumentó de RD$62.79 a RD$62.81, con un incremento de RD$0.02. El diferencial (gap) entre compra y venta se mantuvo prácticamente sin cambios en RD$1.11, lo que indica una semana de estabilidad cambiaria.
 
-### Entidades de Intermediación Financiera (EIF)
+### Entidades de Intermediación Financiera
 
-* **Asociación Peravia** mostró el cambio más significativo con un aumento de RD$0.45 en su tasa de compra (de RD$61.20 a RD$61.65) y RD$0.55 en su tasa de venta (de RD$62.25 a RD$62.80).
-* **Banco Lafise** presentó un incremento de RD$0.10 en su tasa de venta (de RD$62.70 a RD$62.80), mientras mantuvo sin cambios su tasa de compra en RD$61.30.
-* El resto de las EIF mantuvieron sus tasas sin cambios, con **Banreservas** ofreciendo una tasa de compra de RD$61.25 y venta de RD$62.75, mientras **BDI** continúa con la menor brecha entre compra y venta (RD$0.80).
+* **Asociación Peravia** mostró la variación más significativa con un aumento de RD$0.45 en su tasa de compra (de RD$61.20 a RD$61.65) y RD$0.55 en su tasa de venta (de RD$62.25 a RD$62.80), ampliando su diferencial en 0.10 puntos.
 
-### Agentes de Cambio (AC)
+* **Banco Lafise** presentó un ligero incremento de RD$0.10 en su tasa de venta (de RD$62.70 a RD$62.80), mientras mantuvo estable su tasa de compra en RD$61.30, aumentando así su diferencial de 1.40 a 1.50.
 
-* Los agentes de cambio mantuvieron en general tasas estables, con **Moneycorps** ofreciendo la tasa de venta más alta del mercado a RD$62.95.
-* **RM** y **Taveras** continúan ofreciendo el diferencial más bajo entre todas las entidades (RD$0.40), lo que representa una ventaja para sus clientes.
-* **Panora Exchange** sigue manteniendo la tasa de venta más elevada entre todos los agentes de cambio, a RD$63.00, sin variación respecto al día anterior.
+* El resto de las EIF, incluyendo los principales bancos como **Banreservas**, **Banco Popular** y **Scotiabank**, mantuvieron sus tasas sin cambios durante este período, reflejando estabilidad en el sector financiero formal.
 
-El mercado cambiario dominicano se mantiene estable con mínimas fluctuaciones, lo que sugiere condiciones económicas consistentes. La diferencia promedio entre tasas de compra y venta permanece alrededor de RD$1.11, un indicador de la estabilidad del peso dominicano frente al dólar estadounidense. Los consumidores siguen beneficiándose de una amplia variedad de opciones, con diferencias notables entre las tasas ofrecidas por diferentes entidades.
+### Agentes de Cambio
+
+* Los agentes de cambio en general mostraron mayor estabilidad que las EIF, manteniendo sus tasas sin variaciones significativas durante el período analizado.
+
+* **Taveras** y **RM** continúan ofreciendo el diferencial más bajo entre todos los agentes de cambio, con apenas RD$0.40 entre sus tasas de compra y venta.
+
+* **Panora Exchange** mantiene la tasa de venta más alta del mercado en RD$63.00, sin cambios respecto al día anterior, mientras que **RM** ofrece la tasa de compra más favorable a RD$62.40.
+
+La estabilidad observada en el mercado cambiario dominicano refleja condiciones económicas equilibradas y ausencia de presiones significativas sobre el peso dominicano. Los pequeños ajustes realizados por algunas entidades no representan una tendencia de volatilidad, sino más bien ajustes operativos puntuales. Se espera que esta estabilidad se mantenga en las próximas semanas, proporcionando un entorno predecible para transacciones comerciales y financieras.
