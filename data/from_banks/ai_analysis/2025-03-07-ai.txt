@@ -1,21 +1,17 @@
-## Análisis: Variaciones en las Tasas de Cambio
+## Análisis: Estabilidad en las Tasas de Cambio del Peso Dominicano
 
-El 6 de marzo de 2025, el tipo de cambio promedio en la República Dominicana mostró un incremento generalizado. La tasa de compra aumentó en 0.06 pesos, pasando de 61.66 a 61.72 pesos por dólar, mientras que la tasa de venta subió 0.08 pesos, de 62.71 a 62.79 pesos. El diferencial (gap) entre compra y venta se amplió ligeramente de 1.09 a 1.10 pesos, indicando un pequeño aumento en los márgenes de las entidades cambiarias.
+La tasa de cambio promedio en la República Dominicana del 7 de marzo de 2025 muestra una ligera variación con respecto al día anterior. La tasa de compra promedio aumentó a RD$61.73 (un incremento de RD$0.01), mientras que la tasa de venta subió a RD$62.81 (un aumento de RD$0.02). El diferencial (gap) entre compra y venta se incrementó ligeramente a RD$1.11, reflejando una estabilidad general en el mercado cambiario dominicano.
 
-### Entidades de Intermediación Financiera
+### Entidades de Intermediación Financiera (EIF)
 
-* **BDI** presentó el mayor incremento en su tasa de compra entre las EIF, con un aumento de 0.20 pesos (de 61.80 a 62.00), manteniendo un diferencial relativamente bajo de 0.80 pesos.
-  
-* **Banco Santa Cruz, Banco Caribe, Banco Vimenca, Asociación La Nacional y Alaver** mostraron un comportamiento uniforme, con aumentos de 0.10 pesos tanto en compra como en venta, manteniendo todos un diferencial constante de 1.00 peso.
+* **Asociación Peravia** mostró el cambio más significativo con un aumento de RD$0.45 en su tasa de compra (de RD$61.20 a RD$61.65) y RD$0.55 en su tasa de venta (de RD$62.25 a RD$62.80).
+* **Banco Lafise** presentó un incremento de RD$0.10 en su tasa de venta (de RD$62.70 a RD$62.80), mientras mantuvo sin cambios su tasa de compra en RD$61.30.
+* El resto de las EIF mantuvieron sus tasas sin cambios, con **Banreservas** ofreciendo una tasa de compra de RD$61.25 y venta de RD$62.75, mientras **BDI** continúa con la menor brecha entre compra y venta (RD$0.80).
 
-* **Asociación Popular** mantuvo su tasa de compra en 61.00 pesos, pero incrementó su tasa de venta en 0.10 pesos, ampliando así su diferencial de 1.70 a 1.80 pesos, uno de los más altos entre las EIF.
+### Agentes de Cambio (AC)
 
-### Agentes de Cambio
+* Los agentes de cambio mantuvieron en general tasas estables, con **Moneycorps** ofreciendo la tasa de venta más alta del mercado a RD$62.95.
+* **RM** y **Taveras** continúan ofreciendo el diferencial más bajo entre todas las entidades (RD$0.40), lo que representa una ventaja para sus clientes.
+* **Panora Exchange** sigue manteniendo la tasa de venta más elevada entre todos los agentes de cambio, a RD$63.00, sin variación respecto al día anterior.
 
-* **Moneycorps** registró el mayor incremento entre los agentes de cambio, con un aumento de 0.15 pesos en la tasa de compra (a 62.40) y 0.25 pesos en la tasa de venta (a 62.95), expandiendo su diferencial de 0.45 a 0.55 pesos.
-
-* **Girosol** fue el único agente que redujo su tasa de compra, con una disminución de 0.05 pesos (de 62.10 a 62.05), mientras que aumentó significativamente su tasa de venta en 0.30 pesos (de 62.50 a 62.80).
-
-* **Agente de Cambio La Nacional, Taveras, Cambio Extranjero, Gamelin, RM, Bonanza Banco y SCT** mantuvieron sin cambios sus tasas de compra y venta, mostrando estabilidad en sus operaciones cambiarias.
-
-Este ligero aumento generalizado en las tasas de cambio refleja una tendencia alcista moderada en el mercado cambiario dominicano. Las entidades financieras parecen estar ajustando sus tasas de manera cautelosa, mientras que algunos agentes de cambio muestran comportamientos más variables. El incremento promedio de 0.08 pesos en la tasa de venta sugiere una depreciación leve pero consistente del peso dominicano frente al dólar estadounidense.
+El mercado cambiario dominicano se mantiene estable con mínimas fluctuaciones, lo que sugiere condiciones económicas consistentes. La diferencia promedio entre tasas de compra y venta permanece alrededor de RD$1.11, un indicador de la estabilidad del peso dominicano frente al dólar estadounidense. Los consumidores siguen beneficiándose de una amplia variedad de opciones, con diferencias notables entre las tasas ofrecidas por diferentes entidades.

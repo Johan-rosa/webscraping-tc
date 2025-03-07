@@ -181,7 +181,9 @@ report_table <- function(tasas_to_table) {
         ),
         gap = colDef(
           name = "Brecha",
-          footer = \(values) round(mean(values, na.rm = TRUE)), 2)
+          footer = \(values) {
+            round(mean(values, na.rm = TRUE), 2)
+        })
       )
     )
 }

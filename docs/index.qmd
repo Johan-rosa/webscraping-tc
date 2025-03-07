@@ -61,7 +61,7 @@ historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |>
   rename(entidad = bank)
 
 current_data_banks <- historico_bank |>
-  filter(date == max(date), buy > 1) |>
+  filter(date == max(date), buy > 1, lag_buy > 1) |>
   left_join(entidades_banks, by = "entidad") |>
   select(-entidad) |>
   relocate(entidad = name, .after = date) |> 
@@ -86,7 +86,7 @@ historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) 
   ungroup()
 
 current_data_infodolar <- historico_infodolar |>
-  filter(date == max(date), buy > 1) |>
+  filter(date == max(date), buy > 1, lag_buy > 1) |>
   left_join(entidades_infodolar) |>
   select(-entidad) |>
   relocate(entidad = name, .after = date) |>
