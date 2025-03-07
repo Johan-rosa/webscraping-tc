@@ -1,10 +1,11 @@
 box::use(
-  htmltools[tags],
+  htmltools[tags, span],
   glue[glue],
   dplyr[
     mutate,
     across,
     everything,
+    case_when
   ],
   scales[comma],
 )
@@ -100,6 +101,7 @@ summary_cards <- function(values) {
 #' Icon to indicate trend: unchanged, up, down, or new
 #' @export
 trend_indicator <- function(variation) {
+  if (is.na(variation)) return()
   value <- dplyr::case_when(
     variation == 0 ~ "unchanged",
     variation  > 0 ~ "up",
@@ -128,3 +130,104 @@ trend_indicator <- function(variation) {
   }
   do.call(htmltools::tags$span, args)
 }
+
+#' @export
+report_table <- function(tasas_to_table) {
+  box::use(reactable[reactable, reactableTheme, colFormat, colDef])
+  
+  tasas_to_table |> 
+    reactable(
+      compact = TRUE,
+      pagination = FALSE,
+      defaultColDef = colDef(
+        headerClass = "table-header",
+        format = colFormat(separators = TRUE, digits = 2),
+        minWidth = 50,
+        footerStyle = list(fontWeight = "bold")
+      ),
+      class = "tasas-table",
+      theme = reactableTheme(cellPadding = "8px 12px"),
+      highlight = TRUE, 
+      striped = TRUE,
+      defaultSorted = list(buy = "desc"),
+      columns = list(
+        d_buy = colDef(show = FALSE),
+        d_sell = colDef(show = FALSE),
+        lag_buy = colDef(show = FALSE),
+        lag_sell = colDef(show = FALSE),
+        lag_gap = colDef(show = FALSE),
+        lag_date = colDef(show = FALSE),
+        date = colDef(show = FALSE),
+        entidad = colDef(name = "Entidad", footer = "Promedio"),
+        sell = colDef(
+          name = "Venta",
+          align = "right",
+          cell = \(sell, index, col_name) {
+            value_change_span(tasas_to_table, sell, col_name, index)
+          },
+          footer = \(values, name) {
+            average_change_span(tasas_to_table, name)
+          }
+        ),
+        buy = colDef(
+          name = "Compra",
+          align = "right",
+          cell = \(buy, index, col_name) {
+            value_change_span(tasas_to_table, buy, col_name, index)
+          },
+          footer = \(values, name) {
+            average_change_span(tasas_to_table, name)
+          }
+        ),
+        gap = colDef(
+          name = "Brecha",
+          footer = \(values) {
+            round(mean(values, na.rm = TRUE), 2)
+        })
+      )
+    )
+}
+
+value_change_span <- function(data, value, column, index) {
+  if (is.na(value)) return("")
+
+  lag_column <- data[[glue("lag_{column}")]][index] 
+  d_column <- data[[glue("d_{column}")]][index] 
+  trend_icon <-  trend_indicator(d_column)
+
+  sign <- case_when(
+    d_column == 0 ~ "=",
+    d_column  > 0 ~ "+",
+    d_column  < 0 ~ "",
+  )
+  
+  d_column <- scales::comma(d_column, 0.01, prefix = sign)
+  value <- scales::comma(value, 0.01)
+
+  span(
+    span(span(style="margin-right: 3px; display: inline-block;", trend_icon), value),
+    span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_column})"))
+  )
+}
+
+average_change_span <- function(data, column) {
+  value <- data[[column]] |> mean(na.rm = TRUE)
+  d_value <- data[[glue("d_{column}")]] |>  mean(na.rm = TRUE)
+  trend_icon <-  trend_indicator(d_value)
+  
+  sign <- case_when(
+    d_value == 0 ~ "=",
+    d_value  > 0 ~ "+",
+    d_value  < 0 ~ "",
+  )
+  
+  d_column <- scales::comma(d_value, 0.01, prefix = sign)
+  value <- scales::comma(value, 0.01)
+  
+  span(
+    span(span(style="margin-right: 3px; display: inline-block;", trend_icon), value),
+    span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_column})"))
+  )
+  
+}
+

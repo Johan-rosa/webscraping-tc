@@ -27,17 +27,18 @@ library(jsonlite)
 
 box::use(
   scripts/utils[crear_mes],
-  docs/logic/ui[summary_cards, trend_indicator],
+  docs/logic/ui[summary_cards, trend_indicator, report_table],
   scripts/functions[today_in_dr],
   scripts/anthropic[
     create_anthropic_body, 
     send_anthropic_request,
-  ]
+  ],
+  scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar]
 )
 
 ```
 
-```{r import_data, echo=FALSE}
+```{r import_data_banks, echo=FALSE}
 historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
   filter(
     # Remover una de las tasas de scotia
@@ -56,17 +57,52 @@ historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |>
     d_sell = sell - lag_sell,
     d_buy = buy - lag_buy,
   ) |>
+  ungroup() |>
+  rename(entidad = bank)
+
+current_data_banks <- historico_bank |>
+  filter(date == max(date), buy > 1, lag_buy > 1) |>
+  left_join(entidades_banks, by = "entidad") |>
+  select(-entidad) |>
+  relocate(entidad = name, .after = date) |> 
+  filter(lag_date == max(date) -1)
+```
+
+
+```{r import_data_infodolar}
+historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) |>
+  select(date, entidad, buy = compra, sell = venta) |>
+  arrange(date) |>
+  group_by(entidad) |> 
+  mutate(
+    gap = sell - buy,
+    lag_date = lag(date),
+    lag_buy = lag(buy),
+    lag_sell = lag(sell),
+    lag_gap = lag(gap),
+    d_sell = sell - lag_sell,
+    d_buy = buy - lag_buy,
+  ) |> 
   ungroup()
 
-current_data <- historico_bank |>
-  filter(date == max(date), buy > 1)
+current_data_infodolar <- historico_infodolar |>
+  filter(date == max(date), buy > 1, lag_buy > 1) |>
+  left_join(entidades_infodolar) |>
+  select(-entidad) |>
+  relocate(entidad = name, .after = date) |>
+  filter(!entidad %in% unique(current_data_banks$entidad)) |>
+  filter(lag_date == max(date) -1)
+
+current_data <- current_data_banks |>
+  bind_rows(current_data_infodolar)
 
 current_summary <- current_data |>
   summarise(
-    across(-c(bank, date, lag_date), \(x) mean(x, na.rm = TRUE)),
+    across(-c(entidad, date, lag_date, tipo_entidad), \(x) mean(x, na.rm = TRUE)),
     n_banks = n()
   )
 ```
+
 
 ```{r report params}
 current_date <- tibble::lst(
@@ -121,87 +157,38 @@ div(
 summary_cards(current_summary)
 ```
 
-```{r tasas_table, echo=FALSE}
-tasas_to_table <- current_data
+### Entidades de intermeiación financiera
 
-tasas_to_table |>
+```{r table_eif, echo=FALSE}
+eif_tasas_to_table <- current_data |>
+  filter(tipo_entidad == "EIF") |>
+  select(-tipo_entidad)
+
+eif_tasas_to_table |>
   relocate(buy, .before = sell) |> 
-  reactable(
-    compact = TRUE,
-    pagination = FALSE,
-    defaultColDef = colDef(
-      headerClass = "table-header",
-      format = colFormat(separators = TRUE, digits = 2),
-      minWidth = 50,
-      footerStyle = list(fontWeight = "bold")
-    ),
-    class = "tasas-table",
-    theme = reactableTheme(cellPadding = "8px 12px"),
-    highlight = TRUE, 
-    striped = TRUE,
-    defaultSorted = list(buy = "desc"),
-    columns = list(
-      d_buy = colDef(show = FALSE),
-      d_sell = colDef(show = FALSE),
-      lag_buy = colDef(show = FALSE),
-      lag_sell = colDef(show = FALSE),
-      lag_gap = colDef(show = FALSE),
-      lag_date = colDef(show = FALSE),
-      bank = colDef(name = "Entidad"),
-      date = colDef(show = FALSE),
-      sell = colDef(
-        name = "Venta",
-        align = "right",
-        cell = \(sell, index) {
-          d_sell <- tasas_to_table$d_sell[index] 
-          trend_icon <-  trend_indicator(d_sell)
-          sign <- case_when(
-            d_sell == 0 ~ "=",
-            d_sell  > 0 ~ "+",
-            d_sell  < 0 ~ "",
-          )
-          d_sell <- scales::comma(d_sell, 0.01, prefix = sign)
-          sell <- scales::comma(sell, 0.01)
-          span(
-            span(span(style="margin-right: 3px; display: inline-block;", trend_icon), sell), 
-            span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_sell})"))
-          )
-        }
-      ),
-      buy = colDef(
-        name = "Compra",
-        align = "right",
-        cell = \(buy, index) {
-          d_buy <- tasas_to_table$d_buy[index] 
-          trend_icon <-  trend_indicator(d_buy)
-          sign <- case_when(
-            d_buy == 0 ~ "=",
-            d_buy  > 0 ~ "+",
-            d_buy  < 0 ~ "",
-          )
-          
-          d_buy <- scales::comma(d_buy, 0.01, prefix = sign)
-          buy <- scales::comma(buy, 0.01)
-          span(
-            span(span(style="margin-right: 3px; display: inline-block;", trend_icon), buy),
-            span(class = "var", style="color: #6a7282; margin-left: 5px;", glue("({d_buy})"))
-          )
-        }
-      ),
-      gap = colDef(name = "Brecha")
-    )
-  )
+  report_table()
+```
+
+### Agencias de cambio
+
+```{r table_ac, echo=FALSE}
+ac_tasas_to_table <- current_data |>
+  filter(tipo_entidad == "AC") |>
+  select(-tipo_entidad)
+
+ac_tasas_to_table |>
+  relocate(buy, .before = sell) |> 
+  report_table()
 ```
 
 
-```{r}
+```{r run_ai}
 cache <- readRDS(here("docs/cache/last_update_data.rds"))
 run_ai <- !identical(cache, current_data)
 
 if (!run_ai) {
   ai_analysis <- readRDS(here("docs/cache/last_update_ai_analysis.rds"))
 }
-
 ```
 
 ```{r get_ai_analysis}
@@ -224,10 +211,11 @@ message <- glue(
   1- MD formatted
   2- Structure:
     a- ## Análisis: a general overview about the change in the rates and the gap
-    b- ### Movimientos destacados: three bullets with comments about specific changes in banks data
+    b- ### Entidades de intermediación finciera: three bullets with comments about notable changes in tipo_entidad EIF
+    c- ### Agentes de cambio: three bullets with coments about notable changes in tipo_entidad AC 
     c- a closing paragraph
-    d- skip heading 1, not needed
-  3- round numbers to 2 decimal places
+  3- skip heading 1, not needed
+  4- round numbers to 2 decimal places
   "
 )
 

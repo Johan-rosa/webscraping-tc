@@ -1,13 +1,17 @@
-## Análisis
+## Análisis: Estabilidad en las Tasas de Cambio del Peso Dominicano
 
-El 7 de marzo de 2025, las tasas de cambio en los bancos de la República Dominicana permanecieron estables respecto al día anterior. El tipo de cambio promedio de compra se mantuvo en RD$61.45 y el de venta en RD$62.80. El margen (gap) entre compra y venta es de aproximadamente RD$1.35. En comparación con el día anterior, se observa un aumento significativo en las tasas, con un incremento de RD$4.72 en la tasa de compra y RD$4.83 en la de venta.
+La tasa de cambio promedio en la República Dominicana del 7 de marzo de 2025 muestra una ligera variación con respecto al día anterior. La tasa de compra promedio aumentó a RD$61.73 (un incremento de RD$0.01), mientras que la tasa de venta subió a RD$62.81 (un aumento de RD$0.02). El diferencial (gap) entre compra y venta se incrementó ligeramente a RD$1.11, reflejando una estabilidad general en el mercado cambiario dominicano.
 
-### Movimientos destacados
+### Entidades de Intermediación Financiera (EIF)
 
-* **Banco Lafise** reportó datos completos después de no tener información el día anterior, estableciendo su tipo de cambio en RD$61.30 para compra y RD$62.80 para venta, con un margen de RD$1.50.
+* **Asociación Peravia** mostró el cambio más significativo con un aumento de RD$0.45 en su tasa de compra (de RD$61.20 a RD$61.65) y RD$0.55 en su tasa de venta (de RD$62.25 a RD$62.80).
+* **Banco Lafise** presentó un incremento de RD$0.10 en su tasa de venta (de RD$62.70 a RD$62.80), mientras mantuvo sin cambios su tasa de compra en RD$61.30.
+* El resto de las EIF mantuvieron sus tasas sin cambios, con **Banreservas** ofreciendo una tasa de compra de RD$61.25 y venta de RD$62.75, mientras **BDI** continúa con la menor brecha entre compra y venta (RD$0.80).
 
-* **Banesco** mantiene el precio de compra más bajo del mercado (RD$60.70) y el margen más amplio (RD$2.10), lo que lo posiciona como menos favorable para quienes venden dólares.
+### Agentes de Cambio (AC)
 
-* **BDI** ofrece el mejor precio de compra (RD$62.00) y el margen más estrecho (RD$0.80), resultando más beneficioso para los clientes que venden dólares.
+* Los agentes de cambio mantuvieron en general tasas estables, con **Moneycorps** ofreciendo la tasa de venta más alta del mercado a RD$62.95.
+* **RM** y **Taveras** continúan ofreciendo el diferencial más bajo entre todas las entidades (RD$0.40), lo que representa una ventaja para sus clientes.
+* **Panora Exchange** sigue manteniendo la tasa de venta más elevada entre todos los agentes de cambio, a RD$63.00, sin variación respecto al día anterior.
 
-Las tasas de cambio han mostrado un incremento notable en comparación con el día anterior, aunque se mantuvieron estables durante el día. Esta estabilidad sugiere que los bancos dominicanos están adoptando una postura cautelosa frente a las condiciones actuales del mercado cambiario.
+El mercado cambiario dominicano se mantiene estable con mínimas fluctuaciones, lo que sugiere condiciones económicas consistentes. La diferencia promedio entre tasas de compra y venta permanece alrededor de RD$1.11, un indicador de la estabilidad del peso dominicano frente al dólar estadounidense. Los consumidores siguen beneficiándose de una amplia variedad de opciones, con diferencias notables entre las tasas ofrecidas por diferentes entidades.
