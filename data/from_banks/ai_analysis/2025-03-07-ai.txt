@@ -1,0 +1,13 @@
+## Análisis
+
+El 7 de marzo de 2025, las tasas de cambio en los bancos de la República Dominicana permanecieron estables respecto al día anterior. El tipo de cambio promedio de compra se mantuvo en RD$61.45 y el de venta en RD$62.80. El margen (gap) entre compra y venta es de aproximadamente RD$1.35. En comparación con el día anterior, se observa un aumento significativo en las tasas, con un incremento de RD$4.72 en la tasa de compra y RD$4.83 en la de venta.
+
+### Movimientos destacados
+
+* **Banco Lafise** reportó datos completos después de no tener información el día anterior, estableciendo su tipo de cambio en RD$61.30 para compra y RD$62.80 para venta, con un margen de RD$1.50.
+
+* **Banesco** mantiene el precio de compra más bajo del mercado (RD$60.70) y el margen más amplio (RD$2.10), lo que lo posiciona como menos favorable para quienes venden dólares.
+
+* **BDI** ofrece el mejor precio de compra (RD$62.00) y el margen más estrecho (RD$0.80), resultando más beneficioso para los clientes que venden dólares.
+
+Las tasas de cambio han mostrado un incremento notable en comparación con el día anterior, aunque se mantuvieron estables durante el día. Esta estabilidad sugiere que los bancos dominicanos están adoptando una postura cautelosa frente a las condiciones actuales del mercado cambiario.
