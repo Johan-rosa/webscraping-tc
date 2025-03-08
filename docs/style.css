@@ -203,3 +203,18 @@ h3 {
       margin-top: 0;
     }
   }
+  
+/* Celphones */ 
+@media (max-width: 768px) {
+  .var {
+    display: none;
+  }
+
+  .info-header {
+    display: block;
+  }
+
+  table {
+    font-size: 13px;
+  }
+}
