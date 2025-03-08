@@ -1,15 +1,21 @@
-## Análisis: Cambios en las Tasas de Cambio Bancarias en República Dominicana
+## Análisis: Cambios Recientes en las Tasas de Cambio en República Dominicana
 
-El 8 de marzo de 2025, la tasa de cambio promedio en República Dominicana mostró un ligero incremento respecto al día anterior. La tasa de compra promedio subió a RD$61.75 (un aumento de RD$0.02), mientras que la tasa de venta alcanzó RD$62.83 (un incremento de RD$0.02). El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en RD$1.12, lo que indica consistencia en los márgenes de los intermediarios financieros.
+El 8 de marzo de 2025, la tasa de cambio promedio de compra de dólar en República Dominicana se situó en RD$61.76, un ligero aumento de RD$0.02 respecto al día anterior. La tasa de venta promedio alcanzó RD$62.84, incrementándose en RD$0.03. El diferencial (gap) entre compra y venta se amplió ligeramente a RD$1.12 desde RD$1.11 el día anterior, evidenciando una estabilidad general en el mercado cambiario dominicano.
 
-### Entidades de Intermediación Financiera:
-* **Banco Santa Cruz** registró el mayor incremento entre las EIF con un aumento de RD$0.10 tanto en su tasa de compra (ahora RD$61.90) como en su tasa de venta (ahora RD$62.90).
-* **Banco Popular y Banco BHD** mostraron movimientos idénticos, con un aumento de RD$0.05 en ambas tasas, estableciendo sus precios de compra en RD$61.10 y venta en RD$62.85.
-* **Promerica** presentó un comportamiento mixto, manteniendo su tasa de compra en RD$61.50 pero incrementando su tasa de venta en RD$0.10 hasta RD$62.90, ampliando su margen a RD$1.40.
+### Entidades de Intermediación Financiera
 
-### Agentes de Cambio:
-* **Agente de Cambio La Nacional** registró el mayor incremento entre los agentes de cambio con un aumento de RD$0.15 en su tasa de compra, llegando a RD$62.25.
-* **Moneycorps** tuvo un ligero aumento de RD$0.05 en su tasa de compra (ahora RD$62.45), manteniendo su tasa de venta en RD$62.95, lo que redujo su margen a RD$0.50.
-* **Panora Exchange** mantiene la tasa de venta más alta del mercado en RD$63.00, sin cambios respecto al día anterior, mientras que su tasa de compra se mantuvo en RD$62.35.
+* **Banco Popular y Banco BHD** mostraron comportamientos idénticos, ambos incrementando sus tasas de compra y venta en RD$0.05, estableciendo tasas de compra en RD$61.10 y venta en RD$62.85.
 
-En conclusión, el mercado cambiario dominicano mostró estabilidad con una tendencia alcista muy moderada durante el 8 de marzo de 2025. Las variaciones más significativas se observaron en entidades específicas como Banco Santa Cruz y Agente de Cambio La Nacional, mientras que la mayoría de las instituciones mantuvieron sus tasas o realizaron ajustes mínimos, reflejando un entorno cambiario estable.
+* **Banco Santa Cruz** registró el aumento más significativo entre las EIFs, con un incremento de RD$0.10 tanto en su tasa de compra (ahora RD$61.90) como en su tasa de venta (RD$62.90).
+
+* **Promerica** mantuvo su tasa de compra en RD$61.50, pero aumentó su tasa de venta en RD$0.10 hasta RD$62.90, ampliando su margen de ganancia de RD$1.30 a RD$1.40.
+
+### Agentes de Cambio
+
+* **Agente de Cambio La Nacional** presentó el mayor incremento en su tasa de compra entre todos los agentes de cambio, con un aumento de RD$0.15, llegando a RD$62.25.
+
+* **Taveras** mostró los cambios más significativos del mercado, incrementando su tasa de compra en RD$0.20 (hasta RD$62.50) y su tasa de venta en RD$0.40 (hasta RD$63.10), posicionándose con la tasa de venta más alta del mercado.
+
+* **Moneycorps** realizó un ajuste moderado, aumentando su tasa de compra en RD$0.05 hasta RD$62.45, mientras mantuvo su tasa de venta en RD$62.95.
+
+Las variaciones en las tasas de cambio durante el 8 de marzo de 2025 reflejan un mercado cambiario estable con ligeras tendencias al alza. Los agentes de cambio continúan ofreciendo tasas de compra más competitivas que las entidades bancarias tradicionales, con Taveras liderando las tasas de venta del mercado. La brecha entre compra y venta se mantiene en niveles similares al día anterior, sugiriendo condiciones de mercado sin presiones significativas.
