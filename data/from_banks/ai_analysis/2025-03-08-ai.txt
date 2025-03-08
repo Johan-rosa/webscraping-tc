@@ -1,0 +1,21 @@
+## Análisis: Cambios en las Tasas de Cambio Bancarias
+
+En el período del 7 al 8 de marzo de 2025, se observa una disminución general en las tasas de cambio del dólar frente al peso dominicano. El promedio de compra cayó de 61.74 a 61.05 pesos (-0.69 pesos), mientras que la tasa de venta disminuyó de 62.82 a 62.13 pesos (-0.68 pesos). El diferencial (gap) entre compra y venta aumentó ligeramente de 1.11 a 1.17 pesos, sugiriendo un pequeño incremento en los márgenes operativos de las entidades cambiarias.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Lafise** experimentó la variación más dramática, con una caída extraordinaria de 21.60 pesos en su tasa de compra (de 61.30 a 39.70) y de 20.17 pesos en su tasa de venta (de 62.80 a 42.63), ampliando significativamente su diferencial a 2.93 pesos.
+
+* **Banco Popular** y **Banco BHD** mostraron un comportamiento idéntico, ambos incrementando sus tasas de compra y venta en 0.05 pesos, manteniendo un diferencial constante de 1.75 pesos.
+
+* **Banco Santa Cruz** registró uno de los pocos aumentos del mercado, con un incremento de 0.10 pesos tanto en su tasa de compra (ahora en 61.90) como en la de venta (62.90), manteniendo un diferencial competitivo de 1.00 peso.
+
+### Agentes de Cambio
+
+* Los agentes de cambio mostraron mayor estabilidad que las entidades bancarias, con **Moneycorps** ofreciendo una de las tasas de compra más altas (62.40) y manteniendo un diferencial competitivo de apenas 0.55 pesos.
+
+* **Panora Exchange** continúa ofreciendo la tasa de venta más alta del mercado (63.00 pesos), sin mostrar variación respecto al día anterior, con un diferencial de 0.65 pesos.
+
+* **RM** y **Taveras** mantienen los diferenciales más estrechos entre los agentes de cambio (0.40 pesos), ofreciendo tasas de compra competitivas de 62.40 y 62.30 respectivamente, sin cambios respecto al día anterior.
+
+La tendencia general muestra una apreciación del peso dominicano frente al dólar estadounidense, con la notable excepción de Banco Lafise que presentó una caída atípica. Los agentes de cambio continúan ofreciendo mejores tasas de compra que las entidades bancarias tradicionales, mientras que los diferenciales se mantienen más competitivos en el sector de agentes de cambio que en las instituciones financieras formales.
