@@ -1,0 +1,15 @@
+## Análisis: Estabilidad en el Mercado Cambiario de la República Dominicana
+
+El mercado cambiario dominicano muestra total estabilidad en la fecha 09 de marzo de 2025, con una tasa promedio de compra de RD$61.76 y venta de RD$62.84, manteniendo un margen (gap) promedio de RD$1.12. No se registraron variaciones respecto al día anterior, lo que refleja un mercado sin fluctuaciones en este período.
+
+### Entidades de Intermediación Financiera
+- **Banreservas**, uno de los bancos estatales más importantes, mantiene su tasa de compra en RD$61.25 y de venta en RD$62.75, con un margen favorable de RD$1.50, sin variaciones.
+- **Banco Santa Cruz** presenta una de las tasas de compra más competitivas entre los bancos (RD$61.90), con un margen reducido de solo RD$1.00, manteniéndose estable.
+- **BDI** ofrece el menor margen entre las entidades bancarias (RD$0.85), con una tasa de compra de RD$62.00, siendo de las más favorables para quienes venden dólares.
+
+### Agentes de Cambio
+- **RM** destaca por ofrecer el margen más bajo del mercado (RD$0.40), con una tasa de compra altamente competitiva de RD$62.40, siendo una excelente opción para cambio de divisas.
+- **Taveras** ofrece la tasa de compra más alta (RD$62.50) entre todos los agentes de cambio, aunque su tasa de venta también es la más elevada (RD$63.10).
+- **Capla** mantiene una tasa de compra competitiva de RD$62.30, aunque no reporta tasa de venta en los datos analizados, ubicándose entre las opciones más favorables para quienes necesitan cambiar dólares a pesos dominicanos.
+
+El mercado cambiario dominicano muestra un comportamiento estable, con diferencias significativas entre las tasas ofrecidas por diferentes entidades. Los agentes de cambio generalmente ofrecen mejores tasas de compra que las entidades bancarias tradicionales, con márgenes más reducidos, lo que representa una ventaja para los usuarios que buscan optimizar sus operaciones de cambio de divisas.
