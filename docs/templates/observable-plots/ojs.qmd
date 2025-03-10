@@ -1,0 +1,52 @@
+---
+title: "ojs"
+format: html
+---
+
+
+```{ojs}
+infodolar = FileAttachment("_historico_infodolar.csv")
+  .csv({ typed: true })
+  
+br = infodolar
+  .filter(row => row.entidad === "Banreservas")
+  .map(row => {
+    const mean = (row.compra + row.venta) / 2
+    return({...row, mean: mean})
+  })
+```
+
+```{ojs}
+Plot.plot({
+  y: { domain: [59, 63] },
+  x: { type: "time" },
+  marks: [
+    Plot.areaY(br, {x: "date", y1: "compra", y2: "venta"}),
+    Plot.lineY(br, {x: "date", y: "mean", stroke: "red"})
+  ]
+})
+```
+
+```{ojs}
+viewof selectedEntidad = Inputs
+  .select([...new Set(infodolar.map(d => d.entidad))], { label: "Select Entidad" })
+```
+
+```{ojs}
+to_plot = infodolar
+  .filter(d => d.entidad === selectedEntidad)
+  .map(row => {
+    const mean = (row.compra + row.venta) / 2
+    return({...row, mean: mean})
+  })
+
+Plot.plot({
+  y: { domain: [59, 63] },
+  x: { type: "time" },
+  marks: [
+    Plot.lineY(to_plot, {x: "date", y: "compra", stroke: "blue"}),
+    Plot.lineY(to_plot, {x: "date", y: "venta", stroke: "green"})
+  ]
+})
+```
+
