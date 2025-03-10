@@ -135,7 +135,8 @@ previous_date <- tibble::lst(
 :::
 ::: {.g-col-12 .g-col-md-10 .text-center .header-text}
 <h1>Sondeo diario del Mercado Cambiario</h1>
-Departamento Internacional<br> `r current_date$label`
+<h3>Departamento Internacional </h3>
+Subdirección de Asuntos Cambiarios Domésticos <br> `r current_date$label`
 :::
 :::
 

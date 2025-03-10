@@ -32,6 +32,10 @@ hr {
   opacity: 1;
 }
 
+.document-header h3 {
+  margin: 0;
+}
+
 .document-header {
    align-items: center;
 }
@@ -39,7 +43,7 @@ hr {
 /*----------------- Document Body  ---------------------*/
 p {
   font-size: 16px;
-  text-align: jus;
+  text-align: justify;
 }
 
 h2 {
