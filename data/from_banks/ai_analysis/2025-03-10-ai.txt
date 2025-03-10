@@ -1,21 +1,21 @@
-## Análisis: Actualización de Tasas de Cambio en República Dominicana
+## Análisis: Cambios Recientes en las Tasas de Cambio
 
-El mercado cambiario dominicano experimentó un ligero incremento en las tasas de cambio entre el 7 y el 10 de marzo de 2025. La tasa promedio de compra aumentó de RD$61.74 a RD$61.82 (+0.08 pesos), mientras que la tasa de venta subió de RD$62.82 a RD$62.88 (+0.06 pesos). El margen (gap) entre compra y venta disminuyó ligeramente de 1.11 a 1.10 pesos, lo que indica una pequeña reducción en los costos de intermediación.
+Entre el 7 y el 10 de marzo de 2025, la tasa de cambio del dólar en la República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió de RD$61.74 a RD$61.80 (+0.06 pesos), mientras que la tasa de venta aumentó de RD$62.82 a RD$62.88 (+0.06 pesos). El margen (gap) entre compra y venta se mantuvo prácticamente estable en aproximadamente RD$1.11.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Lafise** mostró el cambio más significativo con un aumento de RD$0.64 en su tasa de compra (de RD$61.30 a RD$61.94), mientras mantuvo un incremento moderado de RD$0.05 en su tasa de venta.
+* **Banco Santa Cruz** mostró uno de los mayores incrementos entre las EIF, con un aumento de RD$0.10 tanto en su tasa de compra (de RD$61.80 a RD$61.90) como en su tasa de venta (de RD$62.80 a RD$62.90).
 
-* **Banco Santa Cruz** presentó uno de los mayores incrementos uniformes con un aumento de RD$0.10 tanto en su tasa de compra como de venta, pasando a ofrecer RD$61.90 para compra y RD$62.90 para venta.
+* **Bonanza Banco** presentó el aumento más significativo en la tasa de compra entre las EIF, con un incremento de RD$0.25, pasando de RD$61.65 a RD$61.90, mientras redujo su margen de RD$1.15 a RD$1.00.
 
-* **Banreservas**, el principal banco estatal, ajustó sus tasas al alza en RD$0.05 para ambas operaciones, estableciendo su compra en RD$61.30 y su venta en RD$62.80, manteniendo un margen de RD$1.50.
+* **Promerica** mantuvo estable su tasa de compra en RD$61.50, pero aumentó su tasa de venta en RD$0.10, ampliando su margen de RD$1.30 a RD$1.40, mostrando una estrategia diferente a la mayoría de las entidades.
 
 ### Agentes de Cambio
 
-* **Taveras** registró los incrementos más agresivos entre los agentes de cambio, con un aumento de RD$0.40 en su tasa de venta (alcanzando RD$63.10, la más alta del mercado) y RD$0.20 en su tasa de compra.
+* **Taveras** registró el mayor incremento en la tasa de venta entre todos los agentes de cambio, con un aumento de RD$0.40 (de RD$62.70 a RD$63.10), además de incrementar su tasa de compra en RD$0.20.
 
-* **Cambio Extranjero** y **Gamelin** presentaron incrementos notables de RD$0.25 en sus tasas de compra, demostrando mayor competitividad para atraer divisas.
+* **Gamelin** y **Cambio Extranjero** mostraron aumentos significativos en sus tasas de compra de RD$0.25 cada uno, posicionándose entre los más competitivos para los clientes que desean vender dólares.
 
-* **Agente de Cambio la Nacional** incrementó su tasa de compra en RD$0.15, colocándose en RD$62.25, mientras que **Capla** ajustó su compra en RD$0.10, llegando a RD$62.40.
+* **Moneycorps** mantiene la segunda tasa de venta más alta (RD$62.95) entre los agentes de cambio, solo superado por Taveras y Panora Exchange, mientras aumentó su tasa de compra en RD$0.10.
 
-El incremento generalizado en las tasas de cambio sugiere una ligera presión al alza en el mercado cambiario dominicano, aunque los movimientos son moderados. Las entidades financieras mantienen márgenes relativamente estables, mientras que algunos agentes de cambio muestran mayor volatilidad en sus ajustes, ofreciendo mejores tasas de compra pero con variaciones más pronunciadas en sus márgenes operativos.
+Este ligero aumento generalizado de las tasas de cambio sugiere una modesta depreciación del peso dominicano frente al dólar estadounidense en este período. La mayoría de las instituciones financieras y agentes de cambio ajustaron sus tasas de manera similar, manteniendo sus márgenes relativamente estables, lo que indica un mercado cambiario ordenado que responde a las condiciones económicas actuales en la República Dominicana.
