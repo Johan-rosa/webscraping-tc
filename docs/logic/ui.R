@@ -27,7 +27,7 @@ change_class <- function(value) {
 }
 
 #' @export
-summary_cards <- function(values) {
+summary_cards <- function(values, benchmark = "ayer") {
   checkmate::assert_names(
     names(values),
     subset.of = c(
@@ -61,7 +61,7 @@ summary_cards <- function(values) {
         tags$div(
           class = "stat-value",
           glue("DOP {values$buy}"),
-          tags$span(class = "stat-previous", glue("ayer: DOP {values$lag_buy}"))
+          tags$span(class = "stat-previous", glue("{benchmark}: DOP {values$lag_buy}"))
         )
       )
     ),
@@ -80,7 +80,7 @@ summary_cards <- function(values) {
         tags$div(
           class = "stat-value",
           glue("DOP {values$sell}"),
-          tags$span(class = "stat-previous", glue("ayer: DOP {values$lag_sell}"))
+          tags$span(class = "stat-previous", glue("{benchmark}: DOP {values$lag_sell}"))
         )
       )
     ),

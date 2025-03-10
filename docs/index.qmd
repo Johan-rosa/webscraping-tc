@@ -42,6 +42,7 @@ box::use(
 current_date <- today_in_dr()
 day_of_week <- weekdays(current_date)
 benchmark_lag <- ifelse(day_of_week == "Monday", 3, 1)
+benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
 
 historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
   filter(
@@ -159,7 +160,7 @@ div(
 ```
 
 ```{r stats_cards, echo=FALSE}
-summary_cards(current_summary)
+summary_cards(current_summary, benchmark_label)
 ```
 
 ### Entidades de intermediación financiera
