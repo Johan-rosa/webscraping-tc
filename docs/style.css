@@ -40,6 +40,10 @@ hr {
    align-items: center;
 }
 
+#title-block-header {
+  display: none;
+}
+
 /*----------------- Document Body  ---------------------*/
 p {
   font-size: 16px;

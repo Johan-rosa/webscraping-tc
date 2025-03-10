@@ -1,5 +1,5 @@
 ---
-page_title: "Reporte tipo de cambio"
+title: "Reporte cambiario"
 execute:
   echo: false    
   warning: false 
@@ -7,6 +7,7 @@ execute:
   error: false   
 format: 
   html:
+    include-in-header: favicon.html
     css: style.css
     embed-resources: false
     anchor-sections: false
