@@ -1,0 +1,17 @@
+## Análisis: Estabilidad en las Tasas de Cambio del Dólar
+
+El mercado cambiario en la República Dominicana se mantiene sin variaciones el 10 de marzo de 2025. La tasa promedio de compra se sitúa en RD$61.76 y la de venta en RD$62.84, manteniendo un margen (gap) promedio de RD$1.12 entre ambas operaciones. No se registraron cambios con respecto al día anterior, lo que indica estabilidad en el mercado cambiario dominicano.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas**, el banco estatal, mantiene su tasa de compra en RD$61.25 y de venta en RD$62.75, con un margen de RD$1.50, posicionándose cerca del promedio del mercado.
+* **Banesco** presenta el margen más amplio entre las EIF con RD$2.10 (compra a RD$60.75 y venta a RD$62.85), siendo la entidad con la tasa de compra más baja del sector.
+* **BDI** ofrece uno de los márgenes más reducidos (RD$0.85) entre las entidades bancarias, con una tasa de compra competitiva de RD$62.00 y venta de RD$62.85.
+
+### Agentes de Cambio
+
+* **RM** destaca por ofrecer el margen más estrecho del mercado con solo RD$0.40 de diferencia entre su tasa de compra (RD$62.40) y venta (RD$62.80).
+* **Taveras** mantiene la tasa de venta más alta del mercado a RD$63.10, mientras que su tasa de compra de RD$62.50 también es una de las más favorables para los clientes que venden dólares.
+* **Capla** ofrece la tasa de compra más alta entre todos los agentes de cambio con RD$62.30, aunque no se reporta su tasa de venta en los datos disponibles.
+
+El mercado cambiario dominicano muestra una notable estabilidad en esta fecha, con los agentes de cambio generalmente ofreciendo mejores tasas de compra que las entidades bancarias tradicionales. Los márgenes entre compra y venta son significativamente más estrechos en los agentes de cambio (promedio de 0.65) que en las entidades financieras (promedio de 1.36), lo que representa una oportunidad para los consumidores que buscan optimizar sus operaciones cambiarias.
