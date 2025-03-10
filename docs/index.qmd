@@ -39,6 +39,10 @@ box::use(
 ```
 
 ```{r import_data_banks, echo=FALSE}
+current_date <- today_in_dr()
+day_of_week <- weekdays(current_date)
+benchmark_lag <- ifelse(day_of_week == "Monday", 3, 1)
+
 historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
   filter(
     # Remover una de las tasas de scotia
@@ -50,10 +54,10 @@ historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |>
   group_by(bank) |>
   mutate(
     gap = sell - buy,
-    lag_date = lag(date),
-    lag_buy = lag(buy),
-    lag_sell = lag(sell),
-    lag_gap = lag(gap),
+    lag_date = lag(date, benchmark_lag),
+    lag_buy = lag(buy, benchmark_lag),
+    lag_sell = lag(sell, benchmark_lag),
+    lag_gap = lag(gap, benchmark_lag),
     d_sell = sell - lag_sell,
     d_buy = buy - lag_buy,
   ) |>
@@ -65,7 +69,7 @@ current_data_banks <- historico_bank |>
   left_join(entidades_banks, by = "entidad") |>
   select(-entidad) |>
   relocate(entidad = name, .after = date) |> 
-  filter(lag_date == max(date) -1)
+  filter(lag_date == max(date) - benchmark_lag)
 ```
 
 
@@ -76,10 +80,10 @@ historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) 
   group_by(entidad) |> 
   mutate(
     gap = sell - buy,
-    lag_date = lag(date),
-    lag_buy = lag(buy),
-    lag_sell = lag(sell),
-    lag_gap = lag(gap),
+    lag_date = lag(date, benchmark_lag),
+    lag_buy = lag(buy, benchmark_lag),
+    lag_sell = lag(sell, benchmark_lag),
+    lag_gap = lag(gap, benchmark_lag),
     d_sell = sell - lag_sell,
     d_buy = buy - lag_buy,
   ) |> 
@@ -91,7 +95,7 @@ current_data_infodolar <- historico_infodolar |>
   select(-entidad) |>
   relocate(entidad = name, .after = date) |>
   filter(!entidad %in% unique(current_data_banks$entidad)) |>
-  filter(lag_date == max(date) -1)
+  filter(lag_date == max(date) - benchmark_lag)
 
 current_data <- current_data_banks |>
   bind_rows(current_data_infodolar)
@@ -131,7 +135,7 @@ previous_date <- tibble::lst(
 :::
 ::: {.g-col-12 .g-col-md-10 .text-center .header-text}
 <h1>Sondeo diario del Mercado Cambiario</h1>
-Subdirección de Asuntos Cambiarios<br> `r current_date$label`
+Departamento Internacional<br> `r current_date$label`
 :::
 :::
 
@@ -148,7 +152,7 @@ div(
   div(
     class = "info-container",
     shiny::icon("calendar-days", class = "icon"),
-    glue("Compración respecto al {previous_date$label}")
+    glue("Comparación respecto al {previous_date$label}")
   ),
 )
 ```
