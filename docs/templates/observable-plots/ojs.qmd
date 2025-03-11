@@ -18,17 +18,15 @@ infodolar <- readRDS(here::here("data/infodolar/_historico_infodolar.rds"))
 infodolar_general <- infodolar |>
   summarise(
     across(c(compra, venta), \(x) mean(x, na.rm = TRUE)),
-    promedio = (compra + venta) / 2,
     entidad = "General",
     .by = c(date)
   )
 
 infodolar_long <- infodolar |>
   select(-time) |>
-  mutate(promedio = (compra + venta) / 2) |>
   bind_rows(infodolar_general) |>
   pivot_longer(
-    c(compra, venta, promedio),
+    c(compra, venta),
     names_to = "type",
     values_to = "tasa"
   )
@@ -67,6 +65,18 @@ Plot.plot({
       y: "tasa",
       title: (d) => `${d.type}: ${d.tasa}`
     }))
+  ]
+})
+```
+
+```{ojs}
+current_data = t_infodolar.filter(d => d.date === "2025-03-10")
+
+Plot.plot({
+  grid: true,
+  marks: [
+    Plot.rectY(current_data, Plot.binX({y: "count"}, {x: "tasa", fill: "type", fy: "type"})),
+    Plot.ruleY([0])
   ]
 })
 ```
