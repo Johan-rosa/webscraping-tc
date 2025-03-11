@@ -1,0 +1,21 @@
+## Análisis de Tasas de Cambio en República Dominicana
+
+El 11 de marzo de 2025, las tasas de cambio en los bancos dominicanos mostraron ligeras variaciones respecto al día anterior. El promedio de compra se situó en RD$61.84, experimentando un aumento de RD$0.04 comparado con el día anterior. La tasa de venta promedio alcanzó RD$62.89, con un incremento mínimo de RD$0.01. El diferencial (gap) promedio entre compra y venta se redujo a RD$1.08, desde RD$1.11 el día anterior, indicando condiciones ligeramente más favorables para los clientes.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Lafise** registró el cambio más significativo del día, aumentando su tasa de compra en RD$1.00, pasando de RD$61.35 a RD$62.35, mientras mantuvo su tasa de venta en RD$62.85, reduciendo considerablemente su diferencial.
+
+* **Banco Popular** y **Banco BHD** mostraron movimientos idénticos, incrementando tanto sus tasas de compra como de venta en RD$0.05, alcanzando RD$61.15 para compra y RD$62.90 para venta.
+
+* **Banreservas**, uno de los bancos principales del país, mantuvo sus tasas sin cambios en RD$61.30 para compra y RD$62.80 para venta, con un diferencial competitivo de RD$1.50.
+
+### Agentes de Cambio
+
+* **Panora Exchange** presentó el mayor incremento entre los agentes de cambio, subiendo su tasa de compra en RD$0.15 hasta RD$62.50 y su tasa de venta en RD$0.10 hasta RD$63.10, siendo una de las tasas de venta más altas del mercado.
+
+* **Capla** y **RM** mantuvieron las tasas de compra más altas entre los agentes de cambio, ambos ofreciendo RD$62.40, sin variaciones respecto al día anterior.
+
+* En general, los agentes de cambio continúan ofreciendo tasas de compra más atractivas que las entidades bancarias tradicionales, con un promedio aproximado de RD$62.35 frente a los RD$61.65 de los bancos.
+
+Las variaciones observadas en el mercado cambiario dominicano durante el 11 de marzo fueron mínimas, demostrando estabilidad en el peso dominicano frente al dólar estadounidense. El ligero estrechamiento del diferencial entre compra y venta sugiere un mercado competitivo donde las entidades financieras buscan atraer clientes mediante condiciones más favorables. Los usuarios de servicios de cambio deberían continuar comparando entre diferentes entidades, especialmente considerando las mejores tasas de compra ofrecidas por los agentes de cambio.
