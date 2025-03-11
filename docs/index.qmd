@@ -310,7 +310,7 @@ saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
   }); 
 </script>
 
-::: {.callout-note}
+::: {.callout-note title="Notas" appearance="simple"}
 1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
 
 2- Se utilizan promedios simples a lo largo del documento; ninguna de estas medidas es ponderada.
