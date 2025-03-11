@@ -164,8 +164,6 @@ div(
 summary_cards(current_summary, benchmark_label)
 ```
 
-
-
 ### Bancos múltiples
 
 ```{r table_eif, echo=FALSE}
@@ -181,7 +179,7 @@ eif_tasas_to_table |>
 
 
 
-### Banco de ahorro y crédito
+### Bancos de ahorro y crédito
 
 ```{r table_bac, echo=FALSE}
 bac_tasas_to_table <- current_data |>
@@ -288,6 +286,8 @@ cat(ai_analysis)
 ```
 
 ```{r cache_last_run_data}
+#| eval: !expr run_ai
+
 saveRDS(current_data, here("docs/cache/last_update_data.rds"))
 saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
 ```
@@ -309,3 +309,11 @@ saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
     }, 2000); 
   }); 
 </script>
+
+::: {.callout-note}
+1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
+
+2- Se utilizan promedios simples a lo largo del documento; ninguna de estas medidas es ponderada.
+
+3- El análisis con Inteligencia Artificial no es 100% fiable; siempre debe examinarse con ojo crítico.
+:::
