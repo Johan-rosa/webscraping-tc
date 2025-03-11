@@ -104,7 +104,7 @@ current_data <- current_data_banks |>
 
 current_summary <- current_data |>
   summarise(
-    across(-c(entidad, date, lag_date, tipo_entidad), \(x) mean(x, na.rm = TRUE)),
+    across(-c(entidad, date, lag_date, tipo_entidad, subgrupo_entidad), \(x) mean(x, na.rm = TRUE)),
     n_banks = n()
   )
 ```
@@ -150,7 +150,7 @@ div(
   div(
     class = "info-container",
     shiny::icon("chart-simple", class = "icon"),
-    "Promedio del día"
+    "Promedio simple del día"
   ),
   div(
     class = "info-container",
@@ -164,19 +164,51 @@ div(
 summary_cards(current_summary, benchmark_label)
 ```
 
-### Entidades de intermediación financiera
+
+
+### Bancos múltiples
 
 ```{r table_eif, echo=FALSE}
 eif_tasas_to_table <- current_data |>
-  filter(tipo_entidad == "EIF") |>
+  filter(subgrupo_entidad == "Banco Múltiple") |>
   select(-tipo_entidad)
 
 eif_tasas_to_table |>
+  select(-subgrupo_entidad) |>
+  relocate(buy, .before = sell) |>
+  report_table()
+```
+
+
+
+### Banco de ahorro y crédito
+
+```{r table_bac, echo=FALSE}
+bac_tasas_to_table <- current_data |>
+  filter(subgrupo_entidad == "Banco de AC") |>
+  select(-tipo_entidad)
+
+bac_tasas_to_table |>
+  select(-subgrupo_entidad) |> 
   relocate(buy, .before = sell) |> 
   report_table()
 ```
 
-### Agencias de cambio
+
+### Asociaciones de ahorros y préstamos
+
+```{r table_aap, echo=FALSE}
+aap_tasas_to_table <- current_data |>
+  filter(subgrupo_entidad == "Asociación de AP") |>
+  select(-tipo_entidad)
+
+aap_tasas_to_table |>
+  select(-subgrupo_entidad) |> 
+  relocate(buy, .before = sell) |> 
+  report_table()
+```
+
+### Agentes de cambio
 
 ```{r table_ac, echo=FALSE}
 ac_tasas_to_table <- current_data |>
@@ -184,6 +216,7 @@ ac_tasas_to_table <- current_data |>
   select(-tipo_entidad)
 
 ac_tasas_to_table |>
+  select(-subgrupo_entidad) |> 
   relocate(buy, .before = sell) |> 
   report_table()
 ```
