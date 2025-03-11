@@ -208,8 +208,6 @@ aap_tasas_to_table |>
   report_table()
 ```
 
-
-
 ### Agentes de cambio
 
 ```{r table_ac, echo=FALSE}
@@ -226,7 +224,7 @@ ac_tasas_to_table |>
 
 ```{r run_ai}
 cache <- readRDS(here("docs/cache/last_update_data.rds"))
-run_ai <- FALSE
+run_ai <- !identical(cache, current_data)
 
 if (!run_ai) {
   ai_analysis <- readRDS(here("docs/cache/last_update_ai_analysis.rds"))
