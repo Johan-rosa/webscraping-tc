@@ -1,51 +1,72 @@
 ---
 title: "ojs"
-format: html
+format: 
+  html:
+    execute:
+      echo: false
+      message: false
+      warning: false
 ---
 
+```{r}
+library(dplyr)
+library(tidyr)
 
-```{ojs}
-infodolar = FileAttachment("_historico_infodolar.csv")
-  .csv({ typed: true })
-  
-br = infodolar
-  .filter(row => row.entidad === "Banreservas")
-  .map(row => {
-    const mean = (row.compra + row.venta) / 2
-    return({...row, mean: mean})
-  })
+
+infodolar <- readRDS(here::here("data/infodolar/_historico_infodolar.rds"))
+
+infodolar_general <- infodolar |>
+  summarise(
+    across(c(compra, venta), \(x) mean(x, na.rm = TRUE)),
+    promedio = (compra + venta) / 2,
+    entidad = "General",
+    .by = c(date)
+  )
+
+infodolar_long <- infodolar |>
+  select(-time) |>
+  mutate(promedio = (compra + venta) / 2) |>
+  bind_rows(infodolar_general) |>
+  pivot_longer(
+    c(compra, venta, promedio),
+    names_to = "type",
+    values_to = "tasa"
+  )
+
+ojs_define(infodolar = infodolar_long)
 ```
 
 ```{ojs}
-Plot.plot({
-  y: { domain: [59, 63] },
-  x: { type: "time" },
-  marks: [
-    Plot.areaY(br, {x: "date", y1: "compra", y2: "venta"}),
-    Plot.lineY(br, {x: "date", y: "mean", stroke: "red"})
-  ]
-})
+t_infodolar = transpose(infodolar)
 ```
 
 ```{ojs}
 viewof selectedEntidad = Inputs
-  .select([...new Set(infodolar.map(d => d.entidad))], { label: "Select Entidad" })
+  .select([...new Set(t_infodolar.map(d => d.entidad))], { label: "Select Entidad" })
 ```
 
 ```{ojs}
-to_plot = infodolar
+to_plot = t_infodolar
   .filter(d => d.entidad === selectedEntidad)
-  .map(row => {
-    const mean = (row.compra + row.venta) / 2
-    return({...row, mean: mean})
-  })
 
 Plot.plot({
-  y: { domain: [59, 63] },
-  x: { type: "time" },
+  y: { domain: [59, 63], grid: true },
+  color: {legend: true},
+  x: {type: 'time'},
   marks: [
-    Plot.lineY(to_plot, {x: "date", y: "compra", stroke: "blue"}),
-    Plot.lineY(to_plot, {x: "date", y: "venta", stroke: "green"})
+    Plot.ruleY([59]),
+    Plot.lineY(
+      to_plot, 
+      {
+        x: "date", 
+        y: "tasa", 
+        stroke: "type",
+      }),
+    Plot.tip(to_plot, Plot.pointer({
+      x: "date",
+      y: "tasa",
+      title: (d) => `${d.type}: ${d.tasa}`
+    }))
   ]
 })
 ```
