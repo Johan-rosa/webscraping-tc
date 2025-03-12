@@ -1,21 +1,21 @@
-## Análisis: Cambios en las Tasas de Cambio Bancarias
+## Análisis: Tasas de Cambio en República Dominicana
 
-El 12 de marzo de 2025, el tipo de cambio promedio en la República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió de RD$61.84 a RD$61.89 (+0.05 pesos), mientras que la tasa de venta aumentó de RD$62.92 a RD$62.96 (+0.04 pesos). Como resultado, el diferencial (gap) entre compra y venta se redujo levemente de 1.11 a 1.08 pesos, lo que indica una pequeña mejora en las condiciones del mercado cambiario.
+El mercado cambiario dominicano mostró un ligero aumento en las tasas de cambio del dólar entre el 11 y 12 de marzo de 2025. El promedio de compra subió de RD$61.84 a RD$61.90 (+0.06 pesos), mientras que la tasa de venta incrementó de RD$62.92 a RD$62.96 (+0.04 pesos). La brecha (gap) entre compra y venta se redujo ligeramente de 1.11 a 1.07 pesos, sugiriendo una estabilización gradual del mercado.
 
 ### Entidades de Intermediación Financiera
 
-* **Banesco** mostró el mayor incremento en su tasa de compra, subiendo 0.20 pesos (de RD$60.80 a RD$61.00), mientras mantuvo un diferencial relativamente alto de 1.95 pesos.
+* **Banco Santa Cruz** registró uno de los aumentos más significativos entre los bancos múltiples, con un incremento de 0.10 pesos tanto en su tasa de compra (de RD$61.90 a RD$62.00) como en la de venta (de RD$62.90 a RD$63.00).
 
-* **Asociación Popular** registró un aumento significativo de 0.15 pesos en su tasa de compra (de RD$61.15 a RD$61.30), reduciendo su diferencial de 1.75 a 1.65 pesos.
+* **Banesco** mostró la mayor variación en su tasa de compra con un aumento de 0.20 pesos (de RD$60.80 a RD$61.00), mientras mantuvo un incremento moderado de 0.05 pesos en su tasa de venta.
 
-* **Banreservas**, el banco estatal, incrementó tanto su tasa de compra como de venta en 0.05 pesos, manteniendo un diferencial estable de 1.50 pesos, por debajo del promedio del mercado.
+* **Bonanza Banco** incrementó su tasa de compra en 0.20 pesos (de RD$61.90 a RD$62.10) y su tasa de venta en 0.10 pesos, posicionándose como una de las entidades financieras con cambios más notables.
 
 ### Agentes de Cambio
 
-* **SCT** presentó los cambios más notables entre los agentes de cambio, con un aumento de 0.30 pesos en la tasa de compra (de RD$62.20 a RD$62.50) y 0.25 pesos en la tasa de venta (de RD$62.90 a RD$63.15).
+* **SCT** presentó el mayor aumento entre los agentes de cambio, con incrementos de 0.30 pesos en la tasa de compra (de RD$62.20 a RD$62.50) y 0.25 pesos en la tasa de venta (de RD$62.90 a RD$63.15).
 
-* **Capla** incrementó su tasa de compra en 0.20 pesos (de RD$62.40 a RD$62.60), posicionándose entre los agentes de cambio con tasas más competitivas.
+* **Cambio Extranjero** aumentó su tasa de compra en 0.15 pesos (de RD$62.25 a RD$62.40) y su tasa de venta en 0.05 pesos, manteniéndose entre los agentes con tasas competitivas.
 
-* **Cambio Extranjero** aumentó su tasa de compra en 0.15 pesos (de RD$62.25 a RD$62.40) y su tasa de venta en 0.05 pesos, reduciendo su diferencial de 0.70 a 0.60 pesos.
+* **Capla** incrementó su tasa de compra en 0.20 pesos (de RD$62.40 a RD$62.60), aunque no hay datos comparativos de venta para el día anterior.
 
-En general, el mercado cambiario dominicano mostró una tendencia alcista moderada, con los agentes de cambio ofreciendo tasas de compra más atractivas (promedio de RD$62.50) en comparación con las entidades bancarias tradicionales (promedio de RD$61.50). Esta estabilidad relativa refleja la solidez actual del peso dominicano frente al dólar estadounidense, a pesar de las pequeñas fluctuaciones diarias observadas.
+Estas variaciones reflejan un mercado cambiario con tendencia alcista moderada pero estable. Los agentes de cambio continúan ofreciendo tasas de compra más atractivas que las entidades bancarias tradicionales, mientras que la reducción en la brecha promedio entre compra y venta sugiere un mercado más eficiente. Las perspectivas a corto plazo indican que podría mantenerse esta tendencia gradual al alza en las tasas de cambio del dólar frente al peso dominicano.
