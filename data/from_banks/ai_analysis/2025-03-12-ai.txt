@@ -1,17 +1,21 @@
-## Análisis: Cambios Recientes en Tasas de Cambio en República Dominicana
+## Análisis: Cambios en las Tasas de Cambio Bancarias
 
-El 12 de marzo de 2025, el tipo de cambio promedio en República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió a RD$61.87 desde RD$61.84 del día anterior, mientras que la tasa de venta aumentó a RD$62.94 desde RD$62.92. El diferencial (gap) entre compra y venta se redujo ligeramente a RD$1.10 comparado con RD$1.11 del día anterior, lo que indica una pequeña mejora en la eficiencia del mercado cambiario.
+El 12 de marzo de 2025, el tipo de cambio promedio en la República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió de RD$61.84 a RD$61.89 (+0.05 pesos), mientras que la tasa de venta aumentó de RD$62.92 a RD$62.96 (+0.04 pesos). Como resultado, el diferencial (gap) entre compra y venta se redujo levemente de 1.11 a 1.08 pesos, lo que indica una pequeña mejora en las condiciones del mercado cambiario.
 
-### Entidades de intermediación financiera:
+### Entidades de Intermediación Financiera
 
-* **Banesco** mostró el cambio más significativo entre las EIF con un aumento de RD$0.20 en su tasa de compra (de RD$60.80 a RD$61.00), mientras que su tasa de venta aumentó sólo RD$0.05.
-* **Asociación Popular** incrementó su tasa de compra en RD$0.15, pasando de RD$61.15 a RD$61.30, y aumentó su tasa de venta en RD$0.05.
-* La mayoría de los bancos múltiples, incluyendo **Banreservas**, **Banco Popular** y **BHD**, mostraron incrementos uniformes de RD$0.05 tanto en sus tasas de compra como de venta.
+* **Banesco** mostró el mayor incremento en su tasa de compra, subiendo 0.20 pesos (de RD$60.80 a RD$61.00), mientras mantuvo un diferencial relativamente alto de 1.95 pesos.
 
-### Agentes de cambio:
+* **Asociación Popular** registró un aumento significativo de 0.15 pesos en su tasa de compra (de RD$61.15 a RD$61.30), reduciendo su diferencial de 1.75 a 1.65 pesos.
 
-* Los agentes de cambio mantuvieron tasas más estables que las EIF, sin cambios en la mayoría de sus cotizaciones durante este período.
-* **Moneycorps**, **Panora Exchange** y **Taveras** continúan ofreciendo las tasas de venta más altas del mercado a RD$63.10, sin variación respecto al día anterior.
-* **RM** y **Gamelin** mantienen los diferenciales más pequeños (RD$0.40) entre todas las entidades analizadas, ofreciendo mejor valor para operaciones de cambio de divisas.
+* **Banreservas**, el banco estatal, incrementó tanto su tasa de compra como de venta en 0.05 pesos, manteniendo un diferencial estable de 1.50 pesos, por debajo del promedio del mercado.
 
-El mercado cambiario dominicano muestra una tendencia alcista moderada con un incremento promedio de RD$0.03 en las tasas de compra y venta. Este comportamiento refleja un ajuste gradual y ordenado en el mercado de divisas, sin evidencia de volatilidad significativa. Las entidades financieras formales (EIF) muestran mayor sensibilidad a los cambios del mercado que los agentes de cambio, quienes mantuvieron tasas más estables durante este período.
+### Agentes de Cambio
+
+* **SCT** presentó los cambios más notables entre los agentes de cambio, con un aumento de 0.30 pesos en la tasa de compra (de RD$62.20 a RD$62.50) y 0.25 pesos en la tasa de venta (de RD$62.90 a RD$63.15).
+
+* **Capla** incrementó su tasa de compra en 0.20 pesos (de RD$62.40 a RD$62.60), posicionándose entre los agentes de cambio con tasas más competitivas.
+
+* **Cambio Extranjero** aumentó su tasa de compra en 0.15 pesos (de RD$62.25 a RD$62.40) y su tasa de venta en 0.05 pesos, reduciendo su diferencial de 0.70 a 0.60 pesos.
+
+En general, el mercado cambiario dominicano mostró una tendencia alcista moderada, con los agentes de cambio ofreciendo tasas de compra más atractivas (promedio de RD$62.50) en comparación con las entidades bancarias tradicionales (promedio de RD$61.50). Esta estabilidad relativa refleja la solidez actual del peso dominicano frente al dólar estadounidense, a pesar de las pequeñas fluctuaciones diarias observadas.
