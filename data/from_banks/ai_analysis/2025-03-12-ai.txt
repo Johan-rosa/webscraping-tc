@@ -1,0 +1,21 @@
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
+
+El mercado cambiario dominicano muestra una ligera tendencia al alza entre el 11 y 12 de marzo de 2025. La tasa promedio de compra aumentó de RD$61.84 a RD$61.86 (+0.01%), mientras que la tasa de venta subió de RD$62.92 a RD$62.93 (+0.01%). El margen promedio (gap) entre compra y venta se redujo ligeramente de RD$1.11 a RD$1.10, lo que indica una mayor eficiencia en el mercado.
+
+### Entidades de Intermediación Financiera
+
+* **Banesco** registra el mayor incremento en la tasa de compra con un aumento de RD$0.20, pasando de RD$60.80 a RD$61.00, mientras mantiene un margen amplio de RD$1.95.
+
+* **Banco Popular** y **Banco BHD** muestran comportamientos idénticos con incrementos moderados de RD$0.05 tanto en compra como en venta, alcanzando tasas de RD$61.20 y RD$62.95 respectivamente.
+
+* **Asociación La Nacional** aumentó sus tasas de compra y venta en RD$0.05, situándose en RD$61.95 para compra y RD$62.95 para venta, manteniendo un margen estable de RD$1.00.
+
+### Agentes de Cambio
+
+* Los agentes de cambio muestran mayor estabilidad que las EIF, con la mayoría manteniendo tasas sin variación respecto al día anterior.
+
+* **Moneycorps**, **Panora Exchange** y **Taveras** mantienen las tasas de venta más altas del mercado en RD$63.10, sin cambios respecto al día previo.
+
+* **Gamelin** y **RM** presentan los márgenes más estrechos entre compra y venta (RD$0.40), reflejando políticas comerciales más competitivas en términos de spread cambiario.
+
+El mercado cambiario dominicano muestra estabilidad con ligeras tendencias alcistas. Las variaciones son mínimas entre ambas fechas, lo que sugiere un mercado equilibrado donde las EIF presentan mayor dinamismo que los agentes de cambio. La reducción del margen promedio entre compra y venta podría beneficiar a los consumidores y empresas que realizan operaciones en divisas.
