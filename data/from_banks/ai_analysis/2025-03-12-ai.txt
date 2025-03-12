@@ -1,21 +1,17 @@
-## Análisis: Evolución de las Tasas de Cambio en República Dominicana
+## Análisis: Cambios Recientes en Tasas de Cambio en República Dominicana
 
-El mercado cambiario dominicano muestra una ligera tendencia al alza entre el 11 y 12 de marzo de 2025. La tasa promedio de compra aumentó de RD$61.84 a RD$61.86 (+0.01%), mientras que la tasa de venta subió de RD$62.92 a RD$62.93 (+0.01%). El margen promedio (gap) entre compra y venta se redujo ligeramente de RD$1.11 a RD$1.10, lo que indica una mayor eficiencia en el mercado.
+El 12 de marzo de 2025, el tipo de cambio promedio en República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió a RD$61.87 desde RD$61.84 del día anterior, mientras que la tasa de venta aumentó a RD$62.94 desde RD$62.92. El diferencial (gap) entre compra y venta se redujo ligeramente a RD$1.10 comparado con RD$1.11 del día anterior, lo que indica una pequeña mejora en la eficiencia del mercado cambiario.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera:
 
-* **Banesco** registra el mayor incremento en la tasa de compra con un aumento de RD$0.20, pasando de RD$60.80 a RD$61.00, mientras mantiene un margen amplio de RD$1.95.
+* **Banesco** mostró el cambio más significativo entre las EIF con un aumento de RD$0.20 en su tasa de compra (de RD$60.80 a RD$61.00), mientras que su tasa de venta aumentó sólo RD$0.05.
+* **Asociación Popular** incrementó su tasa de compra en RD$0.15, pasando de RD$61.15 a RD$61.30, y aumentó su tasa de venta en RD$0.05.
+* La mayoría de los bancos múltiples, incluyendo **Banreservas**, **Banco Popular** y **BHD**, mostraron incrementos uniformes de RD$0.05 tanto en sus tasas de compra como de venta.
 
-* **Banco Popular** y **Banco BHD** muestran comportamientos idénticos con incrementos moderados de RD$0.05 tanto en compra como en venta, alcanzando tasas de RD$61.20 y RD$62.95 respectivamente.
+### Agentes de cambio:
 
-* **Asociación La Nacional** aumentó sus tasas de compra y venta en RD$0.05, situándose en RD$61.95 para compra y RD$62.95 para venta, manteniendo un margen estable de RD$1.00.
+* Los agentes de cambio mantuvieron tasas más estables que las EIF, sin cambios en la mayoría de sus cotizaciones durante este período.
+* **Moneycorps**, **Panora Exchange** y **Taveras** continúan ofreciendo las tasas de venta más altas del mercado a RD$63.10, sin variación respecto al día anterior.
+* **RM** y **Gamelin** mantienen los diferenciales más pequeños (RD$0.40) entre todas las entidades analizadas, ofreciendo mejor valor para operaciones de cambio de divisas.
 
-### Agentes de Cambio
-
-* Los agentes de cambio muestran mayor estabilidad que las EIF, con la mayoría manteniendo tasas sin variación respecto al día anterior.
-
-* **Moneycorps**, **Panora Exchange** y **Taveras** mantienen las tasas de venta más altas del mercado en RD$63.10, sin cambios respecto al día previo.
-
-* **Gamelin** y **RM** presentan los márgenes más estrechos entre compra y venta (RD$0.40), reflejando políticas comerciales más competitivas en términos de spread cambiario.
-
-El mercado cambiario dominicano muestra estabilidad con ligeras tendencias alcistas. Las variaciones son mínimas entre ambas fechas, lo que sugiere un mercado equilibrado donde las EIF presentan mayor dinamismo que los agentes de cambio. La reducción del margen promedio entre compra y venta podría beneficiar a los consumidores y empresas que realizan operaciones en divisas.
+El mercado cambiario dominicano muestra una tendencia alcista moderada con un incremento promedio de RD$0.03 en las tasas de compra y venta. Este comportamiento refleja un ajuste gradual y ordenado en el mercado de divisas, sin evidencia de volatilidad significativa. Las entidades financieras formales (EIF) muestran mayor sensibilidad a los cambios del mercado que los agentes de cambio, quienes mantuvieron tasas más estables durante este período.
