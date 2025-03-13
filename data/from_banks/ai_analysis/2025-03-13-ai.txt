@@ -1,0 +1,21 @@
+## Análisis: Cambios Recientes en Tasas de Cambio Bancarias
+
+El 13 de marzo de 2025, el tipo de cambio promedio en la República Dominicana mostró ligeras variaciones respecto al día anterior. La tasa de compra promedio aumentó a RD$61.91 (incremento de RD$0.01), mientras que la tasa de venta subió marginalmente a RD$62.97 (incremento de RD$0.01). El diferencial (gap) entre compra y venta se mantuvo estable en RD$1.07, lo que indica un mercado cambiario relativamente estable.
+
+### Entidades de Intermediación Financiera
+
+* **Banesco** presentó el mayor incremento en su tasa de compra con un aumento de RD$0.10, pasando de RD$61.00 a RD$61.10, mientras su tasa de venta subió RD$0.05 hasta RD$63.00, reduciendo ligeramente su diferencial.
+
+* **Banco Popular** y **Banco BHD** mostraron comportamientos idénticos, ambos incrementando sus tasas de compra y venta en RD$0.05, manteniendo su diferencial constante en RD$1.75.
+
+* **Banco Lafise** incrementó únicamente su tasa de compra en RD$0.05 (a RD$61.50), mientras mantuvo su tasa de venta en RD$62.95, reduciendo su diferencial de RD$1.50 a RD$1.45.
+
+### Agentes de Cambio
+
+* Los agentes de cambio mantuvieron en general mayor estabilidad que las entidades bancarias, sin presentar variaciones significativas en sus tasas durante este período.
+
+* **Agente de Cambio la Nacional** mantuvo su tasa de compra en RD$62.25, posicionándose entre los agentes con mejores tasas de compra para los clientes.
+
+* Los agentes como **Moneycorps**, **Capla**, **Taveras** y **Panora Exchange** conservan las tasas de venta más altas del mercado (RD$63.10-63.15), sin cambios respecto al día anterior.
+
+El mercado cambiario dominicano demuestra estabilidad con variaciones mínimas entre el 12 y 13 de marzo de 2025. Las entidades financieras tradicionales muestran una mayor tendencia a ajustar sus tasas que los agentes de cambio, aunque estos cambios son marginales. El diferencial promedio se mantiene estable, lo que sugiere que las condiciones del mercado cambiario no han experimentado perturbaciones significativas en este período.
