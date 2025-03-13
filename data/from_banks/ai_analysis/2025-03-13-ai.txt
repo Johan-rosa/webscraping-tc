@@ -1,21 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio en República Dominicana
+## Análisis: Cambios en Tasas de Cambio Bancarias en República Dominicana
 
-El 13 de marzo de 2025, la tasa de cambio promedio del dólar estadounidense en República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió de RD$61.90 a RD$61.95 (+0.05 pesos), mientras que la tasa de venta aumentó de RD$62.96 a RD$63.00 (+0.04 pesos). El diferencial (gap) entre compra y venta creció ligeramente de 1.07 a 1.09 pesos, indicando un pequeño incremento en los márgenes operativos de las entidades financieras.
+El 13 de marzo de 2025, las tasas de cambio en la República Dominicana mostraron un incremento generalizado. La tasa promedio de compra subió de RD$61.90 a RD$61.96 (+0.06 pesos), mientras que la tasa de venta aumentó de RD$62.96 a RD$63.00 (+0.04 pesos). La brecha promedio entre compra y venta se amplió ligeramente de 1.08 a 1.09 pesos, indicando un pequeño aumento en el margen de beneficio para las entidades cambiarias.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco López de Haro** registró el mayor incremento entre los bancos múltiples, con un aumento de RD$0.25 en su tasa de compra (de RD$61.75 a RD$62.00) y RD$0.10 en su tasa de venta (de RD$62.95 a RD$63.05).
+* **Banco López de Haro** mostró el cambio más significativo con un aumento de RD$0.25 en su tasa de compra (de RD$61.75 a RD$62.00) y RD$0.10 en su tasa de venta, reduciendo su brecha de 1.20 a 1.05 pesos.
 
-* **Asociación Cibao** mostró un aumento significativo en ambas tasas, incrementando tanto la compra como la venta en RD$0.10, alcanzando RD$62.05 para compra y RD$63.05 para venta.
+* **Banreservas**, el banco estatal, mantuvo un enfoque conservador con un aumento modesto de RD$0.05 tanto en su tasa de compra como de venta, manteniendo una brecha estable de 1.50 pesos.
 
-* **Banco Santa Cruz** y **BDI** mantienen las tasas de compra más altas entre los bancos múltiples con RD$62.00 y RD$62.20 respectivamente, mientras que **Banesco** mantiene la tasa de compra más baja (RD$61.10).
+* **Alaver** y **Asociación Cibao** destacaron entre las asociaciones de ahorro y préstamo, ambas incrementando sus tasas de compra y venta en RD$0.10, manteniendo sus brechas constantes en 1.00 peso.
 
 ### Agentes de Cambio
 
-* **Agente de Cambio la Nacional** presentó el incremento más significativo entre los agentes de cambio, con un aumento de RD$0.25 en su tasa de compra (de RD$62.25 a RD$62.50).
+* **Agente de Cambio La Nacional** registró el mayor incremento entre los agentes de cambio con un aumento de RD$0.25 en su tasa de compra (de RD$62.25 a RD$62.50).
 
-* **Moneycorps** aumentó su tasa de compra en RD$0.10 (de RD$62.55 a RD$62.65), manteniendo su tasa de venta en RD$63.10, lo que redujo su diferencial de 0.55 a 0.45 pesos.
+* **Moneycorps** ajustó su tasa de compra en RD$0.10 (de RD$62.55 a RD$62.65) mientras mantuvo su tasa de venta en RD$63.10, reduciendo así su brecha de 0.55 a 0.45 pesos.
 
-* **SCT** incrementó su tasa de venta en RD$0.15 (de RD$63.15 a RD$63.30), registrando la tasa de venta más alta entre todas las entidades analizadas.
+* **SCT** fue el único agente que aumentó significativamente su tasa de venta en RD$0.15 (de RD$63.15 a RD$63.30), ampliando su brecha de 0.65 a 0.80 pesos, la más alta entre los agentes de cambio.
 
-En conclusión, el mercado cambiario dominicano muestra una tendencia alcista moderada, con incrementos generalizados pero pequeños en las tasas de cambio. Los agentes de cambio continúan ofreciendo mejores tasas de compra que las entidades de intermediación financiera, mientras que los diferenciales se mantienen relativamente estables. Este comportamiento sugiere un mercado estable con presiones inflacionarias controladas en el corto plazo.
+Las variaciones observadas reflejan un mercado cambiario estable con una tendencia alcista moderada. Los bancos múltiples mantienen tasas de venta uniformes en torno a RD$63.00, mientras que los agentes de cambio ofrecen mayor variabilidad y, en general, mejores tasas de compra. Esta situación sugiere un ajuste gradual del mercado cambiario dominicano que podría continuar en las próximas jornadas.
