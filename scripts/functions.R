@@ -500,3 +500,24 @@ tasa_dolar_quezada <- function() {
     sell = venta
   )
 }
+
+tasa_dolar_union <- function() {
+  URL <- "https://www.bancounion.com.do/servicios/cambio-de-divisas/"
+  BANCO <- "Banco Unión"
+  page <- rvest::read_html(httr::GET(url, httr::user_agent(custom_ua)))
+  
+  tasas_raw <- page |>
+    rvest::html_elements(".tasatable h2 table") |>
+    html_text() |>
+    str_squish()
+  
+  compra <- tasas_raw[1] |> readr::parse_number()
+  venta <- tasas_raw[2] |> readr::parse_number()
+  
+  data.frame(
+    date = today_in_dr(),
+    bank = BANCO,
+    buy = compra,
+    sell = venta
+  )
+}
