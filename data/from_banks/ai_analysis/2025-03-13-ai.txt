@@ -1,21 +1,21 @@
-## Análisis: Cambios en las Tasas de Cambio Bancarias en República Dominicana
+## Análisis: Cambios en Tasas de Cambio en República Dominicana
 
-El 13 de marzo de 2025, las tasas de cambio del dólar en entidades bancarias dominicanas mostraron un ligero incremento. El promedio de compra subió de RD$61.90 a RD$61.92 (un aumento de RD$0.02), mientras que la tasa de venta se incrementó de RD$62.96 a RD$62.97 (un aumento de RD$0.01). El diferencial promedio entre compra y venta se mantuvo estable en aproximadamente RD$1.07, lo que sugiere una situación de mercado sin cambios significativos.
+El 13 de marzo de 2025, se observó un ligero aumento en las tasas de cambio del dólar estadounidense en las entidades bancarias de la República Dominicana. La tasa de compra promedio aumentó de RD$61.90 a RD$61.94 (un incremento de RD$0.04), mientras que la tasa de venta promedio subió de RD$62.96 a RD$62.99 (un incremento de RD$0.03). El diferencial (gap) entre compra y venta se redujo ligeramente de RD$1.08 a RD$1.07.
 
 ### Entidades de Intermediación Financiera
 
-* El **Banco Popular** y el **Banco BHD** mostraron movimientos idénticos, ambos incrementando sus tasas de compra y venta en RD$0.05, llevando sus tasas de venta a RD$63.00, posicionándose entre las más altas del mercado para bancos múltiples.
+* **Banco López de Haro** registró el mayor incremento en su tasa de compra entre las EIFs, aumentando RD$0.25 (de RD$61.75 a RD$62.00), acompañado de un aumento de RD$0.10 en su tasa de venta.
 
-* **Banesco** presentó el mayor aumento en la tasa de compra entre los bancos múltiples, con un incremento de RD$0.10, pasando de RD$61.00 a RD$61.10, mientras su tasa de venta subió RD$0.05 hasta RD$63.00.
+* **Banco BDI** y **Banco Ademi** mostraron incrementos similares, ambos aumentando su tasa de compra en RD$0.10, mientras mantuvieron sus tasas de venta con un ligero aumento de RD$0.05.
 
-* La **Asociación Cibao** fue la única asociación de ahorros y préstamos que ajustó sus tasas, incrementando tanto la compra como la venta en RD$0.05, alcanzando niveles de RD$62.00 y RD$63.00 respectivamente.
+* Las **Asociaciones de Ahorros y Préstamos** mantuvieron relativa estabilidad, con la Asociación Cibao y la Asociación La Nacional mostrando aumentos idénticos de RD$0.05 tanto en compra como en venta.
 
 ### Agentes de Cambio
 
-* El **Agente de Cambio La Nacional** mostró el incremento más significativo entre todas las entidades analizadas, aumentando su tasa de compra en RD$0.25, pasando de RD$62.25 a RD$62.50.
+* **Agente de Cambio La Nacional** presentó el cambio más significativo entre los agentes de cambio, con un incremento de RD$0.25 en su tasa de compra (de RD$62.25 a RD$62.50).
 
-* Los agentes **Capla**, **Moneycorps**, **Taveras** y **SCT** mantienen las tasas de venta más altas del mercado, entre RD$63.10 y RD$63.15, sin cambios respecto al día anterior.
+* **SCT** fue el único agente de cambio que aumentó su tasa de venta significativamente, con un incremento de RD$0.15, pasando de RD$63.15 a RD$63.30, sin modificar su tasa de compra.
 
-* En general, los agentes de cambio presentan diferenciales (gap) significativamente menores que las entidades bancarias, con brechas entre RD$0.40 y RD$0.75, lo que los hace más atractivos para operaciones de cambio de divisas.
+* La mayoría de los agentes de cambio, incluyendo **Girosol**, **RM**, **Gamelin**, y **Moneycorps**, mantuvieron sus tasas sin variación respecto al día anterior, demostrando estabilidad en este sector.
 
-En conclusión, el mercado cambiario dominicano muestra una ligera tendencia alcista con movimientos moderados, principalmente impulsados por algunos bancos múltiples y el agente de cambio La Nacional. La estabilidad en los diferenciales y los cambios graduales sugieren un mercado sin presiones especulativas significativas por el momento, manteniendo condiciones favorables para las operaciones de cambio de divisas.
+Las variaciones observadas en el mercado cambiario dominicano reflejan un ajuste gradual y moderado, con un comportamiento ligeramente alcista pero dentro de un marco de estabilidad. Los bancos múltiples muestran mayor tendencia al ajuste que los agentes de cambio, quienes mantuvieron en su mayoría tasas constantes. Este comportamiento sugiere un mercado cambiario controlado con ajustes incrementales que responden a las condiciones económicas actuales.
