@@ -18,7 +18,8 @@ entidades_banks <- tibble::tribble(
      "Promerica",           "Promerica",         "EIF",  "Banco Múltiple",
        "Banesco",             "Banesco",         "EIF",  "Banco Múltiple",
         "Lafise",        "Banco Lafise",         "EIF",  "Banco Múltiple",
-         "Ademi",         "Banco Ademi",         "EIF",  "Banco Múltiple"
+         "Ademi",         "Banco Ademi",         "EIF",  "Banco Múltiple",
+         "Quzada",            "Quezada",         "AC",               "AC"
  )
 
 #' @export

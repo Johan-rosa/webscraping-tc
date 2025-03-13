@@ -476,3 +476,27 @@ tasa_dolar_ademi <- function() {
   
   tasas_table
 }
+
+#' Descarga la tasa de cambio de Quezada
+#' @export
+tasa_dolar_quezada <- function() {
+  BANCO = "Quezada"
+  URL = "https://quezada.do/"
+
+  tasas_raw <- rvest::read_html(URL) |>
+    rvest::html_element("header .overlay") |>
+    rvest::html_elements("label") |>
+    rvest::html_text() |>
+    stringr::str_subset("\\d+")
+  
+  compra <- readr::parse_number(tasas_raw[1])
+  venta <- readr::parse_number(tasas_raw[2])
+  
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
+  data.frame(
+    date = today_in_dr(),
+    bank = BANCO,
+    buy = compra,
+    sell = venta
+  )
+}

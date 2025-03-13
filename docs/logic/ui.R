@@ -149,7 +149,7 @@ report_table <- function(tasas_to_table) {
       theme = reactableTheme(cellPadding = "8px 12px"),
       highlight = TRUE, 
       striped = TRUE,
-      defaultSorted = list(buy = "desc"),
+      defaultSorted = list(sell = "desc"),
       columns = list(
         d_buy = colDef(show = FALSE),
         d_sell = colDef(show = FALSE),
