@@ -1,21 +1,21 @@
-## Análisis: Cambios Recientes en Tasas de Cambio Bancarias
+## Análisis: Cambios Recientes en las Tasas de Cambio en República Dominicana
 
-En el último día, se observó un aumento generalizado en las tasas de cambio del dólar estadounidense en la República Dominicana. El promedio de compra subió de RD$61.97 a RD$62.02 (+0.05 pesos), mientras que la tasa de venta promedio aumentó de RD$63.01 a RD$63.07 (+0.06 pesos). El diferencial (gap) entre compra y venta se incrementó levemente de 1.07 a 1.08 pesos, indicando un ligero ensanchamiento en los márgenes operativos de las entidades cambiarias.
+Los datos del 14 de marzo de 2025 muestran un ligero aumento en las tasas de cambio del dólar frente al peso dominicano. El promedio de compra aumentó de RD$61.97 a RD$62.02 (+0.05 pesos), mientras que la venta subió de RD$63.01 a RD$63.08 (+0.07 pesos). El diferencial (gap) entre compra y venta se incrementó ligeramente de 1.07 a 1.09 pesos, lo que indica una pequeña ampliación en los márgenes de las entidades financieras.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Lafise** mostró el cambio más significativo con un aumento de RD$0.45 en su tasa de compra (de RD$61.50 a RD$61.95), mientras mantuvo un incremento moderado de RD$0.10 en su tasa de venta, reduciendo así su diferencial de 1.50 a 1.15.
+* El **Banco Popular** mostró uno de los cambios más notables entre los bancos múltiples, aumentando su tasa de compra en 0.05 pesos (de RD$61.25 a RD$61.30) y su tasa de venta en 0.15 pesos (de RD$63.00 a RD$63.15), ampliando su diferencial a 1.85 pesos.
 
-* **Banco BHD** ajustó tanto su tasa de compra como de venta en RD$0.10, llegando a RD$61.35 y RD$63.10 respectivamente, manteniendo estable su diferencial en 1.75 pesos.
+* **Banco BHD** incrementó tanto su tasa de compra como de venta en 0.10 pesos cada una, manteniendo su diferencial constante en 1.75 pesos, siguiendo la tendencia alcista del mercado.
 
-* **Banco Ademi** fue la única entidad financiera que mostró una disminución en su tasa de compra (-RD$0.05), mientras que incrementó su tasa de venta en RD$0.10, ampliando su diferencial de 0.85 a 1.00 peso.
+* **Motor Crédito** y **Asociación Cibao**, dentro de las entidades financieras no bancarias, también mostraron aumentos consistentes de 0.10 pesos tanto en compra como en venta, reflejando un ajuste general en el sector.
 
 ### Agentes de Cambio
 
-* **RM** presentó los ajustes más agresivos entre los agentes de cambio, con un aumento de RD$0.40 en su tasa de compra (de RD$62.40 a RD$62.80) y RD$0.30 en su tasa de venta (de RD$62.80 a RD$63.10), reduciendo su diferencial de 0.40 a 0.30.
+* **RM** presentó el cambio más significativo entre todos los agentes, con un aumento de 0.40 pesos en su tasa de compra (de RD$62.40 a RD$62.80) y de 0.30 pesos en su tasa de venta (de RD$62.80 a RD$63.10), reduciendo su diferencial de 0.40 a 0.30 pesos.
 
-* Los agentes **Quezada**, **Capla**, **Gamelin** y varios otros mantuvieron sus tasas sin cambios tanto en compra como en venta, sugiriendo una postura más conservadora ante las fluctuaciones del mercado.
+* **Girosol** también mostró ajustes importantes, incrementando su tasa de compra en 0.25 pesos (hasta RD$62.30) y su tasa de venta en 0.20 pesos (hasta RD$63.00), lo que refleja una posición más competitiva en el mercado.
 
-* **Girosol** continúa ofreciendo una de las tasas de venta más competitivas entre los agentes de cambio (RD$62.80), significativamente por debajo del promedio general de RD$63.07.
+* **Moneycorps** ajustó moderadamente sus tasas, con un aumento de 0.05 pesos en compra y 0.10 pesos en venta, manteniendo un diferencial relativamente bajo de 0.50 pesos, característico de los agentes de cambio.
 
-Este ligero aumento en las tasas de cambio refleja ajustes moderados en el mercado cambiario dominicano. Mientras la mayoría de las entidades bancarias múltiples incrementaron sus tasas, los agentes de cambio se mantuvieron mayormente estables, con excepción de RM que mostró un ajuste significativo. Esta tendencia sugiere una respuesta calculada a condiciones de mercado que podrían estar anticipando factores estacionales o ajustes económicos en el corto plazo.
+El mercado cambiario dominicano muestra una tendencia alcista leve pero consistente, con la mayoría de las entidades ajustando sus tasas al alza. Los bancos múltiples mantienen diferenciales más amplios (entre 1.00 y 1.95 pesos) que los agentes de cambio, quienes operan con márgenes más estrechos (entre 0.30 y 0.80 pesos). Esta tendencia podría continuar en las próximas jornadas, dependiendo de factores macroeconómicos locales e internacionales.
