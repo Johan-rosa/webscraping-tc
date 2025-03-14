@@ -36,8 +36,6 @@ box::use(
   ],
   scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar]
 )
-
-
 ```
 
 ```{r import_data_banks, echo=FALSE}
