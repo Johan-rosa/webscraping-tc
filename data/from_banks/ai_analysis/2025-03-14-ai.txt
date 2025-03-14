@@ -1,21 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio en la República Dominicana
+## Análisis: Cambios Recientes en Tasas de Cambio Bancarias
 
-El mercado cambiario dominicano muestra estabilidad con ligeras variaciones al 14 de marzo de 2025. La tasa promedio de compra aumentó de RD$61.97 a RD$61.98 (+0.01 pesos), mientras que la venta subió de RD$63.01 a RD$63.02 (+0.01 pesos). El diferencial (gap) entre compra y venta se incrementó levemente de 1.07 a 1.08 pesos, indicando un mercado con pocas fluctuaciones.
+En el último día, se observó un aumento generalizado en las tasas de cambio del dólar estadounidense en la República Dominicana. El promedio de compra subió de RD$61.97 a RD$62.02 (+0.05 pesos), mientras que la tasa de venta promedio aumentó de RD$63.01 a RD$63.07 (+0.06 pesos). El diferencial (gap) entre compra y venta se incrementó levemente de 1.07 a 1.08 pesos, indicando un ligero ensanchamiento en los márgenes operativos de las entidades cambiarias.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco BHD** mostró el cambio más significativo entre las EIF, con un aumento de RD$0.10 tanto en su tasa de compra (de RD$61.25 a RD$61.35) como en su tasa de venta (de RD$63.00 a RD$63.10).
+* **Banco Lafise** mostró el cambio más significativo con un aumento de RD$0.45 en su tasa de compra (de RD$61.50 a RD$61.95), mientras mantuvo un incremento moderado de RD$0.10 en su tasa de venta, reduciendo así su diferencial de 1.50 a 1.15.
 
-* **Asociación La Nacional** y **Asociación Cibao** presentaron incrementos moderados de RD$0.05 en ambas tasas (compra y venta), reflejando un ajuste uniforme en sus operaciones cambiarias.
+* **Banco BHD** ajustó tanto su tasa de compra como de venta en RD$0.10, llegando a RD$61.35 y RD$63.10 respectivamente, manteniendo estable su diferencial en 1.75 pesos.
 
-* **Banco Popular** mantuvo estable su tasa de compra en RD$61.25, pero incrementó su tasa de venta en RD$0.10, llevándola a RD$63.10, lo que amplía su margen operativo.
+* **Banco Ademi** fue la única entidad financiera que mostró una disminución en su tasa de compra (-RD$0.05), mientras que incrementó su tasa de venta en RD$0.10, ampliando su diferencial de 0.85 a 1.00 peso.
 
 ### Agentes de Cambio
 
-* Los agentes de cambio mantuvieron notable estabilidad, sin registrar variaciones significativas en sus tasas durante el período analizado.
+* **RM** presentó los ajustes más agresivos entre los agentes de cambio, con un aumento de RD$0.40 en su tasa de compra (de RD$62.40 a RD$62.80) y RD$0.30 en su tasa de venta (de RD$62.80 a RD$63.10), reduciendo su diferencial de 0.40 a 0.30.
 
-* **Moneycorps** continúa ofreciendo una de las mejores tasas de compra entre los agentes de cambio (RD$62.65), manteniéndose sin cambios respecto al día anterior.
+* Los agentes **Quezada**, **Capla**, **Gamelin** y varios otros mantuvieron sus tasas sin cambios tanto en compra como en venta, sugiriendo una postura más conservadora ante las fluctuaciones del mercado.
 
-* **SCT** mantiene la tasa de venta más alta entre todos los agentes (RD$63.30), sin variaciones respecto al día anterior, lo que representa una oportunidad para quienes necesitan adquirir dólares.
+* **Girosol** continúa ofreciendo una de las tasas de venta más competitivas entre los agentes de cambio (RD$62.80), significativamente por debajo del promedio general de RD$63.07.
 
-El mercado cambiario dominicano demuestra solidez y estabilidad en este período, con ajustes mínimos que reflejan las condiciones equilibradas de oferta y demanda de divisas. Las entidades bancarias realizaron ajustes marginales, mientras que los agentes de cambio mantuvieron sus tasas sin alteraciones significativas, sugiriendo un entorno económico estable en la República Dominicana.
+Este ligero aumento en las tasas de cambio refleja ajustes moderados en el mercado cambiario dominicano. Mientras la mayoría de las entidades bancarias múltiples incrementaron sus tasas, los agentes de cambio se mantuvieron mayormente estables, con excepción de RM que mostró un ajuste significativo. Esta tendencia sugiere una respuesta calculada a condiciones de mercado que podrían estar anticipando factores estacionales o ajustes económicos en el corto plazo.
