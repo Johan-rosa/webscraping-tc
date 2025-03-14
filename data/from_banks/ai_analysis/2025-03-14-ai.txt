@@ -1,0 +1,21 @@
+## Análisis: Cambios en Tasas de Cambio de Bancos en República Dominicana
+
+El 14 de marzo de 2025, las tasas de cambio del dólar en República Dominicana mostraron una ligera variación respecto al día anterior. El promedio de compra aumentó 0.01 puntos, pasando de 61.97 a 61.98 pesos dominicanos por dólar, mientras que la tasa de venta incrementó 0.01 puntos, de 63.01 a 63.02 pesos. El diferencial (gap) entre compra y venta se mantuvo relativamente estable en aproximadamente 1.08 pesos.
+
+### Entidades de Intermediación Financiera
+
+* **Banco BHD** mostró el cambio más significativo entre las EIF, con incrementos de 0.10 pesos tanto en su tasa de compra (de 61.25 a 61.35) como en su tasa de venta (de 63.00 a 63.10).
+
+* **Banco Popular** mantuvo su tasa de compra en 61.25 pero incrementó su tasa de venta en 0.10 pesos, pasando de 63.00 a 63.10, lo que amplió su diferencial a 1.85 pesos.
+
+* **Asociación La Nacional** presentó un leve incremento de 0.05 pesos en ambas tasas, llevando su compra a 62.05 y su venta a 63.05, manteniendo un diferencial constante de 1.00 peso.
+
+### Agentes de Cambio
+
+* La mayoría de los Agentes de Cambio (AC) mantuvieron sus tasas sin variaciones respecto al día anterior, mostrando una mayor estabilidad que las EIF.
+
+* **SCT** continúa ofreciendo una de las tasas de venta más altas del mercado (63.30), sin cambios respecto al día anterior, manteniendo un diferencial de 0.80 pesos.
+
+* Los agentes **Taveras** y **Panora Exchange** comparten tasas idénticas (compra: 62.50, venta: 63.10) y mantuvieron estas cifras sin variación, con un diferencial competitivo de 0.60 pesos.
+
+El mercado cambiario dominicano muestra una estabilidad notable con variaciones mínimas, reflejando un entorno económico controlado. Las entidades bancarias tradicionales tienden a ofrecer tasas de compra ligeramente más bajas que los agentes de cambio, pero con diferenciales más amplios, mientras que los agentes de cambio mantienen diferenciales más competitivos, favoreciendo potencialmente a los usuarios que realizan operaciones de menor volumen.
