@@ -1,21 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio en la República Dominicana
+## Análisis: Cambios en las Tasas de Cambio en la República Dominicana
 
-El mercado cambiario dominicano muestra estabilidad con ligeras variaciones al 14 de marzo de 2025. La tasa promedio de compra aumentó de RD$61.97 a RD$61.98 (+0.01 pesos), mientras que la venta subió de RD$63.01 a RD$63.02 (+0.01 pesos). El diferencial (gap) entre compra y venta se incrementó levemente de 1.07 a 1.08 pesos, indicando un mercado con pocas fluctuaciones.
+El 14 de marzo de 2025, el mercado cambiario dominicano experimentó un ligero aumento en las tasas de cambio. El promedio de compra subió de RD$61.97 a RD$62.02 (+0.05 pesos), mientras que la venta incrementó de RD$63.01 a RD$63.09 (+0.08 pesos). La brecha entre compra y venta se amplió ligeramente de 1.08 a 1.10 pesos, indicando un pequeño ajuste en los márgenes de las entidades financieras.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco BHD** mostró el cambio más significativo entre las EIF, con un aumento de RD$0.10 tanto en su tasa de compra (de RD$61.25 a RD$61.35) como en su tasa de venta (de RD$63.00 a RD$63.10).
+* **Banco Lafise** mostró el cambio más significativo entre los bancos múltiples con un aumento de RD$0.15 tanto en su tasa de compra (de RD$61.50 a RD$61.65) como en su tasa de venta (de RD$63.00 a RD$63.15).
 
-* **Asociación La Nacional** y **Asociación Cibao** presentaron incrementos moderados de RD$0.05 en ambas tasas (compra y venta), reflejando un ajuste uniforme en sus operaciones cambiarias.
+* **Banco Popular** incrementó su tasa de venta en RD$0.15 (de RD$63.00 a RD$63.15) y su tasa de compra en RD$0.05 (de RD$61.25 a RD$61.30), ampliando su brecha a 1.85 pesos.
 
-* **Banco Popular** mantuvo estable su tasa de compra en RD$61.25, pero incrementó su tasa de venta en RD$0.10, llevándola a RD$63.10, lo que amplía su margen operativo.
+* **Asociación Popular** mantuvo su tasa de compra en RD$61.30 pero aumentó su tasa de venta en RD$0.15 (de RD$63.00 a RD$63.15), incrementando su brecha de 1.70 a 1.85 pesos.
 
 ### Agentes de Cambio
 
-* Los agentes de cambio mantuvieron notable estabilidad, sin registrar variaciones significativas en sus tasas durante el período analizado.
+* **RM** presentó el cambio más notable entre los agentes de cambio con un significativo aumento de RD$0.40 en su tasa de compra (de RD$62.40 a RD$62.80) y RD$0.30 en su tasa de venta (de RD$62.80 a RD$63.10).
 
-* **Moneycorps** continúa ofreciendo una de las mejores tasas de compra entre los agentes de cambio (RD$62.65), manteniéndose sin cambios respecto al día anterior.
+* **Girosol** incrementó su tasa de compra en RD$0.25 (de RD$62.05 a RD$62.30) y su tasa de venta en RD$0.20 (de RD$62.80 a RD$63.00), mostrando uno de los ajustes más importantes del sector.
 
-* **SCT** mantiene la tasa de venta más alta entre todos los agentes (RD$63.30), sin variaciones respecto al día anterior, lo que representa una oportunidad para quienes necesitan adquirir dólares.
+* **Quezada** mantuvo estable su tasa de compra en RD$62.50 pero incrementó su tasa de venta en RD$0.10 (de RD$63.20 a RD$63.30), ampliando ligeramente su margen operativo.
 
-El mercado cambiario dominicano demuestra solidez y estabilidad en este período, con ajustes mínimos que reflejan las condiciones equilibradas de oferta y demanda de divisas. Las entidades bancarias realizaron ajustes marginales, mientras que los agentes de cambio mantuvieron sus tasas sin alteraciones significativas, sugiriendo un entorno económico estable en la República Dominicana.
+En conclusión, el mercado cambiario dominicano muestra una tendencia alcista moderada, con un incremento promedio de 0.05 pesos en la tasa de compra y 0.08 pesos en la tasa de venta. Mientras que algunas entidades mantuvieron sus tasas sin cambios, otras realizaron ajustes significativos, reflejando diferentes estrategias comerciales y respuestas a las condiciones del mercado. Los agentes de cambio, particularmente RM y Girosol, mostraron las variaciones más pronunciadas en sus tasas de cambio.
