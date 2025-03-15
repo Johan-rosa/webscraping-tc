@@ -1,17 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio en República Dominicana
+## Análisis: Variaciones en las Tasas de Cambio de República Dominicana
 
-El 15 de marzo de 2025, el tipo de cambio promedio en República Dominicana mostró un ligero incremento. La tasa de compra promedio aumentó de RD$62.02 a RD$62.04 (+0.02 pesos), mientras que la tasa de venta subió de RD$63.09 a RD$63.11 (+0.02 pesos). El margen (gap) entre compra y venta se mantuvo estable en aproximadamente RD$1.10.
+El mercado cambiario dominicano muestra un ligero aumento en las tasas de cambio al 15 de marzo de 2025. La tasa promedio de compra subió de RD$62.02 a RD$62.04 (+0.02 pesos), mientras que la tasa de venta aumentó de RD$63.09 a RD$63.11 (+0.02 pesos). El diferencial (gap) promedio entre compra y venta se mantiene estable alrededor de 1.10 pesos.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas**, uno de los bancos principales del país, incrementó tanto su tasa de compra como de venta en RD$0.05, situándose en RD$61.50 para compra y RD$63.00 para venta.
-* **Banco Popular** mantuvo su tasa de compra en RD$61.30, pero aumentó ligeramente su tasa de venta en RD$0.05 hasta RD$63.20, ampliando su margen a RD$1.90.
-* **Asociación Cibao** mostró un incremento de RD$0.05 en ambas tasas, estableciéndose en RD$62.20 para compra y RD$63.20 para venta, con un margen estable de RD$1.00.
+* **Banreservas**, como banco estatal principal, registró un aumento moderado en sus tasas, con incrementos de 0.05 pesos tanto en compra (RD$61.50) como en venta (RD$63.00), manteniendo un diferencial competitivo de 1.50 pesos.
+
+* **Scotiabank** presentó uno de los aumentos más notables entre los bancos múltiples, con un incremento de 0.10 pesos en ambas tasas, estableciendo su compra en RD$61.35 y venta en RD$63.10, mientras sus sucursales registraron cambios similares.
+
+* **Banco Santa Cruz** también experimentó un aumento significativo de 0.10 pesos en sus tasas, ofreciendo la tasa de compra más alta entre los bancos múltiples (RD$62.20), con un diferencial competitivo de solo 1.00 peso.
 
 ### Agentes de Cambio
 
-* Los agentes de cambio en general mantuvieron sus tasas sin variaciones durante este período, mostrando estabilidad frente a los cambios observados en los bancos múltiples.
-* **Quezada** mantuvo la tasa de venta más alta entre los agentes de cambio (RD$63.30), sin mostrar variación respecto al día anterior.
-* **RM** continúa ofreciendo el margen más estrecho entre compra y venta (RD$0.30), con una tasa de compra de RD$62.80 y venta de RD$63.10, sin cambios respecto al día anterior.
+* Los **Agentes de Cambio** muestran mayor estabilidad, con la mayoría manteniendo sus tasas sin cambios respecto al día anterior, ofreciendo generalmente tasas de compra más favorables que las entidades bancarias.
 
-El mercado cambiario dominicano muestra una tendencia alcista leve pero consistente, principalmente impulsada por los bancos múltiples. Las entidades financieras mantienen márgenes más amplios que los agentes de cambio, quienes ofrecen diferenciales más competitivos para atraer clientes. Esta estabilidad relativa sugiere un mercado cambiario controlado con ajustes graduales en las tasas.
+* **Quezada** y **SCT** continúan ofreciendo las tasas de venta más altas entre los agentes de cambio (RD$63.30), sin variaciones respecto al día anterior.
+
+* **RM** mantiene el diferencial más bajo del mercado (solo 0.30 pesos), con una tasa de compra competitiva de RD$62.80, representando una opción atractiva para quienes buscan cambiar dólares a pesos dominicanos.
+
+El mercado cambiario dominicano muestra una tendencia alcista moderada, con aumentos leves en las tasas promedio. Las entidades financieras reguladas presentan mayor variabilidad en sus ajustes, mientras que los agentes de cambio mantienen mayor estabilidad. Esta dinámica refleja un mercado cambiario funcional donde los clientes pueden beneficiarse comparando las diferentes ofertas según sus necesidades específicas de compra o venta de divisas.
