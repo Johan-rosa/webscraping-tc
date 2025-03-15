@@ -1,21 +1,21 @@
-## Análisis: Tasas de cambio en la República Dominicana (14/03/2025)
+## Análisis: Cambios en Tasas de Cambio de República Dominicana
 
-El mercado cambiario dominicano mostró movimientos sutiles en la última jornada. La tasa promedio de compra aumentó ligeramente de RD$61.97 a RD$61.98 (+0.01 pesos), mientras que la tasa de venta incrementó de RD$63.01 a RD$63.02 (+0.01 pesos). El diferencial (gap) entre compra y venta se amplió marginalmente de 1.07 a 1.08 pesos, indicando un mercado estable con ligera tendencia alcista.
+El mercado cambiario dominicano experimentó un ligero aumento en las tasas de cambio del dólar entre el 14 y 15 de marzo de 2025. La tasa promedio de compra incrementó de 62.02 a 62.04 pesos dominicanos, mientras que la tasa de venta subió de 63.09 a 63.11 pesos. El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en aproximadamente 1.10 pesos, lo que indica una relativa estabilidad en los márgenes operativos de las entidades financieras.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Banco BHD** registró uno de los cambios más significativos entre los bancos múltiples, aumentando tanto su tasa de compra como de venta en 0.10 pesos, situándose en 61.35/63.10 respectivamente.
+* **Banreservas**, el banco estatal, mostró un incremento moderado de 0.05 pesos tanto en su tasa de compra (de 61.45 a 61.50) como en su tasa de venta (de 62.95 a 63.00), manteniendo su diferencial en 1.50 pesos.
 
-* **Banco Popular** mantuvo estable su tasa de compra en 61.25 pero incrementó su tasa de venta en 0.10 pesos hasta los 63.10, ampliando así su margen de ganancia.
+* **Scotiabank** registró uno de los aumentos más notables entre los bancos múltiples, con un incremento de 0.10 pesos en ambas tasas, llevando su compra a 61.35 y su venta a 63.10, mientras que sus sucursales también experimentaron un aumento similar.
 
-* **Asociación Cibao** mostró un incremento moderado de 0.05 pesos tanto en su tasa de compra (de 62.05 a 62.10) como en su tasa de venta (de 63.05 a 63.10), manteniendo constante su diferencial en 1.00 peso.
+* **Asociación Cibao** fue de las pocas asociaciones de ahorros y préstamos que modificó sus tasas, con un aumento de 0.05 pesos tanto en compra como en venta, situándose en 62.20 y 63.20 respectivamente.
 
-### Agentes de cambio
+### Agentes de Cambio
 
-* Los agentes de cambio mantuvieron en general sus cotizaciones sin variaciones significativas, mostrando mayor estabilidad que las entidades financieras.
+* Los agentes de cambio en general mantuvieron sus tasas sin variación durante este período, mostrando mayor estabilidad que las entidades de intermediación financiera.
 
-* **Moneycorps** continúa ofreciendo una de las mejores tasas de compra entre los agentes de cambio (62.65), sin cambios respecto al día anterior.
+* **Quezada** y **SCT** continúan ofreciendo las tasas de venta más altas entre los agentes de cambio (63.30), sin mostrar variaciones respecto al día anterior.
 
-* **SCT** mantiene la tasa de venta más alta entre todos los agentes analizados (63.30), sin variaciones respecto a la jornada anterior.
+* **RM** mantiene el diferencial más bajo del mercado (0.30 pesos), ofreciendo una tasa de compra competitiva de 62.80 pesos, sin cambios respecto al día anterior.
 
-El panorama cambiario dominicano refleja estabilidad con ligeras presiones alcistas. Las variaciones mínimas en las cotizaciones sugieren un mercado equilibrado, donde las entidades financieras formales (EIF) muestran mayor dinamismo en sus ajustes que los agentes de cambio. Los diferenciales se mantienen en rangos similares a los del día anterior, con los bancos múltiples tradicionalmente operando con márgenes más amplios que los agentes de cambio independientes.
+La estabilidad general observada en el mercado cambiario dominicano sugiere condiciones económicas equilibradas, con ajustes menores principalmente en el sector bancario. Los aumentos graduales en las tasas reflejan una presión alcista moderada sobre el dólar, aunque sin movimientos bruscos que pudieran indicar volatilidad en el mercado.
