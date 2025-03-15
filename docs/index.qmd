@@ -25,6 +25,7 @@ library(reactable)
 library(sparkline)
 library(lubridate)
 library(jsonlite)
+library(scales)
 
 box::use(
   scripts/utils[crear_mes],
@@ -184,16 +185,18 @@ div(
     class = "bcrd-header",
     div(
       class = "bcrd-label", 
-      span(class = "text", glue("Tasas de referencia BCRD / promedio ponderado {tc_spot$fecha}"))
+      span(class = "bcrd-text", glue("Tasas de referencia BCRD ")),
+      span(class = "bcrd-text separator", glue("/ promedio ponderado ")),
+      span(class = "bcrd-text", glue("{tc_spot$fecha}"))
     ),
     div(class = "bcrd-values",
         div(
           class = "bcrd-value", 
-          span(class = "bcrd-label", "Compra:"), span(class = "bcrd-amount", round(tc_spot$compra, 2))
+          span(class = "bcrd-label", "Compra:"), span(class = "bcrd-amount", comma(tc_spot$compra, 0.01))
         ),
         div(
           class = "bcrd-value", 
-          span(class = "bcrd-label", "Venta:"), span(class = "bcrd-amount", round(tc_spot$venta, 2))
+          span(class = "bcrd-label", "Venta:"), span(class = "bcrd-amount", comma(tc_spot$venta, 0.01))
         )
     )
   )
