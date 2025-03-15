@@ -1,8 +1,3 @@
-library(here)
-library(dplyr)
-library(tidyr)
-library(stringr)
-  
 #' @export
 entidades_banks <- tibble::tribble(
         ~entidad,                 ~name, ~tipo_entidad,  ~subgrupo_entidad,

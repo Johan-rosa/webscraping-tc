@@ -34,9 +34,15 @@ box::use(
     create_anthropic_body, 
     send_anthropic_request,
   ],
-  scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar]
+  scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar],
+  scripts/tc_spot[get_tc_spot],
 )
 ```
+
+```{r get_tc_spot}
+tc_spot <- get_tc_spot(frecuencia = "diaria") |> tail(1)
+```
+
 
 ```{r import_data_banks, echo=FALSE}
 current_date <- today_in_dr()
@@ -170,6 +176,30 @@ div(
 ```{r stats_cards, echo=FALSE}
 summary_cards(current_summary, benchmark_label)
 ```
+
+```{r bcrd_banner}
+div(
+  class = "bcrd-container",
+  div(
+    class = "bcrd-header",
+    div(
+      class = "bcrd-label", 
+      span(class = "text", glue("Tasas de referencia BCRD / promedio ponderado {tc_spot$fecha}"))
+    ),
+    div(class = "bcrd-values",
+        div(
+          class = "bcrd-value", 
+          span(class = "bcrd-label", "Compra:"), span(class = "bcrd-amount", round(tc_spot$compra, 2))
+        ),
+        div(
+          class = "bcrd-value", 
+          span(class = "bcrd-label", "Venta:"), span(class = "bcrd-amount", round(tc_spot$venta, 2))
+        )
+    )
+  )
+)
+```
+
 
 ### Bancos múltiples
 
@@ -320,7 +350,7 @@ saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
 ::: {.callout-note title="Notas" appearance="simple"}
 1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
 
-2- Se utilizan promedios simples a lo largo del documento; ninguna de estas medidas es ponderada.
+2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es unmedida ponderada.
 
 3- El análisis con Inteligencia Artificial no es 100% fiable; siempre debe examinarse con ojo crítico.
 :::
