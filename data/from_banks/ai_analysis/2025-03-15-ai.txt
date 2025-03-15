@@ -1,0 +1,17 @@
+## Análisis: Cambios Recientes en las Tasas de Cambio Bancarias
+
+El 15 de marzo de 2025, las tasas de cambio promedio en la República Dominicana mostraron un ligero incremento respecto al día anterior. La tasa de compra promedio aumentó de RD$62.02 a RD$62.04 (+0.02), mientras que la tasa de venta subió de RD$63.09 a RD$63.11 (+0.02). El diferencial (gap) promedio entre compra y venta se mantuvo estable en aproximadamente RD$1.10.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas**, el banco estatal, incrementó tanto su tasa de compra como de venta en RD$0.05, situándose en RD$61.50 para la compra y RD$63.00 para la venta, manteniendo un diferencial de RD$1.50.
+* **Banco Santa Cruz** mostró uno de los aumentos más significativos entre los bancos múltiples, con un incremento de RD$0.10 tanto en su tasa de compra (ahora RD$62.20) como de venta (ahora RD$63.20), manteniendo un diferencial competitivo de solo RD$1.00.
+* **Asociación Cibao** también registró cambios, aumentando sus tasas de compra y venta en RD$0.05, para situarse en RD$62.20 y RD$63.20 respectivamente, con un diferencial de RD$1.00.
+
+### Agentes de Cambio
+
+* Los **Agentes de Cambio** en general mantuvieron sus tasas sin variaciones durante este periodo, mostrando estabilidad en el mercado cambiario.
+* **Moneycorps** continúa ofreciendo una de las tasas de compra más altas entre los agentes de cambio (RD$62.70), sin cambios respecto al día anterior, y manteniendo un diferencial competitivo de solo RD$0.50.
+* **RM** presenta el diferencial más bajo del mercado con apenas RD$0.30 entre su tasa de compra (RD$62.80) y venta (RD$63.10), haciéndolo particularmente atractivo para quienes buscan realizar operaciones de cambio.
+
+Las variaciones observadas en las tasas de cambio durante este periodo reflejan un mercado cambiario relativamente estable en la República Dominicana. Los bancos múltiples muestran ligeros ajustes al alza, mientras que los agentes de cambio mantienen mayor estabilidad en sus cotizaciones. El diferencial promedio de RD$1.10 entre tasas de compra y venta se mantiene constante, indicando condiciones de mercado predecibles para los participantes.
