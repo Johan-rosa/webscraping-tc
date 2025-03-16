@@ -1,15 +1,21 @@
-## Análisis: Estabilidad en las tasas de cambio bancarias
+## Análisis: Cambios Recientes en las Tasas de Cambio en República Dominicana
 
-El mercado cambiario dominicano muestra una completa estabilidad entre el 15 y 16 de marzo de 2025. El promedio general de compra se mantiene en RD$62.05 y el de venta en RD$63.11, con un diferencial promedio de RD$1.10 que no ha experimentado variación. Esta estabilidad es consistente en todas las entidades financieras y agentes de cambio monitoreados.
+Entre el 13 y 16 de marzo de 2025, se observa un ligero aumento en el tipo de cambio del dólar en el sistema bancario dominicano. La tasa promedio de compra aumentó de RD$61.97 a RD$62.05 (+0.07 pesos), mientras que la tasa de venta subió de RD$63.01 a RD$63.11 (+0.11 pesos). El margen promedio (gap) entre compra y venta se amplió ligeramente de 1.07 a 1.10 pesos, lo que indica un incremento en la rentabilidad de las operaciones cambiarias.
 
-### Entidades de intermediación financiera
-- **Banco Santa Cruz, Banco Caribe y Asociación Cibao** mantienen un diferencial competitivo de RD$1.00 entre sus tasas de compra y venta.
-- **BDI** ofrece el diferencial más reducido entre las entidades de intermediación financiera con RD$0.85, favorable para los clientes que necesitan cambiar divisas.
-- **Banesco y Scotiabank** (en sus sucursales) presentan los diferenciales más amplios (RD$1.95), seguidos por **Banco Popular** con RD$1.90.
+### Entidades de Intermediación Financiera
 
-### Agentes de cambio
-- **RM** destaca con el diferencial más bajo del mercado (RD$0.30), significativamente inferior al promedio general.
-- **Gamelin** mantiene un diferencial competitivo de RD$0.40, posicionándose entre los más atractivos para operaciones cambiarias.
-- **Moneycorps, Taveras y Cambio Extranjero** ofrecen diferenciales moderados entre RD$0.50 y RD$0.60, más bajos que el promedio del sector bancario tradicional.
+* **Bancos Múltiples**: Banco Popular mostró el mayor incremento en su tasa de venta (+0.20 pesos), ampliando su margen de 1.75 a 1.90 pesos, mientras mantiene un aumento moderado en la tasa de compra (+0.05 pesos).
+  
+* **Asociaciones de Ahorros y Préstamos**: La Asociación Cibao presentó un aumento significativo tanto en compra como venta (+0.15 pesos en ambas), manteniendo su margen estable en 1.00 peso.
 
-La estabilidad observada en todas las entidades sugiere un mercado cambiario en equilibrio, sin presiones significativas sobre el peso dominicano. Los agentes de cambio continúan ofreciendo diferenciales más competitivos que las entidades bancarias tradicionales, lo que los posiciona como alternativas atractivas para operaciones de cambio de divisas.
+* **Bancos de Ahorro y Crédito**: Motor Crédito ajustó sus tasas moderadamente (+0.10 pesos en compra y venta), manteniendo su margen en 0.90 pesos, posicionándose competitivamente entre las entidades de este tipo.
+
+### Agentes de Cambio
+
+* **RM**: Presentó el ajuste más agresivo entre los agentes de cambio, con un incremento de 0.40 pesos en la tasa de compra y 0.30 pesos en la de venta, reduciendo su margen de 0.40 a 0.30 pesos.
+
+* **Girosol**: Mostró un aumento significativo tanto en compra (+0.25 pesos) como en venta (+0.20 pesos), reduciendo ligeramente su margen de 0.75 a 0.70 pesos.
+
+* **Estabilidad en varios agentes**: Entidades como Quezada, Taveras, Panora Exchange y SCT mantuvieron sus tasas sin variación durante el período, demostrando mayor conservadurismo frente a las fluctuaciones del mercado.
+
+La tendencia alcista generalizada, aunque moderada, refleja presiones inflacionarias y ajustes en el mercado cambiario dominicano. Las entidades financieras tradicionales mantienen márgenes más amplios que los agentes de cambio, quienes compiten con márgenes más reducidos para captar operaciones. Este comportamiento sugiere un mercado cambiario estable pero con tendencia al alza para el próximo trimestre.

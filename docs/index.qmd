@@ -48,7 +48,12 @@ tc_spot <- get_tc_spot(frecuencia = "diaria") |> tail(1)
 ```{r import_data_banks, echo=FALSE}
 current_date <- today_in_dr()
 day_of_week <- weekdays(current_date)
-benchmark_lag <- ifelse(day_of_week == "Monday", 3, 1)
+benchmark_lag <- ifelse(
+  day_of_week == "Monday" || day_of_week == "Sunday",
+  yes = 3,
+  no = 1
+)
+
 benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
 
 historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
