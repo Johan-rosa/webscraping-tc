@@ -1,21 +1,21 @@
-## Análisis: Evolución de las Tasas de Cambio en República Dominicana
+## Análisis de tasas de cambio en la República Dominicana
 
-Entre el 14 y 17 de marzo de 2025, se observó un ligero incremento en las tasas de cambio del dólar en la República Dominicana. El promedio de compra aumentó de 62.02 a 62.07 pesos dominicanos por dólar (+0.05 pesos), mientras que la tasa de venta subió de 63.09 a 63.15 pesos (+0.06 pesos). El margen promedio entre compra y venta se mantuvo estable en aproximadamente 1.11 pesos, reflejando condiciones de mercado relativamente constantes.
+Entre el 14 y 17 de marzo de 2025, el tipo de cambio promedio en la República Dominicana experimentó un ligero aumento. La tasa de compra promedio pasó de RD$62.02 a RD$62.09 (un incremento de RD$0.06), mientras que la tasa de venta subió de RD$63.09 a RD$63.16 (un aumento de RD$0.07). El diferencial promedio entre compra y venta se mantuvo relativamente estable en RD$1.11, frente a RD$1.10 del periodo anterior.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Bonanza Banco** registró los incrementos más significativos, con un aumento de 0.20 pesos en su tasa de compra y 0.30 pesos en su tasa de venta, ampliando su margen de 0.90 a 1.00 pesos.
+* **Bonanza Banco** mostró el mayor aumento en sus tasas, con un incremento de RD$0.20 en la compra (hasta RD$62.30) y RD$0.30 en la venta (hasta RD$63.30), siendo la entidad con el cambio más significativo.
+  
+* **Banreservas** y **Asociación la Nacional** también presentaron aumentos notables, ambos con incrementos de RD$0.15 tanto en sus tasas de compra como de venta.
+  
+* El **Banco Popular** y la **Asociación Popular** mantuvieron estables sus tasas de compra en RD$61.30, mientras que sus tasas de venta aumentaron ligeramente en RD$0.05.
 
-* **Asociación La Nacional** mostró un incremento notable con ambas tasas (compra y venta) aumentando 0.15 pesos, manteniendo su margen en 1.00 peso.
+### Agentes de cambio
 
-* **Banreservas**, el banco estatal, reportó un incremento moderado de 0.05 pesos tanto en compra como en venta, manteniendo un margen estable de 1.50 pesos, ligeramente superior al promedio del mercado.
+* Los agentes de cambio mostraron mayor estabilidad que las EIF, con **Capla** registrando el mayor incremento en la tasa de compra (RD$0.15), pasando de RD$62.60 a RD$62.75.
+  
+* **Girosol** aumentó su tasa de compra en RD$0.15 (hasta RD$62.45), mientras mantuvo sin cambios su tasa de venta en RD$63.00, reduciendo así su diferencial.
+  
+* Varios agentes como **Gamelin**, **Panora Exchange**, **RM**, **Taveras** y **SCT** mantuvieron sus tasas completamente sin cambios durante este periodo.
 
-### Agentes de Cambio
-
-* La mayoría de los Agentes de Cambio mantuvieron sus tasas estables durante este período, sin variaciones significativas, en contraste con las EIF que mostraron más ajustes.
-
-* **Quezada** fue el único agente de cambio que modificó su tasa de compra, aumentándola en 0.10 pesos mientras mantuvo su tasa de venta, reduciendo así su margen de 0.80 a 0.70 pesos.
-
-* Los agentes de cambio generalmente operan con márgenes más estrechos (entre 0.30 y 0.80 pesos) en comparación con los bancos múltiples, cuyo margen promedio supera 1.50 pesos.
-
-Esta ligera tendencia alcista en las tasas de cambio sugiere una moderada presión sobre el peso dominicano frente al dólar estadounidense. Sin embargo, la estabilidad en los márgenes y los cambios graduales indican un mercado cambiario controlado, sin señales de volatilidad importante en este período.
+En conclusión, el mercado cambiario dominicano mostró una leve tendencia alcista durante los últimos días, con un comportamiento más dinámico entre las entidades de intermediación financiera que entre los agentes de cambio. Esta estabilidad relativa, con aumentos moderados, sugiere un mercado cambiario controlado sin presiones significativas a corto plazo.
