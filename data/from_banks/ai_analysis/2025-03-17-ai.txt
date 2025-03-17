@@ -1,21 +1,21 @@
-## Análisis: Cambios Recientes en las Tasas de Cambio Bancarias en República Dominicana
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
 
-Los datos del 17 de marzo de 2025 muestran un ligero incremento en las tasas de cambio respecto al 14 de marzo. La tasa promedio de compra aumentó de RD$62.02 a RD$62.05 (un incremento de RD$0.02), mientras que la tasa de venta subió de RD$63.09 a RD$63.11 (un aumento de RD$0.02). El margen promedio entre compra y venta se mantiene estable en RD$1.10, indicando que los bancos conservan sus políticas de márgenes de ganancia.
+Entre el 14 y 17 de marzo de 2025, se observó un ligero incremento en las tasas de cambio del dólar en la República Dominicana. El promedio de compra aumentó de 62.02 a 62.07 pesos dominicanos por dólar (+0.05 pesos), mientras que la tasa de venta subió de 63.09 a 63.15 pesos (+0.06 pesos). El margen promedio entre compra y venta se mantuvo estable en aproximadamente 1.11 pesos, reflejando condiciones de mercado relativamente constantes.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas**, uno de los principales bancos estatales, registró un aumento de RD$0.05 tanto en su tasa de compra (a RD$61.50) como en su tasa de venta (a RD$63.00), manteniendo su margen en RD$1.50.
+* **Bonanza Banco** registró los incrementos más significativos, con un aumento de 0.20 pesos en su tasa de compra y 0.30 pesos en su tasa de venta, ampliando su margen de 0.90 a 1.00 pesos.
 
-* **Scotiabank** mostró el mayor incremento entre los bancos múltiples con un aumento de RD$0.10 en ambas tasas, estableciendo su compra en RD$61.35 y su venta en RD$63.10, manteniendo un margen de RD$1.75.
+* **Asociación La Nacional** mostró un incremento notable con ambas tasas (compra y venta) aumentando 0.15 pesos, manteniendo su margen en 1.00 peso.
 
-* **Asociación Cibao** fue la asociación de ahorros y préstamos con mayor variación, incrementando tanto su tasa de compra como de venta en RD$0.05, llegando a RD$62.20 y RD$63.20 respectivamente.
+* **Banreservas**, el banco estatal, reportó un incremento moderado de 0.05 pesos tanto en compra como en venta, manteniendo un margen estable de 1.50 pesos, ligeramente superior al promedio del mercado.
 
 ### Agentes de Cambio
 
-* **Agente de Cambio Quezada** registró el cambio más notable entre los agentes de cambio, aumentando su tasa de compra en RD$0.10 a RD$62.60, mientras mantuvo su tasa de venta en RD$63.30, reduciendo así su margen de ganancia de RD$0.80 a RD$0.70.
+* La mayoría de los Agentes de Cambio mantuvieron sus tasas estables durante este período, sin variaciones significativas, en contraste con las EIF que mostraron más ajustes.
 
-* **RM** mantiene el margen más bajo del mercado con apenas RD$0.30 de diferencia entre su tasa de compra (RD$62.80) y venta (RD$63.10), sin cambios respecto al viernes anterior.
+* **Quezada** fue el único agente de cambio que modificó su tasa de compra, aumentándola en 0.10 pesos mientras mantuvo su tasa de venta, reduciendo así su margen de 0.80 a 0.70 pesos.
 
-* **Moneycorps** continúa ofreciendo una de las tasas de venta más altas entre los agentes de cambio con RD$63.20, sin variaciones desde el 14 de marzo.
+* Los agentes de cambio generalmente operan con márgenes más estrechos (entre 0.30 y 0.80 pesos) en comparación con los bancos múltiples, cuyo margen promedio supera 1.50 pesos.
 
-En conclusión, el mercado cambiario dominicano muestra una tendencia ligeramente alcista pero estable, con incrementos moderados en las tasas de la mayoría de las entidades financieras. Las entidades bancarias múltiples presentan los mayores márgenes entre compra y venta, mientras que los agentes de cambio continúan ofreciendo márgenes más reducidos, siendo más competitivos en sus tasas de compra de divisas.
+Esta ligera tendencia alcista en las tasas de cambio sugiere una moderada presión sobre el peso dominicano frente al dólar estadounidense. Sin embargo, la estabilidad en los márgenes y los cambios graduales indican un mercado cambiario controlado, sin señales de volatilidad importante en este período.
