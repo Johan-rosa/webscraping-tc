@@ -1,5 +1,5 @@
 ---
-title: "Reporte cambiario"
+title: "Sondeo Diario Mercado Cambiario"
 execute:
   echo: false    
   warning: false 
@@ -358,7 +358,7 @@ saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
 ::: {.callout-note title="Notas" appearance="simple"}
 1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
 
-2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es unmedida ponderada.
+2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es una medida ponderada.
 
 3- El análisis con Inteligencia Artificial no es 100% fiable; siempre debe examinarse con ojo crítico.
 :::
