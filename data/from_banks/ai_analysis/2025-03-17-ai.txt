@@ -1,0 +1,21 @@
+## Análisis: Cambios en las Tasas de Cambio Bancarias
+
+En el período del 14 al 17 de marzo de 2025, se observa una ligera apreciación del dólar frente al peso dominicano. La tasa promedio de compra aumentó de 62.02 a 62.04 pesos por dólar (+0.02 pesos), mientras que la tasa de venta subió de 63.08 a 63.11 pesos (+0.02 pesos). El diferencial (gap) entre compra y venta se mantiene estable en 1.10 pesos, lo que sugiere condiciones de mercado relativamente constantes durante este período.
+
+### Entidades de Intermediación Financiera
+
+* **Bancos Múltiples**: Scotiabank mostró el mayor incremento entre los bancos principales, con un aumento de 0.10 pesos tanto en su tasa de compra (61.25 a 61.35) como en su tasa de venta (63.00 a 63.10).
+
+* **Banreservas**, el banco estatal, registró un aumento moderado de 0.05 pesos en ambas tasas, comprando a 61.50 y vendiendo a 63.00, manteniendo su diferencial competitivo de 1.50 pesos.
+
+* **Asociación Cibao** fue una de las pocas asociaciones que modificó sus tasas, con un incremento de 0.05 pesos tanto en compra como en venta, situándose en 62.20 y 63.20 respectivamente.
+
+### Agentes de Cambio
+
+* **Quezada** destacó por registrar un aumento de 0.10 pesos en su tasa de compra (de 62.50 a 62.60), mientras mantuvo sin cambios su tasa de venta en 63.30, reduciendo así su margen de beneficio.
+
+* **La mayoría de los agentes de cambio** mantuvieron sus tasas sin variación durante el período analizado, mostrando una estabilidad notable frente a los ligeros movimientos del mercado bancario.
+
+* **Diferencial competitivo**: Los agentes de cambio continúan operando con márgenes significativamente más estrechos (promedio 0.60) que los bancos múltiples (promedio 1.70), siendo RM el que presenta el menor diferencial del mercado con apenas 0.30 pesos.
+
+El mercado cambiario dominicano muestra una tendencia de leve depreciación del peso, aunque con movimientos muy moderados. Mientras los bancos múltiples lideran los ajustes al alza, los agentes de cambio mantienen una mayor estabilidad en sus cotizaciones, ofreciendo generalmente condiciones más favorables para los clientes debido a sus menores diferenciales entre tasas de compra y venta.
