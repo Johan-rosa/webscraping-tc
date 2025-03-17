@@ -229,10 +229,17 @@ h3 {
   font-size: 0.875rem;
 }
 
+.bcrd-container p {
+  margin: 0;
+  color: #6b7290;
+  font-style: italic;
+  font-size: 12px;
+}
+
 .bcrd-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 15px;
 }
 
 .bcrd-label {
@@ -256,6 +263,7 @@ h3 {
   display: flex;
   gap: 0.25rem;
   color: #6b7280;
+  align-items: center;
 }
 
 .bcrd-label {
