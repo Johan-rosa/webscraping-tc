@@ -1,21 +1,21 @@
-## Análisis: Cambios Recientes en las Tasas de Cambio de la República Dominicana
+## Análisis: Cambios recientes en las tasas de cambio de la República Dominicana
 
-Entre el 14 y 17 de marzo de 2025, se observó un ligero aumento en las tasas de cambio del peso dominicano frente al dólar estadounidense. El promedio de compra aumentó de RD$62.02 a RD$62.09 (incremento de RD$0.06), mientras que la venta subió de RD$63.09 a RD$63.16 (incremento de RD$0.07). El diferencial (gap) promedio entre compra y venta se mantuvo relativamente estable en RD$1.11.
+Entre el 14 y 17 de marzo de 2025, se observó un aumento general en las tasas de cambio del dólar estadounidense en la República Dominicana. El promedio de compra aumentó de RD$62.02 a RD$62.13 (+RD$0.11), mientras que la tasa de venta subió de RD$63.09 a RD$63.17 (+RD$0.09). La brecha (gap) entre compra y venta disminuyó ligeramente de RD$1.10 a RD$1.07, lo que indica una leve mejora en la eficiencia del mercado cambiario.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Banreservas** mostró uno de los incrementos más notables entre los bancos múltiples, con un aumento de RD$0.15 tanto en su tasa de compra (61.60) como en la de venta (63.10).
+* **Banco Lafise** presentó el cambio más notable con un aumento significativo en su tasa de compra de RD$1.05 (de RD$61.65 a RD$62.70), mientras su tasa de venta aumentó solo RD$0.05, reduciendo considerablemente su brecha de RD$1.50 a RD$0.50.
 
-* **Asociación La Nacional** presentó un comportamiento similar con un aumento de RD$0.15 en ambas tasas, alcanzando 62.20 para compra y 63.20 para venta.
+* **Banreservas**, el banco estatal, incrementó tanto su tasa de compra como de venta en RD$0.20, manteniendo su brecha estable en RD$1.50, continuando como una referencia importante en el mercado.
 
-* **Bonanza Banco** registró el mayor incremento del sector con un aumento de RD$0.20 en su tasa de compra (hasta 62.30) y RD$0.30 en su tasa de venta (hasta 63.30), ampliando su diferencial de 0.90 a 1.00.
+* **Asociación La Nacional** mostró un incremento uniforme de RD$0.15 tanto en compra como en venta, manteniendo su brecha en RD$1.00, reflejando un ajuste equilibrado a las condiciones del mercado.
 
-### Agentes de Cambio
+### Agentes de cambio
 
-* **Capla** presentó el mayor incremento entre los agentes de cambio con un aumento de RD$0.15 en su tasa de compra, llegando a 62.75.
+* **Capla** registró un aumento de RD$0.15 en su tasa de compra (de RD$62.60 a RD$62.75), posicionándose entre los agentes de cambio con las tasas de compra más altas del mercado.
 
-* **Girosol** aumentó su tasa de compra en RD$0.15 hasta 62.45, mientras mantuvo estable su tasa de venta en 63.00, reduciendo así su diferencial de 0.70 a 0.55.
+* **Girosol** aumentó su tasa de compra en RD$0.15 (de RD$62.30 a RD$62.45), mientras mantuvo su tasa de venta en RD$63.00, reduciendo así su brecha de RD$0.70 a RD$0.55.
 
-* **Moneycorps** mantiene una de las tasas de compra más altas entre los agentes de cambio (62.75) con un incremento moderado de RD$0.05, ofreciendo también una de las tasas de venta más elevadas (63.25).
+* **Moneycorps** ajustó sus tasas de forma equilibrada con un incremento de RD$0.05 tanto en compra como en venta, manteniendo una brecha baja de RD$0.50, lo que refleja una estrategia competitiva en el mercado cambiario.
 
-Los movimientos observados en estos días reflejan una tendencia alcista moderada pero generalizada en el mercado cambiario dominicano. Aunque los cambios son relativamente pequeños, la consistencia en la dirección alcista a través de casi todas las entidades sugiere una presión uniforme sobre el peso dominicano. Los diferenciales entre compra y venta se mantienen estables, lo que indica condiciones ordenadas en el mercado cambiario.
+El mercado cambiario dominicano muestra una tendencia alcista moderada pero consistente, con un comportamiento diferenciado entre los distintos tipos de entidades. Mientras las entidades bancarias tradicionales mantienen brechas más amplias, los agentes de cambio operan con márgenes más estrechos, ofreciendo en algunos casos mejores condiciones para operaciones de compra de divisas. Esta dinámica contribuye a un mercado competitivo que beneficia a los usuarios finales de servicios cambiarios.
