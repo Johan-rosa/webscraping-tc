@@ -1,21 +1,21 @@
-## Análisis: Resumen de cambios en tasas de cambio del peso dominicano
+## Análisis
 
-Las tasas de cambio en la República Dominicana al 18 de marzo de 2025 muestran una ligera disminución en la tasa de compra promedio, que pasó de RD$62.14 a RD$62.12 por dólar estadounidense (una reducción de RD$0.02). Por otro lado, la tasa de venta promedio aumentó marginalmente de RD$63.18 a RD$63.19 (un incremento de RD$0.01). Esta evolución ha resultado en un ligero aumento del margen (gap) entre compra y venta, que pasó de RD$1.07 a RD$1.11, reflejando una mayor diferencia entre lo que pagan las entidades al comprar dólares y lo que cobran al venderlos.
+En el análisis de las tasas de cambio del peso dominicano frente al dólar estadounidense entre el 17 y 18 de marzo de 2025, se observa una ligera estabilidad general. El promedio de compra disminuyó marginalmente de RD$62.14 a RD$62.13 (-0.01%), mientras que el promedio de venta aumentó de RD$63.18 a RD$63.21 (+0.04%). El diferencial (gap) entre compra y venta se amplió de RD$1.07 a RD$1.11, lo que indica un leve incremento en los márgenes de ganancia de las entidades cambiarias.
 
 ### Entidades de intermediación financiera
 
-* **Banco Lafise** mostró el cambio más significativo con una disminución sustancial en su tasa de compra, pasando de RD$62.70 a RD$61.75 (una caída de RD$0.95), mientras que su tasa de venta aumentó ligeramente en RD$0.05, ampliando considerablemente su margen.
+* **Banco Lafise** mostró la variación más significativa con una disminución en su tasa de compra de RD$62.70 a RD$61.75 (-0.95 pesos), mientras mantuvo su tasa de venta relativamente estable con un pequeño aumento de RD$63.20 a RD$63.25.
 
-* **Banco Ademi** incrementó tanto su tasa de compra como de venta en RD$0.10, manteniendo su margen estable en RD$1.05, mostrando un ajuste uniforme en ambas direcciones.
+* **Banco Ademi** incrementó tanto su tasa de compra como de venta en RD$0.10, pasando de RD$62.10 a RD$62.20 para la compra y de RD$63.15 a RD$63.25 para la venta, manteniendo su diferencial en RD$1.05.
 
-* **Asociación La Nacional** y **Banco Santa Cruz** ambos aumentaron sus tasas de compra y venta en RD$0.05, manteniendo constante su margen de RD$1.00, lo que sugiere un ajuste coordinado para mantener su rentabilidad.
+* **Asociación Peravia** presentó un aumento de RD$0.20 en ambas tasas, elevando su compra de RD$61.80 a RD$62.00 y su venta de RD$63.00 a RD$63.20, manteniendo su diferencial en RD$1.20.
 
 ### Agentes de cambio
 
-* **Ningún agente de cambio** registró variaciones en sus tasas el 18 de marzo comparado con el día anterior, mostrando estabilidad en este sector a diferencia de las entidades de intermediación financiera.
+* **Gamelin** registró el cambio más notable entre los agentes de cambio, con un aumento de RD$0.30 en su tasa de compra (de RD$62.50 a RD$62.80) y un incremento aún mayor de RD$0.45 en su tasa de venta (de RD$62.90 a RD$63.35).
 
-* **Quezada** mantiene la tasa de venta más alta entre los agentes de cambio con RD$63.30, igualando a **SCT**, mientras que **Moneycorps** ofrece un margen muy competitivo de solo RD$0.50 entre compra y venta.
+* **Moneycorps** se mantiene como uno de los agentes con mejor tasa de compra (RD$62.75) sin cambios respecto al día anterior, ofreciendo un diferencial competitivo de apenas RD$0.50.
 
-* **RM** continúa ofreciendo el margen más estrecho entre todos los agentes de cambio con solo RD$0.30 de diferencia entre su tasa de compra (RD$62.80) y venta (RD$63.10).
+* Los demás agentes de cambio como **Quezada**, **RM** y **SCT** mantuvieron sus tasas sin variación, mostrando estabilidad en sus operaciones cambiarias durante este período.
 
-El mercado cambiario dominicano se mantiene relativamente estable, con cambios mínimos en las tasas promedio. Sin embargo, es notable la divergencia entre las entidades de intermediación financiera, donde algunos bancos como Lafise realizaron ajustes significativos, y los agentes de cambio que mantuvieron sus tasas sin variación. Esta estabilidad sugiere un mercado cambiario dominicano sin presiones importantes, aunque el ligero ensanchamiento del margen promedio podría indicar un enfoque más cauteloso por parte de las instituciones financieras.
+En conclusión, el mercado cambiario dominicano mostró relativa estabilidad durante este período, con cambios mínimos en el promedio general. Sin embargo, se observaron movimientos específicos en ciertas entidades, destacándose Banco Lafise con la mayor reducción en compra y Gamelin con los aumentos más significativos. El diferencial promedio entre compra y venta se amplió ligeramente, lo que podría indicar un intento de las entidades por incrementar sus márgenes en un contexto de mercado estable.
