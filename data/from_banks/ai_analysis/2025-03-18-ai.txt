@@ -1,17 +1,21 @@
-## Análisis
+## Análisis: Variación en Tasas de Cambio del Peso Dominicano
 
-En el mercado cambiario de la República Dominicana, para el 18 de marzo de 2025, se observa un ligero incremento en las tasas de cambio comparado con el día anterior. La tasa promedio de compra aumentó de RD$62.14 a RD$62.16, mientras que la de venta subió de RD$63.18 a RD$63.24. El diferencial (gap) entre compra y venta se amplió de RD$1.07 a RD$1.12, lo que indica un leve aumento en los márgenes operativos de las entidades cambiarias.
+El mercado cambiario dominicano presenta ligeras variaciones al 18 de marzo de 2025. La tasa promedio de compra aumentó de RD$62.14 a RD$62.16 (incremento de RD$0.02), mientras la tasa de venta subió de RD$63.18 a RD$63.25 (incremento de RD$0.07). El diferencial (gap) entre compra y venta creció de RD$1.07 a RD$1.12, indicando un leve ensanchamiento en los márgenes de intermediación.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Banco Lafise** muestra el cambio más significativo, con una reducción notable en su tasa de compra de RD$0.95, pasando de RD$62.70 a RD$61.75, mientras mantiene estable su tasa de venta con un ligero aumento de RD$0.05.
-* **Asociación Peravia** incrementó tanto sus tasas de compra como de venta en RD$0.20, ubicándose en RD$62.00 para la compra y RD$63.20 para la venta, siendo uno de los aumentos más consistentes entre las EIF.
-* **Banco Ademi** subió ambas tasas en RD$0.10, alcanzando RD$62.20 para compra y RD$63.25 para venta, manteniendo su diferencial en RD$1.05.
+* **Banco Lafise** mostró la mayor variación negativa en su tasa de compra, disminuyendo RD$0.95 (de RD$62.70 a RD$61.75), aunque mantuvo su tasa de venta alineada con la tendencia del mercado.
 
-### Agentes de cambio
+* **Banco Ademi** incrementó tanto su tasa de compra como de venta en RD$0.10, ubicándose en RD$62.20 y RD$63.25 respectivamente, mostrando un comportamiento uniforme en ambos indicadores.
 
-* **Gamelin** presenta el incremento más significativo entre los agentes de cambio, con un aumento de RD$0.30 en su tasa de compra (ahora en RD$62.80) y RD$0.45 en su tasa de venta (ahora en RD$63.35).
-* **Taveras** y **Panora Exchange** mostraron incrementos idénticos de RD$0.25 en sus tasas de compra, ambos llegando a RD$62.75, mientras que aumentaron sus tasas de venta en RD$0.15 y RD$0.20 respectivamente.
-* **Girosol** incrementó su tasa de compra en RD$0.10 y su tasa de venta en RD$0.25, ampliando su diferencial de RD$0.55 a RD$0.70.
+* **Asociación Peravia** presentó un aumento paralelo de RD$0.20 tanto en compra como en venta, alcanzando RD$62.00 y RD$63.20 respectivamente, siendo una de las entidades con mayor ajuste positivo.
 
-Las fluctuaciones observadas en el mercado cambiario dominicano reflejan un panorama de estabilidad relativa con una tendencia alcista moderada. Mientras algunas entidades mantuvieron sus tasas sin cambios, la mayoría mostró ajustes al alza, particularmente en la tasa de venta. Los agentes de cambio presentaron variaciones más pronunciadas que las entidades de intermediación financiera, lo que sugiere una mayor sensibilidad y capacidad de respuesta rápida a las condiciones del mercado.
+### Agentes de Cambio
+
+* **Gamelin** registró los mayores incrementos entre los agentes de cambio: RD$0.30 en la tasa de compra (hasta RD$62.80) y RD$0.45 en la tasa de venta (hasta RD$63.35), mostrando un comportamiento más agresivo que el resto del mercado.
+
+* **Taveras** aumentó su tasa de compra en RD$0.25 (hasta RD$62.75) y su tasa de venta en RD$0.15 (hasta RD$63.25), reduciendo ligeramente su margen de intermediación.
+
+* **Panora Exchange** incrementó su tasa de compra en RD$0.25 (hasta RD$62.75) y su tasa de venta en RD$0.20 (hasta RD$63.30), manteniendo un diferencial competitivo de apenas RD$0.55.
+
+Las variaciones observadas sugieren un ligero ajuste alcista en el tipo de cambio, aunque de manera gradual y controlada. Los agentes de cambio muestran mayor volatilidad en sus ajustes comparados con las entidades bancarias tradicionales, mientras que el sistema financiero dominicano continúa mostrando estabilidad en el mercado cambiario.
