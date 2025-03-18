@@ -184,6 +184,16 @@ summary_cards(current_summary, benchmark_label)
 ```
 
 ```{r bcrd_banner}
+
+bcrd_date <- tibble::lst(
+  date = tc_spot$fecha,
+  year = year(date),
+  mes  = month(date),
+  label_mes = crear_mes(mes, "number_to_text") |> tolower(),
+  day  = day(date) |> str_pad(2, "left", "0"),
+  label = glue("{day} de {label_mes} de {year}")
+)
+
 div(
   class = "bcrd-container",
   div(
@@ -203,7 +213,7 @@ div(
         )
     )
   ),
-  p(class = "bcrd-text separator", glue("Promedio ponderado {tc_spot$fecha}"))
+  p(class = "bcrd-text separator", glue("Promedio ponderado al {bcrd_date$label}"))
 )
 ```
 
