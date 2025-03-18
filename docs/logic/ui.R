@@ -53,7 +53,7 @@ summary_cards <- function(values, benchmark = "ayer") {
         tags$dt(class = "stat-name", "Tasa de compra"),
         tags$div(
           class = glue("stat-change {change_class(values$d_buy)}"),
-          glue("{sign(values$d_sell)}{values$d_buy}")
+          glue("{sign(values$d_buy)}{values$d_buy}")
         )
       ),
       tags$dd(
