@@ -1,21 +1,21 @@
-## Análisis: Variación en Tasas de Cambio del Peso Dominicano
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
 
-El mercado cambiario dominicano presenta ligeras variaciones al 18 de marzo de 2025. La tasa promedio de compra aumentó de RD$62.14 a RD$62.16 (incremento de RD$0.02), mientras la tasa de venta subió de RD$63.18 a RD$63.25 (incremento de RD$0.07). El diferencial (gap) entre compra y venta creció de RD$1.07 a RD$1.12, indicando un leve ensanchamiento en los márgenes de intermediación.
+El mercado cambiario dominicano experimentó un ligero aumento en las tasas de cambio entre el 17 y 18 de marzo de 2025. La tasa promedio de compra subió de RD$62.14 a RD$62.16 (un incremento de RD$0.02), mientras que la tasa de venta aumentó de RD$63.18 a RD$63.26 (un incremento de RD$0.08). Como resultado, el diferencial promedio (gap) entre las tasas de compra y venta se amplió de RD$1.07 a RD$1.13, lo que representa un mayor margen para las entidades financieras.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Lafise** mostró la mayor variación negativa en su tasa de compra, disminuyendo RD$0.95 (de RD$62.70 a RD$61.75), aunque mantuvo su tasa de venta alineada con la tendencia del mercado.
+* **Banco Lafise** mostró el cambio más significativo, con una reducción de RD$0.95 en su tasa de compra (de RD$62.70 a RD$61.75), mientras mantuvo competitiva su tasa de venta con un ligero aumento de RD$0.05.
 
-* **Banco Ademi** incrementó tanto su tasa de compra como de venta en RD$0.10, ubicándose en RD$62.20 y RD$63.25 respectivamente, mostrando un comportamiento uniforme en ambos indicadores.
+* **Banco Ademi** incrementó tanto su tasa de compra como de venta en RD$0.10, situándose en RD$62.20 para compra y RD$63.25 para venta, manteniendo un diferencial estable de RD$1.05.
 
-* **Asociación Peravia** presentó un aumento paralelo de RD$0.20 tanto en compra como en venta, alcanzando RD$62.00 y RD$63.20 respectivamente, siendo una de las entidades con mayor ajuste positivo.
+* **Asociación Peravia** aumentó ambas tasas en RD$0.20, ofreciendo una tasa de compra de RD$62.00 y una tasa de venta de RD$63.20, reflejando un ajuste uniforme en sus operaciones cambiarias.
 
 ### Agentes de Cambio
 
-* **Gamelin** registró los mayores incrementos entre los agentes de cambio: RD$0.30 en la tasa de compra (hasta RD$62.80) y RD$0.45 en la tasa de venta (hasta RD$63.35), mostrando un comportamiento más agresivo que el resto del mercado.
+* **Gamelin** presentó los ajustes más agresivos entre los agentes de cambio, con un aumento de RD$0.30 en la tasa de compra y RD$0.45 en la tasa de venta, alcanzando RD$62.80 y RD$63.35 respectivamente.
 
-* **Taveras** aumentó su tasa de compra en RD$0.25 (hasta RD$62.75) y su tasa de venta en RD$0.15 (hasta RD$63.25), reduciendo ligeramente su margen de intermediación.
+* **Taveras** y **Panora Exchange** incrementaron sus tasas de compra en RD$0.25, posicionándose ambos en RD$62.75, mientras aumentaron sus tasas de venta en RD$0.15 y RD$0.20 respectivamente.
 
-* **Panora Exchange** incrementó su tasa de compra en RD$0.25 (hasta RD$62.75) y su tasa de venta en RD$0.20 (hasta RD$63.30), manteniendo un diferencial competitivo de apenas RD$0.55.
+* **Cambio Extranjero** mantuvo su tasa de compra estable en RD$62.40, pero aumentó su tasa de venta en RD$0.20, ampliando su margen operativo de RD$0.60 a RD$0.80.
 
-Las variaciones observadas sugieren un ligero ajuste alcista en el tipo de cambio, aunque de manera gradual y controlada. Los agentes de cambio muestran mayor volatilidad en sus ajustes comparados con las entidades bancarias tradicionales, mientras que el sistema financiero dominicano continúa mostrando estabilidad en el mercado cambiario.
+Los movimientos observados durante este período sugieren un ligero ajuste alcista en el mercado cambiario dominicano, con mayor variabilidad entre los agentes de cambio que entre las entidades bancarias tradicionales. Mientras algunas instituciones mantuvieron sus tasas sin cambios, la tendencia general fue hacia un incremento modesto, posiblemente respondiendo a factores estacionales o a condiciones específicas del mercado financiero local e internacional.
