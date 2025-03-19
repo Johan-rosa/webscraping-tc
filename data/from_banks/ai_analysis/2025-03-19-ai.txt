@@ -1,0 +1,17 @@
+## Análisis: Tasas de Cambio en la República Dominicana
+
+Las tasas de cambio en la República Dominicana se mantuvieron estables entre el 18 y 19 de marzo de 2025. El promedio de compra se mantuvo en RD$62.16 por dólar y el de venta en RD$63.26, con una brecha promedio de RD$1.13. No se observaron variaciones en ninguna de las 32 entidades analizadas, lo que indica una estabilidad cambiaria en el mercado dominicano.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples muestran tasas de compra variables, siendo Banco Popular y Banesco los que ofrecen la tasa más baja (RD$61.30), mientras que BDI ofrece la más alta (RD$62.30).
+* Las asociaciones de ahorros y préstamos mantienen tasas de compra entre RD$61.30 (Asociación Popular) y RD$62.30 (Asociación Cibao), con brechas que varían desde RD$1.00 hasta RD$1.95.
+* Todos los bancos múltiples mantienen una tasa de venta uniforme de RD$63.25, excepto Banreservas que ofrece RD$63.20, posicionándose ligeramente por debajo del promedio del mercado.
+
+### Agentes de Cambio
+
+* Los agentes de cambio generalmente ofrecen tasas de compra más competitivas que las entidades bancarias, con valores que oscilan entre RD$62.40 (Cambio Extranjero) y RD$62.80 (RM).
+* Las brechas en los agentes de cambio son significativamente menores, con RM ofreciendo la más baja (RD$0.30), lo que representa un mejor valor para los clientes en comparación con las EIF.
+* Algunos agentes como Gamelin y Panora Exchange ofrecen las tasas de venta más altas del mercado (RD$63.35 y RD$63.30 respectivamente), aunque mantienen brechas relativamente bajas.
+
+El mercado cambiario dominicano muestra un comportamiento estable con una clara diferenciación entre entidades bancarias y agentes de cambio. Mientras los bancos mantienen brechas más amplias, los agentes de cambio ofrecen condiciones más favorables para operaciones de compra-venta de divisas, con brechas notablemente menores y tasas de compra más altas. Esta estabilidad sugiere una política monetaria constante y un mercado cambiario en equilibrio.
