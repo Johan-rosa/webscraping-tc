@@ -210,6 +210,15 @@ div(
         div(
           class = "bcrd-value", 
           span(class = "bcrd-label", "Venta:"), span(class = "bcrd-amount", comma(tc_spot$venta, 0.01))
+        ),
+        div(
+          class = "bcrd-value", 
+          span(
+            class = "bcrd-label", "Margen:"), 
+            span(
+              class = "bcrd-amount", 
+              comma(tc_spot$venta - tc_spot$compra, 0.01)
+            )
         )
     )
   ),
