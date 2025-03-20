@@ -1,21 +1,21 @@
-## Análisis
+## Análisis: Cambios en las tasas de cambio bancarias
 
-El 20 de marzo de 2025, las tasas de cambio en la República Dominicana mostraron ligeras variaciones respecto al día anterior. El promedio de compra se situó en RD$62.18 por dólar, aumentando RD$0.01 desde el 19 de marzo. La tasa de venta promedio alcanzó RD$63.28, también con un incremento de RD$0.01. El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en RD$1.13.
+El 20 de marzo de 2025, el tipo de cambio promedio en la República Dominicana experimentó un ligero aumento. La tasa de compra promedio subió de RD$62.17 a RD$62.20 (+0.03 pesos), mientras que la tasa de venta incrementó de RD$63.27 a RD$63.29 (+0.02 pesos). El margen (gap) entre compra y venta se mantuvo prácticamente igual, reduciéndose marginalmente de 1.12 a 1.12 pesos.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Banco Popular** mostró un incremento tanto en su tasa de compra como de venta, ambas aumentando RD$0.05, situándose en RD$61.35 y RD$63.30 respectivamente, manteniendo su diferencial en RD$1.95.
+* **Banesco y Asociación Popular** mostraron los incrementos más significativos entre las EIF, ambos aumentando su tasa de compra en 0.10 pesos (de RD$61.30 a RD$61.40).
 
-* **Banco Promerica** también experimentó un aumento de RD$0.05 en ambas tasas, con una compra de RD$61.85 y venta de RD$63.30, manteniendo su diferencial en RD$1.45.
+* **Banco BHD, Scotiabank, Banco Popular y Banco Lafise** incrementaron todas sus tasas de compra en 0.05 pesos, reflejando una tendencia moderada al alza entre los bancos múltiples.
 
-* La mayoría de las EIF, incluyendo Banreservas, Scotiabank, Banco BHD y Banco Lafise, mantuvieron sus tasas sin cambios, lo que refleja estabilidad en el sector bancario tradicional.
+* **Banreservas**, uno de los bancos principales, mantuvo sus tasas sin cambios en RD$61.70 para compra y RD$63.20 para venta, demostrando estabilidad en un contexto de ligeras variaciones.
 
-### Agentes de Cambio
+### Agentes de cambio
 
-* **Quezada** presentó los cambios más significativos entre los agentes de cambio, con un aumento de RD$0.15 en su tasa de compra (llegando a RD$62.75) y RD$0.10 en su tasa de venta (alcanzando RD$63.45), reduciendo ligeramente su diferencial a RD$0.70.
+* **Agente de Cambio Quezada** registró el mayor incremento entre todos los agentes de cambio, aumentando su tasa de compra en 0.15 pesos (de RD$62.60 a RD$62.75) y su tasa de venta en 0.10 pesos (alcanzando RD$63.45).
 
-* **Moneycorps** incrementó tanto su tasa de compra como de venta en RD$0.05, situándose en RD$62.90 y RD$63.35 respectivamente, manteniendo su diferencial en RD$0.45, uno de los más bajos del mercado.
+* **Moneycorps** mostró un incremento moderado de 0.05 pesos tanto en su tasa de compra (ahora RD$62.90) como en su tasa de venta (ahora RD$63.35), manteniendo su margen en 0.45 pesos.
 
-* **Cambio Extranjero** aumentó su tasa de venta en RD$0.10 hasta RD$63.30, sin modificar su tasa de compra de RD$62.40, ampliando así su diferencial a RD$0.90.
+* **Cambio Extranjero** incrementó únicamente su tasa de venta en 0.10 pesos (de RD$63.20 a RD$63.30), ampliando su margen de 0.80 a 0.90 pesos, una estrategia diferente a la mayoría de entidades.
 
-En conclusión, el mercado cambiario dominicano mostró estabilidad con tendencia al alza durante este período, con variaciones mínimas que no superaron los RD$0.15. Los agentes de cambio presentaron ajustes más notables que las entidades bancarias tradicionales, manteniendo en general diferenciales más estrechos. Esta estabilidad sugiere condiciones económicas predecibles a corto plazo en el mercado de divisas dominicano.
+El mercado cambiario dominicano muestra una tendencia alcista moderada y controlada, con variaciones mínimas que sugieren estabilidad en el corto plazo. Las entidades financieras mantienen márgenes relativamente consistentes, mientras que algunos agentes de cambio ofrecen tasas de compra más competitivas que los bancos múltiples tradicionales. La diferencia entre el comportamiento de las EIF y los agentes de cambio refleja sus distintas estrategias comerciales en el mercado de divisas.
