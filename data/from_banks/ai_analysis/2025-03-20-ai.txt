@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en Tasas de Cambio del Peso Dominicano
+
+La tasa de cambio en la República Dominicana se mantiene relativamente estable entre el 19 y 20 de marzo de 2025. El promedio de compra aumentó ligeramente de 62.17 a 62.18 pesos por dólar (+0.0048), mientras que la tasa de venta promedio incrementó levemente de 63.27 a 63.27 pesos por dólar (+0.0034). El diferencial (gap) entre compra y venta se redujo marginalmente de 1.12 a 1.12 pesos, mostrando una estabilidad generalizada en el mercado cambiario.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples como Banreservas, Banco Popular y BHD León mantienen tasas de compra entre 61.30 y 61.70 pesos por dólar, sin variaciones respecto al día anterior, mostrando una posición conservadora.
+  
+* Las asociaciones de ahorros y préstamos presentan tasas de compra más competitivas, como Asociación Cibao y Asociación La Nacional (62.30), sin cambios significativos respecto al día anterior.
+  
+* Banco Santa Cruz y BDI ofrecen las tasas de venta más altas entre las EIF (63.30), sin variaciones desde el día anterior, manteniéndose en el rango superior del mercado.
+
+### Agentes de Cambio
+
+* Moneycorps y Panora Exchange muestran las tasas de compra más favorables entre los agentes de cambio (62.85 y 62.75 respectivamente), sin cambios desde el día anterior.
+  
+* El agente de cambio Quezada fue el único que registró incrementos en sus tasas, aumentando su compra en 0.15 pesos (de 62.60 a 62.75) y su venta en 0.10 pesos (de 63.35 a 63.45), convirtiéndose en la entidad con la tasa de venta más alta del mercado.
+  
+* RM mantiene el diferencial más bajo entre todos los agentes (0.30), ofreciendo condiciones más equilibradas para los usuarios, sin cambios respecto al día anterior.
+
+La estabilidad cambiaria refleja un mercado sin presiones significativas, con variaciones mínimas entre ambas fechas. Los agentes de cambio continúan ofreciendo tasas de compra más competitivas que las entidades bancarias tradicionales, mientras que las tasas de venta se mantienen en un rango estrecho entre todas las instituciones. Esta estabilidad sugiere que el Banco Central mantiene un control efectivo sobre el mercado cambiario dominicano en este periodo.
