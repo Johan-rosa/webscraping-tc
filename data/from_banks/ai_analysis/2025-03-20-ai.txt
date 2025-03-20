@@ -1,21 +1,21 @@
-## Análisis: Panorama de Tasas de Cambio en República Dominicana
+## Análisis
 
-El mercado cambiario dominicano se mantiene estable con ligeras variaciones al 20 de marzo de 2025. El promedio de compra se sitúa en RD$62.18, con un incremento de RD$0.01 respecto al día anterior. La tasa de venta promedio alcanza los RD$63.28, también con un aumento de RD$0.01. El margen entre compra y venta (gap) promedio es de RD$1.13, manteniéndose prácticamente sin cambios respecto al día previo.
+El 20 de marzo de 2025, las tasas de cambio en la República Dominicana mostraron ligeras variaciones respecto al día anterior. El promedio de compra se situó en RD$62.18 por dólar, aumentando RD$0.01 desde el 19 de marzo. La tasa de venta promedio alcanzó RD$63.28, también con un incremento de RD$0.01. El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en RD$1.13.
 
 ### Entidades de Intermediación Financiera
 
-* **Promerica** mostró el único movimiento entre los bancos múltiples, aumentando tanto su tasa de compra como de venta en RD$0.05, situándose en RD$61.85 y RD$63.30 respectivamente.
-  
-* Entre las EIF, **Banreservas** mantiene una posición competitiva con una tasa de compra de RD$61.70 y un gap relativamente bajo de RD$1.50, ofreciendo estabilidad para operaciones institucionales.
-  
-* **Banco Santa Cruz**, **Banco Caribe** y **Asociación La Nacional** presentan un gap de solo RD$1.00, posicionándose entre las EIF con menor diferencial entre compra y venta.
+* **Banco Popular** mostró un incremento tanto en su tasa de compra como de venta, ambas aumentando RD$0.05, situándose en RD$61.35 y RD$63.30 respectivamente, manteniendo su diferencial en RD$1.95.
+
+* **Banco Promerica** también experimentó un aumento de RD$0.05 en ambas tasas, con una compra de RD$61.85 y venta de RD$63.30, manteniendo su diferencial en RD$1.45.
+
+* La mayoría de las EIF, incluyendo Banreservas, Scotiabank, Banco BHD y Banco Lafise, mantuvieron sus tasas sin cambios, lo que refleja estabilidad en el sector bancario tradicional.
 
 ### Agentes de Cambio
 
-* **Quezada** registró los cambios más significativos entre los agentes de cambio, incrementando su tasa de compra en RD$0.15 (hasta RD$62.75) y su tasa de venta en RD$0.10 (hasta RD$63.45).
-  
-* **Moneycorps** ajustó tanto su tasa de compra como de venta al alza en RD$0.05, siendo uno de los AC con cotizaciones más altas del mercado (compra a RD$62.90).
-  
-* **RM** mantiene el gap más bajo del mercado en RD$0.30, ofreciendo compra a RD$62.80 y venta a RD$63.10, lo que representa una opción atractiva para transacciones minoristas.
+* **Quezada** presentó los cambios más significativos entre los agentes de cambio, con un aumento de RD$0.15 en su tasa de compra (llegando a RD$62.75) y RD$0.10 en su tasa de venta (alcanzando RD$63.45), reduciendo ligeramente su diferencial a RD$0.70.
 
-El mercado cambiario dominicano exhibe una notable estabilidad, con movimientos mínimos que reflejan condiciones económicas consistentes. Los agentes de cambio continúan ofreciendo márgenes más competitivos que las entidades bancarias tradicionales, aunque con volúmenes de operación generalmente menores. Para el cierre de semana, se anticipa que esta tendencia de estabilidad se mantenga, con posibles ajustes menores en respuesta a flujos comerciales habituales.
+* **Moneycorps** incrementó tanto su tasa de compra como de venta en RD$0.05, situándose en RD$62.90 y RD$63.35 respectivamente, manteniendo su diferencial en RD$0.45, uno de los más bajos del mercado.
+
+* **Cambio Extranjero** aumentó su tasa de venta en RD$0.10 hasta RD$63.30, sin modificar su tasa de compra de RD$62.40, ampliando así su diferencial a RD$0.90.
+
+En conclusión, el mercado cambiario dominicano mostró estabilidad con tendencia al alza durante este período, con variaciones mínimas que no superaron los RD$0.15. Los agentes de cambio presentaron ajustes más notables que las entidades bancarias tradicionales, manteniendo en general diferenciales más estrechos. Esta estabilidad sugiere condiciones económicas predecibles a corto plazo en el mercado de divisas dominicano.
