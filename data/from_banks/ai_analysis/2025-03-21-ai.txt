@@ -1,0 +1,17 @@
+## Análisis: Cambios en Tasas de Cambio Bancarias en República Dominicana
+
+El 21 de marzo de 2025, las tasas de cambio del dólar en la República Dominicana mostraron ligeras variaciones. El promedio de compra aumentó de RD$62.20 a RD$62.20, mientras que la venta pasó de RD$63.29 a RD$63.29, manteniendo un diferencial (gap) promedio de RD$1.12. Estos cambios representan movimientos mínimos de aproximadamente RD$0.005 en ambas tasas desde el día anterior.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas** mostró el cambio más significativo entre las EIF, incrementando tanto su tasa de compra como de venta en RD$0.05, pasando a RD$61.75 y RD$63.25 respectivamente.
+* **Banco Ademi** también presentó un cambio notable, aumentando su tasa de compra a RD$62.30 (+RD$0.10) y su tasa de venta a RD$63.35 (+RD$0.10).
+* Los demás bancos múltiples como **Scotiabank**, **Banco Popular** y **Banco BHD** mantuvieron sus tasas sin variación, con valores de venta en RD$63.30.
+
+### Agentes de Cambio
+
+* Los **Agentes de Cambio** mantuvieron estabilidad en sus tasas, sin presentar variaciones respecto al día anterior.
+* **Moneycorps** y **Gamelin** continúan ofreciendo las tasas de compra más competitivas entre los agentes de cambio, con RD$62.90 y RD$62.80 respectivamente.
+* El **Agente RM** mantiene el diferencial más bajo del mercado con apenas RD$0.30 entre su tasa de compra (RD$62.80) y venta (RD$63.10).
+
+En conclusión, el mercado cambiario dominicano muestra una notable estabilidad con variaciones mínimas. Solo dos entidades financieras registraron cambios en sus tasas, mientras que la mayoría de instituciones mantuvieron sus valores sin modificación. El diferencial promedio entre compra y venta se mantiene en RD$1.12, reflejando una situación de normalidad en el mercado de divisas local.
