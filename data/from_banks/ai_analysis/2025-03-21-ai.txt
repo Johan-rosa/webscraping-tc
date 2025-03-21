@@ -1,21 +1,21 @@
-## Análisis: Variaciones en Tasas de Cambio de la República Dominicana
+## Análisis de Tasas de Cambio en República Dominicana
 
-El mercado cambiario dominicano muestra una ligera tendencia al alza el 21 de marzo de 2025. La tasa promedio de compra aumentó de RD$62.20 a RD$62.20 (incremento de RD$0.01), mientras que la tasa de venta pasó de RD$63.29 a RD$63.30 (aumento de RD$0.01). El diferencial (gap) entre compra y venta se mantiene estable en RD$1.13, lo que sugiere un mercado sin variaciones significativas en términos de márgenes operativos.
+Las tasas de cambio del peso dominicano frente al dólar estadounidense mostraron ligeras variaciones entre el 20 y 21 de marzo de 2025. El promedio de compra aumentó de RD$62.20 a RD$62.21 (+0.01), mientras que el promedio de venta se incrementó de RD$63.29 a RD$63.30 (+0.01). La brecha promedio entre compra y venta se mantuvo estable en RD$1.12, lo que indica estabilidad en los márgenes de las entidades financieras.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Banco Ademi** presenta el cambio más notable con un aumento de RD$0.10 tanto en su tasa de compra (de RD$62.20 a RD$62.30) como de venta (de RD$63.25 a RD$63.35), manteniendo su diferencial en RD$1.05.
+* **Banreservas** mostró un incremento de RD$0.05 tanto en su tasa de compra (de RD$61.70 a RD$61.75) como en su tasa de venta (de RD$63.20 a RD$63.25), manteniendo su brecha en RD$1.50.
 
-* **Banreservas**, el banco estatal, mostró un incremento moderado de RD$0.05 en ambas tasas, comprando ahora a RD$61.75 y vendiendo a RD$63.25, con un diferencial estable de RD$1.50.
+* **Banco Ademi** presentó el mayor incremento entre las EIF, con un aumento de RD$0.10 en ambas tasas, elevando su compra a RD$62.30 y su venta a RD$63.35, conservando una brecha de RD$1.05.
 
-* **Los bancos múltiples** como Popular, BHD, Lafise y Scotiabank mantuvieron sus tasas sin variación respecto al día anterior, reflejando una estabilidad en este segmento del mercado.
+* **Banco Santa Cruz** aumentó sus tasas en RD$0.05, estableciendo su compra en RD$62.35 y su venta en RD$63.35, manteniendo una brecha competitiva de RD$1.00.
 
-### Agentes de cambio
+### Agentes de Cambio
 
-* **Los agentes de cambio** en general mantienen tasas más atractivas para la compra de dólares que las entidades bancarias, con promedios que superan los RD$62.50, destacando Quezada, RM, Capla y Gamelin con compras superiores a RD$62.75.
+* Los agentes de cambio mantuvieron en general una mayor estabilidad que las EIF, sin presentar variaciones significativas en sus tasas durante el período analizado.
 
-* **Moneycorps** muestra la tasa de compra más competitiva entre los agentes de cambio (RD$62.90), mientras mantiene una tasa de venta de RD$63.35, resultando en uno de los diferenciales más bajos del mercado (RD$0.45).
+* **Quezada** sigue ofreciendo una de las tasas de compra más atractivas entre los agentes de cambio (RD$62.75), sin cambios respecto al día anterior.
 
-* **Ningún agente de cambio** registró modificaciones en sus tasas respecto al día anterior, lo que indica estabilidad en este segmento del mercado cambiario.
+* **Moneycorps** continúa con la tasa de compra más alta (RD$62.90) y una brecha muy competitiva de apenas RD$0.45, lo que lo posiciona como una de las opciones más favorables para los clientes.
 
-El mercado cambiario dominicano muestra signos de estabilidad con ligeras presiones alcistas. Las variaciones mínimas en las tasas de cambio sugieren un entorno controlado, donde algunos bancos han ajustado marginalmente sus tasas mientras que los agentes de cambio mantienen precios estables. Los diferenciales entre compra y venta continúan favoreciendo a los agentes de cambio, quienes ofrecen márgenes más estrechos que las entidades bancarias tradicionales.
+El mercado cambiario dominicano muestra un comportamiento estable con ajustes mínimos, reflejando condiciones económicas sin sobresaltos. Las pequeñas variaciones observadas en algunas entidades financieras sugieren ajustes operativos normales más que cambios estructurales en la política cambiaria. Los clientes pueden seguir beneficiándose de comparar las ofertas, especialmente en agentes de cambio que mantienen brechas más reducidas.
