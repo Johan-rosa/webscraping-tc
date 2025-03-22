@@ -1,21 +1,17 @@
-## Análisis: Estabilidad en las Tasas de Cambio Dominicanas
+## Análisis: Estabilidad en las Tasas de Cambio
 
-Las tasas de cambio en la República Dominicana han mostrado una notable estabilidad entre el 21 y 22 de marzo de 2025. El promedio de compra aumentó ligeramente de 62.23 a 62.23 pesos por dólar (+0.0019), mientras que el promedio de venta incrementó sutilmente de 63.30 a 63.30 pesos por dólar (+0.0042). La brecha entre compra y venta pasó de 1.10 a 1.10, mostrando muy poca variación en el mercado cambiario.
+El mercado cambiario en la República Dominicana muestra una estabilidad relativa entre el 21 y 22 de marzo de 2025. La tasa promedio de compra aumentó ligeramente de 62.23 a 62.23 pesos por dólar (+0.002), mientras que la tasa de venta subió de 63.30 a 63.30 pesos (+0.006). El diferencial (gap) entre compra y venta se incrementó marginalmente de 1.10 a 1.10 pesos.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Popular** mostró un ligero aumento en ambas tasas, incrementando su precio de compra de 61.35 a 61.40 pesos (+0.05) y su tasa de venta de 63.30 a 63.35 pesos (+0.05), manteniendo su brecha en 1.95.
-
-* **Asociación Popular** mantuvo su tasa de compra en 61.40 pesos, pero aumentó su tasa de venta de 63.30 a 63.35 pesos (+0.05), ampliando su brecha de 1.90 a 1.95.
-
-* Las demás entidades financieras como Banreservas, Scotiabank, Banco Ademi y Banco López de Haro mantuvieron sus tasas sin cambios, reflejando estabilidad en el sector bancario dominicano.
+* **Banco Popular** mostró la única variación significativa entre los bancos múltiples, aumentando su tasa de compra de 61.35 a 61.40 pesos (+0.05) y manteniendo un diferencial amplio de 1.95 pesos.
+* **Asociación Popular** incrementó su tasa de venta en 0.05 pesos (de 63.30 a 63.35), manteniendo uno de los diferenciales más altos del mercado (1.95).
+* **Banreservas**, el banco estatal, mantuvo sus tasas sin cambios en 61.75 para compra y 63.25 para venta, con un diferencial moderado de 1.50 pesos.
 
 ### Agentes de Cambio
 
-* Los agentes de cambio como Quezada, RM, Taveras y Girosol mantuvieron sus tasas completamente estables, sin presentar variación alguna durante este período.
+* **Moneycorps** presentó el mayor cambio entre los agentes de cambio, con un aumento de 0.05 pesos en su tasa de venta (de 63.35 a 63.40), y ampliando su diferencial de 0.45 a 0.50.
+* **RM** continúa ofreciendo el diferencial más bajo del mercado (0.30), manteniendo sus tasas sin cambios en 62.80 para compra y 63.10 para venta.
+* **Quezada** mantiene una de las tasas de venta más altas entre los agentes de cambio (63.45), sin cambios respecto al día anterior.
 
-* **Moneycorps** continúa ofreciendo una de las mejores tasas de compra entre los agentes de cambio (62.90), significativamente por encima del promedio del mercado (62.23).
-
-* La brecha más baja entre compra y venta la sigue ofreciendo **RM** con apenas 0.30 pesos, mientras que la mayoría de los agentes mantienen brechas menores que las entidades bancarias tradicionales.
-
-El mercado cambiario dominicano muestra un comportamiento extremadamente estable en este período, con mínimas variaciones que sugieren condiciones económicas estables. Los bancos múltiples generalmente mantienen brechas más amplias que los agentes de cambio, ofreciendo estos últimos condiciones potencialmente más favorables para operaciones de cambio de divisas a pequeña escala.
+El mercado cambiario dominicano refleja una notable estabilidad, con mínimas variaciones en las tasas de cambio. Los bancos múltiples generalmente operan con diferenciales más amplios (promedio de 1.60) en comparación con los agentes de cambio (promedio de 0.60), lo que sugiere diferentes estrategias de negocio y posiblemente mayor competitividad entre los agentes de cambio para atraer clientes.
