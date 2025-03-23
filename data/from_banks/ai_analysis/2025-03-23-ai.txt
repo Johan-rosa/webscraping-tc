@@ -1,0 +1,21 @@
+## Análisis de Tasas de Cambio en la República Dominicana
+
+El mercado cambiario dominicano muestra ligeras variaciones entre el 20 y 23 de marzo de 2025. La tasa promedio de compra aumentó de 62.23 a 62.23 pesos por dólar (+0.01), mientras que la tasa de venta subió de 63.29 a 63.30 pesos (+0.01). El diferencial (gap) promedio entre compra y venta se mantiene en 1.10 pesos, reflejando estabilidad general en el mercado.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas** mostró un incremento en sus tasas de compra y venta de 0.05 pesos, situándose en 61.75 para compra y 63.25 para venta, manteniendo un diferencial de 1.50 pesos.
+  
+* **Banco Popular** también experimentó un aumento de 0.05 pesos tanto en compra (61.40) como en venta (63.35), conservando uno de los diferenciales más amplios del mercado con 1.95 pesos.
+
+* **Banco Ademi** registró el mayor incremento entre las EIF, con un aumento de 0.10 pesos en ambas tasas, alcanzando 62.30 para compra y 63.35 para venta, con un diferencial competitivo de 1.05 pesos.
+
+### Agentes de Cambio
+
+* **Moneycorps** incrementó su tasa de venta en 0.05 pesos hasta 63.40 (la más alta del mercado), manteniendo su compra en 62.90, lo que redujo ligeramente su diferencial a 0.50 pesos.
+
+* **RM** continúa ofreciendo el diferencial más bajo del mercado con apenas 0.30 pesos entre sus tasas de compra (62.80) y venta (63.10), sin cambios respecto al 20 de marzo.
+
+* El resto de agentes de cambio mantuvo sus tasas sin variaciones, con **Quezada** ofreciendo la tasa de venta más alta entre los AC (63.45) y **Capla** una de las mejores tasas de compra (62.80).
+
+En conclusión, el mercado cambiario dominicano muestra estabilidad en el período analizado, con ajustes mínimos que reflejan condiciones económicas equilibradas. Las entidades financieras tradicionales tienden a mantener márgenes más amplios mientras que los agentes de cambio ofrecen diferenciales más competitivos, brindando a los consumidores diversas opciones según sus necesidades específicas de cambio de divisas.
