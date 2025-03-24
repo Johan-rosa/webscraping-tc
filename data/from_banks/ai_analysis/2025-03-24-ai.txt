@@ -1,0 +1,21 @@
+## Análisis: Cambios Recientes en Tasas de Cambio del Peso Dominicano
+
+El 24 de marzo de 2025, se observa un ligero incremento en las tasas de cambio del dólar frente al peso dominicano. La tasa promedio de compra aumentó de RD$62.23 a RD$62.25 (+0.02 pesos), mientras que la tasa de venta subió de RD$63.30 a RD$63.31 (+0.01 pesos). El diferencial (gap) entre compra y venta también aumentó ligeramente de 1.10 a 1.10 pesos, manteniéndose relativamente estable.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas** mostró uno de los cambios más significativos entre los bancos múltiples, con un aumento de RD$0.10 tanto en su tasa de compra (de RD$61.75 a RD$61.85) como en su tasa de venta (de RD$63.25 a RD$63.35).
+
+* **Banco Lafise** incrementó su tasa de compra de RD$61.80 a RD$61.85 y su tasa de venta de RD$63.30 a RD$63.35, representando un aumento de RD$0.05 en ambas tasas.
+
+* **Banco Popular** elevó moderadamente sus tasas, con un incremento de RD$0.05 en su tasa de compra (de RD$61.35 a RD$61.40) y en su tasa de venta (de RD$63.30 a RD$63.35), manteniendo un diferencial de RD$1.95.
+
+### Agentes de Cambio
+
+* **Agente de Cambio La Nacional** presentó el cambio más notable entre los agentes de cambio, con un aumento de RD$0.25 en su tasa de compra, pasando de RD$62.50 a RD$62.75.
+
+* **Moneycorps** incrementó su tasa de venta en RD$0.05, pasando de RD$63.35 a RD$63.40, mientras mantuvo sin cambios su tasa de compra en RD$62.90, lo que aumentó ligeramente su diferencial.
+
+* El resto de los agentes de cambio mantuvo sus tasas sin variaciones significativas durante este período, mostrando estabilidad en sus operaciones cambiarias.
+
+En conclusión, el mercado cambiario dominicano mostró un comportamiento relativamente estable con una ligera tendencia al alza en las últimas jornadas. Las entidades financieras y agentes de cambio realizaron ajustes menores, siendo Banreservas y Agente de Cambio La Nacional los que presentaron los cambios más significativos. Esta estabilidad sugiere que no hay presiones importantes en el mercado de divisas dominicano en este momento.
