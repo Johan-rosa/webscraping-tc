@@ -1,21 +1,21 @@
-## Análisis: Cambios Recientes en Tasas de Cambio del Peso Dominicano
+## Análisis de Tasas de Cambio en República Dominicana
 
-El 24 de marzo de 2025, se observa un ligero incremento en las tasas de cambio del dólar frente al peso dominicano. La tasa promedio de compra aumentó de RD$62.23 a RD$62.25 (+0.02 pesos), mientras que la tasa de venta subió de RD$63.30 a RD$63.31 (+0.01 pesos). El diferencial (gap) entre compra y venta también aumentó ligeramente de 1.10 a 1.10 pesos, manteniéndose relativamente estable.
+El mercado cambiario dominicano ha mostrado un ligero aumento en las tasas de cambio entre el 21 y 24 de marzo de 2025. La tasa promedio de compra aumentó de RD$62.23 a RD$62.28 (+0.05 pesos), mientras que la tasa de venta se incrementó de RD$63.30 a RD$63.35 (+0.05 pesos). El diferencial entre compra y venta (gap) se mantuvo estable en aproximadamente RD$1.09.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas** mostró uno de los cambios más significativos entre los bancos múltiples, con un aumento de RD$0.10 tanto en su tasa de compra (de RD$61.75 a RD$61.85) como en su tasa de venta (de RD$63.25 a RD$63.35).
+* **Banreservas** mostró el mayor aumento entre los bancos múltiples, con incrementos de RD$0.10 tanto en la tasa de compra (de RD$61.75 a RD$61.85) como en la de venta (de RD$63.25 a RD$63.35).
 
-* **Banco Lafise** incrementó su tasa de compra de RD$61.80 a RD$61.85 y su tasa de venta de RD$63.30 a RD$63.35, representando un aumento de RD$0.05 en ambas tasas.
+* **Alaver** aumentó únicamente su tasa de venta en RD$0.05 (de RD$63.30 a RD$63.35), manteniendo estable su tasa de compra en RD$62.05, lo que amplió su diferencial a RD$1.30.
 
-* **Banco Popular** elevó moderadamente sus tasas, con un incremento de RD$0.05 en su tasa de compra (de RD$61.35 a RD$61.40) y en su tasa de venta (de RD$63.30 a RD$63.35), manteniendo un diferencial de RD$1.95.
+* **Asociación Cibao** incrementó ambas tasas en RD$0.05, ubicándose con una de las tasas de venta más altas entre las EIFs (RD$63.40), manteniendo un diferencial de RD$1.00.
 
 ### Agentes de Cambio
 
-* **Agente de Cambio La Nacional** presentó el cambio más notable entre los agentes de cambio, con un aumento de RD$0.25 en su tasa de compra, pasando de RD$62.50 a RD$62.75.
+* **SCT** presentó el cambio más significativo entre los agentes de cambio, aumentando su tasa de compra en RD$0.30 (de RD$62.50 a RD$62.80) y su tasa de venta en RD$0.20 (de RD$63.30 a RD$63.50), reduciendo así su diferencial de RD$0.80 a RD$0.70.
 
-* **Moneycorps** incrementó su tasa de venta en RD$0.05, pasando de RD$63.35 a RD$63.40, mientras mantuvo sin cambios su tasa de compra en RD$62.90, lo que aumentó ligeramente su diferencial.
+* **Girosol** mostró un notable incremento de RD$0.25 en su tasa de venta (de RD$63.25 a RD$63.50), con un aumento menor de RD$0.05 en la tasa de compra, ampliando su diferencial a RD$0.80.
 
-* El resto de los agentes de cambio mantuvo sus tasas sin variaciones significativas durante este período, mostrando estabilidad en sus operaciones cambiarias.
+* **Agente de Cambio La Nacional** incrementó su tasa de compra en RD$0.25 (de RD$62.50 a RD$62.75), posicionándose competitivamente entre los agentes de cambio.
 
-En conclusión, el mercado cambiario dominicano mostró un comportamiento relativamente estable con una ligera tendencia al alza en las últimas jornadas. Las entidades financieras y agentes de cambio realizaron ajustes menores, siendo Banreservas y Agente de Cambio La Nacional los que presentaron los cambios más significativos. Esta estabilidad sugiere que no hay presiones importantes en el mercado de divisas dominicano en este momento.
+Los cambios observados en el mercado cambiario dominicano durante este período reflejan una tendencia alcista moderada pero constante. Las entidades financieras y agentes de cambio ajustaron sus tasas de manera diferenciada, con los agentes de cambio mostrando generalmente ajustes más pronunciados que las entidades de intermediación financiera. Este comportamiento sugiere un mercado estable con ligeras presiones al alza, manteniendo diferenciales relativamente constantes entre las tasas de compra y venta.
