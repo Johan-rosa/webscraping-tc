@@ -1,21 +1,21 @@
-## Análisis de Tasas de Cambio en República Dominicana
+## Análisis: Cambios Recientes en las Tasas de Cambio en República Dominicana
 
-El mercado cambiario dominicano ha mostrado un ligero aumento en las tasas de cambio entre el 21 y 24 de marzo de 2025. La tasa promedio de compra aumentó de RD$62.23 a RD$62.28 (+0.05 pesos), mientras que la tasa de venta se incrementó de RD$63.30 a RD$63.35 (+0.05 pesos). El diferencial entre compra y venta (gap) se mantuvo estable en aproximadamente RD$1.09.
+La tasa de cambio promedio del dólar estadounidense en la República Dominicana experimentó un ligero aumento entre el 21 y el 24 de marzo de 2025. El precio de compra promedio aumentó de RD$62.23 a RD$62.30 (un incremento de RD$0.06), mientras que el precio de venta subió de RD$63.30 a RD$63.36 (un aumento de RD$0.06). El margen o "gap" entre compra y venta se mantuvo relativamente estable, pasando de RD$1.10 a RD$1.08.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas** mostró el mayor aumento entre los bancos múltiples, con incrementos de RD$0.10 tanto en la tasa de compra (de RD$61.75 a RD$61.85) como en la de venta (de RD$63.25 a RD$63.35).
+* **Banco Popular Dominicano** mantuvo uno de los márgenes más amplios entre las entidades financieras (RD$1.95), con un precio de compra de RD$61.45 y un precio de venta de RD$63.40, ambos aumentando RD$0.10 desde el viernes anterior.
 
-* **Alaver** aumentó únicamente su tasa de venta en RD$0.05 (de RD$63.30 a RD$63.35), manteniendo estable su tasa de compra en RD$62.05, lo que amplió su diferencial a RD$1.30.
+* **Banreservas**, el banco estatal, incrementó tanto su tasa de compra como de venta en RD$0.10, situándose en RD$61.85 y RD$63.35 respectivamente, manteniendo un margen de RD$1.50.
 
-* **Asociación Cibao** incrementó ambas tasas en RD$0.05, ubicándose con una de las tasas de venta más altas entre las EIFs (RD$63.40), manteniendo un diferencial de RD$1.00.
+* **Asociación Popular** registró el mayor incremento en la tasa de compra entre las EIF con un aumento de RD$0.20, pasando de RD$61.40 a RD$61.60, mientras su tasa de venta subió RD$0.10.
 
 ### Agentes de Cambio
 
-* **SCT** presentó el cambio más significativo entre los agentes de cambio, aumentando su tasa de compra en RD$0.30 (de RD$62.50 a RD$62.80) y su tasa de venta en RD$0.20 (de RD$63.30 a RD$63.50), reduciendo así su diferencial de RD$0.80 a RD$0.70.
+* **SCT** mostró el cambio más significativo entre los agentes de cambio, con un aumento de RD$0.30 en su tasa de compra (hasta RD$62.80) y RD$0.20 en su tasa de venta (hasta RD$63.50).
 
-* **Girosol** mostró un notable incremento de RD$0.25 en su tasa de venta (de RD$63.25 a RD$63.50), con un aumento menor de RD$0.05 en la tasa de compra, ampliando su diferencial a RD$0.80.
+* **Agente de Cambio La Nacional** incrementó su tasa de compra en RD$0.25, pasando de RD$62.50 a RD$62.75, destacándose como uno de los aumentos más notables en este segmento.
 
-* **Agente de Cambio La Nacional** incrementó su tasa de compra en RD$0.25 (de RD$62.50 a RD$62.75), posicionándose competitivamente entre los agentes de cambio.
+* **Girosol** aumentó significativamente su tasa de venta en RD$0.25 (hasta RD$63.50), mientras que su tasa de compra solo subió RD$0.05, ampliando así su margen de operación de RD$0.60 a RD$0.80.
 
-Los cambios observados en el mercado cambiario dominicano durante este período reflejan una tendencia alcista moderada pero constante. Las entidades financieras y agentes de cambio ajustaron sus tasas de manera diferenciada, con los agentes de cambio mostrando generalmente ajustes más pronunciados que las entidades de intermediación financiera. Este comportamiento sugiere un mercado estable con ligeras presiones al alza, manteniendo diferenciales relativamente constantes entre las tasas de compra y venta.
+En resumen, se observa una ligera tendencia alcista en el mercado cambiario dominicano durante este período, con incrementos modestos pero consistentes tanto en los precios de compra como de venta. Los agentes de cambio generalmente ofrecen mejores tasas de compra que las entidades financieras tradicionales, mientras que los bancos múltiples mantienen márgenes más amplios entre sus tasas de compra y venta. Esta estabilidad relativa con tendencia al alza sugiere un mercado cambiario ordenado con presiones moderadas hacia la depreciación del peso dominicano.
