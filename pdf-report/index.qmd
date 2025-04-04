@@ -1,0 +1,288 @@
+---
+title: "Sondeo Diario Mercado Cambiario"
+execute:
+  echo: false    
+  warning: false 
+  message: false 
+  error: false   
+format: 
+  html:
+    include-in-header: favicon.html
+    css: style.css
+    embed-resources: false
+    anchor-sections: false
+---
+
+```{r setup}
+options(box.path = here::here())
+
+library(glue)
+library(here)
+library(dplyr)
+library(stringr)
+library(htmltools)
+library(reactable)
+library(sparkline)
+library(lubridate)
+library(jsonlite)
+library(scales)
+
+box::use(
+  scripts/utils[crear_mes],
+  docs/logic/ui[summary_cards, trend_indicator, report_table],
+  scripts/functions[today_in_dr],
+  scripts/anthropic[
+    create_anthropic_body, 
+    send_anthropic_request,
+  ],
+  scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar],
+  scripts/tc_spot[get_tc_spot],
+)
+```
+
+```{r get_tc_spot}
+tc_spot <- get_tc_spot(frecuencia = "diaria") |> tail(1)
+```
+
+```{r import_data_banks, echo=FALSE}
+current_date <- today_in_dr()
+day_of_week <- weekdays(current_date)
+benchmark_lag <- ifelse(
+  day_of_week == "Monday" || day_of_week == "Sunday",
+  yes = 3,
+  no = 1
+)
+
+benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
+
+historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
+  filter(
+    # Remover una de las tasas de scotia
+    is.na(tipo) |
+    str_detect(tipo, "Digitales")
+  ) |>
+  select(-tipo) |>
+  arrange(date) |>
+  group_by(bank) |>
+  mutate(
+    gap = sell - buy,
+    lag_date = lag(date, benchmark_lag),
+    lag_buy = lag(buy, benchmark_lag),
+    lag_sell = lag(sell, benchmark_lag),
+    lag_gap = lag(gap, benchmark_lag),
+    d_sell = sell - lag_sell,
+    d_buy = buy - lag_buy,
+  ) |>
+  ungroup() |>
+  rename(entidad = bank)
+
+current_data_banks <- historico_bank |>
+  filter(date == max(date), buy > 1, lag_buy > 1) |>
+  left_join(entidades_banks, by = "entidad") |>
+  select(-entidad) |>
+  relocate(entidad = name, .after = date) |> 
+  filter(lag_date == max(date) - benchmark_lag)
+```
+
+```{r import_data_infodolar}
+historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) |>
+  select(date, entidad, buy = compra, sell = venta) |>
+  arrange(date) |>
+  group_by(entidad) |> 
+  mutate(
+    gap = sell - buy,
+    lag_date = lag(date, benchmark_lag),
+    lag_buy = lag(buy, benchmark_lag),
+    lag_sell = lag(sell, benchmark_lag),
+    lag_gap = lag(gap, benchmark_lag),
+    d_sell = sell - lag_sell,
+    d_buy = buy - lag_buy,
+  ) |> 
+  ungroup()
+
+current_data_infodolar <- historico_infodolar |>
+  filter(date == max(date), buy > 1, lag_buy > 1) |>
+  left_join(entidades_infodolar) |>
+  select(-entidad) |>
+  relocate(entidad = name, .after = date) |>
+  filter(!entidad %in% unique(current_data_banks$entidad)) |>
+  filter(lag_date == max(date) - benchmark_lag)
+
+current_data <- current_data_banks |>
+  bind_rows(current_data_infodolar)
+
+current_summary <- current_data |>
+  summarise(
+    across(-c(entidad, date, lag_date, tipo_entidad, subgrupo_entidad), \(x) mean(x, na.rm = TRUE)),
+    n_banks = n()
+  )
+```
+
+```{r report params}
+current_date <- tibble::lst(
+  date = max(historico_bank$date),
+  year = year(date),
+  mes  = month(date),
+  label_mes = crear_mes(mes, "number_to_text") |> tolower(),
+  day  = day(date) |> str_pad(2, "left", "0"),
+  label = glue("{day} de {label_mes} de {year}")
+)
+
+previous_date <- tibble::lst(
+  date = max(historico_bank$lag_date, na.rm = TRUE),
+  year = year(date),
+  mes  = month(date),
+  label_mes = crear_mes(mes, "number_to_text") |> tolower(),
+  day  = day(date) |> str_pad(2, "left", "0"),
+  label = glue("{day} de {label_mes} de {year}")
+)
+
+time_in_dr <-   Sys.time() |>
+    lubridate::with_tz(tzone = "America/Santo_Domingo")
+```
+
+::: {.grid  .document-header}
+::: {.g-col-2}
+<img class="logo" src="assets/logo-dorado.png">
+:::
+::: {.g-col-10 .text-center .header-text}
+<h1>Sondeo diario del Mercado Cambiario</h1>
+<h3>Departamento Internacional </h3>
+Subdirección de Asuntos Cambiarios Domésticos <br> `r current_date$label`
+:::
+:::
+
+----
+
+```{r info_header, echo=FALSE}
+div(
+  class = "info-header",
+  div(
+    class = "info-container",
+    shiny::icon("chart-simple", class = "icon"),
+    "Promedio simple del día"
+  ),
+  div(
+    class = "info-container",
+    shiny::icon("calendar-days", class = "icon"),
+    glue("Comparación respecto al {previous_date$label}")
+  ),
+  div(
+    class = "info-container",
+    shiny::icon("clock", class = "icon"),
+    glue("Última actualización: {format(time_in_dr, '%I:%M %p')}")
+  )
+)
+```
+
+```{r stats_cards, echo=FALSE}
+summary_cards(current_summary, benchmark_label)
+```
+
+```{r bcrd_banner}
+
+bcrd_date <- tibble::lst(
+  date = tc_spot$fecha,
+  year = year(date),
+  mes  = month(date),
+  label_mes = crear_mes(mes, "number_to_text") |> tolower(),
+  day  = day(date) |> str_pad(2, "left", "0"),
+  label = glue("{day} de {label_mes} de {year}")
+)
+
+div(
+  class = "bcrd-container",
+  div(
+    class = "bcrd-header",
+    div(
+      class = "bcrd-label", 
+      span(class = "bcrd-text", glue("Tasas de referencia BCRD:")),
+    ),
+    div(class = "bcrd-values",
+        div(
+          class = "bcrd-value", 
+          span(class = "bcrd-label", "Compra:"), span(class = "bcrd-amount", comma(tc_spot$compra, 0.01))
+        ),
+        div(
+          class = "bcrd-value", 
+          span(class = "bcrd-label", "Venta:"), span(class = "bcrd-amount", comma(tc_spot$venta, 0.01))
+        ),
+        div(
+          class = "bcrd-value", 
+          span(
+            class = "bcrd-label", "Margen:"), 
+            span(
+              class = "bcrd-amount", 
+              comma(tc_spot$venta - tc_spot$compra, 0.01)
+            )
+        )
+    )
+  ),
+  p(class = "bcrd-text separator", glue("Promedio ponderado al {bcrd_date$label}"))
+)
+```
+
+### Bancos múltiples
+
+```{r table_eif, echo=FALSE}
+eif_tasas_to_table <- current_data |>
+  filter(subgrupo_entidad == "Banco Múltiple") |>
+  select(-tipo_entidad)
+
+eif_tasas_to_table |>
+  select(-subgrupo_entidad) |>
+  relocate(buy, .before = sell) |>
+  report_table()
+```
+
+\pagebreak
+
+### Bancos de ahorro y crédito
+
+```{r table_bac, echo=FALSE}
+bac_tasas_to_table <- current_data |>
+  filter(subgrupo_entidad == "Banco de AC") |>
+  select(-tipo_entidad)
+
+bac_tasas_to_table |>
+  select(-subgrupo_entidad) |> 
+  relocate(buy, .before = sell) |> 
+  report_table()
+```
+
+### Asociaciones de ahorros y préstamos
+
+```{r table_aap, echo=FALSE}
+aap_tasas_to_table <- current_data |>
+  filter(subgrupo_entidad == "Asociación de AP") |>
+  select(-tipo_entidad)
+
+aap_tasas_to_table |>
+  select(-subgrupo_entidad) |> 
+  relocate(buy, .before = sell) |> 
+  report_table()
+```
+
+
+### Agentes de cambio
+
+```{r table_ac, echo=FALSE}
+ac_tasas_to_table <- current_data |>
+  filter(tipo_entidad == "AC") |>
+  select(-tipo_entidad)
+
+ac_tasas_to_table |>
+  select(-subgrupo_entidad) |> 
+  relocate(buy, .before = sell) |> 
+  report_table()
+```
+
+\pagebreak
+
+::: {.callout-note title="Notas" appearance="simple"}
+
+1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
+
+2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es una medida ponderada.
+
+:::
