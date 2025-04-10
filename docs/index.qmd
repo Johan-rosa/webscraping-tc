@@ -274,6 +274,110 @@ ac_tasas_to_table |>
   report_table()
 ```
 
+
+```{r run_ai}
+cache <- readRDS(here("docs/cache/last_update_data.rds"))
+run_ai <- !identical(cache, current_data)
+
+if (!run_ai) {
+  ai_analysis <- readRDS(here("docs/cache/last_update_ai_analysis.rds"))
+}
+```
+
+```{r get_ai_analysis}
+#| eval: !expr run_ai
+message <- glue(
+  "
+  I need a short summary in Spanish about the recent changes in the exchange rates of the Banks 
+  in the Dominican Republic.
+  Here is the data by banks and a summary of the average results.
+  data by banks: {toJSON(current_data)}
+  data summary: {toJSON(current_summary)}
+  
+  context: the data is from {current_date$date} and lag_* values are from {previous_date$date}
+  
+  Instructions for the output:
+  1- MD formatted
+  2- Structure:
+    a- ## Análisis: a general overview about the change in the rates and the gap
+    b- ### Entidades de intermediación finciera: three bullets with comments about notable changes in tipo_entidad EIF
+    c- ### Agentes de cambio: three bullets with coments about notable changes in tipo_entidad AC 
+    c- a closing paragraph
+  3- skip heading 1, not needed
+  4- round numbers to 2 decimal places
+  "
+)
+
+hide_reveal_btn <- FALSE
+cache_ai_results <- TRUE
+
+tryCatch({
+  body <- create_anthropic_body(message = message)
+  content <- send_anthropic_request(body)
+  
+  ai_analysis <- content$content[[1]]$text
+  
+  writeLines(
+    content$content[[1]]$text,
+    here(glue("data/from_banks/ai_analysis/{today_in_dr()}-ai.txt"))
+  )
+},
+  error = \(e){
+    hide_reveal_btn <<- TRUE 
+    cache_ai_results <<- FALSE
+  }
+)
+
+```
+
+<div id="output-container" class="mt-3" style="display: none;">
+
+```{r mocked_api_result}
+#| output: asis
+cat(ai_analysis)
+```
+
+```{r cache_last_run_data}
+#| eval: !expr run_ai
+saveRDS(current_data, here("docs/cache/last_update_data.rds"))
+saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
+```
+
+</div> 
+
+<button id="reveal-btn" class="btn btn-primary mt-3" style="font-size: 0.9rem">
+  <i class="bi bi-magic"></i>
+  Análizar con AI
+</button>
+
+<div id="loading-spinner" class="spinner-border text-primary mt-3" role="status" style="display: none;">
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+<script> 
+  document.getElementById("reveal-btn").addEventListener("click", function() { 
+    var button = this; 
+    var spinner = document.getElementById("loading-spinner"); 
+    var output = document.getElementById("output-container"); 
+
+    button.style.display = "none"; // Hide button
+    spinner.style.display = "inline-block"; // Show spinner 
+
+    setTimeout(function() {
+      spinner.style.display = "none"; // Hide spinner 
+      output.style.display = "block"; // Show output
+    }, 2000); 
+  }); 
+</script>
+
+
+```{r}
+#| execute: hide_reveal_btn
+
+htmltools::tags$style("#reveal-btn {display: none;}")
+```
+
+
 ::: {.callout-note title="Notas" appearance="simple"}
 
 1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
