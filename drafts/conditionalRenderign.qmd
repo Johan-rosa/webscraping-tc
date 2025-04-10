@@ -1,0 +1,52 @@
+---
+title: Conditional Rendering
+html: html
+execute: 
+  echo: false
+  warning: false
+  message: false
+---
+
+<!-- Button -->
+<button id="reveal-btn" class="btn btn-dark">
+  <i class="bi bi-magic"></i>
+  Analizar con AI
+</button>
+
+<!-- Spinner -->
+<div id="loading-spinner" style="display: none;" class="spinner-border text-dark mt-3" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+<!-- Output Container -->
+<div id="output-container" style="display: none;">
+  <!-- Your output content here -->
+  <div class="alert alert-success">
+    Analysis completed successfully!
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("reveal-btn").addEventListener("click", function() { 
+      var button = this; 
+      var spinner = document.getElementById("loading-spinner"); 
+      var output = document.getElementById("output-container"); 
+      
+      button.style.display = "none"; // Hide button
+      spinner.style.display = "inline-block"; // Show spinner 
+      
+      setTimeout(function() {
+        spinner.style.display = "none"; // Hide spinner 
+        output.style.display = "block"; // Show output
+      }, 2000); 
+    });
+  });
+</script>
+
+
+```{r}
+#| execute: false
+htmltools::tags$style("#reveal-btn {display: none; }")
+```
+
