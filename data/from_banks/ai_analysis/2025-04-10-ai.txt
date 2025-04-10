@@ -1,0 +1,21 @@
+## Análisis: Cambios en Tasas de Cambio Bancarias
+
+El 10 de abril de 2025, se observó una tendencia general a la baja en las tasas de cambio de la República Dominicana. El tipo de cambio promedio de compra disminuyó de RD$60.87 a RD$60.64 (-0.23 pesos), mientras que el de venta bajó de RD$62.67 a RD$62.49 (-0.18 pesos). El diferencial (gap) entre compra y venta aumentó ligeramente de 1.76 a 1.82 pesos, lo que indica un pequeño incremento en los márgenes operativos de las entidades cambiarias.
+
+### Entidades de Intermediación Financiera
+
+* **Bancos Múltiples**: La mayoría experimentó reducciones en sus tasas. Scotiabank mostró la disminución más significativa con -0.30 en compra y -0.35 en venta, mientras Banesco redujo ambas tasas en 0.40 pesos.
+
+* **Asociaciones de Ahorros y Préstamos**: Alaver presentó una notable reducción de 0.40 pesos en su tasa de compra y 0.15 en venta, mientras la Asociación Popular redujo sus tasas en 0.25 y 0.15 pesos respectivamente. La Asociación la Nacional mantuvo sus tasas sin cambios.
+
+* **Bancos de Ahorro y Crédito**: Motor Crédito redujo su tasa de compra en 0.15 y su tasa de venta en 0.35 pesos, mientras Bonanza Banco disminuyó significativamente su tasa de compra en 0.40 pesos.
+
+### Agentes de Cambio
+
+* **Moneycorps**: Presentó las reducciones más dramáticas entre los agentes de cambio, con una disminución de 0.60 pesos en compra y 0.50 en venta, ajustando significativamente sus márgenes.
+
+* **Girosol**: Mostró una importante reducción de 0.80 pesos en su tasa de compra y 0.20 en venta, siendo el agente con la mayor disminución en tasa de compra.
+
+* **Estabilidad**: Varios agentes como Gamelin, SCT, Panora Exchange y RM mantuvieron sus tasas sin cambios, mostrando mayor resistencia a la tendencia bajista del mercado.
+
+Estos movimientos reflejan una apreciación general del peso dominicano frente al dólar estadounidense. La disminución generalizada en las tasas de cambio puede responder a factores estacionales o políticas monetarias específicas. Los diferenciales ligeramente más amplios sugieren que las entidades están ajustando sus márgenes operativos en respuesta a las condiciones cambiantes del mercado, posiblemente para mantener rentabilidad en un contexto de tasas más bajas.

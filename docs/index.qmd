@@ -282,10 +282,14 @@ run_ai <- !identical(cache, current_data)
 if (!run_ai) {
   ai_analysis <- readRDS(here("docs/cache/last_update_ai_analysis.rds"))
 }
+
+hide_reveal_btn <- FALSE
+cache_ai_results <- TRUE
 ```
 
 ```{r get_ai_analysis}
 #| eval: !expr run_ai
+
 message <- glue(
   "
   I need a short summary in Spanish about the recent changes in the exchange rates of the Banks 
@@ -308,9 +312,6 @@ message <- glue(
   "
 )
 
-hide_reveal_btn <- FALSE
-cache_ai_results <- TRUE
-
 tryCatch({
   body <- create_anthropic_body(message = message)
   content <- send_anthropic_request(body)
@@ -323,6 +324,7 @@ tryCatch({
   )
 },
   error = \(e){
+    console.log(e)
     hide_reveal_btn <<- TRUE 
     cache_ai_results <<- FALSE
   }
@@ -370,9 +372,8 @@ saveRDS(ai_analysis, here("docs/cache/last_update_ai_analysis.rds"))
   }); 
 </script>
 
-
 ```{r}
-#| execute: hide_reveal_btn
+#| eval: !expr hide_reveal_btn
 
 htmltools::tags$style("#reveal-btn {display: none;}")
 ```
