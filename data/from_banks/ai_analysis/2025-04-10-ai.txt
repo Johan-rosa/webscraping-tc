@@ -1,21 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio Bancarias
+## Análisis: Variaciones en las Tasas de Cambio
 
-El 10 de abril de 2025, se observó una tendencia general a la baja en las tasas de cambio de la República Dominicana. El tipo de cambio promedio de compra disminuyó de RD$60.87 a RD$60.64 (-0.23 pesos), mientras que el de venta bajó de RD$62.67 a RD$62.49 (-0.18 pesos). El diferencial (gap) entre compra y venta aumentó ligeramente de 1.76 a 1.82 pesos, lo que indica un pequeño incremento en los márgenes operativos de las entidades cambiarias.
+El 10 de abril de 2025, el tipo de cambio promedio en la República Dominicana registró una disminución notable. La tasa de compra promedio se ubicó en 60.55 DOP/USD, bajando 0.32 puntos respecto al día anterior (60.87 DOP/USD). Similarmente, la tasa de venta cayó a 62.43 DOP/USD, una reducción de 0.27 puntos comparado con el valor previo de 62.70 DOP/USD. Cabe destacar que el spread (diferencia entre compra y venta) aumentó ligeramente de 1.79 a 1.85 puntos.
 
 ### Entidades de Intermediación Financiera
 
-* **Bancos Múltiples**: La mayoría experimentó reducciones en sus tasas. Scotiabank mostró la disminución más significativa con -0.30 en compra y -0.35 en venta, mientras Banesco redujo ambas tasas en 0.40 pesos.
+* **Banreservas** mostró una de las reducciones más significativas entre los bancos múltiples, con una disminución de 0.65 puntos en su tasa de compra (de 61.00 a 60.35 DOP/USD) y 0.55 puntos en su tasa de venta (de 62.50 a 61.95 DOP/USD).
 
-* **Asociaciones de Ahorros y Préstamos**: Alaver presentó una notable reducción de 0.40 pesos en su tasa de compra y 0.15 en venta, mientras la Asociación Popular redujo sus tasas en 0.25 y 0.15 pesos respectivamente. La Asociación la Nacional mantuvo sus tasas sin cambios.
+* **Banco Ademi** experimentó una caída importante de 0.65 puntos en su tasa de compra (61.10 a 60.45 DOP/USD) y 0.50 puntos en su tasa de venta (62.90 a 62.40 DOP/USD), alineándose con la tendencia general del mercado.
 
-* **Bancos de Ahorro y Crédito**: Motor Crédito redujo su tasa de compra en 0.15 y su tasa de venta en 0.35 pesos, mientras Bonanza Banco disminuyó significativamente su tasa de compra en 0.40 pesos.
+* Entre las Asociaciones de Ahorros y Préstamos, **Asociación Peravia** redujo su tasa de venta en 0.40 puntos (de 63.20 a 62.80 DOP/USD), mientras que **Alaver** redujo su tasa de compra en la misma proporción (de 60.90 a 60.50 DOP/USD).
 
 ### Agentes de Cambio
 
-* **Moneycorps**: Presentó las reducciones más dramáticas entre los agentes de cambio, con una disminución de 0.60 pesos en compra y 0.50 en venta, ajustando significativamente sus márgenes.
+* **Girosol** presentó la reducción más drástica entre los agentes de cambio, con una disminución de 1.10 puntos en su tasa de compra (de 61.50 a 60.40 DOP/USD) y 0.20 puntos en su tasa de venta.
 
-* **Girosol**: Mostró una importante reducción de 0.80 pesos en su tasa de compra y 0.20 en venta, siendo el agente con la mayor disminución en tasa de compra.
+* **Moneycorps** redujo significativamente sus tasas, con una disminución de 0.60 puntos en la tasa de compra (de 61.35 a 60.75 DOP/USD) y 0.50 puntos en la tasa de venta (de 62.20 a 61.70 DOP/USD).
 
-* **Estabilidad**: Varios agentes como Gamelin, SCT, Panora Exchange y RM mantuvieron sus tasas sin cambios, mostrando mayor resistencia a la tendencia bajista del mercado.
+* **Panora Exchange** también mostró reducciones considerables, con una disminución de 0.40 puntos en la tasa de compra y 0.60 puntos en la tasa de venta, ofreciendo uno de los tipos de cambio más competitivos entre los agentes de cambio.
 
-Estos movimientos reflejan una apreciación general del peso dominicano frente al dólar estadounidense. La disminución generalizada en las tasas de cambio puede responder a factores estacionales o políticas monetarias específicas. Los diferenciales ligeramente más amplios sugieren que las entidades están ajustando sus márgenes operativos en respuesta a las condiciones cambiantes del mercado, posiblemente para mantener rentabilidad en un contexto de tasas más bajas.
+La tendencia bajista generalizada en el mercado cambiario dominicano refleja un fortalecimiento del peso dominicano frente al dólar estadounidense. Este comportamiento se observa consistentemente tanto en las entidades de intermediación financiera como en los agentes de cambio, aunque con diferentes magnitudes. Los inversionistas y participantes del mercado deberían monitorear si esta tendencia se mantiene en los próximos días, lo cual podría indicar un cambio sostenido en la dinámica del mercado de divisas del país.
