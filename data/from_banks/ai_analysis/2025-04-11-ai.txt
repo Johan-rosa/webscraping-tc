@@ -1,21 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio Bancarias en República Dominicana
+## Análisis: Tendencia a la baja en las tasas de cambio
 
-El 11 de abril de 2025, el mercado cambiario dominicano experimentó una apreciación del peso frente al dólar estadounidense. La tasa promedio de compra disminuyó de RD$60.55 a RD$60.24 (-0.32 pesos), mientras que la tasa de venta bajó de RD$62.43 a RD$62.07 (-0.35 pesos). El margen o "gap" entre compra y venta se redujo ligeramente de 1.85 a 1.81 pesos, indicando una mejora en la eficiencia del mercado cambiario.
+El 11 de abril de 2025, se observó una disminución generalizada en las tasas de cambio del dólar en la República Dominicana. La tasa de compra promedio se redujo en RD$0.36, pasando de RD$60.55 a RD$60.19. De manera similar, la tasa de venta promedio descendió en RD$0.40, de RD$62.43 a RD$62.02. El diferencial (gap) entre compra y venta disminuyó ligeramente de RD$1.85 a RD$1.81.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Scotiabank** mostró una de las reducciones más significativas, con una disminución de 0.55 pesos en la tasa de compra (de 60.60 a 60.05) y de 0.45 pesos en la tasa de venta (de 62.45 a 62.00).
+* **Scotiabank** mostró una de las reducciones más significativas entre los bancos múltiples, con una disminución de RD$0.55 en su tasa de compra (de RD$60.60 a RD$60.05) y RD$0.45 en su tasa de venta (de RD$62.45 a RD$62.00).
 
-* **Banco Caribe** y **BDI** presentaron reducciones importantes de 0.50 pesos en sus tasas de venta, mientras que sus tasas de compra se redujeron en 0.50 y 0.55 pesos respectivamente.
+* **Banco López de Haro** presentó la mayor caída en la tasa de compra entre las EIF, con una reducción de RD$0.70, pasando de RD$60.50 a RD$59.80, mientras mantuvo su tasa de venta en RD$62.00.
 
-* **Banreservas** y **Banco Santa Cruz** mantuvieron estables sus tasas de cambio sin variaciones, mientras que la mayoría de los demás bancos múltiples redujeron sus cotizaciones.
+* **Asociación Peravia** mostró cambios notables con una reducción de RD$0.75 en su tasa de compra y RD$0.50 en su tasa de venta, incrementando su diferencial de RD$2.05 a RD$2.30.
 
-### Agentes de Cambio
+### Agentes de cambio
 
-* **Agente de Cambio La Nacional** registró la mayor reducción en tasa de compra entre los agentes de cambio, con una disminución de 0.75 pesos (de 60.75 a 60.00).
+* **Cambio Extranjero** registró la mayor reducción en la tasa de venta entre todos los agentes, con una disminución de RD$1.10, pasando de RD$62.50 a RD$61.40, reduciendo significativamente su diferencial de RD$2.00 a RD$1.30.
 
-* **Cambio Extranjero** presentó la mayor reducción en tasa de venta, con una disminución de 0.81 pesos (de 62.50 a 61.69), reduciendo significativamente su margen de ganancia.
+* **Quezada** mostró una caída importante en su tasa de compra de RD$0.70 (de RD$60.70 a RD$60.00) y de RD$0.40 en su tasa de venta (de RD$61.70 a RD$61.30).
 
-* **Panora Exchange** y **RM** se mantuvieron como los únicos agentes de cambio sin variación en sus cotizaciones, mientras que el resto mostró reducciones moderadas entre 0.20 y 0.40 pesos.
+* **Agente de Cambio la Nacional** presentó la reducción más pronunciada en la tasa de compra entre los agentes de cambio, con una disminución de RD$0.75, pasando de RD$60.75 a RD$60.00.
 
-En conclusión, el 11 de abril de 2025 marcó una jornada de fortalecimiento del peso dominicano frente al dólar estadounidense en el mercado cambiario local. Esta tendencia generalizada de reducción en las tasas de cambio se observó tanto en entidades bancarias como en agentes de cambio, con pocas excepciones que mantuvieron sus cotizaciones sin variaciones. El estrechamiento del margen entre compra y venta sugiere una mayor eficiencia y competitividad en el mercado cambiario dominicano.
+Esta tendencia generalizada a la baja en las tasas de cambio refleja una posible apreciación del peso dominicano frente al dólar estadounidense. Los cambios más significativos se observaron en ciertos agentes de cambio, aunque la mayoría de las entidades financieras siguieron la misma dirección descendente. Esta situación podría responder a factores macroeconómicos o a intervenciones del Banco Central para estabilizar el mercado cambiario dominicano.
