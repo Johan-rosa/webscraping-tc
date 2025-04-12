@@ -1,0 +1,21 @@
+## Análisis de Tasas de Cambio en República Dominicana (12 abril 2025)
+
+El promedio general de las tasas de cambio mostró una ligera disminución. La tasa de compra promedio decreció de 60.19 a 60.12 pesos dominicanos por dólar (-0.07 puntos), mientras que la tasa de venta se redujo de 62.02 a 61.96 (-0.06 puntos). El margen entre compra y venta aumentó ligeramente de 1.81 a 1.82 puntos, lo que sugiere estabilidad en el mercado cambiario dominicano.
+
+### Entidades de Intermediación Financiera
+
+* **Asociación La Nacional** mostró una de las reducciones más notables entre las EIF, con una disminución de 0.30 puntos en su tasa de compra (de 60.30 a 60.00) y de 0.25 puntos en su tasa de venta (de 62.25 a 62.00).
+
+* Los **Bancos Múltiples** como Scotiabank, Banreservas, Banco Popular y BHD mantuvieron sus tasas sin cambios durante este período, reflejando estabilidad en el segmento principal del mercado.
+
+* **Asociaciones de Ahorros y Préstamos** generalmente mantuvieron sus tasas sin variaciones, con la excepción de La Nacional, mostrando un comportamiento conservador en el mercado cambiario.
+
+### Agentes de Cambio
+
+* **RM** presentó los cambios más significativos del mercado, con una fuerte disminución de 1.80 puntos en su tasa de compra (de 61.80 a 60.00) y 1.50 puntos en su tasa de venta (de 62.40 a 60.90).
+
+* **SCT** también mostró una reducción notable, disminuyendo tanto su tasa de compra como de venta en 0.50 puntos, pasando de 60.50 a 60.00 para compra y de 62.20 a 61.70 para venta.
+
+* El resto de los agentes de cambio como Quezada, Moneycorps, Taveras y Gamelin mantuvieron sus tasas sin variaciones, indicando estabilidad en este segmento del mercado.
+
+La tendencia general muestra un mercado cambiario dominicano estable con ligera tendencia a la baja. Aunque algunos agentes de cambio mostraron reducciones significativas en sus tasas, la mayoría de las entidades financieras mantuvieron sus cotizaciones sin cambios. Esta estabilidad sugiere confianza en la economía dominicana y en la política monetaria actual del Banco Central.
