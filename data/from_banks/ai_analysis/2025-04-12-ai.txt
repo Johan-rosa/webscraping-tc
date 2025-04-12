@@ -1,21 +1,17 @@
-## Análisis: Tendencias en Tasas de Cambio Bancarias
+## Análisis: Tasas de Cambio en República Dominicana (12-04-2025)
 
-El 12 de abril de 2025, la tasa de cambio promedio en la República Dominicana mostró una ligera disminución respecto al día anterior. La tasa de compra promedio se redujo en 0.07 pesos, pasando de 60.19 a 60.12 pesos por dólar. Similarmente, la tasa de venta disminuyó en 0.07 pesos, bajando de 62.02 a 61.95 pesos. El margen entre compra y venta (gap) aumentó ligeramente de 1.81 a 1.82 pesos, lo que indica una pequeña ampliación en los márgenes operativos de las entidades cambiarias.
+El tipo de cambio promedio para el 12 de abril de 2025 muestra una ligera tendencia a la baja con respecto al día anterior. La tasa de compra promedio disminuyó de RD$60.19 a RD$60.09 (-0.11 puntos), mientras que la tasa de venta bajó de RD$62.02 a RD$61.93 (-0.10 puntos). El diferencial (gap) entre compra y venta se incrementó ligeramente de 1.81 a 1.83, indicando un pequeño aumento en el margen operativo de las entidades financieras.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Asociación La Nacional** experimentó una de las reducciones más notables entre las EIF, con una disminución de 0.30 pesos en su tasa de compra (de 60.30 a 60.00) y 0.25 pesos en su tasa de venta (de 62.25 a 62.00).
+* **Asociación la Nacional** registró una disminución notable, reduciendo su tasa de compra en 0.30 puntos (de RD$60.30 a RD$60.00) y su tasa de venta en 0.25 puntos (de RD$62.25 a RD$62.00).
+* **Asociación Popular** también mostró una reducción, bajando su tasa de compra en 0.25 puntos (de RD$60.00 a RD$59.75), mientras mantuvo su tasa de venta en RD$62.25.
+* La mayoría de los bancos múltiples, incluyendo Banreservas, Scotiabank, Banco Popular y BHD, mantuvieron sus tasas sin cambios, mostrando estabilidad en el sector bancario principal.
 
-* **Banreservas**, el banco estatal, mantuvo sus tasas estables en 60.35 para compra y 61.95 para venta, ofreciendo uno de los márgenes más competitivos (1.60) entre los bancos múltiples.
+### Agentes de cambio
 
-* **Banco Popular**, uno de los mayores bancos privados del país, mantuvo su posición con tasas de 59.95 para compra y 61.99 para venta, conservando uno de los gaps más amplios del mercado (2.04).
+* **RM** presentó la mayor disminución entre los agentes de cambio, reduciendo su tasa de compra en 1.80 puntos (de RD$61.80 a RD$60.00) y su tasa de venta en 1.50 puntos (de RD$62.40 a RD$60.90).
+* **Panora Exchange** bajó su tasa de compra en 0.65 puntos (de RD$60.50 a RD$59.85) y su tasa de venta en 0.50 puntos (de RD$61.70 a RD$61.20).
+* **SCT** redujo tanto su tasa de compra como de venta en 0.50 puntos, pasando de RD$60.50 a RD$60.00 para compra y de RD$62.20 a RD$61.70 para venta.
 
-### Agentes de Cambio
-
-* **RM** mostró la mayor fluctuación entre todos los agentes de cambio, con una reducción significativa de 1.80 pesos en su tasa de compra (de 61.80 a 60.00) y 1.50 pesos en su tasa de venta (de 62.40 a 60.90).
-
-* **SCT** presentó una disminución de 0.50 pesos tanto en su tasa de compra como de venta, reduciendo la compra de 60.50 a 60.00 pesos y la venta de 62.20 a 61.70 pesos.
-
-* **Moneycorps** redujo sus tasas modestamente en 0.20 pesos tanto para compra como para venta, ofreciendo uno de los márgenes más estrechos del mercado con solo 0.95 pesos de diferencia.
-
-El mercado cambiario dominicano muestra actualmente una tendencia a la baja, aunque con variaciones mínimas para la mayoría de las entidades. Los agentes de cambio presentan mayor volatilidad que las entidades bancarias formales, ofreciendo generalmente márgenes más estrechos que podrían resultar atractivos para ciertos tipos de clientes. Esta estabilidad relativa sugiere que no hay presiones significativas en el mercado cambiario dominicano en este momento.
+El mercado cambiario dominicano muestra una leve tendencia a la apreciación del peso dominicano frente al dólar estadounidense, con los agentes de cambio liderando las reducciones en las tasas. Esta estabilidad relativa en los bancos múltiples, junto con ajustes más pronunciados en los agentes de cambio, sugiere un mercado que responde a condiciones económicas favorables para la moneda local, posiblemente relacionadas con un aumento en las remesas o una mejora en la balanza comercial.
