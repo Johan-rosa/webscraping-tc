@@ -1,17 +1,21 @@
-## Análisis: Tasas de Cambio en República Dominicana (12-04-2025)
+## Análisis del Tipo de Cambio Bancario en República Dominicana
 
-El tipo de cambio promedio para el 12 de abril de 2025 muestra una ligera tendencia a la baja con respecto al día anterior. La tasa de compra promedio disminuyó de RD$60.19 a RD$60.09 (-0.11 puntos), mientras que la tasa de venta bajó de RD$62.02 a RD$61.93 (-0.10 puntos). El diferencial (gap) entre compra y venta se incrementó ligeramente de 1.81 a 1.83, indicando un pequeño aumento en el margen operativo de las entidades financieras.
+El tipo de cambio promedio en el mercado dominicano para el 12 de abril de 2025 muestra una ligera disminución respecto al día anterior. La tasa de compra promedio se situó en RD$60.08 por dólar, disminuyendo en RD$0.11 comparado con el 11 de abril. La tasa de venta promedio también bajó a RD$61.92, representando una reducción de RD$0.10. El margen entre compra y venta (gap) aumentó ligeramente de 1.81 a 1.83 pesos.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Asociación la Nacional** registró una disminución notable, reduciendo su tasa de compra en 0.30 puntos (de RD$60.30 a RD$60.00) y su tasa de venta en 0.25 puntos (de RD$62.25 a RD$62.00).
-* **Asociación Popular** también mostró una reducción, bajando su tasa de compra en 0.25 puntos (de RD$60.00 a RD$59.75), mientras mantuvo su tasa de venta en RD$62.25.
-* La mayoría de los bancos múltiples, incluyendo Banreservas, Scotiabank, Banco Popular y BHD, mantuvieron sus tasas sin cambios, mostrando estabilidad en el sector bancario principal.
+* **Banreservas** mantiene uno de los tipos de cambio más favorables entre los bancos múltiples con una tasa de compra de RD$60.35 y venta de RD$61.95, conservando un margen competitivo de RD$1.60.
 
-### Agentes de cambio
+* **Asociación la Nacional** redujo su tasa de compra en RD$0.30, pasando de RD$60.30 a RD$60.00, y su tasa de venta en RD$0.25, disminuyendo de RD$62.25 a RD$62.00.
 
-* **RM** presentó la mayor disminución entre los agentes de cambio, reduciendo su tasa de compra en 1.80 puntos (de RD$61.80 a RD$60.00) y su tasa de venta en 1.50 puntos (de RD$62.40 a RD$60.90).
-* **Panora Exchange** bajó su tasa de compra en 0.65 puntos (de RD$60.50 a RD$59.85) y su tasa de venta en 0.50 puntos (de RD$61.70 a RD$61.20).
-* **SCT** redujo tanto su tasa de compra como de venta en 0.50 puntos, pasando de RD$60.50 a RD$60.00 para compra y de RD$62.20 a RD$61.70 para venta.
+* **Asociación Popular** disminuyó su tasa de compra en RD$0.25, de RD$60.00 a RD$59.75, mientras mantuvo su tasa de venta en RD$62.25, lo que amplió su margen a RD$2.50.
 
-El mercado cambiario dominicano muestra una leve tendencia a la apreciación del peso dominicano frente al dólar estadounidense, con los agentes de cambio liderando las reducciones en las tasas. Esta estabilidad relativa en los bancos múltiples, junto con ajustes más pronunciados en los agentes de cambio, sugiere un mercado que responde a condiciones económicas favorables para la moneda local, posiblemente relacionadas con un aumento en las remesas o una mejora en la balanza comercial.
+### Agentes de Cambio
+
+* **RM** muestra la mayor variación del mercado con una disminución significativa de RD$1.80 en su tasa de compra (de RD$61.80 a RD$60.00) y RD$1.50 en su tasa de venta (de RD$62.40 a RD$60.90).
+
+* **Panora Exchange** redujo su tasa de compra en RD$0.65, pasando de RD$60.50 a RD$59.85, y su tasa de venta en RD$0.50, bajando de RD$61.70 a RD$61.20.
+
+* **SCT** disminuyó tanto su tasa de compra como de venta en RD$0.50, estableciéndose en RD$60.00 para compra y RD$61.70 para venta.
+
+En conclusión, el mercado cambiario dominicano experimentó una ligera tendencia a la baja en las últimas 24 horas, con una disminución promedio de aproximadamente 0.10 pesos tanto en tasas de compra como de venta. Los agentes de cambio mostraron ajustes más significativos que las entidades bancarias tradicionales, destacando particularmente RM con la mayor disminución. Esta estabilidad relativa con tendencia bajista sugiere que el peso dominicano está experimentando una leve apreciación frente al dólar estadounidense.
