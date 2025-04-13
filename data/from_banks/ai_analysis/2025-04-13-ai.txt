@@ -1,0 +1,21 @@
+## Análisis: Cambios en las Tasas de Cambio Bancarias en República Dominicana
+
+Entre el 10 y 13 de abril de 2025, se observa una apreciación general del peso dominicano frente al dólar estadounidense. La tasa promedio de compra cayó 0.47 pesos (de 60.55 a 60.08), mientras que la tasa de venta disminuyó 0.50 pesos (de 62.42 a 61.92). El diferencial (gap) entre compra y venta se redujo ligeramente de 1.85 a 1.83 pesos, lo que sugiere una mayor estabilidad en el mercado cambiario.
+
+### Entidades de Intermediación Financiera
+
+* **Scotiabank** experimentó una de las reducciones más significativas con una caída de 0.55 pesos en su tasa de compra (de 60.60 a 60.05) y 0.45 pesos en su tasa de venta (de 62.45 a 62.00).
+
+* **Banreservas**, el banco estatal, mantuvo sus tasas sin cambios en 60.35 para compra y 61.95 para venta, mostrando estabilidad en medio de la tendencia general bajista.
+
+* **Asociación La Nacional** redujo notablemente su tasa de venta en 0.90 pesos (de 62.90 a 62.00), representando uno de los ajustes más pronunciados entre las EIF.
+
+### Agentes de Cambio
+
+* **RM** presentó la mayor reducción entre todos los agentes de cambio, con una disminución de 1.80 pesos en su tasa de compra (de 61.80 a 60.00) y 1.50 pesos en su tasa de venta (de 62.40 a 60.90).
+
+* **Cambio Extranjero** redujo significativamente su tasa de venta en 1.10 pesos (de 62.50 a 61.40), ampliando su competitividad en el mercado.
+
+* **Girosol** ajustó su tasa de venta a la baja en 0.80 pesos (de 62.30 a 61.50), manteniendo un diferencial de 1.50 pesos entre compra y venta.
+
+Esta tendencia a la apreciación del peso dominicano refleja posiblemente una mayor oferta de divisas en el mercado local o una política monetaria orientada a fortalecer la moneda nacional. Los agentes de cambio muestran ajustes más agresivos que las entidades bancarias tradicionales, ofreciendo en general mejores tasas de venta para los consumidores. La reducción generalizada en el diferencial entre tasas de compra y venta sugiere un mercado cambiario más eficiente y competitivo.
