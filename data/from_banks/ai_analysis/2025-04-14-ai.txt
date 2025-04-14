@@ -1,21 +1,21 @@
-## Análisis: Fluctuaciones en las Tasas de Cambio Dominicanas
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
 
-Entre el 11 y 14 de abril de 2025, la tasa de cambio promedio en República Dominicana experimentó una disminución generalizada. La tasa de compra promedio bajó de 60.19 a 59.97 pesos dominicanos por dólar (-0.22 pesos), mientras que la tasa de venta se redujo de 62.01 a 61.84 pesos (-0.18 pesos). El margen entre compra y venta (gap) aumentó ligeramente de 1.81 a 1.87 pesos, indicando un incremento en la dispersión de precios entre las entidades financieras.
+El análisis de las tasas de cambio entre el 11 y 14 de abril de 2025 muestra una tendencia general a la baja en el mercado cambiario dominicano. El promedio de compra disminuyó de RD$60.20 a RD$59.76 (-0.44 pesos), mientras que la venta bajó de RD$62.02 a RD$61.69 (-0.33 pesos). Es notable que el diferencial (gap) entre compra y venta se ha ampliado de 1.80 a 1.95 pesos, lo que sugiere mayor cautela por parte de las instituciones financieras.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Banreservas**, uno de los principales bancos múltiples, mostró la reducción más significativa con una disminución de 0.35 pesos en su tasa de compra (de 60.35 a 60.00) y 0.10 pesos en su tasa de venta (de 61.95 a 61.85).
+* **Banreservas**, el banco estatal, mostró una de las reducciones más significativas con una caída de 0.50 pesos en la tasa de compra (de RD$60.35 a RD$59.85) y 0.25 pesos en la tasa de venta (de RD$61.95 a RD$61.70).
 
-* **Banco Popular** mantuvo su tasa de venta en 61.99 pero redujo su tasa de compra en 0.45 pesos (de 59.95 a 59.50), ampliando considerablemente su margen de ganancia de 2.04 a 2.49 pesos.
+* **Banco BHD** siguió una tendencia similar con una reducción de 0.50 pesos en la tasa de compra y 0.20 pesos en la de venta, manteniendo un diferencial relativamente alto de 2.30 pesos.
 
-* **Motor Crédito** (Banco de AC) presentó una de las mayores reducciones en su tasa de compra con 0.55 pesos menos (de 60.60 a 60.05), mientras su tasa de venta bajó 0.20 pesos.
+* **Asociación Popular** presenta el mayor diferencial entre compra y venta (2.75 pesos), mientras que **Alaver** fue una de las pocas entidades que mantuvo su tasa de venta sin cambios en RD$62.00.
 
-### Agentes de Cambio
+### Agentes de cambio
 
-* **RM** registró la caída más drástica entre todas las entidades financieras, con disminuciones de 1.80 pesos en compra (de 61.80 a 60.00) y 1.50 pesos en venta (de 62.40 a 60.90), reduciendo significativamente su gap de operación.
+* **RM** registró la mayor caída en las tasas, con una disminución de 1.80 pesos en compra (de RD$61.80 a RD$60.00) y 1.50 pesos en venta (de RD$62.40 a RD$60.90), indicando una posible estrategia agresiva de competencia.
 
-* **Panora Exchange** redujo su tasa de compra en 0.65 pesos (de 60.50 a 59.85) y su tasa de venta en 0.50 pesos (de 61.70 a 61.20), aumentando ligeramente su margen de ganancia.
+* **SCT** también mostró una reducción significativa de 1.00 peso en su tasa de venta (de RD$62.20 a RD$61.20) y 0.70 pesos en la tasa de compra, siendo una de las mayores caídas entre los agentes de cambio.
 
-* **SCT** disminuyó su tasa de compra en 0.50 pesos (de 60.50 a 60.00) y su tasa de venta en 0.40 pesos (de 62.20 a 61.80), incrementando marginalmente su gap operativo.
+* Los agentes de cambio mantienen en general diferenciales más estrechos que los bancos, con casos como **Moneycorps** que opera con apenas 0.85 pesos de margen entre compra y venta, en contraste con los bancos que promedian más de 2.00 pesos.
 
-La tendencia a la baja en las tasas de cambio durante este período refleja un fortalecimiento del peso dominicano frente al dólar estadounidense. Este comportamiento podría estar relacionado con intervenciones del Banco Central, mejoras en las reservas internacionales o factores estacionales del mercado cambiario dominicano. Las diferencias en los ajustes entre bancos múltiples y agentes de cambio sugieren distintas estrategias comerciales y capacidades de respuesta ante las fluctuaciones del mercado.
+La tendencia decreciente en las tasas de cambio refleja un posible fortalecimiento del peso dominicano frente al dólar estadounidense. Esta situación podría estar relacionada con factores como el aumento de remesas, mejores resultados en la balanza comercial o intervenciones del Banco Central. Los agentes económicos deberán monitorear si esta tendencia se mantiene en las próximas semanas o si representa un ajuste temporal en el mercado cambiario dominicano.
