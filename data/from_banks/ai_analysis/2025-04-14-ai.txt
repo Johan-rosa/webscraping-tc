@@ -1,21 +1,21 @@
-## Análisis: Evolución de las Tasas de Cambio en República Dominicana
+## Análisis: Fluctuaciones en Tasas de Cambio Bancarias
 
-El análisis de las tasas de cambio entre el 11 y 14 de abril de 2025 muestra una tendencia general a la baja en el mercado cambiario dominicano. El promedio de compra disminuyó de RD$60.20 a RD$59.76 (-0.44 pesos), mientras que la venta bajó de RD$62.02 a RD$61.69 (-0.33 pesos). Es notable que el diferencial (gap) entre compra y venta se ha ampliado de 1.80 a 1.95 pesos, lo que sugiere mayor cautela por parte de las instituciones financieras.
+Entre el 11 y 14 de abril de 2025, se observa una disminución generalizada en las tasas de cambio del dólar en la República Dominicana. El promedio de compra bajó de RD$60.19 a RD$59.68 (-RD$0.51), mientras que la venta descendió de RD$62.01 a RD$61.67 (-RD$0.34). Notablemente, el diferencial (gap) entre compra y venta aumentó de RD$1.81 a RD$1.98, lo que indica mayores márgenes operativos para las instituciones financieras.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Banreservas**, el banco estatal, mostró una de las reducciones más significativas con una caída de 0.50 pesos en la tasa de compra (de RD$60.35 a RD$59.85) y 0.25 pesos en la tasa de venta (de RD$61.95 a RD$61.70).
+* **Banreservas** mostró una de las reducciones más significativas con una disminución de RD$0.50 en su tasa de compra y RD$0.25 en venta, posicionándose con una tasa de venta competitiva de RD$61.70.
 
-* **Banco BHD** siguió una tendencia similar con una reducción de 0.50 pesos en la tasa de compra y 0.20 pesos en la de venta, manteniendo un diferencial relativamente alto de 2.30 pesos.
+* **Motor Crédito** presentó la mayor caída en la tasa de compra entre las EIF, con una reducción de RD$0.95, mientras mantiene una tasa de venta de RD$61.90.
 
-* **Asociación Popular** presenta el mayor diferencial entre compra y venta (2.75 pesos), mientras que **Alaver** fue una de las pocas entidades que mantuvo su tasa de venta sin cambios en RD$62.00.
+* **Asociación Popular** mantiene el diferencial más amplio del sector (RD$2.75), tras disminuir su precio de compra a RD$59.25 (-RD$0.75) y su venta a RD$62.00 (-RD$0.25).
 
-### Agentes de cambio
+### Agentes de Cambio
 
-* **RM** registró la mayor caída en las tasas, con una disminución de 1.80 pesos en compra (de RD$61.80 a RD$60.00) y 1.50 pesos en venta (de RD$62.40 a RD$60.90), indicando una posible estrategia agresiva de competencia.
+* **RM** registró las fluctuaciones más dramáticas, con una reducción de RD$1.80 en su tasa de compra y RD$1.50 en su tasa de venta, lo que representa el cambio más acentuado entre todas las entidades analizadas.
 
-* **SCT** también mostró una reducción significativa de 1.00 peso en su tasa de venta (de RD$62.20 a RD$61.20) y 0.70 pesos en la tasa de compra, siendo una de las mayores caídas entre los agentes de cambio.
+* **Cambio Extranjero** y **Quezada** ofrecen las tasas de venta más competitivas entre los agentes de cambio, con RD$60.80 y RD$60.75 respectivamente, significativamente por debajo del promedio general.
 
-* Los agentes de cambio mantienen en general diferenciales más estrechos que los bancos, con casos como **Moneycorps** que opera con apenas 0.85 pesos de margen entre compra y venta, en contraste con los bancos que promedian más de 2.00 pesos.
+* **SCT** muestra una notable reducción de RD$1.00 en su tasa de venta, ubicándose en RD$61.20, mientras que su diferencial disminuyó de RD$1.70 a RD$1.40.
 
-La tendencia decreciente en las tasas de cambio refleja un posible fortalecimiento del peso dominicano frente al dólar estadounidense. Esta situación podría estar relacionada con factores como el aumento de remesas, mejores resultados en la balanza comercial o intervenciones del Banco Central. Los agentes económicos deberán monitorear si esta tendencia se mantiene en las próximas semanas o si representa un ajuste temporal en el mercado cambiario dominicano.
+La tendencia bajista en el mercado cambiario dominicano refleja una posible apreciación del peso frente al dólar estadounidense. Este comportamiento podría beneficiar a importadores y consumidores, aunque las entidades financieras han respondido ampliando sus márgenes operativos. Las próximas semanas serán determinantes para confirmar si esta tendencia representa un ajuste temporal o el inicio de un nuevo ciclo en el mercado cambiario local.
