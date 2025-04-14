@@ -1,0 +1,21 @@
+## Análisis: Tendencia a la baja en las tasas de cambio
+
+La tasa promedio de cambio entre el 11 y 14 de abril de 2025 experimentó una disminución. La tasa de compra descendió de RD$60.19 a RD$60.03 (-0.16), mientras que la tasa de venta bajó de RD$62.01 a RD$61.86 (-0.15). El margen (gap) entre compra y venta aumentó ligeramente de 1.81 a 1.83 pesos, lo que indica una pequeña ampliación en la diferencia que cobran las entidades financieras.
+
+### Entidades de intermediación financiera
+
+* **Banreservas**, el banco estatal, redujo tanto su tasa de compra como de venta en 0.10 pesos, manteniendo su margen constante en 1.60, que sigue siendo uno de los más bajos entre los bancos múltiples.
+
+* **Banco Santa Cruz** mostró una reducción notable en su tasa de compra (-0.25 pesos) con una mínima reducción en la venta (-0.01), lo que amplió su margen de 2.00 a 2.24 pesos, posicionándolo con uno de los márgenes más altos.
+
+* **Banco Caribe** y **Banco Lafise** presentaron comportamientos idénticos, ambos redujeron sus tasas de compra y venta en 0.25 pesos, manteniendo sus márgenes constantes en 2.00 pesos.
+
+### Agentes de cambio
+
+* **RM** registró la reducción más drástica entre todos los agentes, disminuyendo su tasa de compra en 1.80 pesos y su tasa de venta en 1.50 pesos, aunque aumentó su margen de 0.60 a 0.90.
+
+* **Panora Exchange** redujo su tasa de compra en 0.65 pesos y su tasa de venta en 0.50 pesos, ampliando su margen de 1.20 a 1.35, mostrando un reajuste significativo en su estrategia de cambio.
+
+* **Girosol** y **SCT** también presentaron reducciones notables, disminuyendo sus tasas de compra en 0.30 y 0.50 pesos respectivamente, mientras que sus tasas de venta bajaron 0.40 pesos en ambos casos.
+
+En conclusión, se observa una tendencia generalizada a la baja en las tasas de cambio del dólar frente al peso dominicano durante el período analizado. Las entidades financieras parecen estar ajustando sus tasas de manera coordinada, aunque con diferentes estrategias respecto a sus márgenes. Los agentes de cambio mostraron reducciones más agresivas que las entidades de intermediación financiera, lo que sugiere mayor sensibilidad a las fluctuaciones del mercado cambiario dominicano.
