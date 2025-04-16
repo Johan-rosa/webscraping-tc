@@ -1,17 +1,21 @@
-## Análisis: Fluctuaciones en las Tasas de Cambio
+## Análisis: Cambios en Tasas de Cambio del Peso Dominicano
 
-Las tasas de cambio en la República Dominicana mostraron una tendencia a la baja el 16 de abril de 2025. El promedio de compra disminuyó de RD$59.25 a RD$59.11 (-0.14 pesos), mientras que la venta bajó de RD$61.37 a RD$61.12 (-0.24 pesos). El diferencial (gap) entre compra y venta se redujo de 2.11 a 2.01 pesos, indicando condiciones ligeramente más favorables para los clientes.
+El 16 de abril de 2025, se observó una apreciación general del peso dominicano frente al dólar estadounidense. La tasa de compra promedio disminuyó de RD$59.25 a RD$59.10 (-0.16 pesos), mientras que la tasa de venta pasó de RD$61.37 a RD$61.10 (-0.26 pesos). El diferencial (gap) entre compra y venta se redujo ligeramente de 2.11 a 2.01 pesos, lo que indica condiciones más favorables para los clientes que realizan operaciones de cambio.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas** mostró una reducción significativa, disminuyendo tanto su tasa de compra como de venta en 0.25 pesos, manteniendo su diferencial en 1.85 pesos, por debajo del promedio del mercado.
-* **Banco Caribe** presentó la mayor reducción en la tasa de venta (-0.75 pesos), sin cambios en su tasa de compra, reduciendo notablemente su diferencial de 2.75 a 2.00 pesos.
-* **Alaver** (Asociación La Vega Real) mostró un ajuste importante con una reducción de 0.65 pesos en su tasa de venta y 0.25 en la de compra, disminuyendo su diferencial de 2.60 a 2.20 pesos.
+* **Banco Caribe** mostró la mayor reducción en su tasa de venta (-0.75 pesos), manteniendo su tasa de compra estable en RD$59.00, lo que resultó en una disminución significativa de su diferencial de 2.75 a 2.00 pesos.
+
+* **Alaver** presentó una reducción notable en su tasa de venta (-0.65 pesos) y redujo su tasa de compra en 0.25 pesos, disminuyendo su diferencial de 2.60 a 2.20 pesos.
+
+* **Banreservas**, el banco estatal, redujo tanto su tasa de compra como de venta en 0.25 pesos, manteniendo su diferencial en 1.85 pesos, uno de los más bajos entre los bancos múltiples.
 
 ### Agentes de Cambio
 
-* **SCT** presentó el cambio más drástico con una reducción de 1.00 peso en su tasa de venta, mientras aumentó su tasa de compra en 0.20 pesos, reduciendo su diferencial de 2.20 a solo 1.00 peso.
-* **Girosol** redujo tanto su tasa de compra como de venta en 0.50 pesos, manteniendo su diferencial constante en 1.50 pesos.
-* **Cambio Extranjero** disminuyó su tasa de venta en 0.55 pesos mientras aumentó ligeramente su tasa de compra en 0.10 pesos, reduciendo su diferencial de 1.80 a 1.15 pesos.
+* **SCT** realizó el cambio más significativo entre los agentes de cambio, reduciendo su tasa de venta en 1.00 peso mientras aumentó su tasa de compra en 0.20 pesos, disminuyendo dramáticamente su diferencial de 2.20 a solo 1.00 peso.
 
-En resumen, el mercado cambiario dominicano muestra una tendencia de apreciación del peso dominicano frente al dólar estadounidense, con una reducción generalizada en las tasas tanto de compra como de venta. Los agentes de cambio presentan diferenciales significativamente menores que las entidades de intermediación financiera, ofreciendo en promedio mejores condiciones para los clientes que realizan operaciones de cambio de divisas.
+* **Gamelin** mostró una reducción importante en su tasa de compra (-0.80 pesos) y una pequeña disminución en su tasa de venta (-0.10 pesos), aumentando su diferencial de 1.20 a 1.90 pesos.
+
+* **Panora Exchange** disminuyó su tasa de compra en 0.60 pesos y su tasa de venta en 0.20 pesos, aumentando su diferencial de 1.35 a 1.75 pesos.
+
+El comportamiento general del mercado cambiario dominicano muestra una tendencia a la apreciación del peso, posiblemente reflejando mejores condiciones económicas locales o mayor oferta de divisas. Los agentes de cambio presentaron mayor volatilidad en sus ajustes que las entidades de intermediación financiera, mientras que estas últimas mantuvieron un comportamiento más conservador pero consistente en la reducción de sus tasas.
