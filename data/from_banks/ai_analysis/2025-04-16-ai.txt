@@ -1,0 +1,21 @@
+## Análisis: Cambios en las tasas de cambio bancarias en República Dominicana
+
+El 16 de abril de 2025, las tasas de cambio en la República Dominicana mostraron ligeras variaciones respecto al día anterior. El promedio de compra se situó en RD$59.22 por dólar, experimentando una disminución de RD$0.03 comparado con el 15 de abril. Por su parte, la tasa de venta promedio bajó RD$0.13, ubicándose en RD$61.24. Como resultado, el margen (gap) entre compra y venta se redujo de RD$2.11 a RD$2.01, lo que representa una disminución de aproximadamente RD$0.10.
+
+### Entidades de intermediación financiera
+
+* **Banreservas**, el banco estatal, redujo tanto su tasa de compra como la de venta en RD$0.25, estableciéndolas en RD$59.35 y RD$61.20 respectivamente, manteniendo su margen en RD$1.85.
+
+* **Promerica** mostró una de las variaciones más significativas dentro de los bancos múltiples, reduciendo su tasa de compra en RD$0.25 (de RD$59.25 a RD$59.00) y su tasa de venta en RD$0.50 (de RD$61.75 a RD$61.25).
+
+* **Asociación Cibao** mantuvo su tasa de compra en RD$59.00, pero redujo su tasa de venta en RD$0.25, pasando de RD$61.45 a RD$61.20, lo que disminuyó su margen de RD$2.45 a RD$2.20.
+
+### Agentes de cambio
+
+* **Panora Exchange** presentó la variación más notable entre los agentes de cambio, reduciendo su tasa de compra en RD$0.60 (de RD$59.85 a RD$59.25) y su tasa de venta en RD$1.20 (de RD$61.20 a RD$60.00), estrechando significativamente su margen de RD$1.35 a RD$0.75.
+
+* **SCT** mostró un comportamiento mixto, aumentando su tasa de compra en RD$0.20 (de RD$58.80 a RD$59.00) mientras reducía su tasa de venta en RD$1.00 (de RD$61.00 a RD$60.00), lo que resultó en una notable reducción de su margen de RD$2.20 a RD$1.00.
+
+* **Cambio Extranjero** incrementó ligeramente su tasa de compra en RD$0.10 (de RD$59.00 a RD$59.10), pero redujo su tasa de venta en RD$0.55 (de RD$60.80 a RD$60.25), disminuyendo su margen de RD$1.80 a RD$1.15.
+
+En conclusión, el mercado cambiario dominicano presentó una tendencia general hacia la reducción de las tasas de venta y una ligera disminución en las tasas de compra el 16 de abril de 2025. Esta dinámica resultó en una reducción del margen promedio entre compra y venta, siendo más pronunciada en los agentes de cambio que en las entidades de intermediación financiera. Las variaciones, aunque moderadas, sugieren un mercado cambiario estable con una ligera tendencia a la baja.
