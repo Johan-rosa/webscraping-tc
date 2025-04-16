@@ -1,21 +1,17 @@
-## Análisis: Cambios en las Tasas de Cambio en República Dominicana
+## Análisis: Fluctuaciones en las Tasas de Cambio
 
-En el período del 15 al 16 de abril de 2025, el tipo de cambio promedio entre los bancos y agentes de cambio en República Dominicana mostró una ligera tendencia a la baja. La tasa promedio de compra disminuyó de 59.25 a 59.17 pesos (-0.08 puntos), mientras que la tasa de venta bajó de 61.37 a 61.20 pesos (-0.16 puntos). Como resultado, el diferencial (gap) entre compra y venta se redujo de 2.11 a 2.03 pesos, indicando una mayor eficiencia en el mercado cambiario.
+Las tasas de cambio en la República Dominicana mostraron una tendencia a la baja el 16 de abril de 2025. El promedio de compra disminuyó de RD$59.25 a RD$59.11 (-0.14 pesos), mientras que la venta bajó de RD$61.37 a RD$61.12 (-0.24 pesos). El diferencial (gap) entre compra y venta se redujo de 2.11 a 2.01 pesos, indicando condiciones ligeramente más favorables para los clientes.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco BHD** mostró un movimiento significativo con una reducción de 0.25 puntos tanto en sus tasas de compra como de venta, pasando de 59.35 a 59.10 para compra y de 61.50 a 61.25 para venta, manteniendo su diferencial en 2.15 pesos.
-
-* **Banreservas**, el banco estatal, también redujo sus tasas en 0.25 puntos, ajustando su compra de 59.60 a 59.35 y su venta de 61.45 a 61.20, manteniendo un diferencial competitivo de 1.85 pesos.
-
-* **Banco Popular**, uno de los principales bancos del país, disminuyó su tasa de compra en 0.20 puntos (de 59.30 a 59.10) mientras mantuvo estable su tasa de venta en 61.50, lo que aumentó su diferencial de 2.20 a 2.40 pesos.
+* **Banreservas** mostró una reducción significativa, disminuyendo tanto su tasa de compra como de venta en 0.25 pesos, manteniendo su diferencial en 1.85 pesos, por debajo del promedio del mercado.
+* **Banco Caribe** presentó la mayor reducción en la tasa de venta (-0.75 pesos), sin cambios en su tasa de compra, reduciendo notablemente su diferencial de 2.75 a 2.00 pesos.
+* **Alaver** (Asociación La Vega Real) mostró un ajuste importante con una reducción de 0.65 pesos en su tasa de venta y 0.25 en la de compra, disminuyendo su diferencial de 2.60 a 2.20 pesos.
 
 ### Agentes de Cambio
 
-* **Panora Exchange** presentó la mayor reducción entre los agentes de cambio, disminuyendo su tasa de compra en 0.60 puntos (de 59.85 a 59.25) y su tasa de venta en 1.20 puntos (de 61.20 a 60.00), reduciendo notablemente su diferencial de 1.35 a 0.75 pesos.
+* **SCT** presentó el cambio más drástico con una reducción de 1.00 peso en su tasa de venta, mientras aumentó su tasa de compra en 0.20 pesos, reduciendo su diferencial de 2.20 a solo 1.00 peso.
+* **Girosol** redujo tanto su tasa de compra como de venta en 0.50 pesos, manteniendo su diferencial constante en 1.50 pesos.
+* **Cambio Extranjero** disminuyó su tasa de venta en 0.55 pesos mientras aumentó ligeramente su tasa de compra en 0.10 pesos, reduciendo su diferencial de 1.80 a 1.15 pesos.
 
-* **SCT** mantuvo una posición interesante al aumentar su tasa de compra en 0.20 puntos (de 58.80 a 59.00) mientras reducía su tasa de venta en 1.00 punto (de 61.00 a 60.00), disminuyendo significativamente su diferencial de 2.20 a 1.00 peso.
-
-* **Gamelin** redujo su tasa de compra en 0.80 puntos (de 59.90 a 59.10) y su tasa de venta en 0.10 puntos (de 61.10 a 61.00), lo que resultó en un aumento de su diferencial de 1.20 a 1.90 pesos.
-
-Los datos reflejan una tendencia generalizada hacia tasas ligeramente más bajas, sugiriendo una posible apreciación del peso dominicano frente al dólar estadounidense. La disminución del diferencial promedio entre compra y venta indica un mercado más eficiente y potencialmente beneficioso para los consumidores. Los cambios más significativos se observaron en los agentes de cambio, quienes mostraron ajustes más pronunciados que las entidades bancarias tradicionales.
+En resumen, el mercado cambiario dominicano muestra una tendencia de apreciación del peso dominicano frente al dólar estadounidense, con una reducción generalizada en las tasas tanto de compra como de venta. Los agentes de cambio presentan diferenciales significativamente menores que las entidades de intermediación financiera, ofreciendo en promedio mejores condiciones para los clientes que realizan operaciones de cambio de divisas.
