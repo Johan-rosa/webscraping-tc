@@ -1,21 +1,21 @@
-## Análisis: Cambios recientes en tasas de cambio bancarias en República Dominicana
+## Análisis de Tasas de Cambio en República Dominicana
 
-El 17 de abril de 2025, el tipo de cambio promedio en la República Dominicana mostró una ligera disminución respecto al día anterior. La tasa de compra promedio se situó en RD$59.00 (reducción de RD$0.06), mientras que la tasa de venta promedio bajó a RD$61.01 (disminución de RD$0.08). El diferencial (gap) entre compra y venta se redujo levemente a RD$2.03 (desde RD$2.05), indicando una ligera mejora en la competitividad del mercado cambiario.
+En el 17 de abril de 2025, las tasas de cambio en la República Dominicana mostraron una ligera disminución en comparación con el día anterior. El promedio de compra bajó de RD$59.06 a RD$59.00 (-0.06 pesos), mientras que la tasa de venta promedio disminuyó de RD$61.10 a RD$61.01 (-0.08 pesos). Como resultado, el diferencial (gap) entre compra y venta se redujo levemente de RD$2.05 a RD$2.03, reflejando una mayor estabilidad en el mercado cambiario.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Scotiabank** presentó la reducción más notable entre los bancos múltiples, con una disminución de RD$0.25 en su tasa de compra (bajando a RD$58.85), mientras mantuvo su tasa de venta en RD$61.25, ampliando así su diferencial.
+* **Scotiabank** mostró una reducción notable en su tasa de compra, pasando de RD$59.10 a RD$58.85 (-0.25 pesos), mientras mantuvo estable su tasa de venta en RD$61.25, aumentando así su diferencial de RD$2.15 a RD$2.40.
 
-* **Asociación Cibao** registró una de las mayores reducciones, disminuyendo su tasa de compra en RD$0.45 (a RD$58.55) y su tasa de venta en RD$0.20 (a RD$61.00), reflejando un ajuste significativo en sus tasas.
+* **BDI** registró cambios en ambas direcciones: redujo su tasa de compra en 0.25 pesos (de RD$59.00 a RD$58.75) mientras aumentó su tasa de venta en 0.25 pesos (de RD$60.50 a RD$60.75), ampliando su diferencial de RD$1.50 a RD$2.00.
 
-* **Bonanza Banco** también mostró cambios importantes, reduciendo su tasa de compra en RD$0.40 (a RD$58.80) y su tasa de venta en RD$0.20 (a RD$61.30), aumentando ligeramente su diferencial a RD$2.50.
+* **Asociaciones de Ahorros y Préstamos** como Cibao y La Nacional redujeron sus tasas de compra en 0.45 y 0.20 pesos respectivamente, así como sus tasas de venta, reflejando un comportamiento más competitivo en este segmento.
 
-### Agentes de cambio
+### Agentes de Cambio
 
-* **Girosol** presentó los cambios más pronunciados entre los agentes de cambio, con una reducción de RD$0.50 en su tasa de compra (bajando a RD$58.50) y RD$1.00 en su tasa de venta (a RD$59.50), reduciendo considerablemente su diferencial a solo RD$1.00.
+* **Girosol** presentó la mayor variación entre todos los agentes, reduciendo su tasa de compra en 0.50 pesos (de RD$59.00 a RD$58.50) y su tasa de venta en 1.00 peso (de RD$60.50 a RD$59.50), disminuyendo significativamente su diferencial de RD$1.50 a RD$1.00.
 
-* **SCT** mantuvo su tasa de compra en RD$59.00 pero redujo su tasa de venta en RD$0.50 (a RD$60.50), disminuyendo su diferencial de RD$2.00 a RD$1.50, mostrando una mayor competitividad.
+* **SCT** mantuvo su tasa de compra en RD$59.00 pero redujo su tasa de venta en 0.50 pesos (de RD$61.00 a RD$60.50), lo que redujo su diferencial de RD$2.00 a RD$1.50.
 
-* **Moneycorps** mantuvo su tasa de compra en RD$59.20 mientras reducía marginalmente su tasa de venta en RD$0.10 (a RD$60.00), continuando con uno de los diferenciales más bajos del mercado (RD$0.80).
+* **Moneycorps** continuó con su estrategia de ofrecer un diferencial competitivo, manteniendo su tasa de compra en RD$59.20 y reduciendo ligeramente su tasa de venta de RD$60.10 a RD$60.00, resultando en un estrecho diferencial de apenas RD$0.80.
 
-Estos movimientos en las tasas de cambio sugieren un mercado cambiario estable con tendencia a la baja, donde las entidades financieras están ajustando principalmente sus tasas de venta para mantener su competitividad. El diferencial promedio continúa cercano a los RD$2.00, reflejando un equilibrio entre la rentabilidad de las instituciones y las presiones competitivas del mercado dominicano.
+En conclusión, el mercado cambiario dominicano mostró una tendencia ligera a la baja el 17 de abril de 2025, con la mayoría de las entidades financieras manteniendo o reduciendo sus tasas. Las entidades de intermediación financiera generalmente mantuvieron diferenciales más amplios (promedio de RD$2.20) en comparación con los agentes de cambio, que ofrecieron diferenciales más competitivos (promedio de RD$1.30), destacándose Moneycorps y RM con los diferenciales más bajos del mercado. Esta estabilidad cambiaria refleja la solidez del sistema financiero dominicano frente a las presiones internacionales.
