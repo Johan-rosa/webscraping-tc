@@ -1,0 +1,21 @@
+## Análisis: Fluctuaciones en las Tasas de Cambio Bancarias
+
+El 17 de abril de 2025, el mercado cambiario dominicano mostró ligeras variaciones. La tasa promedio de compra se situó en RD$59.02 por dólar, experimentando una disminución de RD$0.03 respecto al día anterior. La tasa de venta promedio cayó a RD$61.02, una reducción de RD$0.08. El diferencial (gap) entre compra y venta se estrechó levemente a RD$2.01, mejorando en RD$0.04 desde el 16 de abril.
+
+### Entidades de Intermediación Financiera
+
+* **Scotiabank** mostró una reducción en su tasa de compra de RD$0.25 (de RD$59.10 a RD$58.85), mientras mantuvo su tasa de venta en RD$61.25, ampliando así su diferencial de RD$2.15 a RD$2.40.
+
+* **Banco Lafise** mantuvo su tasa de compra en RD$59.00 pero redujo su tasa de venta en RD$0.47 (de RD$61.25 a RD$60.78), disminuyendo notablemente su diferencial de RD$2.25 a RD$1.78.
+
+* **Bonanza Banco** presentó una doble reducción: su tasa de compra bajó RD$0.40 (a RD$58.80) y su tasa de venta disminuyó RD$0.20 (a RD$61.30), resultando en un leve aumento del diferencial a RD$2.50.
+
+### Agentes de Cambio
+
+* **Girosol** exhibió el cambio más significativo entre los agentes de cambio, reduciendo su tasa de compra en RD$0.50 (a RD$58.50) y su tasa de venta en RD$1.00 (a RD$59.50), disminuyendo su diferencial a solo RD$1.00.
+
+* **Cambio Extranjero** mantuvo estabilidad con una tasa de compra de RD$59.10 y venta de RD$60.25, sosteniendo un diferencial competitivo de RD$1.15.
+
+* **RM** continuó ofreciendo el diferencial más bajo del mercado en RD$0.50, manteniendo sin cambios sus tasas de compra (RD$59.50) y venta (RD$60.00).
+
+En conclusión, el mercado cambiario dominicano mostró una leve tendencia a la baja en las tasas de cambio, con la mayoría de las entidades manteniendo sus valores o realizando ajustes menores. El diferencial promedio entre compra y venta se redujo ligeramente, beneficiando potencialmente a los clientes. Los agentes de cambio continúan ofreciendo diferenciales más competitivos que las entidades bancarias tradicionales, destacando particularmente RM con el spread más bajo del mercado.
