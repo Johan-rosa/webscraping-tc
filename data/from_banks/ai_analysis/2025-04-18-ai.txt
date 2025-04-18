@@ -1,0 +1,21 @@
+## Análisis: Tasas de Cambio en República Dominicana
+
+El análisis de las tasas de cambio en la República Dominicana al 18 de abril de 2025 muestra estabilidad completa respecto al día anterior. El promedio de compra se mantiene en RD$59.00 por dólar, mientras que la venta se sitúa en RD$61.01, generando un margen promedio de RD$2.03 entre ambas operaciones. No se registraron variaciones en las tasas entre el 17 y 18 de abril de 2025.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas** mantiene el margen más bajo entre los bancos múltiples con RD$1.85, ofreciendo una tasa de compra de RD$59.15 y venta de RD$61.00.
+  
+* **Scotiabank** presenta una disparidad interesante entre sus tasas corporativas (compra RD$58.85/venta RD$61.25) y sus sucursales (compra RD$58.55/venta RD$61.55), con esta última teniendo el margen más amplio del mercado (RD$3.00).
+  
+* **Asociación Popular** registra el segundo margen más amplio del sector financiero con RD$2.75, mientras que el BDI ofrece una de las tasas de venta más competitivas entre bancos múltiples (RD$60.75).
+
+### Agentes de Cambio
+
+* **RM** mantiene el margen más estrecho del mercado con apenas RD$0.50 entre su tasa de compra (RD$59.50) y venta (RD$60.00), posicionándose como una opción atractiva para los clientes.
+  
+* **Moneycorps** ofrece un margen competitivo de RD$0.80, con una tasa de compra de RD$59.20 y venta de RD$60.00, siendo la segunda más baja entre los agentes de cambio.
+  
+* **Girosol** presenta una diferencia de RD$1.00 entre compra (RD$58.50) y venta (RD$59.50), destacándose por tener la tasa de venta más baja de todo el mercado cambiario.
+
+El mercado cambiario dominicano muestra una estabilidad notable en esta fecha, con una clara segmentación entre las entidades de intermediación financiera tradicionales, que tienden a mantener márgenes más amplios, y los agentes de cambio, que ofrecen márgenes más reducidos pero con menor disponibilidad de divisas. Esta estabilidad sugiere un mercado cambiario bajo control, sin presiones significativas sobre la moneda nacional.
