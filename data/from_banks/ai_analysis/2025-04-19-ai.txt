@@ -1,17 +1,17 @@
-## Análisis: Estabilidad en las Tasas de Cambio
+## Análisis de Tasas de Cambio en República Dominicana
 
-El día 19 de abril de 2025, las tasas de cambio en la República Dominicana han permanecido estables con respecto al día anterior. El promedio de compra se mantiene en RD$59.00 por dólar, mientras que la venta promedia RD$61.01, generando un diferencial (gap) promedio de RD$2.03. No se observaron variaciones en las tasas de ninguna entidad financiera.
+Las tasas de cambio de las entidades bancarias en la República Dominicana se mantuvieron estables entre el 18 y 19 de abril de 2025. El promedio general de compra se ubicó en RD$59.00 por dólar, mientras que la venta promedió RD$61.01, manteniendo una brecha (gap) promedio de RD$2.02 entre ambas tasas.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas** mantiene el diferencial más bajo entre los bancos múltiples con RD$1.85, ofreciendo una tasa de compra de RD$59.15 y venta de RD$61.00.
-* **Scotiabank - sucursales** presenta el diferencial más alto del mercado con RD$3.00, con una tasa de compra de RD$58.55 y venta de RD$61.55.
-* **Asociación Popular** muestra el diferencial más elevado entre las asociaciones de ahorros y préstamos con RD$2.75, comprando a RD$58.75 y vendiendo a RD$61.50.
+* Banreservas mantiene una de las brechas más bajas entre las entidades bancarias múltiples, con una diferencia de solo RD$1.85 entre su tasa de compra (RD$59.15) y venta (RD$61.00).
+* Scotiabank presenta diferentes tasas según el canal: en sus oficinas centrales ofrece RD$58.85/RD$61.25 (brecha de RD$2.40), mientras que en sus sucursales la brecha es mayor, llegando a RD$3.00 (RD$58.55/RD$61.55).
+* Las Asociaciones de Ahorros y Préstamos muestran variabilidad en sus brechas, destacando Asociación Popular con la brecha más alta de RD$2.75 (RD$58.75/RD$61.50).
 
 ### Agentes de Cambio
 
-* **RM** ofrece el diferencial más bajo del mercado con solo RD$0.50, con una tasa de compra de RD$59.50 y venta de RD$60.00.
-* **Moneycorps** se mantiene competitivo con un diferencial de RD$0.80, comprando a RD$59.20 y vendiendo a RD$60.00.
-* **Girosol** ofrece un diferencial de RD$1.00, con una tasa de compra de RD$58.50 y venta de RD$59.50, siendo una de las opciones más favorables para la venta de dólares.
+* Los agentes de cambio generalmente ofrecen brechas más reducidas que las entidades bancarias, como RM con apenas RD$0.50 de diferencia (RD$59.50/RD$60.00) y Moneycorps con RD$0.80 (RD$59.20/RD$60.00).
+* Girosol presenta la brecha más baja entre todos los agentes analizados, con solo RD$1.00 entre su tasa de compra (RD$58.50) y venta (RD$59.50).
+* Taveras destaca por ofrecer la tasa de compra más competitiva entre los agentes de cambio, con RD$59.90 por dólar, significativamente por encima del promedio general.
 
-En conclusión, el mercado cambiario dominicano muestra estabilidad completa en este período, sin variaciones respecto al día anterior. Los agentes de cambio continúan ofreciendo diferenciales más competitivos que las entidades de intermediación financiera, siendo RM y Moneycorps las opciones más favorables para transacciones de divisas en términos de diferencial.
+En conclusión, se observa estabilidad en el mercado cambiario dominicano durante este período, aunque con diferencias significativas entre los distintos tipos de entidades. Los agentes de cambio continúan ofreciendo brechas más competitivas que las entidades bancarias tradicionales, mientras que dentro del sector bancario, las tasas y márgenes varían considerablemente según la institución.
