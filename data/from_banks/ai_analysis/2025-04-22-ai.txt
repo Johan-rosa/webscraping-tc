@@ -1,21 +1,21 @@
-## Análisis: Cambios en Tasas de Cambio Bancarias en República Dominicana
+## Análisis de Tipos de Cambio en la República Dominicana
 
-El 22 de abril de 2025, el tipo de cambio promedio en la República Dominicana mostró ligeras variaciones a la baja. La tasa promedio de compra se situó en RD$58.91, disminuyendo RD$0.02 respecto al día anterior. La tasa de venta promedio bajó a RD$60.88, una reducción de RD$0.05. Como resultado, el diferencial (gap) entre compra y venta se redujo ligeramente a RD$1.99, mejorando la situación para los usuarios de servicios cambiarios.
+El mercado cambiario en la República Dominicana ha experimentado ligeras variaciones entre el 21 y 22 de abril de 2025. El promedio de compra se redujo de 58.93 a 58.90 pesos por dólar (-0.03), mientras que el promedio de venta disminuyó de 60.92 a 60.87 pesos (-0.05). Como resultado, el diferencial (gap) promedio entre compra y venta se redujo de 2.02 a 1.98 pesos.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Lafise** mostró la reducción más significativa entre las EIF, disminuyendo su tasa de compra en RD$0.20 (de RD$58.85 a RD$58.65) y su tasa de venta en RD$0.25 (de RD$61.25 a RD$61.00).
+* **Banco Lafise** mostró la mayor reducción en sus tasas, disminuyendo su precio de compra en 0.20 pesos (de 58.85 a 58.65) y su precio de venta en 0.25 pesos (de 61.25 a 61.00).
 
-* **Motor Crédito** también redujo sus tasas, con una disminución de RD$0.20 en la compra y RD$0.25 en la venta, ajustando su diferencial de RD$2.05 a RD$2.00.
+* **Asociación Popular** también presentó cambios significativos, con una reducción de 0.15 pesos en su tasa de compra (de 58.75 a 58.60) y 0.25 pesos en su tasa de venta (de 61.25 a 61.00).
 
-* **Banesco** mantuvo estable su tasa de compra en RD$58.85, pero redujo su tasa de venta en RD$0.20, pasando de RD$61.20 a RD$61.00, mejorando así su diferencial para los clientes.
+* **Motor Crédito** ajustó a la baja tanto su tasa de compra (-0.20 pesos, de 59.20 a 59.00) como su tasa de venta (-0.25 pesos, de 61.25 a 61.00), manteniendo un diferencial de 2.00 pesos.
 
 ### Agentes de Cambio
 
-* **Agente de Cambio La Nacional** fue el único agente que modificó su tasa de compra, reduciéndola en RD$0.25, de RD$59.00 a RD$58.75.
+* **Agente de Cambio La Nacional** redujo su tasa de compra en 0.25 pesos, pasando de 59.00 a 58.75, siendo la mayor variación entre los agentes de cambio.
 
-* **SCT** mantuvo su tasa de compra en RD$59.00, pero redujo su tasa de venta en RD$0.20, pasando de RD$60.20 a RD$60.00, disminuyendo su diferencial de RD$1.20 a RD$1.00.
+* **SCT** mantuvo su tasa de compra en 59.00 pesos, pero redujo su tasa de venta en 0.20 pesos (de 60.20 a 60.00), disminuyendo así su diferencial de 1.20 a 1.00 peso.
 
-* El resto de agentes de cambio mantuvo sus tasas estables, con diferenciales generalmente menores que las entidades bancarias, destacando **RM** con el menor diferencial del mercado (RD$0.50).
+* El resto de agentes de cambio, incluyendo **Quezada**, **RM**, **Girosol** y **Moneycorps**, mantuvieron sus tasas sin variaciones durante este período.
 
-En conclusión, el mercado cambiario dominicano mostró una tendencia ligeramente a la baja en las tasas, beneficiando a los usuarios con menores costos de cambio. Las entidades financieras formales (EIF) muestran diferenciales mayores que los agentes de cambio, quienes continúan ofreciendo opciones más económicas para operaciones cambiarias. Esta estabilidad con tendencia a la baja sugiere un mercado cambiario saludable para el próximo periodo.
+En conclusión, el mercado cambiario dominicano mostró una tendencia ligera a la baja en las tasas tanto de compra como de venta durante estos días, con reducciones más notables en algunas entidades financieras que en los agentes de cambio. Esta estabilidad relativa sugiere un mercado controlado, con ajustes menores que podrían responder a factores estacionales o ajustes técnicos en las operaciones bancarias.
