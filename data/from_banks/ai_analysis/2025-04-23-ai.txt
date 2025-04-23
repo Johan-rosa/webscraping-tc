@@ -1,21 +1,21 @@
-## Análisis: Evolución de las Tasas de Cambio Bancarias en República Dominicana
+## Análisis de Tasas de Cambio en República Dominicana
 
-El 23 de abril de 2025, el tipo de cambio promedio en República Dominicana experimentó una disminución general. La tasa de compra promedio se situó en 58.47 DOP/USD, reduciéndose en 0.23 pesos respecto al día anterior. Por su parte, la tasa de venta también descendió a 60.46 DOP/USD, una caída de 0.23 pesos. El margen entre compra y venta (gap) se mantuvo prácticamente estable en 1.90 pesos, aumentando ligeramente frente al 1.89 del día previo.
+Las tasas de cambio en República Dominicana han mostrado una disminución general el 23 de abril de 2025 en comparación con el día anterior. El promedio de compra entre todas las entidades bancarias bajó de RD$58.71 a RD$58.45 (-0.25 pesos), mientras que el promedio de venta disminuyó de RD$60.69 a RD$60.43 (-0.27 pesos). La brecha promedio entre compra y venta se mantuvo prácticamente estable en 1.89 pesos, mostrando una ligera reducción de 0.0022 pesos.
 
 ### Entidades de Intermediación Financiera
 
-* **Banreservas**, uno de los principales bancos múltiples, redujo tanto su tasa de compra como de venta en 0.25 pesos, ubicándose en 58.65 y 60.50 DOP/USD respectivamente, manteniendo su margen en 1.85 pesos.
+* **Banco López de Haro** presentó una de las reducciones más significativas entre los bancos múltiples, con una disminución de 0.40 pesos tanto en su tasa de compra como de venta, pasando a comprar a RD$58.10 y vender a RD$60.50.
 
-* **Banco López de Haro** presentó la reducción más significativa entre los bancos múltiples, con una disminución de 0.40 pesos tanto en su tasa de compra (58.10) como de venta (60.50), aunque mantuvo su margen en 2.40 pesos.
+* **Banco Ademi** mostró un comportamiento atípico, siendo una de las pocas entidades que aumentó su tasa de compra (+0.25 pesos) llegando a RD$58.80, mientras que su tasa de venta disminuyó a RD$60.70 (-0.30 pesos), reduciendo así su margen de ganancia.
 
-* **Motor Crédito** mostró una caída más moderada, con reducciones de 0.10 y 0.15 pesos en sus tasas de compra y venta, situándolas en 58.90 y 60.85 DOP/USD respectivamente, disminuyendo ligeramente su margen a 1.95 pesos.
+* **Banesco** redujo su tasa de compra en 0.35 pesos, pasando a RD$58.50, y su tasa de venta en 0.25 pesos, llegando a RD$60.75, manteniendo un margen de ganancia de 2.25 pesos.
 
 ### Agentes de Cambio
 
-* **Cambio Extranjero** registró la mayor caída entre los agentes de cambio, reduciendo su tasa de compra en 0.65 pesos (a 58.50) y su tasa de venta en 0.35 pesos (a 59.50), aumentando así su margen de 0.70 a 1.00 peso.
+* **Gamelin** mostró la mayor reducción en la tasa de venta entre todos los agentes de cambio, con una disminución de 1.50 pesos, pasando de RD$61.00 a RD$59.50, reduciendo significativamente su margen de ganancia de 1.90 a 1.00 peso.
 
-* **Gamelin** presentó la reducción más pronunciada en la tasa de venta entre todos los agentes de cambio, con una disminución de 1.35 pesos (a 59.65), mientras que su tasa de compra cayó 0.40 pesos (a 58.70), reduciendo significativamente su margen de 1.90 a 0.95 pesos.
+* **Panora Exchange** registró una considerable reducción en su tasa de venta de 0.70 pesos, pasando a RD$59.50, mientras que su tasa de compra bajó moderadamente en 0.15 pesos a RD$58.70, estrechando su margen a solo 0.80 pesos.
 
-* Algunos agentes como **RM** y **Girosol** mantuvieron sus tasas sin cambios, ofreciendo estabilidad en un mercado mayoritariamente a la baja.
+* **Cambio Extranjero** también mostró una tendencia a la baja, reduciendo su tasa de compra en 0.65 pesos a RD$58.50 y su tasa de venta en 0.35 pesos a RD$59.50, manteniendo un margen de 1.00 peso.
 
-En conclusión, la jornada del 23 de abril mostró una tendencia generalizada a la baja en el mercado cambiario dominicano, con una reducción promedio de 0.23 pesos tanto en las tasas de compra como de venta. Las entidades financieras y agentes de cambio siguieron mayoritariamente esta tendencia, aunque con variaciones en la magnitud de los ajustes. Esta reducción en las tasas refleja una posible apreciación del peso dominicano frente al dólar estadounidense, lo que podría beneficiar a importadores y consumidores de productos importados.
+El mercado cambiario dominicano muestra una clara tendencia a la baja en las últimas 24 horas, con la mayoría de las entidades ajustando sus tasas a la baja. Es notable que los agentes de cambio presentan márgenes considerablemente más pequeños (promedio cercano a 1.00 peso) que las entidades de intermediación financiera (promedio superior a 2.00 pesos). Esta reducción generalizada de las tasas sugiere una posible apreciación del peso dominicano frente al dólar estadounidense, lo que podría beneficiar a importadores pero afectar a quienes reciben remesas.
