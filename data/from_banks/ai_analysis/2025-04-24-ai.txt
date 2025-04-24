@@ -1,21 +1,21 @@
-## Análisis: Tasas de Cambio en República Dominicana
+## Análisis: Tendencias en las Tasas de Cambio Dominicanas
 
-El mercado cambiario dominicano se mantiene estable del 23 al 24 de abril de 2025, con una ligera disminución en el promedio de compra de 58.42 a 58.38 pesos (-0.03 pesos) y en el de venta de 60.45 a 60.43 pesos (-0.02 pesos). El diferencial (gap) promedio entre compra y venta aumentó levemente de 1.96 a 1.97 pesos, mostrando una situación de estabilidad general en el mercado de divisas.
+El mercado cambiario dominicano muestra una ligera tendencia a la baja en las tasas de cambio del dólar para el 24 de abril de 2025, comparado con el día anterior. La tasa promedio de compra disminuyó de RD$58.42 a RD$58.38 (-0.04 pesos), mientras que la tasa de venta bajó de RD$60.45 a RD$60.42 (-0.03 pesos). El margen (gap) entre compra y venta aumentó ligeramente de 1.96 a 1.97 pesos, lo que sugiere un mercado con pequeños ajustes pero relativamente estable.
 
 ### Entidades de Intermediación Financiera
 
-* **Motor Crédito** mostró la mayor variación negativa entre las EIF, reduciendo su tasa de compra en 0.20 pesos (de 58.90 a 58.70) y su tasa de venta en 0.15 pesos (de 60.85 a 60.70).
+* **Banco Caribe** experimentó una disminución notable en su tasa de compra de 0.25 pesos (de RD$58.75 a RD$58.50), manteniendo su tasa de venta en RD$60.75, lo que amplió su margen operativo.
 
-* **Asociación Peravia** también registró cambios significativos, disminuyendo su tasa de compra en 0.30 pesos (de 58.70 a 58.40) y su tasa de venta en 0.15 pesos (de 61.00 a 60.85).
+* **Alaver** redujo tanto su tasa de compra como de venta, disminuyendo 0.20 pesos en la compra (de RD$58.40 a RD$58.20) y 0.25 pesos en la venta (de RD$60.75 a RD$60.50), reduciendo ligeramente su gap.
 
-* La mayoría de los bancos múltiples, incluyendo Banreservas, Scotiabank, Banco Popular y BHD, mantuvieron sus tasas sin variación, reflejando estabilidad en el segmento principal del mercado.
+* **Asociación Peravia** presentó una de las mayores reducciones, bajando su tasa de compra en 0.30 pesos (de RD$58.70 a RD$58.40) y su tasa de venta en 0.15 pesos (de RD$61.00 a RD$60.85).
 
 ### Agentes de Cambio
 
-* **Cambio Extranjero** presentó una disminución en su tasa de compra de 0.10 pesos (de 58.50 a 58.40) y en su tasa de venta de 0.07 pesos (de 59.50 a 59.43), siendo el agente con mayor variación en este segmento.
+* **Girosol** disminuyó su tasa de compra en 0.30 pesos (de RD$58.30 a RD$58.00), manteniendo su tasa de venta en RD$59.50, lo que amplió su margen operativo de 1.20 a 1.50 pesos.
 
-* **Girosol** redujo su tasa de compra en 0.30 pesos (de 58.30 a 58.00), manteniendo sin cambios su tasa de venta en 59.50 pesos, lo que amplió su diferencial de 1.20 a 1.50 pesos.
+* **Cambio Extranjero** redujo su tasa de compra en 0.10 pesos (de RD$58.50 a RD$58.40) y su tasa de venta en 0.07 pesos (de RD$59.50 a RD$59.43), manteniendo relativamente estable su margen.
 
-* Los agentes de cambio en general mantienen diferenciales significativamente menores que las entidades bancarias, con brechas promedio cercanas a 1.00 peso frente a los 2.20-2.45 pesos que manejan los bancos múltiples.
+* **Moneycorps** fue uno de los pocos que incrementó su tasa de compra, aumentando 0.10 pesos (de RD$58.50 a RD$58.60), mientras mantuvo su tasa de venta en RD$59.45, reduciendo así su margen operativo.
 
-En conclusión, el mercado cambiario dominicano muestra una estabilidad notable, con variaciones mínimas entre ambas fechas. Los agentes de cambio continúan ofreciendo diferenciales más competitivos que las entidades bancarias, mientras que la tendencia general apunta a un ligero ajuste a la baja tanto en las tasas de compra como de venta del dólar estadounidense, sin presentar movimientos que sugieran volatilidad en el corto plazo.
+El comportamiento del mercado cambiario muestra una tendencia generalizada a la baja, aunque con ajustes modestos, lo que sugiere estabilidad en el corto plazo. Las entidades financieras tradicionales (EIF) mantienen márgenes más amplios (promedio de 2.30 pesos) que los agentes de cambio (promedio de 1.10 pesos), continuando con el patrón habitual del mercado dominicano. Esta estabilidad relativa podría indicar ausencia de presiones significativas sobre la moneda nacional en el período analizado.
