@@ -1,21 +1,21 @@
-## Análisis: Tendencias en las Tasas de Cambio Dominicanas
+## Análisis: Cambios en Tasas de Cambio Bancarias
 
-El mercado cambiario dominicano muestra una ligera tendencia a la baja en las tasas de cambio del dólar para el 24 de abril de 2025, comparado con el día anterior. La tasa promedio de compra disminuyó de RD$58.42 a RD$58.38 (-0.04 pesos), mientras que la tasa de venta bajó de RD$60.45 a RD$60.42 (-0.03 pesos). El margen (gap) entre compra y venta aumentó ligeramente de 1.96 a 1.97 pesos, lo que sugiere un mercado con pequeños ajustes pero relativamente estable.
+El 24 de abril de 2025, la tasa de cambio promedio en la República Dominicana experimentó una ligera disminución. La tasa de compra pasó de RD$58.42 a RD$58.36 (-0.06), mientras que la de venta bajó de RD$60.44 a RD$60.38 (-0.07). El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en RD$1.94, mostrando una mínima variación.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Caribe** experimentó una disminución notable en su tasa de compra de 0.25 pesos (de RD$58.75 a RD$58.50), manteniendo su tasa de venta en RD$60.75, lo que amplió su margen operativo.
-
-* **Alaver** redujo tanto su tasa de compra como de venta, disminuyendo 0.20 pesos en la compra (de RD$58.40 a RD$58.20) y 0.25 pesos en la venta (de RD$60.75 a RD$60.50), reduciendo ligeramente su gap.
-
-* **Asociación Peravia** presentó una de las mayores reducciones, bajando su tasa de compra en 0.30 pesos (de RD$58.70 a RD$58.40) y su tasa de venta en 0.15 pesos (de RD$61.00 a RD$60.85).
+* **Banreservas** mostró una de las reducciones más significativas, ajustando tanto su tasa de compra como de venta en -0.25, pasando a ofrecer RD$58.40 para compra y RD$60.25 para venta.
+  
+* **Alaver** redujo su tasa de venta en -0.25 puntos y su tasa de compra en -0.20, ubicándose en RD$58.20 para compra y RD$60.50 para venta.
+  
+* **Scotiabank** (sucursales) aplicó una disminución notable de -0.30 puntos tanto en su tasa de compra como de venta, quedando en RD$57.90 y RD$60.65 respectivamente.
 
 ### Agentes de Cambio
 
-* **Girosol** disminuyó su tasa de compra en 0.30 pesos (de RD$58.30 a RD$58.00), manteniendo su tasa de venta en RD$59.50, lo que amplió su margen operativo de 1.20 a 1.50 pesos.
+* **RM** presentó la mayor reducción entre los agentes de cambio, con una disminución de -0.40 en su tasa de venta y -0.20 en la de compra, estableciéndose en RD$58.80 para compra y RD$59.30 para venta.
+  
+* **Moneycorps** redujo su tasa de venta en -0.17 y su tasa de compra en -0.05, ofreciendo RD$58.45 para compra y RD$59.28 para venta, manteniendo uno de los diferenciales más bajos (0.83).
+  
+* **Girosol** redujo únicamente su tasa de compra en -0.30, manteniéndola en RD$58.00, mientras conservó su tasa de venta en RD$59.50.
 
-* **Cambio Extranjero** redujo su tasa de compra en 0.10 pesos (de RD$58.50 a RD$58.40) y su tasa de venta en 0.07 pesos (de RD$59.50 a RD$59.43), manteniendo relativamente estable su margen.
-
-* **Moneycorps** fue uno de los pocos que incrementó su tasa de compra, aumentando 0.10 pesos (de RD$58.50 a RD$58.60), mientras mantuvo su tasa de venta en RD$59.45, reduciendo así su margen operativo.
-
-El comportamiento del mercado cambiario muestra una tendencia generalizada a la baja, aunque con ajustes modestos, lo que sugiere estabilidad en el corto plazo. Las entidades financieras tradicionales (EIF) mantienen márgenes más amplios (promedio de 2.30 pesos) que los agentes de cambio (promedio de 1.10 pesos), continuando con el patrón habitual del mercado dominicano. Esta estabilidad relativa podría indicar ausencia de presiones significativas sobre la moneda nacional en el período analizado.
+En conclusión, el mercado cambiario dominicano mostró una tendencia a la baja el 24 de abril de 2025, con una disminución generalizada pero moderada en las tasas de cambio. Las entidades financieras formales continúan manteniendo un diferencial significativamente mayor que los agentes de cambio, quienes ofrecen márgenes más estrechos a los clientes. Esta estabilidad relativa sugiere un mercado cambiario sin presiones extraordinarias en este período.
