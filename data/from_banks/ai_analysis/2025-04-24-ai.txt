@@ -1,21 +1,15 @@
-## Análisis: Cambios en Tasas de Cambio Bancarias
+## Análisis: Evolución de Tasas de Cambio en la República Dominicana
 
-El 24 de abril de 2025, la tasa de cambio promedio en la República Dominicana experimentó una ligera disminución. La tasa de compra pasó de RD$58.42 a RD$58.36 (-0.06), mientras que la de venta bajó de RD$60.44 a RD$60.38 (-0.07). El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en RD$1.94, mostrando una mínima variación.
+El 24 de abril de 2025, se registró una ligera disminución en las tasas de cambio del dólar frente al peso dominicano. El promedio de compra bajó de RD$58.42 a RD$58.37 (-RD$0.05), mientras que la venta disminuyó de RD$60.45 a RD$60.38 (-RD$0.07). El margen o "gap" promedio entre compra y venta se redujo levemente de RD$1.96 a RD$1.94, mostrando una ligera mejora en las condiciones del mercado cambiario.
 
 ### Entidades de Intermediación Financiera
-
-* **Banreservas** mostró una de las reducciones más significativas, ajustando tanto su tasa de compra como de venta en -0.25, pasando a ofrecer RD$58.40 para compra y RD$60.25 para venta.
-  
-* **Alaver** redujo su tasa de venta en -0.25 puntos y su tasa de compra en -0.20, ubicándose en RD$58.20 para compra y RD$60.50 para venta.
-  
-* **Scotiabank** (sucursales) aplicó una disminución notable de -0.30 puntos tanto en su tasa de compra como de venta, quedando en RD$57.90 y RD$60.65 respectivamente.
+* **Banreservas** mostró una de las reducciones más significativas, disminuyendo sus tasas de compra y venta en RD$0.25, pasando de RD$58.65 a RD$58.40 para compra y de RD$60.50 a RD$60.25 para venta.
+* **Scotiabank** (tanto en su operación principal como en sucursales) presentó reducciones notables, con caídas de RD$0.20 y RD$0.30 respectivamente, reflejando una tendencia bajista consistente.
+* **Motor Crédito** y **Asociación Peravia** redujeron sus tasas de compra en RD$0.20 y RD$0.30 respectivamente, mientras que sus tasas de venta disminuyeron en RD$0.15 cada una, contribuyendo a la tendencia general a la baja.
 
 ### Agentes de Cambio
+* **RM** registró una de las mayores reducciones entre los agentes de cambio, con una disminución de RD$0.20 en compra (de RD$59.00 a RD$58.80) y RD$0.40 en venta (de RD$59.70 a RD$59.30).
+* **Girosol** redujo su tasa de compra en RD$0.30, pasando de RD$58.30 a RD$58.00, mientras mantuvo estable su tasa de venta en RD$59.50.
+* **Moneycorps** fue una excepción a la tendencia general, aumentando su tasa de compra en RD$0.15 (de RD$58.50 a RD$58.65), aunque redujo su tasa de venta en RD$0.17 (de RD$59.45 a RD$59.28).
 
-* **RM** presentó la mayor reducción entre los agentes de cambio, con una disminución de -0.40 en su tasa de venta y -0.20 en la de compra, estableciéndose en RD$58.80 para compra y RD$59.30 para venta.
-  
-* **Moneycorps** redujo su tasa de venta en -0.17 y su tasa de compra en -0.05, ofreciendo RD$58.45 para compra y RD$59.28 para venta, manteniendo uno de los diferenciales más bajos (0.83).
-  
-* **Girosol** redujo únicamente su tasa de compra en -0.30, manteniéndola en RD$58.00, mientras conservó su tasa de venta en RD$59.50.
-
-En conclusión, el mercado cambiario dominicano mostró una tendencia a la baja el 24 de abril de 2025, con una disminución generalizada pero moderada en las tasas de cambio. Las entidades financieras formales continúan manteniendo un diferencial significativamente mayor que los agentes de cambio, quienes ofrecen márgenes más estrechos a los clientes. Esta estabilidad relativa sugiere un mercado cambiario sin presiones extraordinarias en este período.
+La tendencia general del mercado cambiario dominicano muestra una ligera apreciación del peso frente al dólar, con una reducción en el diferencial entre tasas de compra y venta. Mientras las entidades de intermediación financiera presentan tasas de venta promedio más altas (alrededor de RD$60.75), los agentes de cambio ofrecen opciones más económicas para los consumidores (cercanas a RD$59.50), lo que refleja la diversidad de opciones disponibles en el mercado cambiario de la República Dominicana.
