@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en las Tasas de Cambio
+
+El mercado cambiario de la República Dominicana mostró una ligera tendencia a la baja en la tasa de cambio del dólar para el 25 de abril de 2025. El promedio de compra disminuyó de 58.35 a 58.33 pesos (-0.01), mientras que la tasa de venta bajó de 60.33 a 60.30 pesos (-0.03). Esta reducción provocó una pequeña disminución en el margen (gap) entre compra y venta, que pasó de 1.91 a 1.90 pesos.
+
+### Entidades de Intermediación Financiera
+
+* **Banesco** mostró la reducción más notable entre los bancos múltiples, disminuyendo su tasa de compra en 0.10 pesos (de 58.50 a 58.40) y su tasa de venta en 0.25 pesos (de 60.75 a 60.50).
+
+* **Asociación Cibao** mantuvo estable su tasa de compra en 58.40 pesos, pero redujo su tasa de venta en 0.25 pesos (de 60.50 a 60.25), estrechando así su margen de ganancia.
+
+* La mayoría de las entidades bancarias, incluyendo Banreservas, Banco Popular y BHD, mantuvieron sus tasas sin cambios, lo que refleja estabilidad en el sector financiero formal.
+
+### Agentes de Cambio
+
+* **Agente de Cambio Quezada** destacó por reducir su tasa de venta en 0.25 pesos (de 59.75 a 59.50), manteniendo su tasa de compra en 58.50 pesos, lo que disminuyó su margen.
+
+* **RM** fue el único agente de cambio que redujo tanto su tasa de compra (-0.20) como de venta (-0.10), pasando de 58.80/59.30 a 58.60/59.20 respectivamente.
+
+* Los demás agentes de cambio, como Moneycorps, Capla y Gamelin, mantuvieron sus tasas sin variación, mostrando estabilidad en este sector del mercado cambiario.
+
+Las variaciones observadas son mínimas, lo que sugiere un mercado cambiario estable con una ligera tendencia a la baja en las tasas del dólar. La disminución marginal en los promedios de compra y venta refleja un ajuste sutil del mercado que no representa un cambio significativo en la dinámica cambiaria. El diferencial promedio entre tasas de compra y venta se mantiene cercano a los 1.90 pesos, indicando condiciones estables para las operaciones de cambio de divisas en la República Dominicana.
