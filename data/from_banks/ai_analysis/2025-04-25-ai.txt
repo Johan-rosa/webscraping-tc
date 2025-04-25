@@ -1,21 +1,21 @@
-## Análisis: Cambios en las Tasas de Cambio Bancarias en República Dominicana
+## Análisis de Tasas de Cambio en República Dominicana
 
-El 25 de abril de 2025, las tasas de cambio en la República Dominicana mostraron una ligera disminución respecto al día anterior. La tasa de compra promedio cayó de 58.35 a 58.32 pesos por dólar (-0.02 pesos), mientras que la tasa de venta promedio se redujo de 60.33 a 60.28 pesos por dólar (-0.05 pesos). Como resultado, el margen (gap) entre compra y venta disminuyó de 1.91 a 1.88 pesos, reflejando una ligera mejora en las condiciones para los clientes.
+El mercado cambiario dominicano mostró una ligera tendencia a la baja el 25 de abril de 2025. El promedio de compra se situó en RD$58.33 por dólar, disminuyendo RD$0.02 respecto al día anterior. La tasa de venta promedio fue de RD$60.26, con una reducción de RD$0.07. Como resultado, el margen (gap) entre compra y venta se redujo de RD$1.91 a RD$1.86, lo que indica una leve reducción en los márgenes de ganancia de las entidades financieras.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Ademi** mostró los cambios más significativos entre los bancos múltiples, con una reducción de 0.40 pesos en su tasa de compra (de 58.80 a 58.40) y 0.20 pesos en su tasa de venta (de 60.70 a 60.50).
+* **Banco Ademi** presentó una de las mayores reducciones, disminuyendo su tasa de compra en RD$0.40 (de RD$58.80 a RD$58.40) y su tasa de venta en RD$0.20, ajustando su margen al alza hasta RD$2.10.
 
-* **Banesco** ajustó a la baja tanto su tasa de compra (-0.10 pesos, de 58.50 a 58.40) como su tasa de venta (-0.25 pesos, de 60.75 a 60.50), mejorando sus márgenes para los clientes.
+* **Banco Caribe** redujo significativamente su tasa de venta en RD$0.50 y su compra en RD$0.10, reduciendo su margen de RD$2.25 a RD$1.85, posicionándose entre las entidades con márgenes más competitivos.
 
-* **Asociación Cibao** mantuvo su tasa de compra estable en 58.40, pero redujo su tasa de venta en 0.25 pesos (de 60.50 a 60.25), reduciendo así su margen de 2.10 a 1.85 pesos.
+* **Banco BDI** mantuvo su tasa de compra en RD$58.40 pero redujo su tasa de venta en RD$0.30, disminuyendo su margen a RD$1.80, lo que lo coloca como una de las entidades financieras con menor spread.
 
 ### Agentes de Cambio
 
-* **Quezada** fue uno de los agentes con mayor cambio, manteniendo su tasa de compra en 58.50 pero reduciendo su tasa de venta en 0.25 pesos (de 59.75 a 59.50), disminuyendo su margen a solo 1.00 peso.
+* **Agente de Cambio Capla** fue de los pocos que aumentó su tasa de compra, incrementándola en RD$0.60 (de RD$58.00 a RD$58.60), mientras mantuvo su tasa de venta en RD$59.30, reduciendo significativamente su margen.
 
-* **RM** disminuyó tanto su tasa de compra (-0.20 pesos, de 58.80 a 58.60) como su tasa de venta (-0.10 pesos, de 59.30 a 59.20), manteniendo un margen muy competitivo de apenas 0.60 pesos.
+* **Agente de Cambio Quezada** redujo su tasa de compra en RD$0.10 y su tasa de venta en RD$0.25, manteniendo un margen de apenas RD$1.10, el más bajo entre todas las entidades.
 
-* **Cambio Extranjero** presentó un comportamiento mixto, aumentando su tasa de compra en 0.15 pesos (de 58.40 a 58.55) pero reduciendo su tasa de venta en 0.18 pesos (de 59.43 a 59.25), lo que resultó en un margen más estrecho.
+* **Agente de Cambio RM** disminuyó sus tasas de compra y venta en RD$0.20 y RD$0.10 respectivamente, conservando un margen muy competitivo de RD$0.60, típico de los agentes de cambio que operan con márgenes más estrechos que los bancos.
 
-En resumen, el mercado cambiario dominicano mostró una tendencia ligera hacia la apreciación del peso frente al dólar en comparación con el día anterior. Los agentes de cambio continúan ofreciendo márgenes significativamente más estrechos (promediando alrededor de 1 peso) que las entidades bancarias (con márgenes superiores a 2 pesos en varios casos). Esta estabilidad relativa sugiere condiciones favorables para las transacciones en divisas, beneficiando tanto a consumidores como a empresas que realizan operaciones internacionales.
+En conclusión, el mercado cambiario dominicano muestra una ligera tendencia a la baja tanto en tasas de compra como de venta, con los agentes de cambio ofreciendo márgenes significativamente más reducidos que las entidades de intermediación financiera. Esta estabilidad relativa, con pequeñas correcciones a la baja, sugiere un mercado cambiario equilibrado sin presiones significativas sobre el peso dominicano en este momento.
