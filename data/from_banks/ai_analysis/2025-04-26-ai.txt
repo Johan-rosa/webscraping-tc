@@ -1,0 +1,17 @@
+## Análisis: Estabilidad en las Tasas de Cambio Bancarias
+
+El análisis de las tasas de cambio en la República Dominicana para el 26 de abril de 2025 muestra una estabilidad generalizada en comparación con el día anterior. El promedio de compra se situó en RD$58.27, experimentando una mínima disminución de RD$0.01 respecto al 25 de abril. El promedio de venta fue de RD$60.23, también con una reducción mínima de RD$0.004. La brecha (gap) promedio entre compra y venta se mantuvo prácticamente sin cambios en RD$1.89.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples mantuvieron tasas estables, con Banreservas y Banco Caribe ofreciendo las brechas más competitivas (RD$1.85), mientras que Scotiabank-sucursales presenta la brecha más amplia (RD$2.95).
+* Las asociaciones de ahorros y préstamos mostraron consistencia, con la Asociación Cibao ofreciendo una brecha de RD$2.15, mientras que la Asociación Peravia mantiene una de las tasas de venta más altas (RD$60.85).
+* Bonanza Banco registró la tasa de venta más elevada entre todas las entidades financieras (RD$61.00), con una brecha de RD$2.60, significativamente por encima del promedio.
+
+### Agentes de Cambio
+
+* Panora Exchange fue el único agente de cambio que mostró variaciones, reduciendo su tasa de compra en RD$0.10 y su tasa de venta en RD$0.15, ajustando ligeramente su brecha a RD$0.75.
+* RM y Moneycorps mantienen las brechas más competitivas entre los agentes de cambio (RD$0.60), ofreciendo condiciones más favorables que las entidades bancarias tradicionales.
+* Los agentes de cambio en general operan con brechas significativamente menores (promedio aproximado de RD$0.90) en comparación con las entidades de intermediación financiera, cuyas brechas superan los RD$2.00.
+
+El mercado cambiario dominicano muestra una notable estabilidad en este período, con variaciones mínimas entre fechas consecutivas. Esta consistencia sugiere un equilibrio en el mercado de divisas, donde las entidades bancarias tradicionales mantienen brechas más amplias que los agentes de cambio, quienes continúan ofreciendo opciones más competitivas para operaciones de cambio de divisas.
