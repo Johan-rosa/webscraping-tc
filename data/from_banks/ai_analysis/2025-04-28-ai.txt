@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en el Mercado Cambiario Dominicano
+
+El mercado cambiario dominicano mostró estabilidad entre el 25 y 28 de abril de 2025, con ligeras variaciones a la baja. La tasa promedio de compra disminuyó 0.01 puntos, pasando de 58.28 a 58.26 pesos por dólar, mientras que la tasa de venta bajó 0.03 puntos, de 60.23 a 60.20 pesos. El margen (gap) entre compra y venta se redujo levemente de 1.89 a 1.87 pesos, indicando condiciones de mercado estables.
+
+### Entidades de Intermediación Financiera
+
+* **Motor Crédito** presentó la reducción más significativa en sus tasas, con una disminución de 0.15 puntos en la tasa de compra (de 58.70 a 58.55) y 0.20 puntos en la de venta (de 60.70 a 60.50), manteniendo un margen competitivo de 1.95 pesos.
+
+* **Los principales bancos múltiples** como Banreservas, Banco Popular, BHD y Scotiabank mantuvieron sus tasas sin cambios durante este período, lo que refleja estabilidad en el sector bancario tradicional.
+
+* **Banesco, Lafise y Bonanza Banco** continuaron ofreciendo tasas de venta relativamente altas (60.50, 60.60 y 61.00 respectivamente), sin mostrar variaciones respecto al período anterior.
+
+### Agentes de Cambio
+
+* **Girosol** redujo su tasa de compra en 0.10 puntos (de 58.00 a 57.90) y su tasa de venta en 0.30 puntos (de 59.50 a 59.20), disminuyendo su margen de 1.50 a 1.30 pesos, lo que representa una mejora para los clientes.
+
+* **Panora Exchange** también mostró reducciones, con una baja de 0.10 puntos en compra (de 58.70 a 58.60) y 0.15 puntos en venta (de 59.50 a 59.35), ofreciendo uno de los márgenes más competitivos entre los agentes de cambio (0.75 pesos).
+
+* **Moneycorps** fue el único agente que incrementó su tasa de compra, con un aumento de 0.05 puntos (de 58.65 a 58.70), mientras mantuvo su tasa de venta en 59.25, reduciendo así su margen a 0.55 pesos.
+
+En conclusión, el mercado cambiario dominicano muestra una tendencia de estabilidad con ligera apreciación del peso dominicano frente al dólar estadounidense. Los agentes de cambio siguen ofreciendo márgenes significativamente menores (promedio inferior a 1 peso) en comparación con las entidades bancarias tradicionales (promedio superior a 2 pesos), lo que representa una alternativa más económica para los usuarios que buscan realizar operaciones de cambio de divisas.
