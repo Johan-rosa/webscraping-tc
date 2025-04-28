@@ -1,21 +1,17 @@
-## Análisis: Variaciones en las Tasas de Cambio del Peso Dominicano
+## Análisis: Cambios Recientes en las Tasas de Cambio
 
-El mercado cambiario dominicano muestra una leve apreciación del peso frente al dólar americano entre el 25 y 28 de abril de 2025. La tasa promedio de compra disminuyó en 0.04 pesos, pasando de 58.28 a 58.24 pesos por dólar. La tasa de venta también se redujo en 0.08 pesos, de 60.23 a 60.15 pesos. Como resultado, el margen (gap) entre compra y venta se contrajo ligeramente de 1.89 a 1.85 pesos, mostrando una mayor eficiencia en el mercado cambiario.
+El mercado cambiario dominicano muestra una ligera tendencia a la baja entre el 25 y 28 de abril de 2025. El promedio de compra disminuyó de 58.28 a 58.24 pesos por dólar (-0.04 pesos), mientras que el promedio de venta bajó de 60.23 a 60.15 pesos (-0.08 pesos). La brecha promedio entre compra y venta se redujo ligeramente de 1.89 a 1.85 pesos, indicando un mercado ligeramente más eficiente.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Santa Cruz** presentó una reducción notable en su tasa de venta de 0.25 pesos (de 60.75 a 60.50), manteniendo constante su tasa de compra en 58.25, lo que ha disminuido su margen de 2.50 a 2.25 pesos.
-  
-* **Alaver** redujo tanto su tasa de compra como de venta, con una disminución de 0.10 pesos en la compra (de 58.20 a 58.10) y 0.25 pesos en la venta (de 60.50 a 60.25), reduciendo su margen de 2.30 a 2.15 pesos.
-  
-* **Bonanza Banco** mostró una reducción significativa, con una disminución de 0.10 pesos en la tasa de compra (de 58.40 a 58.30) y 0.25 pesos en la venta (de 61.00 a 60.75), mejorando su margen de 2.60 a 2.45 pesos.
+* **Asociación Peravia** presentó la reducción más significativa, disminuyendo su tasa de compra en 0.30 pesos (de 58.40 a 58.10) y su tasa de venta en 0.15 pesos (de 60.85 a 60.70).
+* **Banco Santa Cruz** redujo su tasa de venta en 0.25 pesos (de 60.75 a 60.50) mientras mantuvo estable su tasa de compra, estrechando así su margen de ganancia.
+* **Alaver** disminuyó tanto su tasa de compra en 0.10 pesos como su tasa de venta en 0.25 pesos, mostrando una tendencia a la baja en línea con el mercado general.
 
 ### Agentes de Cambio
 
-* **Taveras** presentó una de las mayores reducciones entre los agentes de cambio, con una disminución de 0.30 pesos en la tasa de compra (de 58.70 a 58.40) y 0.40 pesos en la venta (de 59.50 a 59.10), manteniendo un margen muy competitivo de 0.70 pesos.
-  
-* **Cambio Extranjero** fue una excepción notable, con un aumento de 0.35 pesos en su tasa de compra (de 58.20 a 58.55), mientras que redujo ligeramente su tasa de venta en 0.07 pesos (de 59.22 a 59.15), disminuyendo significativamente su margen de 1.02 a 0.60 pesos.
-  
-* **Panora Exchange** redujo su tasa de compra en 0.40 pesos (de 58.70 a 58.30) y su tasa de venta en 0.30 pesos (de 59.50 a 59.20), aumentando ligeramente su margen de 0.80 a 0.90 pesos.
+* **Taveras** mostró la reducción más notable entre los agentes de cambio, disminuyendo su tasa de compra en 0.30 pesos (de 58.70 a 58.40) y su tasa de venta en 0.40 pesos (de 59.50 a 59.10).
+* **Panora Exchange** redujo su tasa de compra en 0.40 pesos (de 58.70 a 58.30) y su tasa de venta en 0.30 pesos (de 59.50 a 59.20), siendo uno de los ajustes más significativos.
+* **Cambio Extranjero** fue uno de los pocos con tendencia contraria, aumentando su tasa de compra en 0.35 pesos (de 58.20 a 58.55) mientras redujo ligeramente su tasa de venta en 0.07 pesos.
 
-La tendencia general del mercado cambiario dominicano muestra una ligera apreciación del peso dominicano y una reducción en los márgenes entre tasas de compra y venta. Esto refleja un mercado más eficiente con menores costos de transacción para los usuarios. Los agentes de cambio continúan ofreciendo márgenes considerablemente más reducidos que las entidades de intermediación financiera, aunque estas últimas muestran una tendencia hacia la reducción de sus spreads para mantenerse competitivas.
+En conclusión, el mercado cambiario dominicano mostró estabilidad con una tendencia ligeramente a la baja durante este periodo. Las entidades financieras formales mantuvieron márgenes más amplios (promedios cercanos a 2.30 pesos) en comparación con los agentes de cambio, que operan con márgenes más estrechos (promedios cercanos a 0.80 pesos). Esta diferencia refleja las distintas estructuras operativas y estrategias comerciales entre ambos tipos de entidades.
