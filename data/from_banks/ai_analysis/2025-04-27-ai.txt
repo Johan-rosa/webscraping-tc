@@ -1,0 +1,21 @@
+## Análisis: Cambios en Tasas de Cambio en República Dominicana
+
+El 27 de abril de 2025, el tipo de cambio promedio del dólar estadounidense en la República Dominicana experimentó una ligera disminución. La tasa de compra promedio se situó en RD$58.27, descendiendo RD$0.08 respecto al 24 de abril. La tasa de venta promedio también disminuyó, ubicándose en RD$60.22, lo que representa una caída de RD$0.11. Como resultado, el margen (gap) entre compra y venta se redujo levemente de RD$1.91 a RD$1.88.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Popular** mostró la mayor reducción en su tasa de venta, disminuyendo RD$0.25 hasta RD$60.60, mientras que su tasa de compra bajó RD$0.35 hasta RD$58.10, ampliando ligeramente su margen a RD$2.50.
+
+* **Banco Caribe** registró el ajuste más significativo, reduciendo su tasa de venta en RD$0.50 hasta RD$60.25 y su tasa de compra en RD$0.10 hasta RD$58.40, lo que resultó en una notable disminución de su margen de RD$2.25 a RD$1.85.
+
+* **Banco Ademi** redujo su tasa de compra en RD$0.40 hasta RD$58.40 y su tasa de venta en RD$0.20 hasta RD$60.50, aumentando su margen de RD$1.90 a RD$2.10.
+
+### Agentes de Cambio
+
+* **Capla** aumentó significativamente su tasa de compra en RD$0.60 hasta RD$58.60, mientras mantuvo su tasa de venta en RD$59.30, reduciendo así su margen de RD$1.30 a RD$0.70.
+
+* **Cambio Extranjero** redujo su tasa de venta en RD$0.21 hasta RD$59.22 y su tasa de compra en RD$0.20 hasta RD$58.20, manteniendo prácticamente sin cambios su margen en aproximadamente RD$1.02.
+
+* **Gamelin** disminuyó su tasa de compra en RD$0.15 hasta RD$58.35 y su tasa de venta en RD$0.10 hasta RD$59.40, lo que resultó en un ligero aumento de su margen de RD$1.00 a RD$1.05.
+
+En conclusión, se observa una tendencia general a la baja en las tasas de cambio del dólar en la República Dominicana entre el 24 y el 27 de abril de 2025. Los agentes de cambio mantienen márgenes significativamente menores (promedio alrededor de RD$0.80) en comparación con las entidades bancarias (promedio superior a RD$2.00). Esta ligera apreciación del peso dominicano podría responder a factores estacionales o a intervenciones del banco central en el mercado cambiario.

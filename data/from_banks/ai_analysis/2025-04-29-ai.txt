@@ -1,0 +1,21 @@
+## Análisis: Evolución de Tasas de Cambio Bancarias en República Dominicana
+
+El 29 de abril de 2025, el mercado cambiario dominicano mostró una ligera tendencia al alza con respecto al día anterior. La tasa promedio de compra aumentó en 0.01 pesos, pasando de 58.24 a 58.25 pesos por dólar, mientras que la tasa de venta incrementó 0.02 pesos, de 60.15 a 60.17 pesos. El margen o "gap" entre compra y venta se mantuvo prácticamente estable en aproximadamente 1.85 pesos, lo que indica una consistencia en las políticas de intermediación cambiaria de las entidades financieras.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Vimenca** presentó la variación más significativa con un aumento de 0.30 pesos en su tasa de venta (de 60.30 a 60.60) y 0.10 pesos en su tasa de compra (de 58.30 a 58.40), ampliando su margen de ganancia de 2.00 a 2.20 pesos.
+
+* **Asociación Cibao** incrementó su tasa de compra en 0.30 pesos (de 58.10 a 58.40), manteniendo su tasa de venta en 60.25, lo que redujo su margen de intermediación de 2.15 a 1.85 pesos, ofreciendo condiciones más favorables para sus clientes vendedores de dólares.
+
+* **BDI** mostró un incremento moderado de 0.10 pesos en su tasa de compra (de 58.20 a 58.30), mientras mantuvo su tasa de venta en 60.20, reduciendo su gap de 2.00 a 1.90 pesos, mejorando ligeramente su competitividad.
+
+### Agentes de Cambio
+
+* **Panora Exchange** registró un incremento de 0.10 pesos tanto en su tasa de compra (de 58.30 a 58.40) como en su tasa de venta (de 59.20 a 59.30), manteniendo estable su margen en 0.90 pesos, siendo uno de los pocos agentes de cambio con movimientos en ambas tasas.
+
+* **SCT** fue el único agente que mostró una disminución en su tasa de compra, reduciéndola en 0.10 pesos (de 58.40 a 58.30), mientras mantuvo su tasa de venta en 59.00, lo que aumentó su margen de 0.60 a 0.70 pesos.
+
+* **Los agentes de cambio** en general continúan ofreciendo márgenes significativamente menores (entre 0.50 y 1.30 pesos) que las entidades bancarias, siendo **Moneycorps** el que presenta el margen más competitivo con solo 0.50 pesos de diferencia entre compra y venta.
+
+El mercado cambiario dominicano se mantiene relativamente estable con ajustes incrementales que reflejan una normalidad operativa. Las entidades bancarias múltiples siguen ofreciendo las tasas de venta más altas (hasta 60.85 pesos por dólar en sucursales de Scotiabank), mientras que los agentes de cambio presentan condiciones más favorables para quienes necesitan vender dólares con tasas que no superan los 59.30 pesos. Esta estabilidad sugiere que no hay presiones extraordinarias sobre el tipo de cambio en la República Dominicana por el momento.

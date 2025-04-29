@@ -1,0 +1,21 @@
+## Análisis: Cambios en las Tasas de Cambio Bancarias
+
+El análisis de las tasas de cambio en la República Dominicana para el 21 de abril de 2025 muestra una ligera disminución en comparación con el 18 de abril. La tasa promedio de compra bajó de 59.01 a 58.93 pesos (una reducción de 0.08 pesos), mientras que la tasa de venta disminuyó de 60.99 a 60.92 pesos (una reducción de 0.07 pesos). El diferencial promedio entre compra y venta ("gap") aumentó ligeramente de 2.00 a 2.02 pesos.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Ademi y Alaver** mostraron las reducciones más significativas, con una disminución de 0.45 pesos en sus tasas de compra y 0.20 pesos en sus tasas de venta, ambos ajustando sus precios a 58.55 (compra) y 61.00 (venta).
+
+* **Banco Popular** redujo su tasa de compra de 58.85 a 58.60 pesos (-0.25) y su tasa de venta de 61.25 a 61.00 pesos (-0.25), manteniendo su diferencial en 2.40 pesos.
+
+* **Motor Crédito** disminuyó tanto su tasa de compra como de venta en 0.15 pesos, ajustándose a 59.20 para compra y 61.25 para venta, manteniendo su diferencial en 2.05 pesos.
+
+### Agentes de Cambio
+
+* **Agente de Cambio Taveras** presentó la mayor reducción entre los agentes de cambio con una disminución de 0.80 pesos en su tasa de compra (de 59.90 a 59.10), mientras que mantuvo estable su tasa de venta en 61.10 pesos.
+
+* **Girosol** fue uno de los pocos agentes que aumentó sus tasas, incrementando su tasa de compra en 0.30 pesos (de 58.50 a 58.80) y su tasa de venta en 0.50 pesos (de 59.50 a 60.00).
+
+* **RM** y **SCT** redujeron sus tasas de venta en 0.20 y 0.30 pesos respectivamente, mostrando una tendencia a la baja en el mercado de cambio de divisas.
+
+Estos cambios reflejan una tendencia general hacia la reducción de las tasas de cambio en el mercado dominicano. Aunque las variaciones son modestas, la mayoría de las entidades bancarias y agentes de cambio han ajustado sus tasas a la baja, lo que podría indicar una ligera apreciación del peso dominicano frente al dólar estadounidense. El mercado parece mantener una estabilidad relativa con ajustes graduales en las tasas de cambio.

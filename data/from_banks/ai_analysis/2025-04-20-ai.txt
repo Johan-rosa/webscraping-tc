@@ -1,0 +1,17 @@
+## Análisis del Tipo de Cambio en la República Dominicana
+
+El tipo de cambio del dólar en la República Dominicana se ha mantenido estable entre el 17 y 20 de abril de 2025. El promedio de compra se mantiene en RD$59.00 y el de venta en RD$61.01, con una brecha promedio de RD$2.03. No se han registrado variaciones significativas en ninguna de las 39 entidades financieras analizadas.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples como Scotiabank, Banco Popular y Banco Vimenca mantienen tasas idénticas de compra (RD$58.85) y venta (RD$61.25), con una brecha de RD$2.40.
+* Banreservas ofrece la mejor tasa de venta entre los principales bancos múltiples (RD$61.00) y una de las mejores tasas de compra (RD$59.15), resultando en una brecha más reducida de RD$1.85.
+* Las Asociaciones de Ahorros y Préstamos presentan generalmente brechas más amplias, destacando Asociación Popular con la brecha más alta de RD$2.75 (compra RD$58.75, venta RD$61.50).
+
+### Agentes de Cambio
+
+* RM ofrece la brecha más baja del mercado con solo RD$0.50 de diferencia entre su tasa de compra (RD$59.50) y venta (RD$60.00).
+* Moneycorps presenta una brecha competitiva de RD$0.80, con tasas de compra de RD$59.20 y venta de RD$60.00.
+* Girosol mantiene una brecha de RD$1.00, aunque con tasas generalmente más bajas tanto en compra (RD$58.50) como en venta (RD$59.50) en comparación con otras entidades.
+
+El mercado cambiario dominicano muestra estabilidad en este período, con diferencias significativas entre los diversos tipos de entidades financieras. Los agentes de cambio ofrecen generalmente brechas menores que los bancos múltiples y las asociaciones, lo que puede resultar más conveniente para transacciones puntuales, mientras que las entidades de intermediación financiera mantienen tasas más conservadoras pero posiblemente con mayor disponibilidad de divisas.

@@ -1,0 +1,21 @@
+## Análisis de Tasas de Cambio en República Dominicana
+
+En el análisis de las tasas de cambio en la República Dominicana del 26 de abril de 2025, observamos una estabilidad general en el mercado cambiario. El promedio de compra se situó en RD$58.27 por dólar estadounidense, mientras que la venta promedió RD$60.23, generando un margen promedio de RD$1.89. En comparación con el día anterior, tanto la tasa de compra como la de venta disminuyeron ligeramente (-0.0037 y -0.0041 respectivamente), lo que sugiere una leve apreciación del peso dominicano.
+
+### Entidades de Intermediación Financiera
+
+- **Bancos Múltiples**: Mantienen tasas estables sin cambios significativos entre el 25 y 26 de abril. Banreservas y Banco Caribe ofrecen el menor margen entre compra y venta (1.85 pesos), siendo más competitivos.
+  
+- **Asociaciones de Ahorros y Préstamos**: Presentan márgenes más amplios, destacando Asociación Peravia con un diferencial de 2.45 pesos y manteniendo su tasa de venta en 60.85.
+
+- **Scotiabank en sucursales**: Mantiene el margen más alto entre las EIF (2.95 pesos), con una tasa de compra notablemente más baja (57.90) que el promedio del mercado, aunque sin variaciones respecto al día anterior.
+
+### Agentes de Cambio
+
+- **Moneycorps**: Único agente que mostró un incremento en la tasa de compra (+0.05 pesos), situándose en 58.70, una de las más altas entre los agentes de cambio.
+
+- **Panora Exchange**: Presenta la mayor variación del mercado con una disminución de 0.15 pesos en su tasa de venta y 0.10 en compra, indicando un ajuste significativo en sus operaciones.
+
+- **Márgenes competitivos**: Los agentes de cambio operan con márgenes considerablemente menores que las entidades bancarias, destacando Moneycorps (0.55) y RM (0.60), lo que los hace más atractivos para operaciones de cambio inmediatas.
+
+El mercado cambiario dominicano muestra una notable estabilidad en este período, con mínimas fluctuaciones que sugieren un entorno económico controlado. Los agentes de cambio continúan ofreciendo mejores condiciones para transacciones de menor volumen, mientras que las entidades bancarias mantienen políticas de márgenes más amplios que les permiten gestionar mayores volúmenes de operaciones con menores riesgos de volatilidad.

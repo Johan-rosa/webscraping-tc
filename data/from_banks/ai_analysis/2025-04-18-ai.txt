@@ -1,0 +1,17 @@
+## Análisis de Tasas de Cambio en República Dominicana
+
+Las tasas de cambio en la República Dominicana se mantuvieron estables entre el 17 y 18 de abril de 2025. El promedio de compra se ubicó en RD$59.00 por dólar, mientras que la venta promedió RD$61.01, generando una brecha (gap) promedio de RD$2.03. No se registraron variaciones significativas con respecto al día anterior.
+
+### Entidades de Intermediación Financiera
+
+* **Banreservas** mantiene una de las brechas más bajas entre las entidades bancarias con RD$1.85, ofreciendo una tasa de compra de RD$59.15 y venta de RD$61.00.
+* **Scotiabank** muestra diferencia entre sus tasas corporativas (brecha de RD$2.40) y sus sucursales (brecha de RD$3.00), siendo esta última la más alta entre todas las entidades analizadas.
+* **Asociación Popular** presenta la segunda brecha más amplia del mercado con RD$2.75, ofreciendo una compra de RD$58.75 y venta de RD$61.50.
+
+### Agentes de Cambio
+
+* **RM** ofrece la brecha más reducida del mercado con apenas RD$0.50 entre su tasa de compra (RD$59.50) y venta (RD$60.00).
+* **Moneycorps** presenta una brecha competitiva de RD$0.80, con una tasa de compra de RD$59.20 y venta de RD$60.00.
+* **Girosol** mantiene una brecha de solo RD$1.00, significativamente inferior al promedio del mercado, con una compra de RD$58.50 y venta de RD$59.50.
+
+El mercado cambiario dominicano se mantiene estable sin cambios en las tasas con respecto al día anterior. Es notable que los agentes de cambio ofrecen generalmente brechas más reducidas que las entidades bancarias tradicionales, lo que podría representar una alternativa más económica para los usuarios que necesitan realizar operaciones de cambio de divisas.

@@ -1,0 +1,21 @@
+## Análisis: Tendencias del tipo de cambio en República Dominicana
+
+En el mercado cambiario dominicano, se observa una ligera apreciación del peso frente al dólar al 24 de abril de 2025. El tipo de cambio promedio de compra se sitúa en RD$58.36, disminuyendo en RD$0.06 respecto al día anterior (RD$58.42). El tipo de cambio promedio de venta es de RD$60.36, con una reducción de RD$0.08 en comparación con el día anterior (RD$60.44). El diferencial (gap) entre compra y venta disminuyó ligeramente a RD$1.93, frente a RD$1.94 del día anterior, indicando una leve estabilización del mercado.
+
+### Entidades de intermediación financiera
+
+* **Banreservas** muestra una de las mayores reducciones en sus tasas, con una disminución de RD$0.25 tanto en compra (58.40) como en venta (60.25), manteniendo un diferencial de RD$1.85, uno de los más bajos entre los bancos múltiples.
+  
+* **Scotiabank** registra una reducción notable en sus sucursales, donde el tipo de cambio disminuyó RD$0.30 tanto en compra (57.90) como en venta (60.65), manteniendo un diferencial amplio de RD$2.75.
+  
+* **Asociación Peravia** presenta una reducción significativa de RD$0.30 en su tasa de compra (58.40) y RD$0.15 en venta (60.85), destacándose entre las asociaciones de ahorro y préstamos por su ajuste a la baja.
+
+### Agentes de cambio
+
+* **RM** muestra el ajuste más pronunciado entre los agentes de cambio, con una reducción de RD$0.20 en compra (58.80) y RD$0.40 en venta (59.30), disminuyendo su diferencial a solo RD$0.50, el más bajo del mercado.
+  
+* **Moneycorps** presenta un comportamiento contrario a la tendencia general, con un aumento de RD$0.15 en su tasa de compra (58.65), mientras reduce su tasa de venta en RD$0.17 (59.28), estrechando significativamente su diferencial a RD$0.63.
+  
+* **SCT** mantiene su tasa de compra (58.50) pero reduce su tasa de venta en RD$0.30 (59.50), dejando su diferencial en RD$1.00, alineándose con otros agentes de cambio que ofrecen spreads más competitivos.
+
+La tendencia general del mercado cambiario dominicano muestra una ligera apreciación del peso dominicano frente al dólar estadounidense. Se observa una mayor estabilidad entre los agentes de cambio, que mantienen diferenciales significativamente menores (generalmente por debajo de RD$1.50) en comparación con las entidades de intermediación financiera, donde el diferencial promedio supera los RD$2.20. Esta dinámica beneficia a los consumidores que buscan mejores tasas para sus operaciones de cambio de divisas.

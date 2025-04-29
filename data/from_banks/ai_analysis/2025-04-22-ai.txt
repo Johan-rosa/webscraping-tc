@@ -1,0 +1,21 @@
+## Análisis: Fluctuaciones en las Tasas de Cambio Dominicanas
+
+El 22 de abril de 2025, las tasas de cambio en la República Dominicana experimentaron una disminución generalizada. El promedio de compra se redujo de RD$58.93 a RD$58.71 (-0.22 pesos), mientras que la tasa de venta bajó de RD$60.92 a RD$60.69 (-0.23 pesos). Esto ha reducido el margen (gap) promedio entre compra y venta de 2.02 a 1.89 pesos, lo que representa una ligera mejora para los usuarios de servicios cambiarios.
+
+### Entidades de Intermediación Financiera (EIF)
+
+* **Banreservas**, como banco estatal principal, ajustó sus tasas a la baja en ambos sentidos (-0.25 pesos), manteniendo su margen en 1.85 pesos, uno de los más competitivos entre los bancos múltiples.
+  
+* **Scotiabank** mostró comportamientos diferentes según el canal: su operación principal redujo las tasas (compra: -0.15, venta: -0.25), mientras que sus sucursales ofrecieron la tasa de venta más alta del mercado (61.25 pesos) con un margen significativo de 2.85 pesos.
+  
+* **Asociación Cibao** presentó una de las mayores reducciones en su margen (-0.10 puntos), mejorando su competitividad frente a otras asociaciones de ahorro y préstamos que mantuvieron tasas sin cambios.
+
+### Agentes de Cambio (AC)
+
+* **Taveras** registró la mayor reducción en la tasa de venta (-1.40 pesos), disminuyendo significativamente su margen de 2.00 a 0.60 pesos, posicionándose como uno de los agentes más competitivos del mercado.
+  
+* **Panora Exchange** implementó importantes reducciones tanto en la tasa de compra (-0.40) como de venta (-0.80), reduciendo su margen de 1.75 a 1.35 pesos, lo que refleja una estrategia agresiva para captar clientes.
+  
+* **Cambio Extranjero** fue uno de los pocos agentes que aumentó su tasa de compra (+0.05), mientras reducía significativamente la de venta (-0.40), comprimiendo su margen a solo 0.70 pesos.
+
+La tendencia a la baja en las tasas de cambio dominicanas refleja una posible apreciación del peso dominicano frente al dólar. Esta dinámica beneficia a los importadores y consumidores de productos importados, pero podría afectar negativamente a sectores exportadores y receptores de remesas. Los márgenes más estrechos, especialmente entre los agentes de cambio, sugieren un mercado cambiario más competitivo que busca atraer clientes mediante mejores condiciones.

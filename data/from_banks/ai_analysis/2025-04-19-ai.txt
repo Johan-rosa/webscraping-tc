@@ -1,0 +1,15 @@
+## Análisis: Estabilidad en las Tasas de Cambio Bancarias
+
+No se observaron variaciones en las tasas de cambio del peso dominicano frente al dólar estadounidense entre el 18 y 19 de abril de 2025. El promedio de compra se mantiene en RD$59.00, mientras que el de venta permanece en RD$61.01, con una brecha promedio estable de RD$2.03.
+
+### Entidades de Intermediación Financiera:
+- **Banreservas** mantiene su posición con una tasa de compra de RD$59.15 y venta de RD$61.00, presentando una de las brechas más bajas entre los bancos múltiples (RD$1.85).
+- **Scotiabank** muestra una diferencia notable entre sus tasas oficiales (compra: RD$58.85, venta: RD$61.25) y las de sus sucursales (compra: RD$58.55, venta: RD$61.55), donde la brecha es significativamente mayor (RD$3.00).
+- **Asociación Popular** presenta la brecha más alta entre las entidades de intermediación financiera con RD$2.75, ofreciendo RD$58.75 para la compra y RD$61.50 para la venta.
+
+### Agentes de Cambio:
+- **RM** destaca por ofrecer la brecha más baja del mercado con apenas RD$0.50 entre su tasa de compra (RD$59.50) y venta (RD$60.00).
+- **Moneycorps** mantiene una brecha competitiva de RD$0.80, con tasas de compra de RD$59.20 y venta de RD$60.00.
+- **Taveras** ofrece la tasa de compra más alta entre los agentes de cambio (RD$59.90) con una brecha moderada de RD$1.20.
+
+Las tasas de cambio muestran estabilidad en el mercado dominicano, con las entidades financieras tradicionales generalmente manteniendo brechas más amplias que los agentes de cambio independientes. Esta estabilidad sugiere un mercado cambiario sin presiones significativas para el período analizado, beneficiando la planificación financiera tanto para empresas como para consumidores.

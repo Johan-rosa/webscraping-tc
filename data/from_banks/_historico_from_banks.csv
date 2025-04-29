@@ -764,18 +764,188 @@ date,bank,tipo,buy,sell
 2025-04-15,Lafise,,59.25,61.5
 2025-04-15,Ademi,,59.3,61.5
 2025-04-15,Quezada,,59,60.5
-2025-04-16,Scotiabank,Dólar (USD) Sucursales,59,61.8
-2025-04-16,Scotiabank,Dólar (USD) Canales Digitales*,59.3,61.5
-2025-04-16,Banreservas,,59.349999999999994,61.2
-2025-04-16,Banco Popular,,59.1,61.5
+2025-04-16,Scotiabank,Dólar (USD) Sucursales,58.8,61.55
+2025-04-16,Scotiabank,Dólar (USD) Canales Digitales*,59.1,61.25
+2025-04-16,Banreservas,,59.15,61
+2025-04-16,Banco Popular,,58.85,61.25
 2025-04-16,BHD,,59.1,61.25
-2025-04-16,Santa Cruz,,59,61.5
-2025-04-16,Banco Caribe,,59,61.75
-2025-04-16,BDI,,59,60.849999999999994
-2025-04-16,Vimenca,,59,61.5
-2025-04-16,BLH,,58.7,61.1
+2025-04-16,Santa Cruz,,59,61.25
+2025-04-16,Banco Caribe,,59,61
+2025-04-16,BDI,,59,60.5
+2025-04-16,Vimenca,,58.849999999999994,61.25
+2025-04-16,BLH,,58.5,60.9
 2025-04-16,Promerica,,59,61.25
-2025-04-16,Banesco,,59.15,61.5
-2025-04-16,Lafise,,59.25,61.5
-2025-04-16,Ademi,,59.3,61.5
-2025-04-16,Quezada,,59,60.25
+2025-04-16,Banesco,,59,61.3
+2025-04-16,Lafise,,59,61.25
+2025-04-16,Ademi,,59,61.2
+2025-04-16,Quezada,,59,60.5
+2025-04-17,Scotiabank,Dólar (USD) Sucursales,58.55,61.55
+2025-04-17,Scotiabank,Dólar (USD) Canales Digitales*,58.85,61.25
+2025-04-17,Banreservas,,59.15,61
+2025-04-17,Banco Popular,,58.85,61.25
+2025-04-17,BHD,,59.1,61.25
+2025-04-17,Santa Cruz,,59,61.25
+2025-04-17,Banco Caribe,,59,61
+2025-04-17,BDI,,58.75,60.75
+2025-04-17,Vimenca,,58.849999999999994,61.25
+2025-04-17,BLH,,58.5,60.9
+2025-04-17,Promerica,,59,61.25
+2025-04-17,Banesco,,59,61.3
+2025-04-17,Lafise,,59,61.25
+2025-04-17,Ademi,,59,61.2
+2025-04-17,Quezada,,59,60.5
+2025-04-18,Scotiabank,Dólar (USD) Sucursales,58.55,61.55
+2025-04-18,Scotiabank,Dólar (USD) Canales Digitales*,58.85,61.25
+2025-04-18,Banreservas,,59.15,61
+2025-04-18,Banco Popular,,58.85,61.25
+2025-04-18,BHD,,59.1,61.25
+2025-04-18,Santa Cruz,,59,61.25
+2025-04-18,Banco Caribe,,59,61
+2025-04-18,BDI,,58.75,60.75
+2025-04-18,Vimenca,,58.849999999999994,61.25
+2025-04-18,BLH,,58.5,60.9
+2025-04-18,Promerica,,59,61.25
+2025-04-18,Banesco,,59,61.3
+2025-04-18,Lafise,,59,61.25
+2025-04-18,Ademi,,59,61.2
+2025-04-18,Quezada,,59,60.5
+2025-04-19,Scotiabank,Dólar (USD) Sucursales,58.55,61.55
+2025-04-19,Scotiabank,Dólar (USD) Canales Digitales*,58.85,61.25
+2025-04-19,Banreservas,,59.15,61
+2025-04-19,Banco Popular,,58.85,61.25
+2025-04-19,BHD,,59.1,61.25
+2025-04-19,Santa Cruz,,59,61.25
+2025-04-19,Banco Caribe,,59,61
+2025-04-19,BDI,,58.75,60.75
+2025-04-19,Vimenca,,58.849999999999994,61.25
+2025-04-19,BLH,,58.5,60.9
+2025-04-19,Promerica,,59,61.25
+2025-04-19,Banesco,,59,61.3
+2025-04-19,Lafise,,59,61.25
+2025-04-19,Ademi,,59,61.2
+2025-04-19,Quezada,,59,60.5
+2025-04-20,Scotiabank,Dólar (USD) Sucursales,58.55,61.55
+2025-04-20,Scotiabank,Dólar (USD) Canales Digitales*,58.85,61.25
+2025-04-20,Banreservas,,59.15,61
+2025-04-20,Banco Popular,,58.85,61.25
+2025-04-20,BHD,,59.1,61.25
+2025-04-20,Santa Cruz,,59,61.25
+2025-04-20,Banco Caribe,,59,61
+2025-04-20,BDI,,58.75,60.75
+2025-04-20,Vimenca,,58.849999999999994,61.25
+2025-04-20,BLH,,58.5,60.9
+2025-04-20,Promerica,,59,61.25
+2025-04-20,Ademi,,59,61.2
+2025-04-20,Quezada,,59,60.5
+2025-04-21,Scotiabank,Dólar (USD) Sucursales,58.55,61.55
+2025-04-21,Scotiabank,Dólar (USD) Canales Digitales*,58.85,61.25
+2025-04-21,BLH,,58.5,60.9
+2025-04-21,Ademi,,58.55,61
+2025-04-21,Quezada,,59,60.25
+2025-04-22,Scotiabank,Dólar (USD) Sucursales,58.4,61.25
+2025-04-22,Scotiabank,Dólar (USD) Canales Digitales*,58.7,61
+2025-04-22,Banreservas,,58.9,60.75
+2025-04-22,BLH,,58.5,60.9
+2025-04-22,Ademi,,58.55,61
+2025-04-22,Quezada,,58.75,59.949999999999996
+2025-04-23,Scotiabank,Dólar (USD) Sucursales,58.2,60.95
+2025-04-23,Scotiabank,Dólar (USD) Canales Digitales*,58.5,60.75
+2025-04-23,Banreservas,,58.65,60.5
+2025-04-23,Banco Popular,,58.45,60.85
+2025-04-23,BHD,,58.55,60.75
+2025-04-23,Santa Cruz,,58.25,60.849999999999994
+2025-04-23,Banco Caribe,,58.75,60.75
+2025-04-23,BDI,,58.4,60.5
+2025-04-23,Vimenca,,58.3,60.75
+2025-04-23,BLH,,58.1,60.5
+2025-04-23,Promerica,,58.5,60.75
+2025-04-23,Banesco,,58.5,60.75
+2025-04-23,Lafise,,58.5,60.85
+2025-04-23,Ademi,,58.8,60.7
+2025-04-23,Quezada,,58.5,59.75
+2025-04-24,Scotiabank,Dólar (USD) Sucursales,57.9,60.65
+2025-04-24,Scotiabank,Dólar (USD) Canales Digitales*,58.3,60.55
+2025-04-24,Banreservas,,58.4,60.25
+2025-04-24,Banco Popular,,58.45,60.85
+2025-04-24,BHD,,58.4,60.6
+2025-04-24,Santa Cruz,,58.25,60.849999999999994
+2025-04-24,Banco Caribe,,58.5,60.75
+2025-04-24,BDI,,58.4,60.5
+2025-04-24,Vimenca,,0,0
+2025-04-24,BLH,,58.1,60.5
+2025-04-24,Promerica,,58.5,60.75
+2025-04-24,Ademi,,58.8,60.7
+2025-04-24,Quezada,,58.5,59.75
+2025-04-25,Scotiabank,Dólar (USD) Sucursales,57.9,60.85
+2025-04-25,Scotiabank,Dólar (USD) Canales Digitales*,58.1,60.6
+2025-04-25,Banreservas,,58.4,60.25
+2025-04-25,Banco Popular,,58.1,60.6
+2025-04-25,BHD,,58.4,60.6
+2025-04-25,Santa Cruz,,58.25,60.75
+2025-04-25,Banco Caribe,,58.4,60.25
+2025-04-25,BDI,,58.2,60.2
+2025-04-25,Vimenca,,58.3,60.3
+2025-04-25,BLH,,58.1,60.5
+2025-04-25,Promerica,,58.5,60.75
+2025-04-25,Banesco,,58.4,60.5
+2025-04-25,Lafise,,58.25,60.6
+2025-04-25,Ademi,,58.4,60.5
+2025-04-25,Quezada,,58.4,59.5
+2025-04-26,Scotiabank,Dólar (USD) Sucursales,57.9,60.85
+2025-04-26,Scotiabank,Dólar (USD) Canales Digitales*,58.1,60.6
+2025-04-26,Banreservas,,58.4,60.25
+2025-04-26,Banco Popular,,58.1,60.6
+2025-04-26,BHD,,58.4,60.6
+2025-04-26,Santa Cruz,,58.25,60.75
+2025-04-26,Banco Caribe,,58.4,60.25
+2025-04-26,BDI,,58.2,60.2
+2025-04-26,Vimenca,,58.3,60.3
+2025-04-26,BLH,,58.1,60.5
+2025-04-26,Promerica,,58.5,60.75
+2025-04-26,Banesco,,58.4,60.5
+2025-04-26,Lafise,,58.25,60.6
+2025-04-26,Ademi,,58.4,60.5
+2025-04-26,Quezada,,58.4,59.5
+2025-04-27,Scotiabank,Dólar (USD) Sucursales,57.9,60.85
+2025-04-27,Scotiabank,Dólar (USD) Canales Digitales*,58.1,60.6
+2025-04-27,Banreservas,,58.4,60.25
+2025-04-27,Banco Popular,,58.1,60.6
+2025-04-27,BHD,,58.4,60.6
+2025-04-27,Santa Cruz,,58.25,60.75
+2025-04-27,Banco Caribe,,58.4,60.25
+2025-04-27,BDI,,58.2,60.2
+2025-04-27,Vimenca,,58.3,60.3
+2025-04-27,BLH,,58.1,60.5
+2025-04-27,Promerica,,58.5,60.75
+2025-04-27,Ademi,,58.4,60.5
+2025-04-27,Quezada,,58.4,59.5
+2025-04-28,Scotiabank,Dólar (USD) Sucursales,57.9,60.85
+2025-04-28,Scotiabank,Dólar (USD) Canales Digitales*,58.1,60.6
+2025-04-28,Banreservas,,58.4,60.25
+2025-04-28,Banco Popular,,58.1,60.6
+2025-04-28,BHD,,58.4,60.6
+2025-04-28,Santa Cruz,,58.25,60.5
+2025-04-28,Banco Caribe,,58.4,60.25
+2025-04-28,BDI,,58.2,60.2
+2025-04-28,Vimenca,,58.3,60.3
+2025-04-28,BLH,,58.1,60.5
+2025-04-28,Promerica,,58.5,60.75
+2025-04-28,Banesco,,58.4,60.5
+2025-04-28,Lafise,,58.25,60.6
+2025-04-28,Ademi,,58.4,60.5
+2025-04-28,Quezada,,58.4,59.5
+2025-04-29,Scotiabank,Dólar (USD) Sucursales,57.9,60.85
+2025-04-29,Scotiabank,Dólar (USD) Canales Digitales*,58.1,60.6
+2025-04-29,Banreservas,,58.4,60.25
+2025-04-29,Banco Popular,,58.1,60.6
+2025-04-29,BHD,,58.4,60.6
+2025-04-29,Santa Cruz,,58.25,60.5
+2025-04-29,Banco Caribe,,58.4,60.25
+2025-04-29,BDI,,58.3,60.2
+2025-04-29,Vimenca,,58.4,60.6
+2025-04-29,BLH,,58.1,60.5
+2025-04-29,Promerica,,58.5,60.75
+2025-04-29,Banesco,,58.4,60.5
+2025-04-29,Lafise,,58.25,60.6
+2025-04-29,Ademi,,58.4,60.5
+2025-04-29,Quezada,,58.4,59.5
