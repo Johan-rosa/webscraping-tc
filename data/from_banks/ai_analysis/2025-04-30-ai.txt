@@ -1,21 +1,21 @@
-## Análisis: Resumen de los Tipos de Cambio en República Dominicana
+## Análisis de Tasas de Cambio en la República Dominicana
 
-Los tipos de cambio en la República Dominicana se mantuvieron relativamente estables entre el 29 y 30 de abril de 2025. El promedio de compra aumentó ligeramente de RD$58.25 a RD$58.25 (un incremento de apenas RD$0.0005), mientras que el promedio de venta disminuyó de RD$60.16 a RD$60.15 (una reducción de RD$0.01). Como resultado, la brecha promedio entre compra y venta se redujo marginalmente de RD$1.84 a RD$1.84.
+El mercado cambiario en República Dominicana se mantiene estable entre el 29 y 30 de abril de 2025. El promedio general de compra se situó en RD$58.25 por dólar, con una mínima disminución de RD$0.0008 respecto al día anterior. La tasa de venta promedio fue de RD$60.14, presentando una ligera reducción de RD$0.0064. El diferencial (gap) promedio entre compra y venta se situó en RD$1.83, reflejando una pequeña contracción de RD$0.0056 en comparación con el día anterior.
 
 ### Entidades de Intermediación Financiera
 
-* Entre los bancos múltiples, Banco Vimenca fue la única entidad que mostró una variación, reduciendo su tasa de venta en RD$0.10, disminuyendo su brecha de RD$2.20 a RD$2.10.
+* **BDI** presenta la única variación negativa significativa del sector, con una reducción de RD$0.10 en su tasa de compra (de RD$58.30 a RD$58.20), mientras mantiene estable su tasa de venta en RD$60.20.
 
-* Las asociaciones de ahorro y préstamos mantuvieron sus tasas sin cambios, con brechas entre RD$1.85 (Asociación Cibao) y RD$2.60 (Asociación Peravia).
+* **Banco Vimenca** redujo su tasa de venta en RD$0.10 (de RD$60.60 a RD$60.50), manteniendo su tasa de compra en RD$58.40, lo que resulta en una reducción de su diferencial a RD$2.10.
 
-* Scotiabank mantiene la tasa de venta más alta del mercado en sus sucursales (RD$60.85), con una brecha significativa de RD$2.95 entre compra y venta.
+* **Los bancos múltiples** mantienen generalmente tasas más altas que el promedio del mercado, con Scotiabank, Banco Popular y Banco Lafise ofreciendo las tasas de venta más elevadas entre las EIF (RD$60.60).
 
 ### Agentes de Cambio
 
-* Los agentes de cambio continúan ofreciendo tasas de venta considerablemente más bajas que las entidades financieras, con un promedio aproximado de RD$59.20 frente a los RD$60.50 de los bancos múltiples.
+* **Cambio Extranjero** muestra movimientos en ambas direcciones: aumentó su tasa de compra en RD$0.05 (a RD$58.60) y redujo ligeramente su tasa de venta en RD$0.01 (a RD$59.14), estrechando su diferencial a RD$0.54.
 
-* Moneycorps presenta la brecha más pequeña del mercado con apenas RD$0.55 entre su tasa de compra (RD$58.60) y venta (RD$59.15).
+* **Los agentes de cambio** continúan ofreciendo tasas de venta significativamente más bajas que las entidades bancarias, con un rango predominante entre RD$59.10 y RD$59.30, lo que representa aproximadamente RD$1.00 menos que el promedio de los bancos.
 
-* Ningún agente de cambio mostró variaciones en sus tasas entre el 29 y 30 de abril, reflejando estabilidad en este segmento del mercado cambiario.
+* **Girosol** mantiene la tasa de compra más baja entre los agentes de cambio (RD$57.90), mientras que **RM** y **Moneycorps** presentan las tasas de compra más altas del grupo (RD$58.60).
 
-El mercado cambiario dominicano muestra una notable estabilidad en este período, con una ligera tendencia a la reducción de las brechas entre compra y venta. Las diferencias significativas entre las tasas ofrecidas por entidades de intermediación financiera y agentes de cambio continúan siendo relevantes para los consumidores que buscan optimizar sus operaciones de cambio de divisas.
+El mercado cambiario dominicano muestra una notable estabilidad, con variaciones mínimas en este período. El diferencial promedio entre tasas de compra y venta sigue favoreciendo a los agentes de cambio como opción más económica para la venta de dólares, mientras que las entidades bancarias tradicionales mantienen diferenciales más amplios que les generan mayores márgenes. La tendencia general del mercado es de estabilidad con ligera tendencia a la apreciación del peso dominicano.
