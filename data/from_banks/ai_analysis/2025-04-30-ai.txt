@@ -1,0 +1,21 @@
+## Análisis: Resumen de los Tipos de Cambio en República Dominicana
+
+Los tipos de cambio en la República Dominicana se mantuvieron relativamente estables entre el 29 y 30 de abril de 2025. El promedio de compra aumentó ligeramente de RD$58.25 a RD$58.25 (un incremento de apenas RD$0.0005), mientras que el promedio de venta disminuyó de RD$60.16 a RD$60.15 (una reducción de RD$0.01). Como resultado, la brecha promedio entre compra y venta se redujo marginalmente de RD$1.84 a RD$1.84.
+
+### Entidades de Intermediación Financiera
+
+* Entre los bancos múltiples, Banco Vimenca fue la única entidad que mostró una variación, reduciendo su tasa de venta en RD$0.10, disminuyendo su brecha de RD$2.20 a RD$2.10.
+
+* Las asociaciones de ahorro y préstamos mantuvieron sus tasas sin cambios, con brechas entre RD$1.85 (Asociación Cibao) y RD$2.60 (Asociación Peravia).
+
+* Scotiabank mantiene la tasa de venta más alta del mercado en sus sucursales (RD$60.85), con una brecha significativa de RD$2.95 entre compra y venta.
+
+### Agentes de Cambio
+
+* Los agentes de cambio continúan ofreciendo tasas de venta considerablemente más bajas que las entidades financieras, con un promedio aproximado de RD$59.20 frente a los RD$60.50 de los bancos múltiples.
+
+* Moneycorps presenta la brecha más pequeña del mercado con apenas RD$0.55 entre su tasa de compra (RD$58.60) y venta (RD$59.15).
+
+* Ningún agente de cambio mostró variaciones en sus tasas entre el 29 y 30 de abril, reflejando estabilidad en este segmento del mercado cambiario.
+
+El mercado cambiario dominicano muestra una notable estabilidad en este período, con una ligera tendencia a la reducción de las brechas entre compra y venta. Las diferencias significativas entre las tasas ofrecidas por entidades de intermediación financiera y agentes de cambio continúan siendo relevantes para los consumidores que buscan optimizar sus operaciones de cambio de divisas.
