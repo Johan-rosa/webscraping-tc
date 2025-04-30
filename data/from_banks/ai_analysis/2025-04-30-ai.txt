@@ -1,17 +1,21 @@
-## Análisis
+## Análisis de Tasas de Cambio en República Dominicana
 
-El tipo de cambio del peso dominicano frente al dólar se ha mantenido relativamente estable entre el 29 y 30 de abril de 2025. El promedio de compra pasó de 58.23 a 58.23 DOP/USD, prácticamente sin cambio (-0.00). El promedio de venta disminuyó ligeramente de 60.10 a 60.09 DOP/USD (-0.02). Como resultado, el margen (gap) promedio entre compra y venta se redujo de 1.79 a 1.78 DOP.
+El mercado cambiario dominicano muestra estabilidad entre el 29 y 30 de abril de 2025. El promedio de compra se situó en RD$58.24 por dólar, con una mínima variación a la baja (-0.003 pesos) respecto al día anterior. La tasa de venta promedio fue de RD$60.14, también con leve descenso (-0.02 pesos). El margen o "gap" promedio entre compra y venta se redujo levemente a RD$1.83 (vs. RD$1.84 del día anterior), indicando un mercado generalmente estable.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* Los bancos múltiples mantuvieron en su mayoría sus tasas sin cambios, destacando Banco Popular, Scotiabank y Banco Lafise con los márgenes más amplios (2.50, 2.50 y 2.35 respectivamente).
-* Las asociaciones de ahorros y préstamos presentaron tasas de venta entre 60.25 y 60.75 DOP/USD, con Asociación Peravia mostrando el margen más amplio (2.60).
-* Banreservas, el banco estatal, mantuvo su tasa de compra en 58.40 y venta en 60.25 DOP/USD, con un margen de 1.85, por debajo del promedio general.
+* **Banco BDI** registró una disminución en su tasa de compra, pasando de RD$58.30 a RD$58.20, mientras mantuvo su tasa de venta en RD$60.20, lo que aumentó su margen operativo.
 
-### Agentes de cambio
+* **Banco Vimenca** mantuvo su tasa de compra en RD$58.40 pero redujo su tasa de venta de RD$60.60 a RD$60.50, estrechando su margen de ganancia de RD$2.20 a RD$2.10.
 
-* Moneycorps mostró una reducción en sus tasas, con la compra bajando 0.10 (de 58.60 a 58.50) y la venta disminuyendo 0.15 (de 59.15 a 59.00), resultando en un margen más estrecho de 0.50.
-* Taveras incrementó su tasa de compra en 0.10 (de 58.40 a 58.50) y redujo su tasa de venta en 0.10 (de 59.10 a 59.00), disminuyendo significativamente su margen a 0.50.
-* Cambio Extranjero y Capla mostraron ajustes menores en sus tasas, con Capla reduciendo tanto su compra como venta en 0.10, mientras que los demás agentes de cambio mantuvieron tasas estables.
+* **Banreservas y Banco Caribe** mantuvieron tasas idénticas (compra RD$58.40, venta RD$60.25), con los márgenes más competitivos entre los bancos múltiples (RD$1.85).
 
-El mercado cambiario dominicano se mantiene estable a finales de abril de 2025, con ligeras reducciones en el margen entre tasas de compra y venta. Los agentes de cambio continúan ofreciendo tasas de venta significativamente más bajas que las entidades financieras formales, con márgenes considerablemente menores. Esta estabilidad sugiere condiciones económicas equilibradas y una adecuada oferta de divisas en el mercado local.
+### Agentes de Cambio
+
+* **Moneycorps** presentó ajustes significativos, reduciendo su tasa de compra de RD$58.60 a RD$58.50 y su tasa de venta de RD$59.15 a RD$59.00, manteniendo un margen competitivo de RD$0.50.
+
+* **Cambio Extranjero** fue el único agente que aumentó su tasa de compra (de RD$58.55 a RD$58.60) y simultáneamente redujo su tasa de venta (de RD$59.15 a RD$59.14).
+
+* **Capla** redujo tanto su tasa de compra como de venta en RD$0.10, quedando en RD$58.30 para compra y RD$59.20 para venta, manteniendo su margen en RD$0.90.
+
+Las variaciones observadas en el mercado cambiario dominicano durante este período son mínimas, reflejando un ambiente de estabilidad. Los agentes de cambio continúan ofreciendo márgenes significativamente menores que las entidades bancarias, con diferencias que pueden superar un peso por dólar, lo que representa una opción más favorable para los clientes que buscan cambiar dólares a pesos dominicanos.
