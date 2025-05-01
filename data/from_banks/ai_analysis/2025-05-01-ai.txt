@@ -1,21 +1,17 @@
-## Análisis: Estabilidad en las Tasas de Cambio de la República Dominicana
+## Análisis
 
-El mercado cambiario dominicano se mantiene estable según los datos del 1 de mayo de 2025. La tasa de compra promedio se situó en RD$58.25 por dólar, experimentando un leve incremento de RD$0.01 respecto al día anterior. La tasa de venta promedio se mantuvo sin cambios en RD$60.14 por dólar. Como resultado, el diferencial (gap) entre compra y venta disminuyó ligeramente a RD$1.83, reflejando una estabilidad general en el mercado cambiario.
+Las tasas de cambio en la República Dominicana se mantuvieron prácticamente estables entre el 30 de abril y el 1 de mayo de 2025. El promedio general de compra experimentó un ligero aumento de 0.01 pesos, pasando de 58.24 a 58.25 pesos por dólar. La tasa de venta permaneció sin cambios en 60.14 pesos, lo que resultó en una reducción mínima en el diferencial (gap) promedio de 1.83 a 1.83 pesos.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* Los bancos múltiples mantienen tasas uniformes, destacando Banreservas y Banco Caribe con el margen más estrecho (RD$1.85) entre compra y venta, ofreciendo condiciones favorables para operaciones cambiarias.
+* Los bancos múltiples mantuvieron tasas estables, con Banreservas y Banco Caribe ofreciendo el diferencial más bajo entre las EIF (1.85 pesos).
+* Scotiabank y Banco Popular presentaron las tasas de venta más altas entre los bancos múltiples (60.60 pesos) y un diferencial de 2.50 pesos.
+* Scotiabank en sus sucursales ofrece condiciones diferentes al resto de la entidad, con una tasa de compra más baja (57.90) y venta más alta (60.85), resultando en el diferencial más amplio entre todas las entidades financieras (2.95 pesos).
 
-* Las asociaciones de ahorro y préstamos presentan una variabilidad significativa, con Asociación Peravia mostrando el diferencial más amplio (RD$2.60) y Asociación Cibao el más bajo (RD$1.85) dentro de su categoría.
+### Agentes de cambio
 
-* Scotiabank en sus sucursales ofrece la tasa de venta más alta del mercado (RD$60.85) con un diferencial de RD$2.95, notablemente superior al promedio general del mercado.
+* Girosol fue el único agente de cambio que registró una variación, aumentando su tasa de compra en 0.20 pesos (de 57.90 a 58.10), reduciendo así su diferencial de 1.30 a 1.10 pesos.
+* Cambio Extranjero ofrece el diferencial más bajo del mercado (0.54 pesos), con una tasa de compra competitiva de 58.60 pesos por dólar.
+* Los agentes de cambio Moneycorps y Taveras presentan condiciones idénticas, con tasas de compra de 58.50 y venta de 59.00 pesos, manteniendo un diferencial de solo 0.50 pesos.
 
-### Agentes de Cambio
-
-* Los agentes de cambio ofrecen diferenciales significativamente menores que las entidades bancarias, destacando Moneycorps y Taveras con el margen más reducido (RD$0.50), mostrando mayor competitividad para operaciones de menor volumen.
-
-* Cambio Extranjero presenta la tasa de compra más atractiva entre los agentes de cambio (RD$58.60), ofreciendo mejores condiciones para quienes desean vender dólares.
-
-* Girosol es la única entidad que registró un cambio en sus tasas, incrementando su tasa de compra en RD$0.20 respecto al día anterior, pasando de RD$57.90 a RD$58.10.
-
-El mercado cambiario dominicano muestra una remarcable estabilidad en esta fecha, con mínimas variaciones respecto al día anterior. La competencia entre diferentes tipos de entidades financieras beneficia a los usuarios, quienes pueden encontrar condiciones favorables tanto en agentes de cambio (con diferenciales más estrechos) como en entidades bancarias (con mayor seguridad y servicios adicionales). Esta estabilidad sugiere un mercado cambiario equilibrado y sin presiones significativas en el corto plazo.
+En conclusión, el mercado cambiario dominicano se mantiene estable, con mínimas variaciones entre ambas fechas. Se observa que los agentes de cambio ofrecen diferenciales significativamente menores que las entidades de intermediación financiera, con un promedio aproximado de 0.75 pesos frente a los 2.25 pesos de los bancos, lo que representa una opción más económica para los usuarios que necesitan realizar operaciones de cambio de divisas.
