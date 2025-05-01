@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en las Tasas de Cambio de la República Dominicana
+
+El mercado cambiario dominicano se mantiene estable según los datos del 1 de mayo de 2025. La tasa de compra promedio se situó en RD$58.25 por dólar, experimentando un leve incremento de RD$0.01 respecto al día anterior. La tasa de venta promedio se mantuvo sin cambios en RD$60.14 por dólar. Como resultado, el diferencial (gap) entre compra y venta disminuyó ligeramente a RD$1.83, reflejando una estabilidad general en el mercado cambiario.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples mantienen tasas uniformes, destacando Banreservas y Banco Caribe con el margen más estrecho (RD$1.85) entre compra y venta, ofreciendo condiciones favorables para operaciones cambiarias.
+
+* Las asociaciones de ahorro y préstamos presentan una variabilidad significativa, con Asociación Peravia mostrando el diferencial más amplio (RD$2.60) y Asociación Cibao el más bajo (RD$1.85) dentro de su categoría.
+
+* Scotiabank en sus sucursales ofrece la tasa de venta más alta del mercado (RD$60.85) con un diferencial de RD$2.95, notablemente superior al promedio general del mercado.
+
+### Agentes de Cambio
+
+* Los agentes de cambio ofrecen diferenciales significativamente menores que las entidades bancarias, destacando Moneycorps y Taveras con el margen más reducido (RD$0.50), mostrando mayor competitividad para operaciones de menor volumen.
+
+* Cambio Extranjero presenta la tasa de compra más atractiva entre los agentes de cambio (RD$58.60), ofreciendo mejores condiciones para quienes desean vender dólares.
+
+* Girosol es la única entidad que registró un cambio en sus tasas, incrementando su tasa de compra en RD$0.20 respecto al día anterior, pasando de RD$57.90 a RD$58.10.
+
+El mercado cambiario dominicano muestra una remarcable estabilidad en esta fecha, con mínimas variaciones respecto al día anterior. La competencia entre diferentes tipos de entidades financieras beneficia a los usuarios, quienes pueden encontrar condiciones favorables tanto en agentes de cambio (con diferenciales más estrechos) como en entidades bancarias (con mayor seguridad y servicios adicionales). Esta estabilidad sugiere un mercado cambiario equilibrado y sin presiones significativas en el corto plazo.
