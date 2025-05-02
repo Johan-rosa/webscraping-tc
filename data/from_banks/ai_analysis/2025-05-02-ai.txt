@@ -1,21 +1,21 @@
-## Análisis: Resumen de Cambios en Tasas de Cambio
+## Análisis: Estabilidad en las Tasas de Cambio Dominicanas
 
-Las tasas de cambio en la República Dominicana al 2 de mayo de 2025 muestran una estabilidad general, con un ligero incremento en la tasa de compra promedio que subió de 58.25 a 58.25 pesos dominicanos por dólar (+0.01). La tasa de venta promedio experimentó una pequeña disminución de 60.09 a 60.09 (-0.00). Como resultado, el diferencial (gap) entre compra y venta se redujo marginalmente de 1.77 a 1.76, indicando condiciones levemente más favorables para los clientes.
+Los datos del 2 de mayo de 2025 muestran una estabilidad general en las tasas de cambio del dólar en la República Dominicana. El promedio de compra aumentó ligeramente en RD$0.01 (de RD$58.25 a RD$58.26), mientras que el promedio de venta disminuyó en RD$0.01 (de RD$60.14 a RD$60.13). Como resultado, el margen (gap) entre compra y venta se redujo levemente de RD$1.82 a RD$1.80.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Caribe** mantiene una posición competitiva con una tasa de compra de 58.40 y venta de 60.25, manteniendo un diferencial moderado de 1.85, sin cambios respecto al día anterior.
+* **Banco de Desarrollo Industrial (BDI)** mostró un incremento en su tasa de compra de RD$0.10, pasando de RD$58.20 a RD$58.30, mientras mantuvo su tasa de venta en RD$60.20.
 
-* **Banreservas**, como banco estatal principal, presenta estabilidad con tasas idénticas a las del día anterior (compra: 58.40, venta: 60.25), manteniendo su diferencial en 1.85.
+* **Banco Vimenca** registró una reducción tanto en su tasa de compra (-RD$0.10) como en su tasa de venta (-RD$0.20), ajustando sus tasas a RD$58.30 para compra y RD$60.30 para venta.
 
-* **Banco Popular y Scotiabank** ofrecen las tasas de venta más altas entre los bancos múltiples (60.60), sin cambios respecto al día anterior, mientras que sus tasas de compra se mantienen en 58.10.
+* **Una Asociación de Ahorros y Préstamos** (sin nombre específico) aumentó sus tasas de compra y venta en RD$0.25, estableciéndolas en RD$58.25 y RD$60.25 respectivamente, siendo uno de los cambios más significativos entre las EIF.
 
 ### Agentes de Cambio
 
-* **Capla** es el único agente que mostró un cambio positivo en su tasa de compra, incrementándola en 0.10, pasando de 58.40 a 58.50, mientras mantiene su tasa de venta en 59.30.
+* **Cambio Extranjero** incrementó su tasa de compra en RD$0.05, pasando de RD$58.60 a RD$58.65, manteniendo su tasa de venta en RD$59.14.
 
-* **Quezada** redujo su tasa de venta en 0.10, pasando de 59.30 a 59.20, siendo el único agente que presentó una reducción en los precios, manteniendo su tasa de compra en 58.40.
+* **Girosol** mostró uno de los cambios más notables entre los agentes de cambio, con un aumento de RD$0.20 en su tasa de compra (de RD$58.10 a RD$58.30), manteniendo su tasa de venta en RD$59.20.
 
-* **Taveras** continúa ofreciendo el diferencial más bajo entre todos los agentes de cambio (0.40), con una tasa de compra de 58.60 y venta de 59.00, sin variaciones respecto al día anterior.
+* **SCT** redujo su tasa de compra en RD$0.10, pasando de RD$58.60 a RD$58.50, mientras mantuvo su tasa de venta en RD$59.30.
 
-El mercado cambiario dominicano muestra una notable estabilidad en este periodo, con mínimas fluctuaciones que sugieren condiciones equilibradas. Los agentes de cambio continúan ofreciendo diferenciales significativamente más bajos que las entidades bancarias, representando una opción más favorable para transacciones inmediatas, mientras que los bancos mantienen una estructura de precios más conservadora con diferenciales promedio cercanos a los 2.00 pesos.
+El mercado cambiario dominicano sigue mostrando estabilidad, con variaciones mínimas tanto entre entidades como en comparación con el día anterior. Los bancos múltiples continúan ofreciendo márgenes más amplios que los agentes de cambio, siendo estos últimos una opción potencialmente más favorable para quienes buscan vender dólares, mientras que las entidades de intermediación financiera suelen ser más competitivas para quienes necesitan comprarlos.
