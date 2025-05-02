@@ -1,21 +1,21 @@
-## Análisis: Estabilidad en las Tasas de Cambio en República Dominicana
+## Análisis: Tasas de Cambio del Peso Dominicano
 
-El mercado cambiario dominicano mostró una notable estabilidad entre el 1 y 2 de mayo de 2025. El promedio de compra aumentó ligeramente en 0.01 pesos, pasando de 58.25 a 58.26 DOP/USD, mientras que el promedio de venta disminuyó en 0.01 pesos, de 60.14 a 60.13 DOP/USD. Como resultado, la brecha (gap) promedio se redujo de 1.82 a 1.80 pesos, indicando un mercado estable con tendencia a una ligera compresión en los márgenes de intermediación.
+El análisis de las tasas de cambio en la República Dominicana para el 2 de mayo de 2025 muestra una ligera estabilidad en el mercado cambiario. El promedio de compra aumentó en RD$0.01, pasando de RD$58.25 a RD$58.26, mientras que el promedio de venta disminuyó en RD$0.01, de RD$60.14 a RD$60.13. Como resultado, el diferencial (gap) entre compra y venta se redujo levemente de RD$1.82 a RD$1.80, lo que indica un mercado con pocas fluctuaciones.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco BDI** mostró un incremento de 0.10 pesos en su tasa de compra (de 58.20 a 58.30 DOP/USD), mientras mantuvo estable su tasa de venta en 60.20 DOP/USD, reduciendo su margen de intermediación.
+* **Banco Vimenca** mostró una de las variaciones más notables entre las EIF, con una disminución tanto en su tasa de compra (-RD$0.10) como en su tasa de venta (-RD$0.20), reduciendo su diferencial de RD$2.10 a RD$2.00.
 
-* **Banco Vimenca** redujo tanto su tasa de compra como de venta, disminuyendo la compra en 0.10 pesos (de 58.40 a 58.30 DOP/USD) y la venta en 0.20 pesos (de 60.50 a 60.30 DOP/USD), lo que resultó en una reducción de su brecha de intermediación.
+* **BDI** incrementó su tasa de compra en RD$0.10 (de RD$58.20 a RD$58.30), mientras mantuvo su tasa de venta en RD$60.20, lo que resultó en una reducción de su diferencial de RD$2.00 a RD$1.90.
 
-* Las asociaciones de ahorro y préstamos mantuvieron mayoritariamente sus tasas sin cambios, excepto una entidad no identificada que aumentó tanto su tasa de compra como de venta en 0.25 pesos (compra: de 58.00 a 58.25; venta: de 60.00 a 60.25 DOP/USD).
+* **Banreservas y Banco Caribe** mantienen el diferencial más bajo entre los bancos múltiples (RD$1.85), ofreciendo una tasa de compra de RD$58.40 y una de venta de RD$60.25, sin cambios respecto al día anterior.
 
 ### Agentes de Cambio
 
-* **Cambio Extranjero** incrementó su tasa de compra en 0.05 pesos (de 58.60 a 58.65 DOP/USD) mientras mantuvo su tasa de venta en 59.14 DOP/USD, reduciendo su margen de intermediación.
+* **Cambio Extranjero** aumentó su tasa de compra en RD$0.05 (de RD$58.60 a RD$58.65), manteniendo su tasa de venta en RD$59.14, lo que redujo su diferencial de RD$0.54 a RD$0.49.
 
-* **Girosol** mostró el mayor incremento entre los agentes de cambio, aumentando su tasa de compra en 0.20 pesos (de 58.10 a 58.30 DOP/USD), mientras mantuvo su tasa de venta en 59.20 DOP/USD.
+* **Girosol** presentó un incremento significativo en su tasa de compra de RD$0.20 (de RD$58.10 a RD$58.30), manteniendo su tasa de venta en RD$59.20, lo que disminuyó su diferencial de RD$1.10 a RD$0.90.
 
-* **SCT** redujo su tasa de compra en 0.10 pesos (de 58.60 a 58.50 DOP/USD) manteniendo su tasa de venta en 59.30 DOP/USD, lo que aumentó su brecha de intermediación de 0.70 a 0.80 pesos.
+* **SCT** redujo su tasa de compra en RD$0.10 (de RD$58.60 a RD$58.50), mientras mantuvo su tasa de venta en RD$59.30, aumentando así su diferencial de RD$0.70 a RD$0.80.
 
-En conclusión, el mercado cambiario dominicano mostró una notable estabilidad durante este período, con ajustes mínimos en las tasas. Los agentes de cambio continúan operando con márgenes significativamente más estrechos (promedio aproximado de 0.80 pesos) en comparación con las entidades de intermediación financiera, cuyas brechas oscilan entre 1.85 y 2.60 pesos. Esta estabilidad sugiere un mercado cambiario equilibrado sin presiones significativas sobre el peso dominicano a principios de mayo de 2025.
+El mercado cambiario dominicano se mantiene relativamente estable, con variaciones mínimas en las tasas promedio. Es notable que los agentes de cambio (AC) continúan ofreciendo diferenciales significativamente más bajos (promedio de alrededor de RD$0.80) en comparación con las entidades de intermediación financiera (promedio superior a RD$2.00), lo que puede representar una ventaja para quienes buscan cambiar divisas con menores costos de transacción.
