@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en las Tasas de Cambio Dominicanas
+
+El mercado cambiario en la República Dominicana muestra una notable estabilidad entre el 1 y 2 de mayo de 2025. La tasa promedio de compra se mantiene en 58.25 pesos dominicanos por dólar americano, con un ligero aumento de 0.00 pesos. La tasa promedio de venta disminuyó ligeramente en 0.01 pesos, situándose en 60.13 pesos por dólar. El diferencial (gap) entre compra y venta se mantiene en aproximadamente 1.81 pesos.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Vimenca** presenta la mayor variación del período, con una disminución de 0.10 pesos en su tasa de compra (de 58.40 a 58.30) y una reducción de 0.20 pesos en su tasa de venta (de 60.50 a 60.30).
+
+* **Las Asociaciones de Ahorros y Préstamos** mantienen tasas de compra competitivas entre 58.10 y 58.40 pesos por dólar, y tasas de venta que oscilan entre 60.25 y 60.75 pesos.
+
+* **Scotiabank** mantiene la tasa de venta más alta entre las EIF en sus sucursales (60.85), con un diferencial significativo de 2.95 pesos, mientras que su tasa corporativa se mantiene en 60.60.
+
+### Agentes de Cambio
+
+* **Quezada** fue el único agente de cambio que modificó su tasa durante el período, reduciendo su tasa de venta en 0.10 pesos (de 59.30 a 59.20), manteniendo una de las ofertas más competitivas del mercado.
+
+* **Los Agentes de Cambio** continúan ofreciendo los diferenciales más bajos del mercado, con brechas entre 0.40 (Taveras) y 1.10 pesos (Girosol), significativamente menores que los observados en bancos múltiples y asociaciones.
+
+* **La tasa de venta promedio** entre los agentes de cambio se mantiene aproximadamente 1.00 peso más baja que la ofrecida por las entidades de intermediación financiera, oscilando alrededor de los 59.20 pesos por dólar.
+
+El mercado cambiario dominicano demuestra una notable estabilidad, con variaciones mínimas en las tasas de compra y venta. Esta consistencia refleja condiciones económicas equilibradas en el país. Los agentes de cambio continúan ofreciendo los diferenciales más competitivos para operaciones cambiarias, mientras que las entidades bancarias mantienen tasas más conservadoras con mayores márgenes.
