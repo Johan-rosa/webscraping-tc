@@ -1,21 +1,21 @@
 ## Análisis: Tasas de Cambio en la República Dominicana
 
-Las tasas de cambio en la República Dominicana se han mantenido relativamente estables entre el 1 y 4 de mayo de 2025. El promedio de compra experimentó un ligero aumento de 0.01 pesos (de 58.25 a 58.26), mientras que el promedio de venta disminuyó marginalmente en 0.00 pesos (de 60.13 a 60.12). Como resultado, la brecha promedio entre compra y venta se redujo ligeramente de 1.81 a 1.80 pesos.
+El tipo de cambio promedio entre el 1 y 4 de mayo de 2025 muestra mínimas variaciones. La tasa de compra aumentó ligeramente en 0.01 pesos, pasando de 58.25 a 58.26 pesos por dólar. La tasa de venta presentó una pequeña disminución de 0.01 pesos, bajando de 60.14 a 60.13 pesos por dólar. Como resultado, el margen (gap) entre compra y venta se redujo de 1.82 a 1.80 pesos, indicando una ligera estabilización en el mercado cambiario.
 
 ### Entidades de Intermediación Financiera
 
-* El Banco de Desarrollo e Inversiones (BDI) mostró un incremento en su tasa de compra de 0.10 pesos, pasando de 58.20 a 58.30, mientras mantuvo su tasa de venta en 60.20 pesos.
-
-* Los bancos múltiples como Scotiabank, Banco Popular y Banreservas mantuvieron sus tasas sin cambios durante este período, con tasas de compra que oscilan entre 58.10 y 58.40 pesos.
-
-* Una entidad no identificada que opera como Asociación de Ahorro y Préstamo aumentó tanto su tasa de compra como de venta en 0.25 pesos, llevando sus valores a 58.25 y 60.25 respectivamente.
+* **Banco Vimenca** mostró la reducción más significativa tanto en su tasa de compra (-0.10 pesos) como en su tasa de venta (-0.20 pesos), siendo la entidad bancaria con mayor variación negativa.
+  
+* **BDI** presentó un incremento de 0.10 pesos en su tasa de compra, mientras mantuvo estable su tasa de venta, reduciendo así su margen de 2.00 a 1.90 pesos.
+  
+* La mayoría de los bancos múltiples, incluyendo Banreservas, Banco Popular, BHD y Scotiabank, mantuvieron sus tasas sin cambios durante este período, reflejando estabilidad en el sector bancario.
 
 ### Agentes de Cambio
 
-* Cambio Extranjero aumentó su tasa de compra en 0.05 pesos (de 58.60 a 58.65), manteniendo su tasa de venta estable en 59.14 pesos, lo que redujo su brecha de ganancia.
+* **Cambio Extranjero** incrementó su tasa de compra en 0.05 pesos (de 58.60 a 58.65), siendo uno de los pocos agentes de cambio con variación positiva.
+  
+* **Girosol** registró el mayor aumento en su tasa de compra entre los agentes de cambio, con un incremento de 0.20 pesos, pasando de 58.10 a 58.30 pesos por dólar.
+  
+* **SCT** fue el único agente de cambio que redujo su tasa de compra (-0.10 pesos), contrario a la tendencia general de estabilidad o ligeros incrementos en este segmento.
 
-* Girosol incrementó su tasa de compra en 0.20 pesos, pasando de 58.10 a 58.30, mientras mantuvo su tasa de venta en 59.20 pesos, reduciendo su margen de ganancia de 1.10 a 0.90 pesos.
-
-* SCT disminuyó su tasa de compra en 0.10 pesos (de 58.60 a 58.50), manteniendo su tasa de venta en 59.30 pesos, lo que aumentó su margen de ganancia de 0.70 a 0.80 pesos.
-
-En conclusión, el mercado cambiario dominicano muestra una estabilidad notable, con variaciones mínimas en las tasas durante este período. Los agentes de cambio continúan ofreciendo tasas de venta más competitivas con márgenes de ganancia considerablemente menores (promedio de 0.80 pesos) en comparación con las entidades bancarias y asociaciones que mantienen márgenes más amplios (promedio de 2.20 pesos), reflejando diferentes estrategias comerciales en el sector financiero.
+El mercado cambiario dominicano muestra una notable estabilidad en este periodo, con variaciones mínimas que sugieren un equilibrio en la oferta y demanda de divisas. Los agentes de cambio continúan ofreciendo márgenes significativamente menores (promedio de 0.80 pesos) en comparación con las entidades bancarias (promedio de 2.23 pesos), manteniendo su atractivo para operaciones de cambio de menor volumen. Esta estabilidad cambiaria favorece la previsibilidad en las transacciones comerciales internacionales y la planificación financiera tanto para empresas como para particulares.
