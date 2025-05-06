@@ -1,17 +1,21 @@
-## Análisis
+## Análisis: Estabilidad en las Tasas de Cambio Dominicanas
 
-Los tipos de cambio en la República Dominicana se mantuvieron relativamente estables entre el 5 y 6 de mayo de 2025. El promedio de compra disminuyó ligeramente de 58.26 a 58.26 pesos (-0.00 pesos), mientras que el promedio de venta bajó de 60.13 a 60.12 pesos (-0.01 pesos). La brecha promedio entre compra y venta se redujo levemente de 1.80 a 1.80 pesos.
+El mercado cambiario de la República Dominicana se mantiene relativamente estable entre el 5 y 6 de mayo de 2025. El promedio de compra se situó en RD$58.26 por dólar, con una ligera disminución de RD$0.00 respecto al día anterior. La tasa de venta promedio fue de RD$60.11, mostrando una reducción marginal de RD$0.01. El diferencial (gap) entre compra y venta se situó en RD$1.79, disminuyendo RD$0.01 en comparación con el día anterior. Esta estabilidad sugiere un mercado cambiario sin presiones significativas.
 
-### Entidades de intermediación financiera
+### Entidades de Intermediación Financiera
 
-* **Asociación la Nacional** mostró la reducción más significativa entre las EIF, disminuyendo su tasa de compra en 0.10 pesos (de 58.40 a 58.30) y su tasa de venta en 0.15 pesos (de 60.75 a 60.60).
-* **Banreservas** y **Banco BHD**, dos de los bancos múltiples más importantes, mantuvieron sus tasas sin cambios con valores de compra de 58.40 y 58.10 respectivamente, y valores de venta idénticos de 60.25.
-* **Promerica** ofrece la tasa de venta más alta entre los bancos múltiples (60.75), mientras que **Scotiabank - sucursales** presenta la mayor brecha entre compra y venta (2.95 pesos).
+* **Asociación la Nacional** mostró el cambio más notable entre las EIFs, reduciendo su tasa de compra en RD$0.10 y su tasa de venta en RD$0.15, ajustando así su margen operativo a RD$2.30.
 
-### Agentes de cambio
+* **Banco Santa Cruz** redujo su tasa de venta en RD$0.25, manteniendo sin cambios su tasa de compra de RD$58.25, lo que resultó en una disminución de su margen operativo de RD$2.25 a RD$2.00.
 
-* **Capla** fue el único agente de cambio que mostró variación, reduciendo su tasa de venta en 0.10 pesos (de 59.30 a 59.20), mientras mantuvo su tasa de compra en 58.50.
-* Los agentes de cambio **Taveras** y **Moneycorps** ofrecen las tasas de compra más competitivas (58.60), significativamente superiores al promedio del mercado.
-* La brecha entre compra y venta es notablemente menor en los agentes de cambio (promedio aproximado de 0.70 pesos) en comparación con las entidades bancarias (promedio aproximado de 2.20 pesos).
+* **Scotiabank - sucursales** mantiene el diferencial más amplio entre las EIFs con RD$2.95, ofreciendo la tasa de compra más baja (RD$57.90) y una de las tasas de venta más altas (RD$60.85).
 
-El mercado cambiario dominicano muestra estabilidad en este período, con mínimas fluctuaciones en las tasas oficiales. Las entidades financieras mantienen brechas considerablemente mayores entre compra y venta que los agentes de cambio, lo que sugiere que estos últimos podrían ofrecer mejores condiciones para transacciones pequeñas o medianas, aunque con volúmenes limitados en comparación con los bancos múltiples.
+### Agentes de Cambio
+
+* **Capla** fue el único agente de cambio que modificó sus tasas, reduciendo su precio de venta en RD$0.10 a RD$59.20, mientras mantuvo su tasa de compra en RD$58.50, estrechando su margen a RD$0.70.
+
+* **Cambio Extranjero** ofrece la tasa de compra más competitiva entre los agentes de cambio (RD$58.65), mientras mantiene un diferencial estrecho de apenas RD$0.49.
+
+* **Los agentes de cambio** en general operan con márgenes significativamente más estrechos (promedio aproximado de RD$0.70) en comparación con las entidades bancarias, siendo **Taveras** quien presenta el diferencial más bajo con apenas RD$0.40.
+
+El mercado cambiario dominicano demuestra estabilidad en este período, con cambios mínimos en las tasas ofrecidas por las principales entidades financieras. Las diferencias más notables se observan entre los márgenes operativos de bancos y agentes de cambio, siendo estos últimos quienes ofrecen spreads considerablemente más estrechos, lo que podría resultar más atractivo para ciertos segmentos de clientes que priorizan costos transaccionales más bajos.
