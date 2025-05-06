@@ -1,0 +1,17 @@
+## Análisis: Estabilidad en las Tasas de Cambio
+
+La tasa de cambio en la República Dominicana se ha mantenido prácticamente estable entre el 5 y 6 de mayo de 2025. El promedio de compra se situó en RD$58.26 por dólar, con una mínima disminución de 0.0005 respecto al día anterior. La tasa de venta promedio fue de RD$60.13, también con una ligera reducción de 0.0008. El margen (gap) entre compra y venta se mantuvo en aproximadamente RD$1.80.
+
+### Entidades de Intermediación Financiera
+
+* Los **bancos múltiples** como Scotiabank, Banco Popular y Promerica mantienen las tasas de venta más altas del mercado (RD$60.60 - RD$60.75), sin cambios respecto al día anterior.
+* Las **asociaciones de ahorros y préstamos** muestran una tasa promedio de venta de RD$60.25 a RD$60.75, destacándose Asociación Peravia con la tasa más alta de venta (RD$60.70).
+* **Scotiabank en sus sucursales** ofrece la tasa de venta más elevada de todas las entidades financieras (RD$60.85), manteniendo también el margen más amplio entre compra y venta (RD$2.95).
+
+### Agentes de Cambio
+
+* Los agentes de cambio ofrecen tasas de venta significativamente más bajas que las entidades financieras, con un promedio cercano a RD$59.20, creando una diferencia de aproximadamente RD$1 comparado con los bancos.
+* **Cambio Extranjero** presenta el margen más estrecho entre compra y venta (RD$0.49), ofreciendo mayor competitividad para los clientes.
+* **Taveras** mantiene la segunda brecha más pequeña del mercado (RD$0.40), mientras que **Moneycorps** ofrece una de las tasas de compra más favorables (RD$58.60) entre los agentes de cambio.
+
+Las tasas de cambio en la República Dominicana muestran una notable estabilidad en este período, con diferencias mínimas entre el 5 y 6 de mayo de 2025. Se observa una clara segmentación del mercado donde los agentes de cambio ofrecen condiciones más competitivas para la venta de dólares, mientras que las entidades financieras tradicionales mantienen márgenes más amplios. Esta estabilidad sugiere un mercado cambiario sin presiones significativas en el corto plazo.
