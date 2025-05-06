@@ -1,21 +1,17 @@
-## Análisis: Estabilidad en las Tasas de Cambio
+## Análisis
 
-El mercado cambiario dominicano muestra una notable estabilidad entre el 5 y 6 de mayo de 2025. La tasa promedio de compra se mantuvo prácticamente igual en RD$58.26, con una ligera disminución de 0.0005, mientras que la tasa de venta promedio registró una pequeña reducción de 0.0035, situándose en RD$60.13. El diferencial (gap) entre compra y venta también se redujo ligeramente a RD$1.80, lo que indica una leve mejora en las condiciones del mercado para los usuarios.
+Los tipos de cambio en la República Dominicana se mantuvieron relativamente estables entre el 5 y 6 de mayo de 2025. El promedio de compra disminuyó ligeramente de 58.26 a 58.26 pesos (-0.00 pesos), mientras que el promedio de venta bajó de 60.13 a 60.12 pesos (-0.01 pesos). La brecha promedio entre compra y venta se redujo levemente de 1.80 a 1.80 pesos.
 
-### Entidades de Intermediación Financiera
+### Entidades de intermediación financiera
 
-* **Bancos Múltiples**: Los principales bancos del sistema como Banreservas (RD$58.40/RD$60.25), Banco Popular (RD$58.10/RD$60.60) y Scotiabank (RD$58.10/RD$60.60) mantuvieron sus tasas sin cambios, reflejando estabilidad en el sector financiero formal.
+* **Asociación la Nacional** mostró la reducción más significativa entre las EIF, disminuyendo su tasa de compra en 0.10 pesos (de 58.40 a 58.30) y su tasa de venta en 0.15 pesos (de 60.75 a 60.60).
+* **Banreservas** y **Banco BHD**, dos de los bancos múltiples más importantes, mantuvieron sus tasas sin cambios con valores de compra de 58.40 y 58.10 respectivamente, y valores de venta idénticos de 60.25.
+* **Promerica** ofrece la tasa de venta más alta entre los bancos múltiples (60.75), mientras que **Scotiabank - sucursales** presenta la mayor brecha entre compra y venta (2.95 pesos).
 
-* **Asociaciones de Ahorros y Préstamos**: Entidades como Asociación Popular (RD$58.10/RD$60.60) y Asociación la Nacional (RD$58.40/RD$60.75) no presentaron variaciones en sus cotizaciones, manteniendo diferenciales entre 2.35 y 2.50 pesos.
+### Agentes de cambio
 
-* **Bancos de Ahorro y Crédito**: Motor Crédito (RD$58.55/RD$60.50) y Bonanza Banco (RD$58.30/RD$60.75) se mantuvieron estables, con diferenciales de 1.95 y 2.45 respectivamente, siendo Motor Crédito una de las EIF con menor brecha entre compra y venta.
+* **Capla** fue el único agente de cambio que mostró variación, reduciendo su tasa de venta en 0.10 pesos (de 59.30 a 59.20), mientras mantuvo su tasa de compra en 58.50.
+* Los agentes de cambio **Taveras** y **Moneycorps** ofrecen las tasas de compra más competitivas (58.60), significativamente superiores al promedio del mercado.
+* La brecha entre compra y venta es notablemente menor en los agentes de cambio (promedio aproximado de 0.70 pesos) en comparación con las entidades bancarias (promedio aproximado de 2.20 pesos).
 
-### Agentes de Cambio
-
-* **Diferencial competitivo**: Los agentes de cambio continúan ofreciendo diferenciales significativamente menores que las entidades bancarias, con brechas promedio por debajo de 1 peso, destacando Taveras con apenas RD$0.40 de diferencia entre compra y venta.
-
-* **Cambio notable**: Capla fue el único agente que mostró variación, reduciendo su tasa de venta en 0.10 pesos, pasando de RD$59.30 a RD$59.20, mejorando así su diferencial de 0.80 a 0.70.
-
-* **Mayor competitividad**: Los agentes de cambio como Moneycorps (RD$58.60/RD$59.10) y Cambio Extranjero (RD$58.65/RD$59.14) ofrecen las tasas de compra más altas del mercado, superando incluso a las instituciones financieras formales.
-
-El mercado cambiario dominicano demuestra una remarcable estabilidad en este periodo, con mínimas variaciones que reflejan un entorno económico controlado. La diferencia persistente entre las tasas ofrecidas por los agentes de cambio y las entidades bancarias sigue siendo significativa, ofreciendo a los consumidores alternativas más ventajosas para operaciones de menor volumen, mientras que las instituciones financieras formales mantienen su posición dominante para transacciones corporativas y de mayor envergadura.
+El mercado cambiario dominicano muestra estabilidad en este período, con mínimas fluctuaciones en las tasas oficiales. Las entidades financieras mantienen brechas considerablemente mayores entre compra y venta que los agentes de cambio, lo que sugiere que estos últimos podrían ofrecer mejores condiciones para transacciones pequeñas o medianas, aunque con volúmenes limitados en comparación con los bancos múltiples.
