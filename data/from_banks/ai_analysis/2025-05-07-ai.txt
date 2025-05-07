@@ -1,17 +1,17 @@
-## Análisis del Tipo de Cambio en la República Dominicana
+## Análisis de Tasas de Cambio en República Dominicana
 
-El tipo de cambio en la República Dominicana se mantuvo prácticamente estable entre el 6 y 7 de mayo de 2025. El promedio de compra se mantuvo en 58.26 pesos por dólar, mientras que el de venta disminuyó ligeramente en 0.004 pesos, pasando de 60.11 a 60.11 pesos por dólar. La brecha promedio entre compra y venta se sitúa en 1.78 pesos.
+Las tasas de cambio en la República Dominicana permanecieron relativamente estables entre el 6 y 7 de mayo de 2025. La tasa promedio de compra tuvo una ligera disminución de 0.01 pesos, pasando de 58.26 a 58.25 pesos por dólar. Por su parte, la tasa de venta también experimentó un pequeño descenso de 0.02 pesos, bajando de 60.11 a 60.09 pesos por dólar. El margen (gap) entre compra y venta se redujo muy ligeramente de 1.78 a 1.78 pesos.
 
-### Entidades de Intermediación Financiera
+### Entidades de Intermediación Financiera (EIF)
 
-* Los bancos múltiples mantienen las tasas más competitivas, destacando Banreservas y Banco Caribe con una brecha de solo 1.85 pesos entre compra y venta.
-* Scotiabank en sus sucursales presenta la mayor brecha del mercado con 2.95 pesos de diferencia, significativamente superior al promedio del sector.
-* Las asociaciones de ahorro y préstamos muestran estabilidad, con tasas de compra entre 58.10 y 58.40 pesos por dólar, sin variaciones respecto al día anterior.
+* **Promerica** mostró la variación más significativa entre las entidades bancarias, con una reducción de 0.25 pesos tanto en su tasa de compra (de 58.50 a 58.25) como en su tasa de venta (de 60.75 a 60.50).
+* **Banreservas**, uno de los bancos más importantes del país, mantuvo sus tasas sin cambios, con una compra de 58.40 y venta de 60.25 pesos por dólar.
+* **Scotiabank - sucursales** continúa ofreciendo el diferencial más amplio del mercado, con un gap de 2.95 pesos entre su tasa de compra (57.90) y venta (60.85).
 
-### Agentes de Cambio
+### Agentes de Cambio (AC)
 
-* El agente Capla fue el único que registró variaciones, reduciendo tanto su tasa de compra como de venta en 0.10 pesos.
-* Girosol incrementó ligeramente su tasa de compra en 0.10 pesos, manteniéndose la venta sin cambios.
-* Los agentes de cambio en general ofrecen brechas significativamente menores que las entidades bancarias, destacando Taveras con solo 0.40 pesos de diferencia entre compra y venta.
+* **Capla** redujo sus tasas en 0.10 pesos, ajustando su tasa de compra de 58.50 a 58.40 pesos por dólar y su tasa de venta de 59.20 a 59.10 pesos.
+* **Cambio Extranjero** disminuyó su tasa de compra en 0.03 pesos (de 58.65 a 58.62) y su tasa de venta en 0.06 pesos (de 59.14 a 59.08).
+* **Girosol** fue uno de los pocos agentes que aumentó su tasa de compra, con un incremento de 0.10 pesos, pasando de 58.30 a 58.40 pesos por dólar, mientras mantuvo su tasa de venta en 59.20.
 
-El mercado cambiario dominicano muestra una notable estabilidad en este periodo, con mínimas variaciones que reflejan condiciones económicas estables. La diferencia en las brechas entre agentes de cambio y entidades bancarias tradicionales sigue siendo significativa, ofreciendo a los consumidores diferentes opciones según sus necesidades de volumen y seguridad en las transacciones de divisas.
+El mercado cambiario dominicano refleja estabilidad en este período, con variaciones mínimas en las tasas. Los agentes de cambio siguen ofreciendo márgenes significativamente menores (promedio de 0.70 pesos) en comparación con las entidades bancarias (promedio de 2.20 pesos), lo que los posiciona como una alternativa más económica para operaciones de cambio de divisas. Esta estabilidad sugiere que las condiciones macroeconómicas del país se mantienen sin presiones cambiarias significativas en el corto plazo.
