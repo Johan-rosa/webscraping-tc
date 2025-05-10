@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en las Tasas de Cambio del Peso Dominicano
+
+Los datos del 10 de mayo de 2025 muestran una gran estabilidad en el mercado cambiario de la República Dominicana. La tasa promedio de compra aumentó ligeramente en 0.0037 puntos hasta alcanzar los 58.24 pesos por dólar, mientras que la tasa de venta disminuyó en 0.0135 puntos, situándose en 60.03 pesos. Como resultado, la brecha (gap) entre compra y venta se redujo marginalmente de 1.74 a 1.73 pesos, indicando un mercado con poca volatilidad.
+
+### Entidades de Intermediación Financiera
+
+* **BDI** mostró el cambio más significativo entre las EIFs, reduciendo su tasa de venta en 0.20 pesos (de 60.20 a 60.00), lo que estrecha su brecha de 1.90 a 1.70 pesos, mejorando las condiciones para los clientes.
+
+* **Alaver** fue la única entidad financiera que incrementó su tasa de compra, con un aumento de 0.15 pesos (de 58.10 a 58.25), manteniendo sin cambios su tasa de venta.
+
+* **Banreservas**, el banco estatal, mantiene una posición competitiva con una tasa de compra de 58.40 y venta de 60.25, con una brecha de 1.85 pesos, por debajo del promedio del mercado.
+
+### Agentes de Cambio
+
+* **Capla** redujo su tasa de venta en 0.10 pesos (de 59.10 a 59.00), disminuyendo su brecha a 0.60 pesos, siendo uno de los cambios más notables entre los agentes de cambio.
+
+* **Gamelin** también redujo su tasa de venta en 0.20 pesos (de 59.30 a 59.10), reduciendo significativamente su brecha de 0.80 a 0.60 pesos.
+
+* Los agentes de cambio mantienen en general brechas significativamente menores que las entidades bancarias, con un promedio aproximado de 0.60 pesos, frente a los 2.00-2.50 pesos de los bancos múltiples y asociaciones.
+
+El mercado cambiario dominicano muestra una notable estabilidad, con mínimas fluctuaciones entre el 9 y 10 de mayo de 2025. La tendencia general refleja una ligera disminución en las tasas de venta, beneficiando a los compradores de dólares. Las entidades financieras y agentes de cambio mantienen sus políticas de precios consistentes, lo que sugiere un entorno económico estable para las transacciones en moneda extranjera en la República Dominicana.
