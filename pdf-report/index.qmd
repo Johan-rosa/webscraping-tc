@@ -50,10 +50,10 @@ day_of_week <- weekdays(current_date)
 benchmark_lag <- ifelse(
   day_of_week == "Monday" || day_of_week == "Sunday",
   yes = 3,
-  no = 1
+  no = 2
 )
 
-benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
+benchmark_label <- ifelse(benchmark_lag == 2, "ayer", "el viernes")
 
 historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
   filter(
@@ -129,7 +129,7 @@ current_date <- tibble::lst(
 )
 
 previous_date <- tibble::lst(
-  date = max(historico_bank$lag_date, na.rm = TRUE),
+  date = current_date$date - ifelse(benchmark_lag == 2, 1, benchmark_lag),
   year = year(date),
   mes  = month(date),
   label_mes = crear_mes(mes, "number_to_text") |> tolower(),
