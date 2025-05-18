@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en Tasas de Cambio del Peso Dominicano
+
+El mercado cambiario de la República Dominicana ha presentado pocos cambios entre el 8 y 11 de mayo de 2025. La tasa promedio de compra se mantuvo en RD$58.24 por dólar, mientras que la de venta tuvo una ligera disminución de RD$60.09 a RD$60.03, reduciendo el diferencial (gap) promedio de 1.78 a 1.73 pesos.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Caribe** mostró la reducción más significativa en sus tasas, disminuyendo su precio de venta en RD$0.35 (de RD$60.25 a RD$59.90) y su precio de compra en RD$0.15 (de RD$58.40 a RD$58.25).
+
+* **Banco Vimenca** redujo su tasa de venta en RD$0.30 (de RD$60.30 a RD$60.00) y su tasa de compra en RD$0.05, mejorando así las condiciones para los clientes.
+
+* **Alaver** fue una de las pocas entidades que aumentó su tasa de compra, incrementándola en RD$0.15 (de RD$58.10 a RD$58.25), mientras mantuvo sin cambios su tasa de venta en RD$60.25.
+
+### Agentes de Cambio
+
+* **Panora Exchange** presentó un comportamiento contrario al mercado general, aumentando su tasa de compra en RD$0.20 (de RD$58.40 a RD$58.60) mientras reducía su tasa de venta en RD$0.20 (de RD$59.30 a RD$59.10).
+
+* **Gamelin** y **Capla** redujeron sus tasas de venta en RD$0.20 y RD$0.10 respectivamente, manteniendo sin cambios sus tasas de compra, lo que resultó en un menor diferencial para sus clientes.
+
+* **Moneycorps** disminuyó tanto su tasa de compra como de venta en RD$0.05, manteniendo un diferencial competitivo de apenas RD$0.40 entre ambas tasas.
+
+La estabilidad en las tasas de cambio durante este período refleja un mercado cambiario dominicano sin presiones significativas. Los agentes de cambio continúan ofreciendo diferenciales menores (promedio 0.60) en comparación con las entidades bancarias (promedio 2.10), brindando alternativas más económicas para operaciones de cambio de divisas en el país.

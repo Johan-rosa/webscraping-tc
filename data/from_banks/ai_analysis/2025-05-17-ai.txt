@@ -1,0 +1,17 @@
+## Análisis: Estabilidad en las Tasas de Cambio
+
+El mercado cambiario en la República Dominicana muestra una relativa estabilidad entre el 16 y 17 de mayo de 2025. El tipo de cambio promedio de compra experimentó un ligero aumento de 0.01 pesos, pasando de 58.24 a 58.25 pesos por dólar. La tasa de venta también registró un incremento mínimo de 0.01 pesos, subiendo de 59.98 a 59.99 pesos. El diferencial (gap) entre ambas tasas se redujo marginalmente de 1.68 a 1.67 pesos.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples mantuvieron sus tasas sin cambios significativos, destacando Banreservas con una tasa de compra de 58.40 y venta de 60.25, manteniendo un diferencial competitivo de 1.85 pesos.
+* Las asociaciones de ahorro y préstamos presentaron las mayores brechas entre compra y venta, con Asociación Popular mostrando un diferencial de 2.50 pesos (compra: 58.00, venta: 60.50).
+* Asociación La Nacional registró la tasa de venta más alta entre todas las entidades financieras con 60.60 pesos por dólar.
+
+### Agentes de Cambio
+
+* Moneycorps fue el agente de cambio con mayor variación, aumentando su tasa de compra en 0.05 pesos (de 58.70 a 58.75) y su tasa de venta en 0.15 pesos (de 59.15 a 59.30).
+* Gamelin incrementó su tasa de compra en 0.20 pesos, pasando de 58.50 a 58.70, mientras mantuvo su tasa de venta en 59.50.
+* Los agentes de cambio continúan ofreciendo diferenciales significativamente menores que las entidades bancarias, con brechas promedio inferiores a 1.00 peso.
+
+El panorama cambiario dominicano se mantiene estable, con variaciones mínimas que sugieren un mercado equilibrado. Los agentes de cambio siguen ofreciendo opciones más competitivas en términos de diferencial para operaciones de cambio de divisas, mientras que las entidades bancarias mantienen tasas más conservadoras con mayores márgenes entre compra y venta.

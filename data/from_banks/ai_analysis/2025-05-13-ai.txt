@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en el Mercado Cambiario Dominicano
+
+En la jornada del 13 de mayo de 2025, el tipo de cambio en la República Dominicana se ha mantenido relativamente estable. El promedio de compra se situó en RD$58.24 por dólar, mientras que la venta alcanzó los RD$59.97, generando un margen promedio de RD$1.66. En comparación con el día anterior, se observó una ligera disminución tanto en la tasa de compra (-RD$0.002) como en la de venta (-RD$0.02), reduciendo marginalmente el diferencial entre ambas tasas.
+
+### Entidades de Intermediación Financiera
+
+* **Banco BHD** mostró una reducción en su tasa de compra de RD$0.10, pasando de RD$58.10 a RD$58.00, manteniendo su tasa de venta en RD$60.25, lo que incrementó su margen operativo.
+
+* **Bonanza Banco** registró las variaciones más significativas entre las EIF, con una disminución de RD$0.10 en la tasa de compra y RD$0.25 en la tasa de venta, reduciendo su margen de RD$2.45 a RD$2.30.
+
+* **Banreservas**, el banco estatal, mantuvo sus tasas sin cambios con una compra de RD$58.40 y venta de RD$60.25, presentando uno de los márgenes más ajustados (RD$1.85) entre los bancos múltiples.
+
+### Agentes de Cambio
+
+* **Moneycorps** fue uno de los pocos agentes que incrementó su tasa de compra, con un aumento de RD$0.05, manteniendo su tasa de venta en RD$58.95, lo que redujo su margen a apenas RD$0.30.
+
+* **Girosol** mantuvo su tasa de compra en RD$58.40 pero redujo su tasa de venta en RD$0.25, pasando de RD$59.20 a RD$58.95, disminuyendo significativamente su margen operativo.
+
+* **RM** presentó un comportamiento mixto, aumentando su tasa de compra en RD$0.05 y reduciendo su tasa de venta en RD$0.10, estrechando así su margen de operación de RD$0.60 a RD$0.45.
+
+El mercado cambiario dominicano demuestra estabilidad en este período, con variaciones mínimas en las tasas generales. Los agentes de cambio continúan ofreciendo márgenes significativamente más estrechos que las entidades financieras, siendo los primeros más competitivos en términos de diferencial compra-venta para los usuarios finales. Esta estabilidad sugiere condiciones económicas equilibradas y una adecuada liquidez de divisas en el mercado dominicano.

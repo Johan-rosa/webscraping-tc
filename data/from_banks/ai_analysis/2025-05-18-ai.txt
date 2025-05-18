@@ -1,0 +1,21 @@
+## Análisis: Cambios Recientes en Tasas de Cambio Bancarias
+
+Las tasas de cambio en la República Dominicana muestran ligeras variaciones entre el 15 y 18 de mayo de 2025. El promedio de compra subió de 58.24 a 58.25 pesos por dólar (+0.02), mientras que la tasa de venta aumentó de 59.97 a 59.99 pesos (+0.02). La brecha (gap) promedio entre compra y venta se mantiene en 1.67 pesos, indicando estabilidad en los márgenes de las entidades financieras.
+
+### Entidades de Intermediación Financiera
+
+* **Scotiabank** presenta la mayor reducción en sus tasas, disminuyendo su tasa de venta en 0.25 pesos (de 60.60 a 60.35) y su tasa de compra en 0.05 pesos (de 58.10 a 58.05), reduciendo así su margen de 2.50 a 2.30 pesos.
+
+* **BDI** muestra un incremento en su tasa de compra de 0.10 pesos (de 58.30 a 58.40), manteniendo su tasa de venta estable en 59.90, lo que reduce su margen de 1.60 a 1.50 pesos.
+
+* La mayoría de los bancos múltiples, como **Banreservas**, **Banco Popular**, **BHD** y **Santa Cruz**, mantuvieron sus tasas sin cambios durante este período, reflejando estabilidad en el sector bancario.
+
+### Agentes de Cambio
+
+* **Gamelin** registra el mayor incremento entre los agentes de cambio, aumentando su tasa de venta en 0.40 pesos (de 59.10 a 59.50) y su tasa de compra en 0.20 pesos (de 58.50 a 58.70), ampliando su margen de 0.60 a 0.80 pesos.
+
+* **Moneycorps** incrementó su tasa de venta en 0.30 pesos (de 59.00 a 59.30) y su tasa de compra en 0.10 pesos (de 58.65 a 58.75), aumentando su margen de 0.35 a 0.55 pesos.
+
+* **RM** aumentó su tasa de venta en 0.10 pesos (de 59.10 a 59.20) y su tasa de compra en 0.20 pesos (de 58.65 a 58.85), reduciendo ligeramente su margen de 0.45 a 0.35 pesos.
+
+El mercado cambiario dominicano muestra estabilidad general, con movimientos mínimos en las tasas de cambio. Las entidades de intermediación financiera mantienen márgenes más amplios (promedio 2.00-2.50 pesos) en comparación con los agentes de cambio (promedio 0.40-0.80 pesos). Esta estabilidad sugiere condiciones favorables en el mercado de divisas, beneficiando tanto a usuarios como a las instituciones financieras en el corto plazo.

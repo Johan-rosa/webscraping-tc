@@ -1,0 +1,21 @@
+## Análisis: Cambios en Tasas de Cambio del Peso Dominicano
+
+Los datos del 16 de mayo de 2025 muestran que el tipo de cambio promedio de compra se sitúa en RD$58.24 por dólar, experimentando un ligero aumento de RD$0.01 respecto al día anterior. Por su parte, la tasa de venta promedio es de RD$59.98, también con un incremento marginal de RD$0.01. El diferencial (gap) entre compra y venta se mantiene estable en RD$1.68, mostrando condiciones de mercado relativamente estables en el sistema financiero dominicano.
+
+### Entidades de Intermediación Financiera
+
+* **Scotiabank** muestra el cambio más significativo entre las EIF, reduciendo su tasa de venta en RD$0.25 (de RD$60.60 a RD$60.35) y su tasa de compra en RD$0.05 (de RD$58.10 a RD$58.05), disminuyendo también su diferencial de RD$2.50 a RD$2.30.
+
+* **BDI** es el único banco múltiple que aumentó su tasa de compra, con un incremento de RD$0.10 (de RD$58.30 a RD$58.40), manteniendo su tasa de venta en RD$59.90, lo que reduce su diferencial de RD$1.60 a RD$1.50.
+
+* **Banreservas**, el banco estatal, mantiene sus tasas sin cambios en RD$58.40 para compra y RD$60.25 para venta, con un diferencial de RD$1.85, posicionándose cerca del promedio del mercado.
+
+### Agentes de Cambio
+
+* **Moneycorps** presenta los cambios más notables entre los agentes de cambio, aumentando su tasa de venta en RD$0.15 (de RD$59.00 a RD$59.15) y su tasa de compra en RD$0.05 (de RD$58.65 a RD$58.70), ampliando su diferencial de RD$0.35 a RD$0.45.
+
+* **Gamelin** incrementó significativamente su tasa de venta en RD$0.40 (de RD$59.10 a RD$59.50), sin alterar su tasa de compra (RD$58.50), ampliando así su diferencial de RD$0.60 a RD$1.00.
+
+* **Agente de Cambio La Nacional** aumentó su tasa de compra en RD$0.10 (de RD$58.40 a RD$58.50), siendo uno de los pocos agentes que modificó sus tasas en este período.
+
+En conclusión, el mercado cambiario dominicano muestra estabilidad con movimientos mínimos en las últimas 24 horas. Los agentes de cambio ofrecen diferenciales significativamente menores (promedio aproximado de RD$0.60) que las entidades bancarias (promedio aproximado de RD$2.10), lo que puede representar oportunidades más favorables para operaciones cambiarias para el público general, aunque con volúmenes potencialmente más limitados.

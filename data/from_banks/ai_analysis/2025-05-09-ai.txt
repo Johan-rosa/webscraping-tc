@@ -1,0 +1,21 @@
+## Análisis del Mercado Cambiario en República Dominicana
+
+En el mercado cambiario dominicano, las tasas de cambio del dólar americano se han mantenido relativamente estables entre el 8 y 9 de mayo de 2025. El promedio de compra disminuyó ligeramente de 58.24 a 58.24 pesos (-0.004 pesos), mientras que el promedio de venta bajó de 60.09 a 60.04 pesos (-0.04 pesos). Como resultado, el margen (gap) entre compra y venta se redujo de 1.78 a 1.74 pesos, lo que indica una leve mejora en las condiciones para los clientes.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Caribe** mostró la reducción más significativa en su tasa de venta (-0.35 pesos) y en su tasa de compra (-0.15 pesos), posicionándose con uno de los menores márgenes entre las EIF (1.65 pesos).
+
+* **Banco Vimenca** redujo su margen de 2.00 a 1.75 pesos, disminuyendo su tasa de venta en 0.30 pesos (de 60.30 a 60.00) y su tasa de compra en 0.05 pesos.
+
+* **Banco López de Haro** mejoró su margen en 0.20 pesos (de 2.20 a 2.00) al reducir únicamente su tasa de venta mientras mantenía estable su tasa de compra.
+
+### Agentes de Cambio
+
+* **Panora Exchange** presentó un comportamiento particular, aumentando su tasa de compra en 0.20 pesos mientras reducía su tasa de venta en 0.20 pesos, disminuyendo así su margen de 0.90 a 0.50 pesos.
+
+* **Moneycorps** redujo tanto su tasa de compra como de venta en 0.05 pesos, manteniendo su margen competitivo de 0.40 pesos, uno de los más bajos del mercado.
+
+* **Quezada** redujo su tasa de venta en 0.10 pesos, mejorando su margen de 0.80 a 0.70 pesos, mientras mantenía sin cambios su tasa de compra.
+
+En conclusión, se observa una ligera tendencia hacia la reducción en las tasas de venta y estabilidad en las tasas de compra, lo que resulta en márgenes más estrechos beneficiando a los clientes. Los agentes de cambio continúan ofreciendo márgenes significativamente menores (promedio aproximado de 0.60 pesos) comparados con los bancos múltiples y asociaciones (promedio aproximado de 2.10 pesos), representando una alternativa más económica para operaciones cambiarias.

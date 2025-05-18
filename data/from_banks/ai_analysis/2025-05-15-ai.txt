@@ -1,0 +1,21 @@
+## Análisis: Estabilidad con ligeras variaciones en tasas de cambio
+
+El mercado cambiario dominicano muestra una relativa estabilidad entre el 14 y 15 de mayo de 2025. La tasa promedio de compra aumentó ligeramente de 58.23 a 58.24 pesos por dólar (+0.01 puntos), mientras que la tasa de venta subió de 59.95 a 59.97 pesos por dólar (+0.02 puntos). El margen o "gap" entre ambas tasas aumentó levemente de 1.66 a 1.67 pesos.
+
+### Entidades de intermediación financiera
+
+* **Banco Vimenca** mostró uno de los cambios más notables, aumentando su tasa de compra de 58.15 a 58.25 pesos (+0.10) y su tasa de venta de 60.00 a 60.25 pesos (+0.25), ampliando su margen de 1.85 a 2.00 pesos.
+
+* La mayoría de los bancos múltiples, incluyendo Banreservas, Banco Popular, BHD y Scotiabank, mantuvieron sus tasas sin cambios, reflejando estabilidad en el sector bancario principal.
+
+* Entre las Asociaciones de Ahorro y Préstamos, todas mantuvieron sus tasas sin variaciones, con la Asociación La Nacional ofreciendo la tasa de venta más alta del segmento (60.60 pesos).
+
+### Agentes de cambio
+
+* **Capla** presentó un incremento significativo, subiendo su tasa de compra de 58.40 a 58.50 pesos (+0.10) y su tasa de venta de 59.00 a 59.20 pesos (+0.20), lo que aumentó su margen de 0.60 a 0.70 pesos.
+
+* **Moneycorps** modificó únicamente su tasa de venta, incrementándola de 58.95 a 59.00 pesos (+0.05), reduciendo ligeramente su margen competitivo.
+
+* **SCT** aumentó su tasa de venta de 59.20 a 59.30 pesos (+0.10) sin modificar su tasa de compra, lo que amplió su margen operativo de 0.60 a 0.70 pesos.
+
+En conclusión, el mercado cambiario dominicano muestra una tendencia de estabilidad con ajustes mínimos al alza. Los agentes de cambio presentaron más variaciones que las entidades bancarias, aunque estas fueron moderadas. Los márgenes entre tasas de compra y venta se mantienen significativamente más amplios en el sector bancario (aproximadamente 2.00-2.50 pesos) que en los agentes de cambio (alrededor de 0.35-0.70 pesos), lo que refleja diferentes estrategias comerciales según el tipo de entidad financiera.

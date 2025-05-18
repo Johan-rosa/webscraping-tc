@@ -1,0 +1,21 @@
+## Análisis: Estabilidad en las Tasas de Cambio del Peso Dominicano
+
+Los datos muestran una ligera disminución en la tasa de cambio promedio entre el 9 y 12 de mayo de 2025. La tasa de compra promedio se redujo marginalmente de 58.24 a 58.24 pesos por dólar (-0.003 pesos), mientras que la tasa de venta tuvo una reducción más notable de 60.02 a 59.99 pesos por dólar (-0.04 pesos). Como resultado, el diferencial (gap) entre compra y venta se redujo de 1.71 a 1.68 pesos, reflejando una ligera mejora en las condiciones del mercado cambiario dominicano.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Ademi** mostró los cambios más significativos entre los bancos múltiples, con una reducción de 0.10 pesos en su tasa de compra (de 58.40 a 58.30) y una disminución de 0.25 pesos en su tasa de venta (de 60.50 a 60.25), reduciendo su diferencial en 0.15 pesos.
+
+* **BDI** mantuvo su tasa de compra en 58.30 pesos pero redujo su tasa de venta en 0.20 pesos (de 60.20 a 60.00), mejorando así su diferencial para los clientes.
+
+* **Motor Crédito** presentó el ajuste más agresivo, reduciendo su tasa de compra en 0.15 pesos (de 58.55 a 58.40) y su tasa de venta en 0.50 pesos (de 60.50 a 60.00), lo que disminuyó su diferencial de 1.95 a 1.60 pesos.
+
+### Agentes de Cambio
+
+* **Gamelin** mantuvo su tasa de compra en 58.50 pesos pero redujo su tasa de venta en 0.20 pesos (de 59.30 a 59.10), mejorando el diferencial para sus clientes de 0.80 a 0.60 pesos.
+
+* **Moneycorps** conservó su tasa de compra en 58.60 pesos y redujo ligeramente su tasa de venta en 0.05 pesos (de 59.00 a 58.95), manteniendo uno de los diferenciales más bajos entre todos los agentes de cambio (0.35 pesos).
+
+* **Capla** mantuvo su tasa de compra en 58.40 pesos pero redujo su tasa de venta en 0.10 pesos (de 59.10 a 59.00), mejorando ligeramente su diferencial de 0.70 a 0.60 pesos.
+
+El mercado cambiario dominicano se mantuvo relativamente estable durante este período, con ajustes menores que favorecen principalmente a los compradores de divisas. La tendencia general muestra una ligera apreciación del peso dominicano frente al dólar estadounidense, con los agentes de cambio ofreciendo consistentemente mejores tasas de venta que las entidades bancarias tradicionales. Esta estabilidad sugiere una política monetaria efectiva y condiciones económicas favorables para la República Dominicana en este momento.

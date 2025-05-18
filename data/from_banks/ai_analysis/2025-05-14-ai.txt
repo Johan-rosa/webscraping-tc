@@ -1,0 +1,21 @@
+## Análisis: Variaciones en Tasas de Cambio del Mercado Dominicano
+
+El mercado cambiario dominicano ha mostrado una ligera tendencia a la baja entre el 13 y 14 de mayo de 2025. La tasa promedio de compra disminuyó en 0.01 pesos, pasando de 58.24 a 58.23 pesos por dólar. De manera similar, la tasa de venta también experimentó una reducción de 0.01 pesos, situándose en 59.95 pesos por dólar. El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en 1.66 pesos, lo que indica que los márgenes de ganancia de las entidades financieras no han sufrido cambios significativos.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Popular** mostró una reducción de 0.10 pesos tanto en su tasa de compra como de venta, ajustando sus valores a 58.00 y 60.50 pesos respectivamente, manteniendo su diferencial en 2.50 pesos.
+
+* **Banco Lafise** también disminuyó sus tasas en 0.10 pesos, estableciendo la compra en 58.15 y la venta en 60.50 pesos, conservando su gap en 2.35 pesos.
+
+* **Banco BDI** redujo únicamente su tasa de venta en 0.10 pesos a 59.90, mientras mantuvo su tasa de compra estable en 58.30, reduciendo así su diferencial de 1.70 a 1.60 pesos.
+
+### Agentes de Cambio
+
+* Los agentes de cambio mantuvieron mayor estabilidad que los bancos múltiples, sin mostrar variaciones significativas en sus tasas durante el período analizado.
+
+* **Moneycorps** continúa ofreciendo el diferencial más bajo entre todos los agentes de cambio con apenas 0.30 pesos (compra: 58.65, venta: 58.95), lo que lo posiciona como la opción más competitiva para transacciones cambiarias.
+
+* Entre los agentes de cambio, **Quezada** mantiene las tasas de venta más bajas del mercado (59.10), mientras que **SCT** presenta las más altas dentro de este segmento (59.20), aunque significativamente por debajo del promedio de los bancos múltiples.
+
+Las tasas de cambio en la República Dominicana muestran una ligera tendencia a la baja, aunque con variaciones mínimas que reflejan estabilidad en el mercado cambiario. Los bancos múltiples continúan manejando diferenciales significativamente mayores que los agentes de cambio, con un promedio superior a 2 pesos frente a menos de 0.60 pesos respectivamente, lo que ofrece a los consumidores alternativas considerablemente más económicas para operaciones de cambio de divisas a través de los agentes especializados.
