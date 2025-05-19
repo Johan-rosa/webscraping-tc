@@ -1,0 +1,17 @@
+## Análisis: Estabilidad en las Tasas de Cambio del Peso Dominicano
+
+El mercado cambiario dominicano mostró una estabilidad general entre el 16 y 19 de mayo de 2025. La tasa promedio de compra aumentó ligeramente de 58.24 a 58.26 pesos por dólar (+0.02), mientras que la tasa de venta se incrementó de 59.98 a 60.00 pesos por dólar (+0.02). El diferencial (gap) promedio entre compra y venta se mantuvo prácticamente sin cambios en 1.68 pesos.
+
+### Entidades de Intermediación Financiera
+
+* Los bancos múltiples mantuvieron sus tasas sin variaciones durante este período, con Banreservas ofreciendo una tasa de compra de 58.40 pesos y una tasa de venta de 60.25 pesos.
+* Una asociación de ahorros y préstamos mostró un ligero aumento en su tasa de venta (+0.25), pasando de 60.00 a 60.25 pesos por dólar, incrementando su margen de beneficio.
+* La Asociación La Nacional continúa ofreciendo la tasa de venta más alta entre las EIFs con 60.60 pesos por dólar, manteniendo un diferencial de 2.30 pesos.
+
+### Agentes de Cambio
+
+* El agente de cambio RM presentó el mayor incremento en la tasa de compra (+0.20), pasando de 58.65 a 58.85 pesos por dólar, mientras su tasa de venta subió a 59.20 (+0.10).
+* Gamelin aumentó su tasa de compra en 0.20 pesos, llegando a 58.70, mientras mantuvo su tasa de venta en 59.50, reduciendo así su margen de beneficio de 1.00 a 0.80 pesos.
+* Los agentes de cambio generalmente mantienen diferenciales menores que las entidades bancarias, con brechas que oscilan entre 0.35 y 0.80 pesos, siendo RM el que ofrece el diferencial más estrecho (0.35).
+
+En conclusión, el mercado cambiario dominicano se mantuvo estable durante este período, con variaciones mínimas en las tasas promedio. Se observa una clara diferencia en las estrategias de precios entre las entidades de intermediación financiera tradicionales, que mantienen márgenes más amplios, y los agentes de cambio, que operan con diferenciales significativamente menores para atraer clientes. Esta estabilidad cambiaria refleja un contexto económico sin presiones significativas sobre la moneda dominicana.
