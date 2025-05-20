@@ -1,0 +1,21 @@
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
+
+El mercado cambiario dominicano se mantiene relativamente estable, con un aumento promedio en la tasa de compra de 0.04 pesos, pasando de 58.26 a 58.30 pesos por dólar. La tasa de venta experimentó un incremento mínimo de 0.01 pesos, de 60.00 a 60.01 pesos. Notablemente, la brecha entre compra y venta se redujo ligeramente de 1.68 a 1.65 pesos, lo que indica una pequeña mejora en la eficiencia del mercado cambiario.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Santa Cruz y Banco Vimenca** mostraron un comportamiento similar con aumentos de 0.25 pesos en sus tasas de compra (de 58.25 a 58.50 pesos), manteniendo sin cambios sus tasas de venta en 60.25 pesos.
+
+* **BDI** fue la única entidad bancaria que aumentó tanto su tasa de compra como de venta en 0.10 pesos, estableciéndolas en 58.50 y 60.00 pesos respectivamente.
+
+* **Asociación Cibao** incrementó su tasa de compra en 0.20 pesos (de 58.25 a 58.45), mientras mantuvo estable su tasa de venta en 60.25 pesos.
+
+### Agentes de Cambio
+
+* **Moneycorps** mostró el cambio más significativo entre los agentes de cambio, con un aumento de 0.15 pesos tanto en su tasa de compra (de 58.75 a 58.90) como en su tasa de venta (de 59.30 a 59.45).
+
+* **Cambio Extranjero** aumentó su tasa de compra en 0.20 pesos (de 58.60 a 58.80), manteniendo sin cambios su tasa de venta en 59.18 pesos.
+
+* **Capla** incrementó su tasa de compra en 0.10 pesos (de 58.50 a 58.60), dejando sin variación su tasa de venta en 59.20 pesos.
+
+En conclusión, el mercado cambiario dominicano muestra una tendencia alcista moderada en las tasas de compra, mientras que las tasas de venta permanecen prácticamente estables. La reducción de la brecha entre compra y venta sugiere un mercado ligeramente más eficiente. Las entidades financieras mantienen un comportamiento conservador frente a los cambios en el mercado internacional, con ajustes mínimos que reflejan estabilidad en el sistema financiero dominicano.
