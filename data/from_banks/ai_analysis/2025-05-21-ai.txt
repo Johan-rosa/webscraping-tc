@@ -1,0 +1,21 @@
+## Análisis: Cambios en las Tasas de Cambio Bancarias en República Dominicana
+
+El 21 de mayo de 2025, las tasas de cambio en República Dominicana mostraron ligeras variaciones respecto al día anterior. La tasa de compra promedio se situó en 58.32 pesos dominicanos por dólar, experimentando un aumento de 0.02 puntos. La tasa de venta promedio alcanzó los 60.04 pesos, incrementándose en 0.03 puntos. El diferencial (gap) entre compra y venta aumentó ligeramente de 1.65 a 1.66 pesos, reflejando una estabilidad general en el mercado cambiario.
+
+### Entidades de Intermediación Financiera
+
+* **Banco López de Haro** mostró el cambio más significativo entre las EIF, incrementando tanto su tasa de compra como de venta en 0.10 puntos, situándolas en 58.20 y 60.20 respectivamente, manteniendo su diferencial en 2.00 pesos.
+
+* **Banco Ademi** aumentó su tasa de compra en 0.20 puntos hasta 58.50, mientras mantuvo sin cambios su tasa de venta en 60.25, reduciendo así su diferencial de 1.95 a 1.75 pesos.
+
+* **Los principales bancos múltiples** como Banreservas (58.40/60.25), Scotiabank (58.05/60.35) y Banco Popular (58.00/60.50) mantuvieron sus tasas sin variación, reflejando estabilidad en el segmento de mayor volumen del mercado.
+
+### Agentes de Cambio
+
+* **Cambio Extranjero** presentó el mayor incremento entre los agentes de cambio, elevando su tasa de compra en 0.12 puntos hasta 58.92 y su tasa de venta en 0.31 puntos hasta 59.49, ampliando su diferencial de 0.38 a 0.57 pesos.
+
+* **Capla y SCT** mostraron aumentos idénticos, incrementando sus tasas de compra en 0.20 puntos y sus tasas de venta en 0.30 puntos, estableciendo nuevos valores de 58.80/59.50 y 58.80/59.60 respectivamente.
+
+* **Quezada** mantuvo sin cambios su tasa de compra en 58.60, pero aumentó su tasa de venta en 0.20 puntos hasta 59.50, ampliando su diferencial de 0.70 a 0.90 pesos.
+
+El mercado cambiario dominicano muestra una tendencia de ligera apreciación del dólar frente al peso, aunque de manera moderada y controlada. Los agentes de cambio presentaron ajustes más pronunciados que las entidades bancarias tradicionales, especialmente en sus tasas de venta. Esta estabilidad relativa sugiere que no hay presiones significativas en el mercado cambiario dominicano en el corto plazo, manteniendo un ambiente favorable para las transacciones financieras y comerciales.
