@@ -1,0 +1,17 @@
+## Análisis de Tasas de Cambio en República Dominicana
+
+El mercado cambiario dominicano se mantiene relativamente estable entre el 21 y 22 de mayo de 2025. La tasa promedio de compra aumentó ligeramente de 58.32 a 58.36 pesos por dólar (+0.04), mientras que la tasa de venta subió de 60.04 a 60.06 pesos (+0.02). El diferencial (gap) promedio entre compra y venta disminuyó levemente de 1.66 a 1.64 pesos.
+
+### Entidades de Intermediación Financiera
+
+* **Alaver** mostró el cambio más significativo entre las EIFs, incrementando su tasa de compra en 0.20 pesos (de 58.25 a 58.45), mientras mantuvo su tasa de venta en 60.25 pesos.
+* **Bancos Múltiples** como Scotiabank, Banreservas, Banco Popular y BHD mantuvieron sus tasas sin variaciones, reflejando estabilidad en el segmento principal del mercado.
+* **Asociaciones de Ahorros y Préstamos** presentaron tasas de venta consistentemente altas, oscilando entre 60.25 y 60.60 pesos, con la Asociación La Nacional ofreciendo la tasa de venta más elevada del sector (60.60).
+
+### Agentes de Cambio
+
+* **Panora Exchange** registró el mayor incremento entre los agentes de cambio, aumentando su tasa de compra en 0.30 pesos (de 58.60 a 58.90) y su tasa de venta en 0.50 pesos (de 59.10 a 59.60).
+* **SCT** y **Moneycorps** también mostraron cambios notables, incrementando sus tasas de compra en 0.20 pesos cada uno, con SCT elevando su tasa de venta en 0.20 pesos (a 59.80).
+* **Agentes de Cambio** en general continúan ofreciendo diferenciales (gaps) significativamente menores que las entidades bancarias, con brechas promedio por debajo de 0.80 pesos, en comparación con los aproximadamente 2.00 pesos de diferencial en los bancos.
+
+El mercado cambiario dominicano muestra una tendencia de estabilidad con ligeras presiones alcistas. Los agentes de cambio siguen siendo más competitivos en términos de diferencial, mientras que las entidades bancarias formales mantienen tasas más conservadoras. Las pequeñas variaciones observadas sugieren un mercado en equilibrio, con ajustes graduales que responden a las condiciones económicas actuales del país.
