@@ -1,0 +1,17 @@
+## Análisis del Tipo de Cambio en República Dominicana
+
+El tipo de cambio promedio en la República Dominicana se ha mantenido relativamente estable entre el 22 y 23 de mayo de 2025. La tasa de compra promedio experimentó un ligero aumento de 0.0009 pesos, pasando de 58.36 a 58.36 pesos por dólar. La tasa de venta se mantuvo sin cambios en 60.03 pesos. Como resultado, el diferencial (gap) entre compra y venta disminuyó ligeramente de 1.60 a 1.60 pesos.
+
+### Entidades de Intermediación Financiera (EIF)
+
+* Los bancos múltiples como Banreservas, Scotiabank y Banco Popular mantuvieron sus tasas sin variaciones, con tipos de venta entre 60.25 y 60.50 pesos por dólar.
+* Las asociaciones de ahorro y préstamos (Cibao, Alaver, Peravia, Popular y La Nacional) mostraron estabilidad en sus cotizaciones, manteniendo diferenciales relativamente altos entre 1.80 y 2.50 pesos.
+* Motor Crédito y Bonanza Banco (bancos de agentes de cambio) conservaron sus tasas sin modificaciones, con un diferencial de 1.60 y 2.30 pesos respectivamente.
+
+### Agentes de Cambio (AC)
+
+* El agente de cambio SCT redujo su tasa de venta en 0.10 pesos, pasando de 59.80 a 59.70 pesos por dólar, disminuyendo su diferencial de 0.80 a 0.70 pesos.
+* Quezada fue el único agente que incrementó su tasa de venta en 0.10 pesos, de 59.50 a 59.60 pesos por dólar, ampliando su diferencial de 0.70 a 0.80 pesos.
+* La mayoría de agentes de cambio mantuvieron tasas de venta significativamente más bajas que las entidades bancarias, con cotizaciones que oscilan entre 59.00 y 59.70 pesos, ofreciendo diferenciales mucho más estrechos (entre 0.38 y 0.80 pesos).
+
+En conclusión, el mercado cambiario dominicano mostró estabilidad durante este período, con mínimas variaciones en algunas entidades. Persiste la notable diferencia entre los diferenciales que ofrecen las entidades bancarias tradicionales (más amplios) y los agentes de cambio (más estrechos), lo que sigue representando opciones distintas para los consumidores según sus necesidades de cambio de divisas.
