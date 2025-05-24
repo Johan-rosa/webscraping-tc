@@ -1,0 +1,21 @@
+## Análisis del Mercado Cambiario en República Dominicana
+
+El tipo de cambio promedio en la República Dominicana presentó ligeras variaciones entre el 23 y 24 de mayo de 2025. La tasa de compra aumentó en 0.01 pesos, pasando de 58.35 a 58.36 pesos por dólar. Por su parte, la tasa de venta experimentó un incremento similar de aproximadamente 0.01 pesos, situándose en 60.05 pesos por dólar. El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en 1.62 pesos, mostrando un mercado con muy pocas fluctuaciones durante este período.
+
+### Entidades de Intermediación Financiera
+
+* **Scotiabank** mantuvo su tasa de compra en 58.05 pesos, pero incrementó su tasa de venta en 0.05 pesos, alcanzando los 60.40 pesos por dólar, lo que aumentó su diferencial de 2.30 a 2.35 pesos.
+
+* **Banreservas**, uno de los bancos más importantes del país, mantuvo sus tasas sin cambios en 58.40 para la compra y 60.25 para la venta, con un diferencial estable de 1.85 pesos.
+
+* Los bancos múltiples como **Banco Popular** y **Banco Lafise** continuaron ofreciendo algunas de las tasas de venta más altas del mercado (60.50 pesos), mientras que las asociaciones de ahorro y préstamo mantuvieron tasas competitivas sin variaciones significativas.
+
+### Agentes de Cambio
+
+* **Gamelin** mostró el cambio más notable entre los agentes de cambio, aumentando su tasa de compra en 0.30 pesos (de 58.70 a 59.00) y su tasa de venta en 0.10 pesos (de 59.50 a 59.60), reduciendo así su diferencial de 0.80 a 0.60 pesos.
+
+* Los agentes de cambio como **Moneycorps** y **Cambio Extranjero** mantuvieron tasas competitivas sin variaciones, con precios de venta alrededor de 59.49 pesos y diferenciales significativamente menores que las entidades bancarias.
+
+* En general, los agentes de cambio continúan ofreciendo diferenciales mucho más estrechos (entre 0.38 y 0.70 pesos) que las entidades bancarias, siendo **Taveras** el que presenta el menor diferencial (0.40 pesos) entre todos los agentes analizados.
+
+El mercado cambiario dominicano se mostró extremadamente estable durante este período, con cambios mínimos en las tasas de cambio. Las entidades bancarias mantienen diferenciales más amplios que los agentes de cambio, lo que sugiere que los usuarios que buscan minimizar costos en sus operaciones de cambio podrían beneficiarse acudiendo a los agentes especializados en lugar de a las entidades bancarias tradicionales.
