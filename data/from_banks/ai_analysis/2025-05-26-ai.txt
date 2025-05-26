@@ -1,0 +1,17 @@
+## Análisis: Evolución de las Tasas de Cambio en República Dominicana
+
+El mercado cambiario dominicano mostró una ligera tendencia al alza entre el 23 y 26 de mayo de 2025. La tasa promedio de compra aumentó de RD$58.35 a RD$58.36 (+0.01 pesos), mientras que la de venta subió de RD$60.05 a RD$60.06 (+0.01 pesos). El diferencial (gap) entre compra y venta se mantuvo prácticamente estable en RD$1.63, indicando un mercado sin cambios significativos durante este período.
+
+### Entidades de intermediación financiera (EIF)
+
+* **Scotiabank** mantuvo su tasa de compra en RD$58.05, pero incrementó su tasa de venta de RD$60.35 a RD$60.40 (+0.05 pesos), ampliando su diferencial de 2.30 a 2.35 pesos.
+* **Banreservas**, el banco estatal y uno de los principales referentes del mercado, mantuvo sus tasas sin cambios en RD$58.40 para compra y RD$60.25 para venta, con un diferencial estable de 1.85 pesos.
+* Las **Asociaciones de Ahorros y Préstamos** (Cibao, Alaver, Peravia, Popular y La Nacional) mantuvieron tasas competitivas sin cambios significativos, con tasas de venta alrededor de RD$60.25-60.60.
+
+### Agentes de cambio (AC)
+
+* **Gamelin** presentó los cambios más notables entre los agentes de cambio, aumentando su tasa de compra en 0.30 pesos (de RD$58.70 a RD$59.00) y su tasa de venta en 0.10 pesos (de RD$59.50 a RD$59.60).
+* **Agente de Cambio la Nacional** incrementó su tasa de compra en 0.10 pesos, pasando de RD$58.50 a RD$58.60, siendo uno de los pocos que mostró cambios en el período analizado.
+* Los agentes de cambio siguen ofreciendo diferenciales significativamente menores (promedio de 0.60 pesos) en comparación con los bancos múltiples (promedio de 2.15 pesos), representando opciones más económicas para transacciones cambiarias.
+
+El mercado cambiario dominicano mostró estabilidad en este período, con cambios mínimos en las tasas promedio. Esta estabilidad sugiere condiciones equilibradas de oferta y demanda de divisas en el sistema financiero nacional, aunque se observan algunas variaciones específicas entre entidades que podrían responder a ajustes de posicionamiento competitivo en el mercado.
