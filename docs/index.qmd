@@ -324,7 +324,6 @@ tryCatch({
   )
 },
   error = \(e){
-    console.log(e)
     hide_reveal_btn <<- TRUE 
     cache_ai_results <<- FALSE
   }
