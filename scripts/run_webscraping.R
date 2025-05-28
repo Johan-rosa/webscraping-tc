@@ -23,9 +23,9 @@ functions_tasas <- list(
   blh = tasa_dolar_blh,
   promerica = tasa_dolar_promerica,
   banesco = tasa_dolar_banesco,
-  lafise = tasa_dolar_lafise,
   ademi = tasa_dolar_ademi,
-  quezada = tasa_dolar_quezada
+  quezada = tasa_dolar_quezada,
+  lafise = tasa_dolar_lafise
 )
 
 safe_functions_tasas <- map(functions_tasas, \(fn) safely(fn, data.frame()))
