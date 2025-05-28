@@ -335,6 +335,7 @@ tryCatch({
 
 ```{r mocked_api_result}
 #| output: asis
+
 cat(ai_analysis)
 ```
 
