@@ -1,0 +1,21 @@
+## Análisis: Tasas de Cambio en República Dominicana
+
+El 28 de mayo de 2025, las tasas de cambio en la República Dominicana se mantuvieron relativamente estables. El promedio de compra se situó en RD$58.39, mostrando una ligera disminución de RD$0.01 respecto al día anterior. La tasa promedio de venta permaneció constante en RD$60.07. El diferencial (gap) entre compra y venta aumentó ligeramente de RD$1.61 a RD$1.61, indicando una estabilidad general en el mercado cambiario dominicano.
+
+### Entidades de Intermediación Financiera
+
+* **Banco Popular** registró la mayor disminución en su tasa de compra, reduciéndola en RD$0.10, pasando de RD$58.00 a RD$57.90, mientras mantuvo su tasa de venta en RD$60.50.
+
+* **Banreservas**, uno de los bancos más importantes del país, mantuvo sus tasas sin cambios con una compra de RD$58.40 y venta de RD$60.25, con un diferencial competitivo de RD$1.85.
+
+* **Scotiabank** continúa ofreciendo una de las tasas de compra más bajas entre los bancos múltiples (RD$58.05) y una de las tasas de venta más altas (RD$60.40), resultando en uno de los diferenciales más amplios del mercado (RD$2.35).
+
+### Agentes de Cambio
+
+* **Los agentes de cambio** generalmente ofrecen diferenciales más estrechos que las entidades bancarias, con brechas que oscilan entre RD$0.45 y RD$1.00, siendo Moneycorps y Taveras los que presentan el diferencial más bajo (RD$0.45).
+
+* **Quezada** y **Capla** mantuvieron tasas idénticas con una compra de RD$58.90 y venta de RD$59.50, ofreciendo un diferencial competitivo de RD$0.60.
+
+* **Agente de Cambio la Nacional** opera únicamente con tasa de compra (RD$58.60), sin reportar operaciones de venta, una práctica poco común en el mercado cambiario dominicano.
+
+En conclusión, el mercado cambiario dominicano muestra una notable estabilidad, con mínimas variaciones respecto al día anterior. Las entidades de intermediación financiera mantienen diferenciales más amplios (promediando RD$2.00) en comparación con los agentes de cambio (promediando RD$0.60), lo que refleja distintas estrategias comerciales y niveles de servicio. Esta estabilidad sugiere condiciones equilibradas en la oferta y demanda de divisas en la República Dominicana.
