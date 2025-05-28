@@ -1,21 +1,21 @@
-## Análisis del Tipo de Cambio en República Dominicana
+## Análisis de Tasas de Cambio en República Dominicana
 
-El tipo de cambio en la República Dominicana para el 28 de mayo de 2025 muestra una ligera disminución en la tasa de compra, que pasó de RD$58.39 a RD$58.38, representando una caída de RD$0.01. Por otro lado, la tasa de venta experimentó un pequeño aumento de RD$60.07 a RD$60.07 (RD$0.002). Como resultado, el diferencial (gap) entre compra y venta aumentó ligeramente de RD$1.61 a RD$1.62.
+El 28 de mayo de 2025, la tasa de cambio promedio en República Dominicana mostró una ligera disminución en la compra, pasando de RD$58.39 a RD$58.38 por dólar estadounidense, representando una reducción de RD$0.01. La tasa de venta se mantuvo estable en RD$60.10. El diferencial (gap) entre compra y venta aumentó levemente de RD$1.65 a RD$1.66, lo que indica una mayor dispersión en el mercado cambiario.
 
 ### Entidades de Intermediación Financiera
 
-* **Banco Popular** mostró la reducción más significativa en su tasa de compra, disminuyendo en RD$0.15 (de RD$58.00 a RD$57.85), manteniendo su tasa de venta en RD$60.50.
+* **Banco Popular** registró la única variación significativa entre los bancos múltiples, con una disminución de RD$0.15 en su tasa de compra (de RD$58.00 a RD$57.85), manteniendo su tasa de venta en RD$60.50.
 
-* Los bancos múltiples como **Banreservas** y **Scotiabank** mantuvieron sus tasas sin cambios, con tasas de compra de RD$58.40 y RD$58.05 respectivamente, y tasas de venta de RD$60.25 y RD$60.40.
+* **Banreservas** y **Banco Santa Cruz** mantuvieron tasas competitivas con brechas relativamente bajas (RD$1.85 y RD$1.75 respectivamente), sin cambios respecto al día anterior.
 
-* Las **Asociaciones de Ahorros y Préstamos** mantuvieron en general sus tasas estables, con entidades como Asociación Cibao, Alaver y Asociación La Nacional ofreciendo tasas de venta entre RD$60.25 y RD$60.60.
+* **BDI** continúa ofreciendo uno de los diferenciales más bajos entre los bancos múltiples con RD$1.50, mostrando estabilidad en sus tasas de compra (RD$58.50) y venta (RD$60.00).
 
 ### Agentes de Cambio
 
-* **Moneycorps** fue el único agente de cambio que incrementó su tasa de venta, pasando de RD$59.45 a RD$59.50, un aumento de RD$0.05.
+* Los agentes de cambio **Moneycorps** y **Taveras** ofrecen el diferencial más bajo del mercado (RD$0.45), con tasas de compra de RD$59.00 y venta de RD$59.45, sin variaciones respecto al día anterior.
 
-* Los agentes de cambio mantienen diferenciales (gaps) significativamente menores que las entidades bancarias, con valores entre RD$0.45 (Taveras) y RD$1.00 (Girosol), comparado con los diferenciales de hasta RD$2.65 en bancos.
+* **Cambio Extranjero** mantiene un diferencial competitivo de RD$0.57, con una tasa de compra de RD$58.92 y venta de RD$59.49, sin cambios frente al día anterior.
 
-* La mayoría de los agentes de cambio, incluyendo **Quezada**, **Capla**, y **RM**, mantuvieron sus tasas sin variaciones, ofreciendo tasas de compra alrededor de RD$58.90 y tasas de venta cercanas a RD$59.50.
+* En general, los agentes de cambio siguen ofreciendo diferenciales significativamente más bajos (promedio aproximado de RD$0.60) que las entidades bancarias (promedio aproximado de RD$2.00), aunque con tasas de venta menores.
 
-En resumen, el mercado cambiario dominicano muestra estabilidad con mínimas variaciones entre el 27 y 28 de mayo de 2025. Los agentes de cambio continúan ofreciendo diferenciales más favorables para los clientes en comparación con las entidades bancarias tradicionales, aunque estas últimas generalmente ofrecen tasas de compra ligeramente menores. Esta estabilidad sugiere un mercado cambiario equilibrado sin presiones significativas a corto plazo.
+El mercado cambiario dominicano muestra una notable estabilidad en este período, con mínimas variaciones en las tasas. Las empresas y personas que realizan operaciones en divisas pueden beneficiarse de los diferenciales más bajos ofrecidos por los agentes de cambio para transacciones menores, mientras que las entidades bancarias siguen siendo la opción preferida para operaciones de mayor volumen debido a su infraestructura y respaldo institucional.
