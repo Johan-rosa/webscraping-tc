@@ -1,0 +1,21 @@
+## Análisis: Tasas de Cambio en República Dominicana
+
+El 30 de mayo de 2025, el mercado cambiario dominicano mostró una ligera apreciación del peso dominicano frente al dólar estadounidense. El promedio de compra aumentó marginalmente de RD$58.37 a RD$58.38 (+0.0049), mientras que el promedio de venta disminuyó levemente de RD$60.10 a RD$60.10 (-0.0014). Como resultado, la brecha promedio entre compra y venta se redujo de RD$1.66 a RD$1.65, indicando una mayor eficiencia en el mercado cambiario.
+
+### Entidades de Intermediación Financiera
+
+* Banco Popular registró la única disminución significativa en su tasa de compra, pasando de RD$57.85 a RD$57.80 (-0.05), manteniendo su tasa de venta estable en RD$60.50, lo que amplió su brecha de RD$2.65 a RD$2.70.
+
+* Banco Santa Cruz mantuvo una de las tasas de compra más altas entre los bancos múltiples (RD$58.50) sin cambios respecto al día anterior, con una brecha relativamente baja de RD$1.75.
+
+* Banco BDI ofreció la brecha más estrecha entre los bancos múltiples (RD$1.50), manteniendo estables sus tasas de compra (RD$58.50) y venta (RD$60.00), lo que representa una ventaja competitiva para sus clientes.
+
+### Agentes de Cambio
+
+* Girosol mostró el cambio más notable entre los agentes de cambio, aumentando su tasa de compra de RD$58.60 a RD$58.90 (+0.30), mientras mantuvo su tasa de venta en RD$59.60, reduciendo significativamente su brecha de RD$1.00 a RD$0.70.
+
+* Moneycorps redujo ligeramente su tasa de venta de RD$59.45 a RD$59.40 (-0.05), manteniendo su tasa de compra en RD$59.00, lo que resultó en una brecha más estrecha de RD$0.40, una de las más bajas del mercado.
+
+* Los agentes de cambio en general mantuvieron brechas significativamente más estrechas (promedio aproximado de RD$0.60) que las entidades financieras tradicionales (promedio aproximado de RD$2.00), ofreciendo opciones más competitivas para transacciones cambiarias inmediatas.
+
+El mercado cambiario dominicano mostró estabilidad durante esta jornada, con cambios mínimos en las tasas promedio. Las diferencias entre los tipos de entidades financieras siguen siendo notables, con los agentes de cambio ofreciendo márgenes más estrechos que benefician a los clientes que realizan transacciones en efectivo, mientras que las entidades de intermediación financiera mantienen márgenes más amplios pero ofrecen servicios bancarios adicionales.
