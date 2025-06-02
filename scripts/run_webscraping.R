@@ -20,11 +20,11 @@ functions_tasas <- list(
   bdi = tasa_dolar_bdi,
   vimenca = tasa_dolar_vimenca,
   blh = tasa_dolar_blh,
-  promerica = tasa_dolar_promerica,
   banesco = tasa_dolar_banesco,
   ademi = tasa_dolar_ademi,
   quezada = tasa_dolar_quezada,
   lafise = tasa_dolar_lafise,
+  promerica = tasa_dolar_promerica,
   santa_cruz = tasa_dolar_santa_cruz
 )
 
@@ -32,7 +32,7 @@ safe_functions_tasas <- map(functions_tasas, \(fn) safely(fn, data.frame()))
 
 tasas_raw <- map(safe_functions_tasas, \(fn) fn())
 
-tasas <- map(tasas_raw, "result") |> list_rbind()
+ tasas <- map(tasas_raw, "result") |> list_rbind()
 
 errores <- keep(tasas_raw, \(raw_result) !is.null(raw_result$error))
 
