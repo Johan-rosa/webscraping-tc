@@ -40,6 +40,8 @@ summary_cards <- function(values, benchmark = "ayer") {
   
   values <- values |>
     mutate(
+      d_buy = buy - lag_buy,
+      d_sell = sell - lag_sell,
       across(everything(), \(x) round(x, 2)),
       across(c(buy, sell, lag_buy, lag_sell), \(x) comma(x, 0.01))
     )
