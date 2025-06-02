@@ -80,8 +80,7 @@ current_data_banks <- historico_bank |>
   filter(date == max(date), buy > 1, lag_buy > 1) |>
   left_join(entidades_banks, by = "entidad") |>
   select(-entidad) |>
-  relocate(entidad = name, .after = date) |> 
-  filter(lag_date == max(date) - benchmark_lag)
+  relocate(entidad = name, .after = date)
 ```
 
 ```{r import_data_infodolar}
