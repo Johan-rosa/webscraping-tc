@@ -16,7 +16,6 @@ functions_tasas <- list(
   reservas = tasa_dolar_banreservas,
   popular = tasa_dolar_popular,
   bhd = tasa_dolar_bhd,
-  santa_cruz = tasa_dolar_santa_cruz,
   caribe = tasa_dolar_caribe,
   bdi = tasa_dolar_bdi,
   vimenca = tasa_dolar_vimenca,
@@ -25,7 +24,8 @@ functions_tasas <- list(
   banesco = tasa_dolar_banesco,
   ademi = tasa_dolar_ademi,
   quezada = tasa_dolar_quezada,
-  lafise = tasa_dolar_lafise
+  lafise = tasa_dolar_lafise,
+  santa_cruz = tasa_dolar_santa_cruz
 )
 
 safe_functions_tasas <- map(functions_tasas, \(fn) safely(fn, data.frame()))
