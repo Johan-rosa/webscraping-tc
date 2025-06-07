@@ -31,12 +31,9 @@ box::use(
   scripts/utils[crear_mes],
   docs/logic/ui[summary_cards, trend_indicator, report_table],
   scripts/functions[today_in_dr],
-  scripts/anthropic[
-    create_anthropic_body, 
-    send_anthropic_request,
-  ],
   scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar],
   scripts/tc_spot[get_tc_spot],
+  scripts/read_tc_data[read_tc_data],
 )
 ```
 
@@ -44,7 +41,7 @@ box::use(
 tc_spot <- get_tc_spot(frecuencia = "diaria") |> tail(1)
 ```
 
-```{r import_data_banks, echo=FALSE}
+```{r current_date_params, echo=FALSE}
 current_date <- today_in_dr()
 day_of_week <- weekdays(current_date)
 benchmark_lag <- ifelse(
@@ -52,29 +49,12 @@ benchmark_lag <- ifelse(
   yes = 2,
   no = 1
 )
-
 benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
+```
 
-historico_bank <- readRDS(here("data/from_banks/_historico_from_banks.rds")) |> 
-  filter(
-    # Remover una de las tasas de scotia
-    is.na(tipo) |
-    str_detect(tipo, "Digitales")
-  ) |>
-  select(-tipo) |>
-  arrange(date) |>
-  group_by(bank) |>
-  mutate(
-    gap = sell - buy,
-    lag_date = lag(date, benchmark_lag),
-    lag_buy = lag(buy, benchmark_lag),
-    lag_sell = lag(sell, benchmark_lag),
-    lag_gap = lag(gap, benchmark_lag),
-    d_sell = sell - lag_sell,
-    d_buy = buy - lag_buy,
-  ) |>
-  ungroup() |>
-  rename(entidad = bank)
+
+```{r import_data_banks, echo=FALSE}
+historico_bank <- read_tc_data("banks", benchmark_lag)
 
 current_data_banks <- historico_bank |>
   filter(date == max(date), buy > 1, lag_buy > 1) |>
@@ -85,20 +65,7 @@ current_data_banks <- historico_bank |>
 ```
 
 ```{r import_data_infodolar}
-historico_infodolar <- readRDS(here("data/infodolar/_historico_infodolar.rds")) |>
-  select(date, entidad, buy = compra, sell = venta) |>
-  arrange(date) |>
-  group_by(entidad) |> 
-  mutate(
-    gap = sell - buy,
-    lag_date = lag(date, benchmark_lag),
-    lag_buy = lag(buy, benchmark_lag),
-    lag_sell = lag(sell, benchmark_lag),
-    lag_gap = lag(gap, benchmark_lag),
-    d_sell = sell - lag_sell,
-    d_buy = buy - lag_buy,
-  ) |> 
-  ungroup()
+historico_infodolar <- read_tc_data("infodolar", benchmark_lag)
 
 current_data_infodolar <- historico_infodolar |>
   filter(date == max(date), buy > 1, lag_buy > 1) |>
@@ -118,7 +85,7 @@ current_summary <- current_data |>
   )
 ```
 
-```{r report params}
+```{r report_params}
 current_date <- tibble::lst(
   date = max(historico_bank$date),
   year = year(date),
