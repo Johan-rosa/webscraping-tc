@@ -32,7 +32,7 @@ safe_functions_tasas <- map(functions_tasas, \(fn) safely(fn, data.frame()))
 
 tasas_raw <- map(safe_functions_tasas, \(fn) fn())
 
- tasas <- map(tasas_raw, "result") |> list_rbind()
+tasas <- map(tasas_raw, "result") |> list_rbind()
 
 errores <- keep(tasas_raw, \(raw_result) !is.null(raw_result$error))
 
@@ -54,6 +54,8 @@ today <- Sys.time() |>
   floor_date("day") |>
   as.Date()
 
+today <- "2025-06-06"
+
 rds_file <- paste0("data/from_banks/rds/", today, ".rds")
 csv_file <- paste0("data/from_banks/csv/", today, ".csv")
 
@@ -66,7 +68,7 @@ write_csv(tasas, csv_file, na = "")
 log_success("Successfully saved CSV file.")
 
 log_info("🔄 Loading historical data from banks...")
-historico_from_banks <- list.files("data/from_banks/rds/", full.names = TRUE) |>
+historico_from_banks <- list.files("data/from_banks/rds", full.names = TRUE) |>
   map(read_rds) |>
   list_rbind()
 
