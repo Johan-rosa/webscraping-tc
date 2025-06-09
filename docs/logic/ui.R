@@ -11,6 +11,7 @@ box::use(
 )
 
 sign <- function(value) {
+  value <- as.numeric(value)
   dplyr::case_when(
     value == 0 ~ "=",
     value  > 0 ~ "+",
@@ -19,6 +20,7 @@ sign <- function(value) {
 }
 
 change_class <- function(value) {
+  value <- as.numeric(value)
   dplyr::case_when(
     value == 0 ~ "",
     value  > 0 ~ "increase",
@@ -28,6 +30,7 @@ change_class <- function(value) {
 
 #' @export
 summary_cards <- function(values, benchmark = "ayer") {
+
   checkmate::assert_names(
     names(values),
     subset.of = c(
@@ -40,12 +43,13 @@ summary_cards <- function(values, benchmark = "ayer") {
   
   values <- values |>
     mutate(
+      across(everything(), as.numeric),
+      across(everything(), \(x) round(x, 2)),
       d_buy = buy - lag_buy,
       d_sell = sell - lag_sell,
-      across(everything(), \(x) round(x, 2)),
-      across(c(buy, sell, lag_buy, lag_sell), \(x) comma(x, 0.01))
+      across(c(buy, sell, lag_buy, lag_sell, d_buy, d_sell), \(x) comma(x, 0.01))
     )
-
+  
   tags$dl(
     class = "stats-container",
     
