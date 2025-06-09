@@ -54,8 +54,6 @@ today <- Sys.time() |>
   floor_date("day") |>
   as.Date()
 
-today <- "2025-06-06"
-
 rds_file <- paste0("data/from_banks/rds/", today, ".rds")
 csv_file <- paste0("data/from_banks/csv/", today, ".csv")
 

@@ -59,7 +59,7 @@ read_tc_data <- function(source = c("banks", "infodolar"), benchmark_lag = 1) {
       select(-tipo) |>
       rename(entidad = bank)
   }
-
+  
   current_data <- raw_data |>
     arrange(date)
   
