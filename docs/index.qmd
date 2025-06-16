@@ -105,7 +105,7 @@ previous_date <- tibble::lst(
   label = glue("{day} de {label_mes} de {year}")
 )
 
-time_in_dr <-   Sys.time() |>
+time_in_dr <- Sys.time() |>
     lubridate::with_tz(tzone = "America/Santo_Domingo")
 ```
 

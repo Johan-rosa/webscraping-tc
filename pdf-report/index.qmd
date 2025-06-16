@@ -44,11 +44,12 @@ tc_spot <- get_tc_spot(frecuencia = "diaria") |> tail(1)
 ```{r current_date_params, echo=FALSE}
 current_date <- today_in_dr()
 day_of_week <- weekdays(current_date)
-benchmark_lag <- ifelse(
-  day_of_week == "Monday" || day_of_week == "Sunday",
-  yes = 2,
-  no = 1
+benchmark_lag <- dplyr::case_when(
+  day_of_week == "Monday" ~ 3,
+  day_of_week == "Sunday" ~ 2,
+  TRUE ~ 1
 )
+
 benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
 ```
 
