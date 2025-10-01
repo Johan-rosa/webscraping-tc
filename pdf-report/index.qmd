@@ -77,7 +77,10 @@ current_data_infodolar <- historico_infodolar |>
   filter(lag_date == date - benchmark_lag)
 
 current_data <- current_data_banks |>
-  bind_rows(current_data_infodolar)
+  bind_rows(current_data_infodolar) |>
+  # La tasa de Abonap tenía error ese día y hay que excluirla
+  # TODO: REMOVE this filter later or adjust the hitory
+  filter(!(date == "2025-10-01" & entidad == "Abonap"))
 
 current_summary <- current_data |>
   summarise(
