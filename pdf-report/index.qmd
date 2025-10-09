@@ -193,6 +193,25 @@ div(
 )
 ```
 
+::: {#page-container .panel-tabset}
+
+## Dólar
+
+```{r info_header}
+info_header(benchmark_date$label, current_time)
+```
+
+
+```{r summary_cards}
+usd_current_summary <- compare_tc(usd_daily_mean, lag_n = benchmark_lag)
+summary_cards(select(usd_current_summary, -c(date, lag_date)), benchmark_label)
+```
+
+
+```{r bcrd_banner}
+bcrd_banner(filter(tc_spot, fecha <= current_date$date) |> tail(1))
+```
+
 ### Bancos múltiples
 
 ```{r table_eif, echo=FALSE}
