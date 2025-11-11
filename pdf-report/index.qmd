@@ -50,6 +50,8 @@ benchmark_lag <- dplyr::case_when(
   TRUE ~ 1
 )
 
+if (current_date == "2025-11-11") benchmark_lag <- 4
+
 benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
 ```
 
