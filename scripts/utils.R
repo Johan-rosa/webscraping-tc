@@ -113,3 +113,18 @@ crear_mes <- function(mes, type = "text_to_number") {
   
   return(new_mes)
 }
+
+#' @export
+weekday_en_to_es <- function(x) {
+  dplyr::recode(
+    tolower(x),
+    monday    = "lunes",
+    tuesday   = "martes",
+    wednesday = "miércoles",
+    thursday  = "jueves",
+    friday    = "viernes",
+    saturday  = "sábado",
+    sunday    = "domingo",
+    .default  = x
+  )
+}
