@@ -28,7 +28,7 @@ library(jsonlite)
 library(scales)
 
 box::use(
-  scripts/utils[crear_mes],
+  scripts/utils[crear_mes, weekday_en_to_es],
   docs/logic/ui[summary_cards, trend_indicator, report_table],
   scripts/functions[today_in_dr],
   scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar],
@@ -39,6 +39,8 @@ box::use(
 
 ```{r get_tc_spot}
 tc_spot <- get_tc_spot(frecuencia = "diaria") |> tail(1)
+holidays <- read.csv(here("data/holidays.csv")) |>
+  mutate(across(everything(), ymd))
 ```
 
 ```{r current_date_params, echo=FALSE}
@@ -50,9 +52,17 @@ benchmark_lag <- dplyr::case_when(
   TRUE ~ 1
 )
 
-if (current_date == "2025-11-24") benchmark_lag <- 4
-
 benchmark_label <- ifelse(benchmark_lag == 1, "ayer", "el viernes")
+
+
+if (current_date %in% holidays$current_date) {
+  benchmark_date <- holidays$benchmark_date[holidays$current_date == current_date]
+  
+  benchmark_lag <- as.numeric(current_date - benchmark_date)
+  benchmark_day_of_week <- weekday_en_to_es(weekdays(benchmark_date))
+  
+  benchmark_label <- paste("el", benchmark_day_of_week)
+}
 ```
 
 
