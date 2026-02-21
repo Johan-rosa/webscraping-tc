@@ -61,13 +61,13 @@ tasa_dolar_scotiabank <- function() {
   logger::log_info("Downloading Tasas Scotiabank -------------")
   
   url <- "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html"
-  tasas <- rvest::read_html(url) %>%
-    rvest::html_table(header = TRUE) %>%
-    `[[`(., 1) %>%
-    setNames(c("pais", "tipo", "compra", "venta")) %>%
-    dplyr::filter(pais == "Estados Unidos") %>%
-    dplyr::mutate(tipo = str_remove(tipo, "Dólar (USD) ")) %>%
-    dplyr::mutate(bank = "Scotiabank", date = today_in_dr()) %>%
+  tasas <- rvest::read_html(url) |>
+    rvest::html_table(header = TRUE) |>
+    purrr::pluck(1) |>
+    setNames(c("pais", "tipo", "compra", "venta")) |>
+    dplyr::filter(pais == "Estados Unidos") |>
+    dplyr::mutate(tipo = stringr::str_remove(tipo, "Dólar (USD) ")) |>
+    dplyr::mutate(bank = "Scotiabank", date = today_in_dr()) |>
     dplyr::select(date, bank, tipo, buy = compra, sell = venta)
   
   logger::log_success("Tasas scotia - venta: {tasas$sell[2]}, compra: {tasas$buy[2]}")
@@ -91,8 +91,8 @@ tasa_dolar_popular <- function() {
   })
 
   logger::log_info("Extrayendo las tasas")
-  tasa_compra <- html$session$Runtime$evaluate("document.getElementById('compra_peso_dolar_desktop').value")
-  tasa_venta <- html$session$Runtime$evaluate("document.getElementById('venta_peso_dolar_desktop').value")
+  tasa_compra <- html$session$Runtime$evaluate("document.getElementById('compra_peso_dolar_modal').value")
+  tasa_venta <- html$session$Runtime$evaluate("document.getElementById('venta_peso_dolar_modal').value")
   
   logger::log_info("Parsing results")
   compra <- as.numeric(tasa_compra$result$value)
@@ -125,7 +125,14 @@ tasa_dolar_bhd <- function() {
   })
   
   logger::log_info("Defining JS steps")
-  click_tasas_btn <- 'document.querySelector("app-footer > footer > div > div > div.links > ul:nth-child(1) > li:nth-child(6) > div > button").click()'
+  click_tasas_btn <- '
+    const footer = document.querySelector("app-footer");
+
+    const btn = [...footer.querySelectorAll("button")]
+      .find(el => el.textContent.trim() === "Tasas de Cambio");
+
+    btn?.click();
+  '
   get_tasa_compra <- "document.querySelector('app-cambio_rate_popup > div > div > div.rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(2)').innerText"
   get_tasa_venta <- "document.querySelector('app-cambio_rate_popup > div > div > div.rate_tble > table > tbody > tr:nth-child(1) > td:nth-child(3)').innerText"
   
@@ -161,7 +168,7 @@ tasa_dolar_santa_cruz <- function() {
 
   logger::log_info("Navigate to website")
   browser$Page$navigate("https://bsc.com.do/")
-  Sys.sleep(5)
+  Sys.sleep(7)
 
   on.exit({
     browser$close()
@@ -169,9 +176,9 @@ tasa_dolar_santa_cruz <- function() {
   })
   
   logger::log_info("Defining JS steps")
-  click_tasas_btn <- 'document.querySelectorAll(".v-toolbar__content > button")[1].click();'
-  get_tasa_compra <- 'document.querySelectorAll("strong[data-v-1a264dcc]")[0].innerHTML'
-  get_tasa_venta <- 'document.querySelectorAll("strong[data-v-1a264dcc]")[1].innerHTML'
+  click_tasas_btn <- 'document.querySelector(\'button[aria-label="Divisas"]\').click()'
+  get_tasa_compra <- 'document.querySelectorAll(".exchange-rate strong")[0].textContent'
+  get_tasa_venta  <- 'document.querySelectorAll(".exchange-rate strong")[1].textContent'
   
   logger::log_info("Click tasas button")
   browser$Runtime$evaluate(click_tasas_btn)
@@ -299,7 +306,6 @@ tasa_dolar_vimenca <- function() {
   URL <- "https://www.bancovimenca.com/"
   BANCO <- "Vimenca"
   
-  
   logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
   logger::log_info("Open cromote session with user agent")
   
@@ -312,17 +318,17 @@ tasa_dolar_vimenca <- function() {
   })
   
   logger::log_info("Getting tasas")
-  venta_node <- html |>
-    rvest::html_element(".item.saleValue") |>
+  tasas <- html |>
+    rvest::html_element('button[aria-label="Seleccionar moneda"] span.ml-2') |>
     rvest::html_text() 
   
-  compra_node <- html |>
-    rvest::html_element(".item.purchaseValue") |>
-    rvest::html_text()
-  
+  tasas <- stringr::str_split(tasas, "\\|") |>
+    unlist() |>
+    readr::parse_number()
+
   logger::log_info("Parsing results")
-  compra <- readr::parse_number(compra_node)
-  venta <- readr::parse_number(venta_node)
+  compra <- tasas[1]
+  venta <- tasas[2]
   
   logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
   
@@ -337,7 +343,7 @@ tasa_dolar_vimenca <- function() {
 #' Descarga la tasa de cambio de Banco López de Haro
 #' @export
 tasa_dolar_blh <- function() {
-  URL <- "https://www.blh.com.do/"
+  URL <- "https://www.blh.com.do/productos/compra-y-venta-de-divisas/"
   BANCO <- "BLH"
   
   logger::log_info(glue::glue("Download tasas {BANCO} -------------"))
@@ -347,26 +353,20 @@ tasa_dolar_blh <- function() {
   
   logger::log_info("Getting tasas")
   
+  # Theres is a table with three columns: Moneda, Compra, Venta
   tasas <- page |> 
-    rvest::html_elements("p > span") |> 
-    purrr::keep(~ rvest::html_text(.) |>  trimws() == "————-") |> 
-    rvest::html_element(xpath = "./parent::p") |>
-    rvest::html_text() |> 
-    stringr::str_match_all("[0-9]{2}\\.[0-9]{2}") |>
-    unlist() |>
-    as.numeric()
+    rvest::html_table() |>
+    purrr::pluck(1) |> 
+    janitor::clean_names() |>
+    dplyr::filter(moneda == "Dólar") |>
+    dplyr::mutate(
+      date = today_in_dr(),
+      bank = BANCO
+    ) |> 
+    dplyr::select(date, bank, buy = compra, sell = venta)
   
-  logger::log_info("Parsing results")
-  compra <- tasas[1]
-  venta <- tasas[2]
-  
-  logger::log_success(glue::glue("Tasas {BANCO} - venta: {venta}, compra: {compra}"))
-  data.frame(
-    date = today_in_dr(),
-    bank = BANCO,
-    buy = compra,
-    sell = venta
-  )
+  logger::log_success(glue::glue("Tasas {BANCO} - venta: {tasas$sell}, compra: {tasas$buy}"))
+  tasas
 }
 
 #' Descarga la tasa de cambio de Promerica
@@ -531,12 +531,12 @@ tasa_dolar_quezada <- function() {
 tasa_dolar_union <- function() {
   URL <- "https://www.bancounion.com.do/servicios/cambio-de-divisas/"
   BANCO <- "Banco Unión"
-  page <- rvest::read_html(httr::GET(url, httr::user_agent(custom_ua)))
+  page <- rvest::read_html_live(URL)
   
   tasas_raw <- page |>
-    rvest::html_elements(".tasatable h2 table") |>
-    html_text() |>
-    str_squish()
+    rvest::html_elements(".tasatable h2") |>
+    rvest::html_text() |>
+    stringr::str_squish()
   
   compra <- tasas_raw[1] |> readr::parse_number()
   venta <- tasas_raw[2] |> readr::parse_number()
