@@ -81,3 +81,33 @@ read_tc_data <- function(source = c("banks", "infodolar"), benchmark_lag = 1) {
     select(date, lag_date, entidad, buy, lag_buy, sell, lag_sell, gap, lag_gap, d_sell, d_buy)
 }
 
+update_daily_tasa <- function(date, target_bank, compra, venta) {
+  rds_file <- paste0("data/from_banks/rds/", date, ".rds")
+  csv_file <- paste0("data/from_banks/csv/", date, ".csv")
+
+  if (!file.exists(rds_file)) {
+    stop("There is no data for the date you're trying to modify")
+  }
+  
+  original_data <- readRDS(rds_file)
+  bank_excluded <- original_data |>
+    dplyr::filter(bank != target_bank)
+  
+  new_data <- bank_excluded |>
+    dplyr::add_row(
+      date = as.Date(date),
+      bank = target_bank,
+      buy = compra,
+      sell = venta
+    )
+  
+  readr::write_rds(new_data, rds_file)
+  readr::write_csv(new_data, csv_file)
+
+  historico_from_banks <- list.files("data/from_banks/rds", full.names = TRUE) |>
+    purrr::map(readr::read_rds) |>
+    purrr::list_rbind()
+  
+  readr::write_rds(historico_from_banks, "data/from_banks/_historico_from_banks.rds")
+  readr::write_csv(historico_from_banks, "data/from_banks/_historico_from_banks.csv", na = "")
+}
