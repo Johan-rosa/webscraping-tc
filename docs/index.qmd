@@ -29,7 +29,7 @@ library(scales)
 
 box::use(
   scripts/utils[crear_mes, weekday_en_to_es],
-  docs/logic/ui[summary_cards, trend_indicator, report_table],
+  docs/logic/ui[summary_cards, trend_indicator, report_table, modal],
   scripts/functions[today_in_dr],
   scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar],
   scripts/tc_spot[get_tc_spot],
@@ -266,3 +266,13 @@ ac_tasas_to_table |>
 2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es una medida ponderada.
 
 :::
+
+<script src="./main.js"> </script>
+
+```{r modal}
+modal(
+  title = shiny::div(id = "modal-title", "Hello"),
+  size = "xl",
+  shiny::h1("Hola, prueba")
+)
+```
