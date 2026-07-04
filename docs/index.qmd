@@ -13,6 +13,8 @@ format:
     anchor-sections: false
 ---
 
+<script src="./main.js"> </script>
+
 ```{r setup}
 options(box.path = here::here())
 
@@ -266,8 +268,6 @@ ac_tasas_to_table |>
 2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es una medida ponderada.
 
 :::
-
-<script src="./main.js"> </script>
 
 ```{r modal}
 modal(

@@ -138,7 +138,10 @@ trend_indicator <- function(variation) {
 }
 
 #' @export
-report_table <- function(tasas_to_table) {
+report_table <- function(
+    tasas_to_table, 
+    onclick = reactable::JS("(info, cell, state) => rowAction(info, cell, state)")
+  ) {
   box::use(reactable[reactable, reactableTheme, colFormat, colDef])
   
   tasas_to_table |> 
@@ -190,7 +193,8 @@ report_table <- function(tasas_to_table) {
           footer = \(values) {
             round(mean(values, na.rm = TRUE), 2)
         })
-      )
+      ),
+      onClick = onclick
     )
 }
 
