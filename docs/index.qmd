@@ -13,6 +13,8 @@ format:
     anchor-sections: false
 ---
 
+<script src="./main.js"> </script>
+
 ```{r setup}
 options(box.path = here::here())
 
@@ -29,11 +31,12 @@ library(scales)
 
 box::use(
   scripts/utils[crear_mes, weekday_en_to_es],
-  docs/logic/ui[summary_cards, trend_indicator, report_table],
+  docs/logic/ui[summary_cards, trend_indicator, report_table, modal],
   scripts/functions[today_in_dr],
   scripts/equivalencias_banks_infodolar[entidades_banks, entidades_infodolar],
   scripts/tc_spot[get_tc_spot],
   scripts/read_tc_data[read_tc_data],
+  scripts/plots[tc_chart],
 )
 ```
 
@@ -100,6 +103,43 @@ current_summary <- current_data |>
     n_banks = n()
   )
 ```
+
+```{r js_data}
+historico <- historico_bank |>
+  bind_rows(historico_infodolar) |>
+  dplyr::filter(lubridate::year(date) > 2024) |>
+  arrange(date) |> 
+  slice(1, .by = c(date, entidad)) |>
+  select(date, entidad, buy, sell, gap) |>
+  tidyr::pivot_longer(c(buy, sell, gap), names_to = "type", values_to = "tasa") |>
+  mutate(
+    type = recode(type, "gap" = "Margen", "buy" = "Compra", "sell" = "Venta")
+  ) |>
+  filter(tasa > 40)
+
+historico_diario <- historico |>
+  filter(type != "Margen") |> 
+  summarise(tasa = mean(tasa, na.rm = TRUE), .by = c(date, type))
+
+to_js <- historico |> 
+  group_by(entidad, type) |>
+  summarise(data = list(highcharter::list_parse2(across(c(date, tasa)))), .groups = "drop") |>
+  group_by(entidad) |>
+  filter(type != "Margen") |> 
+  summarise(series = list(
+    purrr::map2(type, data, ~ list(name = .x, data = .y))
+  ), .groups = "drop") |>
+  rename(name = entidad)
+
+jsonlite::write_json(
+  to_js,
+  "assets/data/rates.json",
+  auto_unbox = TRUE,
+  dataframe = "rows",
+  pretty = FALSE
+)
+```
+
 
 ```{r report_params}
 current_date <- tibble::lst(
@@ -266,3 +306,16 @@ ac_tasas_to_table |>
 2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es una medida ponderada.
 
 :::
+
+```{r modal}
+modal(
+  title = shiny::div(id = "modal-title", "Hello"),
+  size = "xl",
+  tc_chart(historico_diario, x = "date", y = "tasa", group = "type") |>
+    highcharter::hc_chart(
+      events = list(
+        load = JS("function() { this.myChartId = 'modal-plot'; }")
+      )
+    )
+)
+```

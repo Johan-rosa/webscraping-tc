@@ -138,7 +138,10 @@ trend_indicator <- function(variation) {
 }
 
 #' @export
-report_table <- function(tasas_to_table) {
+report_table <- function(
+    tasas_to_table, 
+    onclick = reactable::JS("(info, cell, state) => rowAction(info, cell, state)")
+  ) {
   box::use(reactable[reactable, reactableTheme, colFormat, colDef])
   
   tasas_to_table |> 
@@ -190,7 +193,8 @@ report_table <- function(tasas_to_table) {
           footer = \(values) {
             round(mean(values, na.rm = TRUE), 2)
         })
-      )
+      ),
+      onClick = onclick
     )
 }
 
@@ -237,3 +241,41 @@ average_change_span <- function(data, column) {
   
 }
 
+#' @export
+modal <- function(
+    ..., 
+    title = NULL, 
+    footer = shiny::modalButton("Cerrar"),
+    size = c("m", "s", "l", "xl"), 
+    easyClose = TRUE, 
+    fade = TRUE
+) {
+  box::use(
+    shiny[div, tags]
+  )
+  
+  size <- match.arg(size)
+  
+  backdrop <- if (!easyClose) "static"
+  keyboard <- if (!easyClose) "false"
+  div(
+    id = "shiny-modal",
+    class = "modal",
+    class = if (fade) "fade",
+    tabindex = "-1",
+    `data-backdrop` = backdrop,
+    `data-bs-backdrop` = backdrop,
+    `data-keyboard` = keyboard,
+    `data-bs-keyboard` = keyboard,
+    
+    div(
+      class = "modal-dialog",
+      class = switch(size, s = "modal-sm", m = NULL, l = "modal-lg", xl = "modal-xl"),
+      div(class = "modal-content",
+          if (!is.null(title)) div(class = "modal-header", tags$h4(class = "modal-title", title)),
+          div(class = "modal-body", ...),
+          if (!is.null(footer)) div(class = "modal-footer", footer)
+      )
+    )
+  )
+}
