@@ -37,5 +37,23 @@ function rowAction(info, cell, state) {
   const modalTitle = document.getElementById('modal-title')
   modalTitle.innerText = entidad
   
+  const chart = Highcharts.charts.filter(chart => chart.myChartId === 'modal-plot')[0];
+  const plotData = rates.filter(row => row.name == entidad)[0];
+  
+  console.log(plotData)
+  plotData.series.forEach((newSeries, i) => {
+    const newData = newSeries.data.map(d => [Date.parse(d[0]), d[1]]);
+
+    if (chart.series[i]) {
+      chart.series[i].update({
+        name: newSeries.name,
+        data: newData
+      }, false)
+    } else {
+      chart.addSeries(newSeries, false);
+    }
+  })
+  
+  chart.redraw();
   showModal();
 }

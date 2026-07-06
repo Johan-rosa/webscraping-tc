@@ -22,7 +22,9 @@ chart_theme <- function(hc, colores, xtitle = NA, ytitle = NA) {
 #' @export
 tc_chart <- function(
     tc_spot_long,
-    variable = "tasa",
+    x = "date",
+    y = "tasa",
+    group = "type",
     chart_type = c("line", "column", "area"),
     show_legend = TRUE,
     height = NULL,
@@ -34,7 +36,7 @@ tc_chart <- function(
   yaxis_format   <- glue::glue("{{value:.2f}}")
   
   chart <- tc_spot_long |> 
-    highcharter::hchart(chart_type, highcharter::hcaes(x = fecha, y = .data[[variable]],  group = type)) |>
+    highcharter::hchart(chart_type, highcharter::hcaes(x = .data[[x]], y = .data[[y]],  group = .data[[group]])) |>
     highcharter::hc_plotOptions(series = list(marker = list(enabled = FALSE))) |>
     chart_theme(colores = unname(unlist(colores))) |> 
     highcharter::hc_tooltip(pointFormat = tooltip_format) |>
