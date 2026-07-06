@@ -79,6 +79,10 @@ h3 {
 }
 
 
+/* -------------------     Modal.    ---------------------- */
+.modal-title {
+ margin: 0; 
+}
 /* ------------------- Summary cards ---------------------- */
 .info-header {
   display: flex;

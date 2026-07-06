@@ -1,3 +1,26 @@
+// Global data
+let rates = [];
+
+// Load data
+async function init() {
+  try {
+    const response = await fetch("assets/data/rates.json");
+
+    if (!response.ok) {
+      throw new Error(`Failed to load rates.json (${response.status})`);
+    }
+
+    rates = await response.json();
+
+    console.log("Rates loaded:", rates);
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+// Start loading as soon as the script is evaluated
+init();
+  
 function showModal() {
   const modalEl = document.getElementById('shiny-modal');
 
@@ -14,10 +37,5 @@ function rowAction(info, cell, state) {
   const modalTitle = document.getElementById('modal-title')
   modalTitle.innerText = entidad
   
-  /* 
-  const chart = Highcharts.charts.filter(chart => chart.myChartId === 'modal-plot')
-  const plotData = myData.filter(row => row.name == entidad)[0]
-  chart[0].series[0].setData(plotData.data);
-  */
   showModal();
 }

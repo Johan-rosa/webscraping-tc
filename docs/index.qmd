@@ -103,6 +103,37 @@ current_summary <- current_data |>
   )
 ```
 
+```{r js_data}
+historico <- historico_bank |>
+  bind_rows(historico_infodolar) |>
+  dplyr::filter(date >= current_date - 365) |>
+  slice(1, .by = c(date, entidad)) |>
+  select(date, entidad, buy, sell, gap) |>
+  tidyr::pivot_longer(c(buy, sell, gap), names_to = "type", values_to = "tasa") |>
+  mutate(
+    type = recode(type, "gap" = "Margen", "buy" = "Compra", "sell" = "Venta")
+  )
+
+
+to_js <- historico |> 
+  group_by(entidad, type) |>
+  summarise(data = list(highcharter::list_parse2(across(c(date, tasa)))), .groups = "drop") |>
+  group_by(entidad) |>
+  summarise(series = list(
+    purrr::map2(type, data, ~ list(name = .x, data = .y))
+  ), .groups = "drop") |>
+  rename(name = entidad)
+
+jsonlite::write_json(
+  to_js,
+  "assets/data/rates.json",
+  auto_unbox = TRUE,
+  dataframe = "rows",
+  pretty = FALSE
+)
+```
+
+
 ```{r report_params}
 current_date <- tibble::lst(
   date = max(historico_bank$date),
