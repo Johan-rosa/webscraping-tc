@@ -1,5 +1,5 @@
 ---
-title: "Sondeo Diario Mercado Cambiario"
+title: "Cotizaciones cambiarias"
 execute:
   echo: false    
   warning: false 
@@ -169,9 +169,9 @@ time_in_dr <- Sys.time() |>
 <img class="logo" src="assets/logo-dorado.png">
 :::
 ::: {.g-col-12 .g-col-md-10 .text-center .header-text}
-<h1>Sondeo diario del Mercado Cambiario</h1>
+<h1>Cotizaciones Cambiarias</h1>
 <h3>Departamento Internacional </h3>
-Subdirección de Asuntos Cambiarios Domésticos <br> `r current_date$label`
+Subdirección de Asuntos Cambiarios <br> `r current_date$label`
 :::
 :::
 
@@ -301,7 +301,7 @@ ac_tasas_to_table |>
 
 ::: {.callout-note title="Notas" appearance="simple"}
 
-1- Este sondeo diario del mercado cambiario extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
+1- Este informe de Cotizaciones Cambiarias extrae automáticamente las tasas de compra y venta desde las páginas web oficiales de entidades financieras.
 
 2- Se utilizan promedios simples a lo largo del documento; solo la tasa de referencia del BCRD es una medida ponderada.
 
